@@ -113,20 +113,13 @@ ${SCENE_COMPOSITION_RULES}
 4. stage: "Dream"|"Plan"|"Book"|"Share" 중 하나
 5. targetKeyword + targetKeywordVol(숫자만)
 6. creatorStrategy: 크리에이터와 어떻게 협업할지 한 줄
-7. creatorSearchQueries: 이 아이디어 제작 가능한 **개인 크리에이터**를 찾기 위한 YouTube 검색 쿼리 **정확히 2개** (서로 다른 각도).
-   - 개인 유튜버/브이로거가 만들 법한 영상 제목을 연상시킬 것
-   - 뉴스·방송사(MBC·KBS·SBS·JTBC·YTN·연합뉴스 등)가 절대 매칭되지 않도록 **경험·체험·후기·브이로그** 중심 표현
-   - 구체적 페르소나·상황·행동 포함
-   - 너무 일반적인 단어(단일 키워드: "양도세", "RIA") 절대 금지 (뉴스가 대거 잡힘)
-   - contentType A면 예: ["서학개미 양도세 브이로그", "30대 직장인 미국주식 세금 후기"]
-   - contentType B/C면 예: ["IRP 퇴직금 비교 설명", "직장인 연금저축 꿀팁"]
-   - contentType F면 예: ["KB 마블 써봤다", "증권앱 IRP 솔직 후기"]
-8. dataProof: 데이터 근거 한 줄 (검색량·출처·수치)
-9. uspConnection: **이 아이디어가 선택한 단일 마블 서비스 + 구체 진입 경로** 한 줄.
+7. dataProof: 데이터 근거 한 줄 (검색량·출처·수치)
+8. uspConnection: **이 아이디어가 선택한 단일 마블 서비스 + 구체 진입 경로** 한 줄.
    - 반드시 위 [단일 서비스 선택 규칙]에 따라 선택한 서비스 1개만 언급.
    - 서비스 한글 공식 명칭 사용 (마이브리프 / AI 시황요약 / 오늘의 콕 / PRIME CLUB / 공모주 모아보기).
    - 진입 경로 포함 (예: "AI 시황요약 — 홈 해외 탭 상단 시장이슈 카테고리").
-10. 수익 보장·종목 추천·단정 금지. 심의 high 기회는 판단 배제·설명·요약 톤만.
+9. 수익 보장·종목 추천·단정 금지. 심의 high 기회는 판단 배제·설명·요약 톤만.
+- **creatorSearchQueries 필드는 출력하지 말 것** (opportunity.youtubeSearchQueries 사용).
 
 [출력 형식]
 아래 JSON만 반환. 설명·마크다운·코드펜스 금지.
@@ -147,7 +140,6 @@ ${SCENE_COMPOSITION_RULES}
       "targetKeyword": "...",
       "targetKeywordVol": 172320,
       "creatorStrategy": "...",
-      "creatorSearchQueries": ["...", "..."],
       "dataProof": "...",
       "reviewWarnings": ["..."]
     }

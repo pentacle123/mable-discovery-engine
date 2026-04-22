@@ -30,68 +30,95 @@ const TIER_COLOR: Record<Tier, string> = {
   NANO: '#8B5CF6'
 };
 
-const CT_STYLE: Record<ContentType, { bg: string; fg: string; label: string }> = {
-  A: { bg: '#FEF2F2', fg: '#DC2626', label: '후기체험형' },
-  B: { bg: '#F0FDF4', fg: '#16A34A', label: '정보비교형' },
-  C: { bg: '#F0FDF4', fg: '#16A34A', label: '가격특가형' },
-  D: { bg: '#F0FDF4', fg: '#16A34A', label: 'AI일정형' },
-  F: { bg: '#EFF6FF', fg: '#0770E3', label: 'USP실증형' }
+const COLLAB_TEMPLATES: Record<ContentType, string> = {
+  A: '실제 경험담 브이로그로 진정성 확보, M-able 화면 자연스럽게 노출',
+  B: '데이터 비교 콘텐츠로 신뢰도 확보, 브랜드가 팩트 제공',
+  C: '가격·혜택 소구 콘텐츠, 실사용 후기 형식',
+  D: 'AI 서비스 시연, "나도 써봤어요" 리뷰형',
+  F: 'USP 실증 콘텐츠, 전후 비교로 설득력 강화'
 };
+// Placeholder for possible contentType 'E' (데이터 랭킹) if AI emits it
+const COLLAB_TEMPLATE_E = '데이터 랭킹 콘텐츠, 시각화 자료 브랜드 제공';
 
 interface Props {
-  queries: string[];
+  queries: string[]; // from opportunity.youtubeSearchQueries (JSON)
   contentType: ContentType;
-  strategy?: string;
 }
 
-export default function CreatorMatchPanel({ queries, contentType, strategy }: Props) {
+export default function CreatorMatchPanel({ queries, contentType }: Props) {
   const validQueries = (queries || []).filter(Boolean);
-  const [activeQuery, setActiveQuery] = useState<string>(validQueries[0] || '');
-  const [results, setResults] = useState<Record<string, CreatorMatch[] | string>>({});
-  const [loadingQuery, setLoadingQuery] = useState<string | null>(null);
-  const [errorByQuery, setErrorByQuery] = useState<Record<string, string>>({});
-  const ct = CT_STYLE[contentType] ?? CT_STYLE.C;
+  const [open, setOpen] = useState(true);
+  const [loading, setLoading] = useState(false);
+  const [creators, setCreators] = useState<CreatorMatch[]>([]);
+  const [usedQuery, setUsedQuery] = useState<string | null>(null);
+  const [note, setNote] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [attempted, setAttempted] = useState<string[]>([]);
+  const [retryNonce, setRetryNonce] = useState(0);
+
+  const template =
+    COLLAB_TEMPLATES[contentType] ?? (contentType as string) === 'E' ? COLLAB_TEMPLATE_E : COLLAB_TEMPLATES.A;
 
   useEffect(() => {
-    if (!activeQuery) return;
-    if (results[activeQuery] !== undefined) return; // already loaded
-    fetchQuery(activeQuery);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [activeQuery]);
+    if (!open || validQueries.length === 0) return;
+    let cancelled = false;
 
-  async function fetchQuery(q: string) {
-    setLoadingQuery(q);
-    setErrorByQuery((prev) => ({ ...prev, [q]: '' }));
-    try {
-      const url = `/api/youtube?type=search&q=${encodeURIComponent(
-        q
-      )}&contentType=${encodeURIComponent(contentType)}`;
-      const res = await fetch(url);
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok) {
-        throw new Error(data?.error || `API 오류 (${res.status})`);
+    async function iterate() {
+      setLoading(true);
+      setError(null);
+      setNote(null);
+      setCreators([]);
+      setUsedQuery(null);
+      const tried: string[] = [];
+
+      for (const q of validQueries) {
+        tried.push(q);
+        try {
+          const url = `/api/youtube?type=search&q=${encodeURIComponent(q)}&contentType=${encodeURIComponent(contentType)}`;
+          const res = await fetch(url);
+          const data = await res.json().catch(() => ({}));
+          if (!res.ok) {
+            throw new Error(data?.error || `API 오류 (${res.status})`);
+          }
+          const items = Array.isArray(data.creators) ? (data.creators as CreatorMatch[]) : [];
+          if (cancelled) return;
+          if (items.length >= 3) {
+            setCreators(items.slice(0, 5));
+            setUsedQuery(q);
+            setAttempted(tried);
+            return;
+          }
+          // keep best-so-far as fallback
+          if (items.length > creators.length) {
+            setCreators(items.slice(0, 5));
+            setUsedQuery(q);
+          }
+        } catch (err) {
+          if (cancelled) return;
+          setError(err instanceof Error ? err.message : '알 수 없는 오류');
+          setAttempted(tried);
+          return;
+        }
       }
-      const items = Array.isArray(data.creators) ? (data.creators as CreatorMatch[]) : [];
-      if (items.length === 0 && data.note) {
-        setResults((prev) => ({ ...prev, [q]: data.note as string }));
-      } else {
-        setResults((prev) => ({ ...prev, [q]: items }));
+
+      if (cancelled) return;
+      setAttempted(tried);
+      if (creators.length === 0) {
+        setNote(`'${validQueries.join(' / ')}'로 매칭되는 개인 크리에이터가 없었습니다.`);
       }
-    } catch (err) {
-      setErrorByQuery((prev) => ({
-        ...prev,
-        [q]: err instanceof Error ? err.message : '알 수 없는 오류'
-      }));
-    } finally {
-      setLoadingQuery(null);
     }
-  }
+
+    iterate().finally(() => {
+      if (!cancelled) setLoading(false);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open, JSON.stringify(validQueries), contentType, retryNonce]);
 
   if (validQueries.length === 0) return null;
-
-  const currentResult = results[activeQuery];
-  const currentError = errorByQuery[activeQuery];
-  const isLoading = loadingQuery === activeQuery;
 
   return (
     <div
@@ -99,107 +126,142 @@ export default function CreatorMatchPanel({ queries, contentType, strategy }: Pr
         background: brand.surface,
         border: `0.5px solid ${brand.border}`,
         borderRadius: radius.lg,
-        padding: 18,
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 14
+        overflow: 'hidden'
       }}
     >
-      <div
+      <button
+        onClick={() => setOpen((v) => !v)}
         style={{
+          width: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          gap: 10,
-          flexWrap: 'wrap'
+          padding: '14px 18px',
+          fontSize: 13,
+          fontWeight: 700,
+          color: brand.textTitle,
+          background: 'transparent'
         }}
       >
-        <div style={{ fontSize: 13, fontWeight: 700, color: brand.textTitle }}>
-          🎤 크리에이터 매칭 (맥락 기반)
-        </div>
+        <span>🎤 크리에이터 매칭 (맥락 기반)</span>
+        <span style={{ color: brand.textMeta, fontSize: 14 }}>{open ? '−' : '+'}</span>
+      </button>
+
+      {open && (
         <div
           style={{
-            fontSize: 10,
-            padding: '2px 7px',
-            borderRadius: 4,
-            background: ct.bg,
-            color: ct.fg,
-            fontWeight: 600
+            padding: '0 18px 18px',
+            borderTop: `0.5px solid ${brand.border}`,
+            paddingTop: 14,
+            display: 'flex',
+            flexDirection: 'column',
+            gap: 12
           }}
         >
-          {contentType}. {ct.label}
-        </div>
-      </div>
+          {/* Static collab template */}
+          <div
+            style={{
+              fontSize: 12,
+              color: brand.textBody,
+              lineHeight: 1.6,
+              padding: '10px 12px',
+              background: brand.bg,
+              borderRadius: 8,
+              borderLeft: `3px solid ${brand.primary}`
+            }}
+          >
+            <strong style={{ color: brand.textTitle, fontWeight: 600 }}>
+              이 크리에이터와 협업 시 —
+            </strong>{' '}
+            {template}
+          </div>
 
-      {strategy && (
-        <div
-          style={{
-            fontSize: 12,
-            color: brand.textBody,
-            lineHeight: 1.6,
-            padding: '10px 12px',
-            background: brand.bg,
-            borderRadius: 8,
-            borderLeft: `3px solid ${brand.primary}`
-          }}
-        >
-          👤 <strong style={{ color: brand.textTitle, fontWeight: 600 }}>협업 포인트 —</strong>{' '}
-          {strategy}
-        </div>
-      )}
-
-      {/* Query chips (switch active) */}
-      <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-        {validQueries.map((q) => {
-          const active = q === activeQuery;
-          const loaded = results[q] !== undefined;
-          return (
-            <button
-              key={q}
-              onClick={() => setActiveQuery(q)}
+          {loading && (
+            <div
               style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: 10,
+                padding: 14,
+                background: brand.bg,
+                borderRadius: 8,
                 fontSize: 12,
-                padding: '6px 12px',
-                background: active ? brand.primary : brand.heroBg,
-                color: active ? '#fff' : brand.primary,
-                borderRadius: 999,
-                fontWeight: 600,
-                border: `0.5px solid ${active ? brand.primary : 'rgba(12, 68, 124, 0.15)'}`,
-                whiteSpace: 'nowrap'
+                color: brand.textBody
               }}
             >
-              🔎 {q}
-              {loaded && !active && (
-                <span style={{ marginLeft: 4, opacity: 0.6, fontWeight: 500, fontSize: 10 }}>·</span>
-              )}
-            </button>
-          );
-        })}
-      </div>
+              <span
+                style={{
+                  width: 14,
+                  height: 14,
+                  borderRadius: '50%',
+                  border: `2px solid ${brand.border}`,
+                  borderTopColor: brand.primary,
+                  display: 'inline-block',
+                  animation: 'mde-spin 0.8s linear infinite'
+                }}
+              />
+              크리에이터 검색 중... ({attempted.length || 1}/{validQueries.length})
+            </div>
+          )}
 
-      {/* Results */}
-      {isLoading && <LoadingState query={activeQuery} />}
-      {!isLoading && currentError && <ErrorState message={currentError} onRetry={() => fetchQuery(activeQuery)} />}
-      {!isLoading && !currentError && typeof currentResult === 'string' && (
-        <EmptyState note={currentResult} />
-      )}
-      {!isLoading && !currentError && Array.isArray(currentResult) && currentResult.length > 0 && (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-          {currentResult.map((c) => (
-            <CreatorCard key={c.channelId} creator={c} />
-          ))}
+          {!loading && error && (
+            <ErrorState message={error} onRetry={() => setRetryNonce((n) => n + 1)} />
+          )}
+
+          {!loading && !error && creators.length > 0 && (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+              {creators.map((c) => (
+                <CreatorCard key={c.channelId} creator={c} template={template} />
+              ))}
+            </div>
+          )}
+
+          {!loading && !error && creators.length === 0 && note && (
+            <div
+              style={{
+                padding: 14,
+                background: brand.bg,
+                border: `0.5px dashed ${brand.border}`,
+                borderRadius: 8,
+                fontSize: 12,
+                color: brand.textBody,
+                lineHeight: 1.55
+              }}
+            >
+              🔍 {note}
+            </div>
+          )}
+
+          {/* Debug footer */}
+          {(usedQuery || attempted.length > 0) && (
+            <div
+              style={{
+                fontSize: 10,
+                color: brand.textMeta,
+                lineHeight: 1.55,
+                paddingTop: 6,
+                borderTop: `0.5px dashed ${brand.border}`
+              }}
+            >
+              YouTube 실시간 검색 · 쿼리: {usedQuery ? `"${usedQuery}"` : '—'} · 최근 90일 숏폼 · 뉴스 제외
+              {attempted.length > 1 && (
+                <span> · 시도 {attempted.length}개 쿼리 [{attempted.join(' → ')}]</span>
+              )}
+            </div>
+          )}
         </div>
       )}
-
-      <div style={{ fontSize: 11, color: brand.textMeta, lineHeight: 1.55 }}>
-        💡 YouTube Data API로 실시간 검색 · 숏폼(4분 미만) · 최근 90일 · 한국어 기준.
-        구독자 500~300만, 뉴스·방송사 필터링 후 상위 5개 매칭.
-      </div>
     </div>
   );
 }
 
-function CreatorCard({ creator: c }: { creator: CreatorMatch }) {
+function CreatorCard({
+  creator: c,
+  template
+}: {
+  creator: CreatorMatch;
+  template: string;
+}) {
   const tierColor = TIER_COLOR[c.tier];
   return (
     <div
@@ -309,57 +371,9 @@ function CreatorCard({ creator: c }: { creator: CreatorMatch }) {
             marginTop: 2
           }}
         >
-          이 크리에이터와 협업 시 — {c.collabStrategy}
+          이 크리에이터와 협업 시 — {template}
         </div>
       </div>
-    </div>
-  );
-}
-
-function LoadingState({ query }: { query: string }) {
-  return (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 10,
-        padding: 14,
-        background: brand.bg,
-        borderRadius: 8,
-        fontSize: 12,
-        color: brand.textBody
-      }}
-    >
-      <span
-        style={{
-          width: 14,
-          height: 14,
-          borderRadius: '50%',
-          border: `2px solid ${brand.border}`,
-          borderTopColor: brand.primary,
-          display: 'inline-block',
-          animation: 'mde-spin 0.8s linear infinite'
-        }}
-      />
-      '{query}'에 매칭되는 크리에이터 찾는 중...
-    </div>
-  );
-}
-
-function EmptyState({ note }: { note: string }) {
-  return (
-    <div
-      style={{
-        padding: 14,
-        background: brand.bg,
-        border: `0.5px dashed ${brand.border}`,
-        borderRadius: 8,
-        fontSize: 12,
-        color: brand.textBody,
-        lineHeight: 1.55
-      }}
-    >
-      🔍 {note}
     </div>
   );
 }
@@ -392,7 +406,7 @@ function ErrorState({ message, onRetry }: { message: string; onRetry: () => void
       )}
       {isQuota && (
         <div style={{ fontSize: 11, opacity: 0.85, marginBottom: 8, lineHeight: 1.55 }}>
-          기본 할당량은 일 10,000 units. 검색 1회당 ~100 units 소모. Google Cloud Console에서 할당량 증가 요청 가능.
+          기본 할당량은 일 10,000 units. 검색 1회당 ~100 units 소모.
         </div>
       )}
       <button

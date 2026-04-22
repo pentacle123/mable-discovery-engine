@@ -77,6 +77,7 @@ export interface Opportunity {
     format_hint: string;
   };
   storyboard: null | unknown;
+  youtubeSearchQueries?: string[];
 }
 
 export interface Service {

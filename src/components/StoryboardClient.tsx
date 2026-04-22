@@ -259,14 +259,17 @@ export default function StoryboardClient({ opportunity: o, ideaIndex }: Props) {
       {/* 5. Factsheet (new 4-block schema) */}
       {hasStoryboard && sb?.factSheet && <FactSheetBox fact={sb.factSheet} />}
 
-      {/* 6. Creator matching — context-aware (YouTube API) */}
-      {hasStoryboard && idea.creatorSearchQueries && idea.creatorSearchQueries.length > 0 && (
-        <CreatorMatchPanel
-          queries={idea.creatorSearchQueries}
-          strategy={idea.creatorStrategy}
-          contentType={idea.contentType}
-        />
-      )}
+      {/* 6. Creator matching — context-aware (YouTube API).
+          Queries now come from opportunity.youtubeSearchQueries (JSON),
+          not idea.creatorSearchQueries (removed from prompt). */}
+      {hasStoryboard &&
+        Array.isArray(o.youtubeSearchQueries) &&
+        o.youtubeSearchQueries.length > 0 && (
+          <CreatorMatchPanel
+            queries={o.youtubeSearchQueries}
+            contentType={idea.contentType}
+          />
+        )}
 
       {/* 7. Back */}
       <div style={{ marginTop: 4 }}>
