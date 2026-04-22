@@ -1,0 +1,141 @@
+{
+  "accounts": [
+    {
+      "id": "ISA",
+      "name": "ISA 계좌",
+      "name_full": "개인종합자산관리계좌",
+      "name_en": "Individual Savings Account",
+      "color": "#3B82F6",
+      "icon": "📘",
+      "annual_search_volume": 3540000,
+      "trend": "시즌성 (12-2월 피크)",
+      "rank": 1,
+      "demography": {
+        "gender": "여 55% · 남 45%",
+        "age_primary": "50대↑ 31% · 40대 28% · 30대 23%"
+      },
+      "kb_position": "absent",
+      "kb_position_note": "검색 결과에 KB 브랜드 거의 노출 안됨. 하나·미래에셋·우리·신한·NH·키움·토스가 선점. 공격 전략 필요.",
+      "strategy": "offensive",
+      "key_events": [
+        "2016 출시 10년 만기 시점 (2026)",
+        "2026.1 제도 변경 (한도 상향 기대)"
+      ],
+      "opportunity_count": 14,
+      "connected_opportunities": [
+        "O-ACC01", "O-ACC02", "O-ACC06", "O-ACC07",
+        "O-B06", "O-B07", "O-B11", "O-A08", "O-A09",
+        "O-B02", "O-B08", "O-C09", "O-C11", "O-B09"
+      ]
+    },
+    {
+      "id": "IRP",
+      "name": "IRP 계좌",
+      "name_full": "개인형 퇴직연금",
+      "name_en": "Individual Retirement Pension",
+      "color": "#8B5CF6",
+      "icon": "📕",
+      "annual_search_volume": 611880,
+      "trend": "+31% (2026 급상승)",
+      "rank": 2,
+      "demography": {
+        "gender": "여 52% · 남 48%",
+        "age_primary": "40대 27% · 50대↑ 29% · 30대 24%"
+      },
+      "kb_position": "present",
+      "kb_position_note": "KB증권 IRP 이미 검색됨 ('KB증권 irp 계좌 개설방법', 'KB irp 계좌'). 방어 전략으로 전환율·수수료 차별화.",
+      "strategy": "defensive",
+      "key_events": [
+        "퇴직금 수령 트리거와 연결",
+        "2026 이직 시즌 급증"
+      ],
+      "opportunity_count": 9,
+      "connected_opportunities": [
+        "O-ACC04", "O-ACC08", "O-ACC01",
+        "O-B01", "O-B02", "O-B05", "O-B06", "O-C11", "O-B04"
+      ]
+    },
+    {
+      "id": "연금저축",
+      "name": "연금저축계좌",
+      "name_full": "연금저축계좌 (펀드/ETF)",
+      "name_en": "Pension Savings Account",
+      "color": "#F59E0B",
+      "icon": "📙",
+      "annual_search_volume": 454990,
+      "trend": "시즌성 (세액공제 시즌)",
+      "rank": 3,
+      "demography": {
+        "gender": "여 53% · 남 47%",
+        "age_primary": "30대 31% · 40대 28% · 50대 22%"
+      },
+      "kb_position": "partial",
+      "kb_position_note": "중간 수준 노출. ETF 추천 영역에서 차별화 여지.",
+      "strategy": "hybrid",
+      "key_events": [
+        "매년 11-2월 세액공제 시즌 피크",
+        "연금저축 ETF 추천 +24% 성장"
+      ],
+      "opportunity_count": 10,
+      "connected_opportunities": [
+        "O-ACC03", "O-ACC05", "O-ACC01",
+        "O-B01", "O-B02", "O-B05", "O-B06",
+        "O-A07", "O-C11", "O-A02"
+      ]
+    },
+    {
+      "id": "RIA",
+      "name": "RIA 계좌",
+      "name_full": "국내시장 복귀계좌 / 유턴 계좌",
+      "name_en": "Return-to-Investment Account",
+      "color": "#DC2626",
+      "icon": "🔥",
+      "annual_search_volume": 255170,
+      "trend": "+168% 🔥🔥🔥",
+      "rank": 4,
+      "demography": {
+        "gender": "남 66% · 여 34%",
+        "age_primary": "40대 34% · 50대↑ 27% · 30대 29%"
+      },
+      "kb_position": "absent",
+      "kb_position_note": "2025.12 신설 계좌. 키움증권이 선점 중. KB 완전 부재 — 지금 진입 안 하면 늦음.",
+      "strategy": "urgent_offensive",
+      "key_events": [
+        "2025.12 출시 직후 폭발",
+        "2026.3월 단일월 98,000 검색",
+        "해외주식 양도소득세 면제 혜택"
+      ],
+      "signature_note": "2026년의 게임체인저. 2016 ISA와 동급 변곡점.",
+      "opportunity_count": 4,
+      "connected_opportunities": [
+        "O-ACC11", "O-ACC12", "O-ACC13", "O-A03"
+      ]
+    },
+    {
+      "id": "IRA",
+      "name": "IRA 계좌",
+      "name_full": "Individual Retirement Account (미국)",
+      "name_en": "Individual Retirement Account",
+      "color": "#06B6D4",
+      "icon": "🌐",
+      "annual_search_volume": 52540,
+      "trend": "+123%",
+      "rank": 5,
+      "demography": {
+        "gender": "남 63% · 여 37%",
+        "age_primary": "50대↑ 41% · 40대 31%"
+      },
+      "kb_position": "none",
+      "kb_position_note": "한국인들이 IRA를 IRP·ISA와 혼동. 이 혼동 해소 콘텐츠 자체가 차별화 기회.",
+      "strategy": "education_first",
+      "key_events": [
+        "2025.10부터 급상승",
+        "이름 혼동 검색 폭증"
+      ],
+      "opportunity_count": 2,
+      "connected_opportunities": [
+        "O-ACC09", "O-ACC10"
+      ]
+    }
+  ]
+}

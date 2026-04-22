@@ -1,0 +1,1908 @@
+{
+  "_meta": {
+    "category_id": "D",
+    "count": 13
+  },
+  "opportunities": [
+    {
+      "id": "O-ACC01",
+      "category_id": "D",
+      "subgroup": "ACC-ISA",
+      "title": "5대 계좌 선택 가이드",
+      "subtitle": "ISA · 연금저축 · IRP · RIA · IRA 통합 맵",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "연금저축 IRP ISA 차이",
+          "비교",
+          "순서",
+          "우선순위",
+          "IRA 혼동",
+          "RIA 혼동"
+        ],
+        "cluster_path": [
+          "연금저축 IRP ISA 차이",
+          "순서",
+          "ISA IRP 계좌 차이",
+          "연금저축 계좌 ISA 차이",
+          "우선순위"
+        ],
+        "metrics": {
+          "annual_volume": 240000,
+          "trend_percent": null,
+          "trend_label": "2025.12월 610% 폭발 (단일월)",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남녀 균형 50:50",
+          "age": "25-49세 (90%)"
+        },
+        "why_now": "2026.1 RIA 출시로 선택지 복잡해짐 + ISA 제도 변경",
+        "review_level": "medium",
+        "review_notes": "추천 톤 관리 · 개인 상황 고지",
+        "monthly_volume": [
+          8000,
+          12000,
+          18000,
+          22000,
+          26000,
+          30000,
+          32000,
+          28000,
+          20000,
+          22000,
+          26000,
+          61000,
+          48000,
+          24000
+        ],
+        "who_tags": [
+          "계좌 선택 고민자",
+          "25-49세",
+          "남녀 균형",
+          "혼동 해소 니즈"
+        ],
+        "who_evidence": "남녀 50:50 · 25-49세 90%",
+        "when_tags": [
+          "2026.1 RIA 출시",
+          "세액공제 시즌",
+          "제도 변경"
+        ],
+        "when_evidence": "2025.12월 단일월 610% 폭발",
+        "journey_tags": [
+          "연금저축 IRP ISA 차이",
+          "순서",
+          "우선순위"
+        ],
+        "journey_evidence": "차이(이해) → 비교 → 순서(결정)",
+        "pain_tags": [
+          "5개 이름 혼동",
+          "선택 기준 없음",
+          "세제 차이"
+        ],
+        "pain_evidence": "RIA 출시로 혼동 증가",
+        "usp_fit_tags": [
+          "오늘의 콕 비교 가이드",
+          "AI투자브리핑 시나리오"
+        ],
+        "usp_fit_evidence": "5개 계좌 통합 해설",
+        "hook_tags": [
+          "5개 영문 이름",
+          "연봉·해외주식 기준",
+          "딱 정해진다"
+        ],
+        "hook_evidence": "간단 규칙 + 의사결정 트리",
+        "pathfinder_narrative": "계좌 혼동 → 비교 → 본인 상황 → 선택",
+        "cluster_insight": "5대 계좌 가이드 = 모든 계좌 KPI 게이트웨이 콘텐츠",
+        "related_keywords": [
+          {
+            "keyword": "연금저축 IRP ISA 차이",
+            "volume": 3150
+          },
+          {
+            "keyword": "연금저축 순서",
+            "volume": 2800
+          },
+          {
+            "keyword": "계좌 우선순위",
+            "volume": 1800
+          },
+          {
+            "keyword": "IRP ISA 차이",
+            "volume": 4200
+          },
+          {
+            "keyword": "연금계좌 종류",
+            "volume": 1200
+          },
+          {
+            "keyword": "ISA IRP 선택",
+            "volume": 2100
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "종합 비교 가이드"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "AI 추천 시나리오"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [
+          "ISA",
+          "IRP",
+          "연금저축",
+          "RIA",
+          "IRA"
+        ],
+        "note": "게이트웨이 콘텐츠 · 5개 계좌 모두 유도 가능"
+      },
+      "hook_hypothesis": "ISA? 연금저축? IRP? RIA? IRA? 5개 영문 이름, 당신한테 맞는 건 연봉·해외주식 보유 여부로 딱 정해진다",
+      "ai_ideas_seed": {
+        "target": "계좌 선택 고민자 전체",
+        "tone": "가이드형 · 플로우차트 활용",
+        "format_hint": "30초 숏폼 · 의사결정 트리"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC02",
+      "category_id": "D",
+      "subgroup": "ACC-ISA",
+      "title": "ISA 한도 활용·만기 설계",
+      "subtitle": "2016 출시 10년 만기 대이동",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "ISA 한도",
+          "5천만원",
+          "2억",
+          "만기 활용",
+          "만기 연금계좌 납입"
+        ],
+        "cluster_path": [
+          "ISA 한도",
+          "2억",
+          "월 납입금",
+          "만기",
+          "만기 연금계좌 납입"
+        ],
+        "metrics": {
+          "annual_volume": 115000,
+          "trend_percent": null,
+          "trend_label": "12월 피크 · 2026 만기 폭증",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "여 52% · 남 48%",
+          "age": "🎯 50대↑ 32% · 40대 28%"
+        },
+        "why_now": "2016 출시 ISA가 2026 대규모 만기 시점",
+        "review_level": "medium",
+        "review_notes": "만기 시 불이익 정확히 고지",
+        "monthly_volume": [
+          5400,
+          6500,
+          8000,
+          9500,
+          10000,
+          10500,
+          11000,
+          11500,
+          11500,
+          11000,
+          11000,
+          20000,
+          20200,
+          12000
+        ],
+        "who_tags": [
+          "ISA 만기 도래자",
+          "50대↑ 32%",
+          "2016 가입자",
+          "전환 고민"
+        ],
+        "who_evidence": "50대↑ 32% · 40대 28%",
+        "when_tags": [
+          "2026 대규모 만기",
+          "연말 한도 체크",
+          "전환 결정"
+        ],
+        "when_evidence": "2016 출시 10년 만기 시점",
+        "journey_tags": [
+          "ISA 한도",
+          "5천만원",
+          "2억",
+          "만기 연금계좌 납입"
+        ],
+        "journey_evidence": "한도(확인) → 월 납입(계산) → 만기(전환)",
+        "pain_tags": [
+          "만기 후 선택지 몰라",
+          "전환 불이익",
+          "재가입 혼란"
+        ],
+        "pain_evidence": "대규모 만기 처음 경험",
+        "usp_fit_tags": [
+          "오늘의 콕 만기 가이드",
+          "프라임클럽 장기 설계"
+        ],
+        "usp_fit_evidence": "만기 전략 + 장기 설계",
+        "hook_tags": [
+          "만기 돌아오는 사람",
+          "다음 5년",
+          "세금 한 번 더"
+        ],
+        "hook_evidence": "만기 특화 가이드 부재",
+        "pathfinder_narrative": "ISA 만기 도래 → 선택지 탐색 → 전환 또는 재가입",
+        "cluster_insight": "ISA 만기 = 연금저축 전환의 가장 큰 기회",
+        "related_keywords": [
+          {
+            "keyword": "ISA 한도",
+            "volume": 20200
+          },
+          {
+            "keyword": "ISA 2억",
+            "volume": 8500
+          },
+          {
+            "keyword": "ISA 만기",
+            "volume": 12000
+          },
+          {
+            "keyword": "ISA 연금계좌 전환",
+            "volume": 4200
+          },
+          {
+            "keyword": "ISA 재가입",
+            "volume": 3200
+          },
+          {
+            "keyword": "ISA 5년",
+            "volume": 6500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "만기 가이드"
+        },
+        {
+          "id": "prime-club",
+          "role": "secondary",
+          "reason": "장기 설계"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "ISA 만기 → 연금저축 전환 유도"
+      },
+      "hook_hypothesis": "ISA 만기 돌아오는 사람들, 다음 5년 이렇게 굴리면 세금 한 번 더 아낌",
+      "ai_ideas_seed": {
+        "target": "ISA 만기 도래자 4050",
+        "tone": "전환 가이드형 · 세금 절약",
+        "format_hint": "25초 숏폼 · 만기 → 전환 시나리오"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC03",
+      "category_id": "D",
+      "subgroup": "ACC-연금",
+      "title": "연금저축 ETF 추천",
+      "subtitle": "직접 운용의 매력",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "연금저축 ETF 추천",
+          "펀드",
+          "SCHD",
+          "미국 월배당"
+        ],
+        "cluster_path": [
+          "연금저축 ETF 추천",
+          "펀드 추천",
+          "상품",
+          "미국 월배당",
+          "SCHD"
+        ],
+        "metrics": {
+          "annual_volume": 74000,
+          "trend_percent": 24,
+          "trend_label": "+24% 🔥 · 2026.1월 폭발",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 53% · 남 47%",
+          "age": "40대 39% · 50대↑ 28%"
+        },
+        "why_now": "+24% 성장 + 세액공제 시즌 수요",
+        "review_level": "medium",
+        "review_notes": "종목 추천 톤 조심 · 개인 상황",
+        "monthly_volume": [
+          1600,
+          2400,
+          3500,
+          5000,
+          7000,
+          8500,
+          10000,
+          10500,
+          10500,
+          10500,
+          10500,
+          19400,
+          15700,
+          10700
+        ],
+        "who_tags": [
+          "연금저축 운용자",
+          "40대 39%",
+          "여 53%",
+          "직장인"
+        ],
+        "who_evidence": "여 53% · 40대 39% · 50대↑ 28%",
+        "when_tags": [
+          "세액공제 시즌",
+          "ETF 대중화",
+          "+24% 성장"
+        ],
+        "when_evidence": "+24% 성장 + 2026.1월 폭발",
+        "journey_tags": [
+          "연금저축 ETF 추천",
+          "펀드",
+          "SCHD",
+          "미국 월배당"
+        ],
+        "journey_evidence": "ETF 추천(핵심) → 펀드(대안) → SCHD(구체)",
+        "pain_tags": [
+          "어떤 ETF?",
+          "국내 vs 미국",
+          "장기 운용 방법"
+        ],
+        "pain_evidence": "구체적 상품 가이드 수요",
+        "usp_fit_tags": [
+          "AI투자브리핑 ETF 분석",
+          "마이브리프 포트폴리오"
+        ],
+        "usp_fit_evidence": "분석 + 포트폴리오 관리",
+        "hook_tags": [
+          "4050이 많이 고른",
+          "실제 Top 3",
+          "SCHD 진짜"
+        ],
+        "hook_evidence": "실제 사용자 데이터 선호",
+        "pathfinder_narrative": "연금저축 개설 → ETF 선택 → 장기 운용",
+        "cluster_insight": "연금저축 ETF = 세액공제 시즌 개설의 핵심 운용 수요",
+        "related_keywords": [
+          {
+            "keyword": "연금저축 ETF 추천",
+            "volume": 15700
+          },
+          {
+            "keyword": "연금저축 펀드",
+            "volume": 8500
+          },
+          {
+            "keyword": "SCHD",
+            "volume": 32000
+          },
+          {
+            "keyword": "연금저축 미국 ETF",
+            "volume": 6500
+          },
+          {
+            "keyword": "연금저축 ETF 순위",
+            "volume": 4200
+          },
+          {
+            "keyword": "연저펀 ETF",
+            "volume": 3800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "ETF 분석"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "포트폴리오 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [],
+        "note": "연금저축 신규 개설 + ETF 매수 유도"
+      },
+      "hook_hypothesis": "연금저축 통장에 뭐 넣을지 모르겠다면, 직장인 4050이 가장 많이 고른 ETF 3개",
+      "ai_ideas_seed": {
+        "target": "연금저축 보유 4050",
+        "tone": "실용형 · 실제 사용자 기반",
+        "format_hint": "25초 숏폼 · 실제 선택 Top 3"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC04",
+      "category_id": "D",
+      "subgroup": "ACC-IRP",
+      "title": "IRP 증권사 비교 — KB의 방어전",
+      "subtitle": "수수료 0.1% 30년 차이",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "IRP 계좌 비교",
+          "IRP 증권사 수수료",
+          "IRP 계좌 추천",
+          "다이렉트 IRP"
+        ],
+        "cluster_path": [
+          "IRP 계좌 비교",
+          "수수료 비교",
+          "증권사 추천",
+          "다이렉트 IRP",
+          "KB증권 IRP 계좌 개설방법"
+        ],
+        "metrics": {
+          "annual_volume": 40000,
+          "trend_percent": null,
+          "trend_label": "IRP 계좌 +31% 성장 지속",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "🎯 여 65% · 남 35%",
+          "age": "25-44세 55%"
+        },
+        "why_now": "IRP 계좌 +31% 성장 + KB 이미 검색됨 (방어 전략)",
+        "review_level": "low",
+        "review_notes": "수수료 팩트 · 세금 고지",
+        "monthly_volume": [
+          1900,
+          2500,
+          3200,
+          3500,
+          3800,
+          4000,
+          4000,
+          4000,
+          4000,
+          4000,
+          4000,
+          4000,
+          3900,
+          3600
+        ],
+        "who_tags": [
+          "IRP 고민자",
+          "여 65%",
+          "2544세 55%",
+          "수수료 민감"
+        ],
+        "who_evidence": "여 65% · 25-44세 55%",
+        "when_tags": [
+          "IRP 성장기",
+          "2026 급상승",
+          "수수료 비교 수요"
+        ],
+        "when_evidence": "IRP +31% 성장 지속",
+        "journey_tags": [
+          "IRP 비교",
+          "수수료",
+          "증권사 추천",
+          "다이렉트"
+        ],
+        "journey_evidence": "비교(요구) → 수수료(핵심) → 추천 → 다이렉트",
+        "pain_tags": [
+          "수수료 차이 체감 안됨",
+          "30년 후 차이",
+          "증권사 선택"
+        ],
+        "pain_evidence": "장기 수수료 효과 이해 부족",
+        "usp_fit_tags": [
+          "프라임클럽 수수료 강점",
+          "마이브리프 IRP 운용"
+        ],
+        "usp_fit_evidence": "KB IRP 방어 + 차별화",
+        "hook_tags": [
+          "0.1% 차이",
+          "30년 후 충격",
+          "실제 금액"
+        ],
+        "hook_evidence": "장기 복리 시각화 선호",
+        "pathfinder_narrative": "IRP 관심 → 증권사 비교 → 수수료 확인 → 선택",
+        "cluster_insight": "IRP 증권사 비교 = KB 방어 전략 핵심",
+        "related_keywords": [
+          {
+            "keyword": "IRP 계좌 비교",
+            "volume": 4000
+          },
+          {
+            "keyword": "IRP 수수료 비교",
+            "volume": 3200
+          },
+          {
+            "keyword": "IRP 증권사 추천",
+            "volume": 2800
+          },
+          {
+            "keyword": "다이렉트 IRP",
+            "volume": 1800
+          },
+          {
+            "keyword": "KB증권 IRP",
+            "volume": 1200
+          },
+          {
+            "keyword": "IRP 수수료",
+            "volume": 5500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "수수료 강점 · 전문성"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "IRP 운용 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [],
+        "note": "IRP 계좌 개설 (타사 이전 포함)"
+      },
+      "hook_hypothesis": "IRP 증권사 수수료 0.1% 차이, 30년 뒤 실제 금액 차이는 (계산 결과 충격)",
+      "ai_ideas_seed": {
+        "target": "IRP 고민자 2540 여성",
+        "tone": "비교형 · 숫자 충격",
+        "format_hint": "25초 숏폼 · 30년 복리 차이"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC05",
+      "category_id": "D",
+      "subgroup": "ACC-연금",
+      "title": "연금저축 세액공제 한도",
+      "subtitle": "연말정산 최적화",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "연금저축 세액공제 한도",
+          "IRP 세액공제",
+          "900만원 추가 납입"
+        ],
+        "cluster_path": [
+          "세액공제 한도",
+          "IRP 세액공제",
+          "900만원 추가 납입",
+          "ETF 운용"
+        ],
+        "metrics": {
+          "annual_volume": 460000,
+          "trend_percent": null,
+          "trend_label": "매년 11-2월 피크",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남녀 균형",
+          "age": "🎯 40대↑ 67%"
+        },
+        "why_now": "매년 반복 시즌 자산",
+        "review_level": "medium",
+        "review_notes": "구체 금액 주의 · 연봉 상황 고지",
+        "monthly_volume": [
+          32000,
+          38000,
+          42000,
+          45000,
+          46000,
+          46000,
+          46000,
+          46000,
+          46000,
+          46000,
+          46000,
+          46000,
+          45000,
+          40000
+        ],
+        "who_tags": [
+          "직장인 4050",
+          "여 55%",
+          "고소득",
+          "세액공제 극대화"
+        ],
+        "who_evidence": "여 55% · 40대↑ 67%",
+        "when_tags": [
+          "11-2월 시즌",
+          "연봉 확정 후",
+          "매년 반복"
+        ],
+        "when_evidence": "매년 12-2월 피크",
+        "journey_tags": [
+          "연금저축 세액공제 한도",
+          "IRP 세액공제",
+          "900만원"
+        ],
+        "journey_evidence": "한도(정보) → IRP 한도 → 추가 납입",
+        "pain_tags": [
+          "한도 최적 배분",
+          "연봉별 차이",
+          "계좌 분산"
+        ],
+        "pain_evidence": "개인별 최적화 수요",
+        "usp_fit_tags": [
+          "오늘의 콕 시즌 가이드",
+          "프라임클럽 개인 최적"
+        ],
+        "usp_fit_evidence": "시즌 가이드 + 맞춤",
+        "hook_tags": [
+          "연봉 8천",
+          "최대 받는 금액",
+          "계좌 배분"
+        ],
+        "hook_evidence": "연봉별 시나리오 선호",
+        "pathfinder_narrative": "세액공제 관심 → 한도 확인 → 연봉별 배분 → 계좌 개설",
+        "cluster_insight": "세액공제 한도 = 연금저축+IRP 동시 개설 촉발",
+        "related_keywords": [
+          {
+            "keyword": "연금저축 세액공제 한도",
+            "volume": 46000
+          },
+          {
+            "keyword": "IRP 세액공제",
+            "volume": 45000
+          },
+          {
+            "keyword": "세액공제 900만원",
+            "volume": 8500
+          },
+          {
+            "keyword": "연말정산 연금저축",
+            "volume": 18000
+          },
+          {
+            "keyword": "세액공제 연봉",
+            "volume": 4200
+          },
+          {
+            "keyword": "세액공제 계산",
+            "volume": 12000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "시즌 가이드"
+        },
+        {
+          "id": "prime-club",
+          "role": "secondary",
+          "reason": "개인 최적화"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "IRP"
+        ],
+        "note": "연금저축 + IRP 동시 개설 유도"
+      },
+      "hook_hypothesis": "연봉 8천만원, 연금저축+IRP 합쳐 세액공제 최대로 받는 금액 (맞는 배분)",
+      "ai_ideas_seed": {
+        "target": "연봉 5천만원↑ 직장인 4050",
+        "tone": "최적화형 · 연봉 구간별",
+        "format_hint": "30초 숏폼 · 연봉별 시나리오"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC06",
+      "category_id": "D",
+      "subgroup": "ACC-ISA",
+      "title": "ISA 계좌 종목 추천",
+      "subtitle": "비과세 혜택 극대화",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "ISA 계좌 종목 추천",
+          "종목 추천",
+          "ETF",
+          "국내 배당주"
+        ],
+        "cluster_path": [
+          "ISA 계좌 종목 추천",
+          "추천 종목",
+          "ETF",
+          "국내 배당주",
+          "미국 ETF"
+        ],
+        "metrics": {
+          "annual_volume": 12000,
+          "trend_percent": null,
+          "trend_label": "2026 지속 상승",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 54% · 남 46%",
+          "age": "30대 34%"
+        },
+        "why_now": "ISA 활성 유저 운용 니즈 증가",
+        "review_level": "medium",
+        "review_notes": "종목 추천 수위 관리",
+        "monthly_volume": [
+          2800,
+          3500,
+          4500,
+          5500,
+          6500,
+          7500,
+          8500,
+          9000,
+          9500,
+          10500,
+          11500,
+          12500,
+          13600,
+          12000
+        ],
+        "who_tags": [
+          "ISA 운용자",
+          "30대 34%",
+          "여 54%",
+          "비과세 극대화"
+        ],
+        "who_evidence": "여 54% · 30대 34%",
+        "when_tags": [
+          "ISA 개설 직후",
+          "운용 고민기",
+          "종목 선택"
+        ],
+        "when_evidence": "2026 지속 상승",
+        "journey_tags": [
+          "ISA 종목 추천",
+          "ETF",
+          "국내 배당주",
+          "미국 ETF"
+        ],
+        "journey_evidence": "ISA 종목 → 추천 → ETF → 배당주",
+        "pain_tags": [
+          "ISA 최적 종목?",
+          "비과세 극대화 방법",
+          "조합"
+        ],
+        "pain_evidence": "ISA 전용 콘텐츠 부족",
+        "usp_fit_tags": [
+          "프라임클럽 전문가 종목",
+          "AI투자브리핑 AI 분석"
+        ],
+        "usp_fit_evidence": "전문가 + AI 종목 분석",
+        "hook_tags": [
+          "비과세 최대로",
+          "3가지 조합",
+          "세후 수익"
+        ],
+        "hook_evidence": "조합 중심 콘텐츠 선호",
+        "pathfinder_narrative": "ISA 개설 → 종목 추천 → 조합 구성 → 운용",
+        "cluster_insight": "ISA 종목 추천 = 이미 개설한 사용자 활성화 핵심",
+        "related_keywords": [
+          {
+            "keyword": "ISA 종목 추천",
+            "volume": 13600
+          },
+          {
+            "keyword": "ISA ETF",
+            "volume": 12000
+          },
+          {
+            "keyword": "ISA 국내 배당주",
+            "volume": 6500
+          },
+          {
+            "keyword": "ISA 미국 ETF",
+            "volume": 8500
+          },
+          {
+            "keyword": "ISA 포트폴리오",
+            "volume": 4200
+          },
+          {
+            "keyword": "ISA 조합",
+            "volume": 3200
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 종목 추천"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "AI 종목 분석"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "ISA 개설 + 매수 활성화"
+      },
+      "hook_hypothesis": "ISA 계좌 비과세 혜택 최대로 뽑으려면 이 3가지 조합 종목이 정답에 가까움",
+      "ai_ideas_seed": {
+        "target": "ISA 보유 3040",
+        "tone": "맞춤형 · 조합 중심",
+        "format_hint": "25초 숏폼 · 3가지 조합"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-ACC07",
+      "category_id": "D",
+      "subgroup": "ACC-ISA",
+      "title": "2026 ISA 제도 변경",
+      "subtitle": "한도 상향·신상품 소개",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "2026 ISA 계좌 변경",
+          "신탁형",
+          "중개형",
+          "서민형",
+          "한도 상향"
+        ],
+        "cluster_path": [
+          "2026 ISA 변경",
+          "한도 상향",
+          "신탁형 vs 중개형",
+          "서민형 전환"
+        ],
+        "metrics": {
+          "annual_volume": 90,
+          "trend_percent": 1000,
+          "trend_label": "시의성 최상 · 신규 검색어",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남녀 균형",
+          "age": "30-50대 · 기존 ISA 보유자"
+        },
+        "why_now": "제도 변경 공식화 시점에 터짐",
+        "review_level": "low",
+        "review_notes": "제도 팩트 · 확정 사항 기반",
+        "monthly_volume": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          70,
+          10
+        ],
+        "who_tags": [
+          "ISA 기존 가입자",
+          "30-50대",
+          "제도 민감자",
+          "변화 대응"
+        ],
+        "who_evidence": "30-50대 · 기존 ISA 보유자",
+        "when_tags": [
+          "2026.1 제도 변경",
+          "한도 상향",
+          "신상품"
+        ],
+        "when_evidence": "제도 변경 공식화 시점",
+        "journey_tags": [
+          "2026 ISA 변경",
+          "한도 상향",
+          "신탁형 중개형",
+          "서민형"
+        ],
+        "journey_evidence": "2026 ISA → 한도 → 유형 비교",
+        "pain_tags": [
+          "바뀐 점 모름",
+          "본인 적용?",
+          "기존 계좌 영향"
+        ],
+        "pain_evidence": "제도 변경 해설 수요 급증",
+        "usp_fit_tags": [
+          "AI투자브리핑 제도 해설",
+          "오늘의 콕 체크리스트"
+        ],
+        "usp_fit_evidence": "뉴스형 해설",
+        "hook_tags": [
+          "바뀐 점 3가지",
+          "한도 늘면",
+          "본인 적용"
+        ],
+        "hook_evidence": "뉴스 + 본인 영향 조합",
+        "pathfinder_narrative": "제도 변경 인식 → 내용 확인 → 본인 적용 → 계좌 활용",
+        "cluster_insight": "2026 ISA 제도 = 신규 개설 + 기존 활용 동시 트리거",
+        "related_keywords": [
+          {
+            "keyword": "2026 ISA 계좌 변경",
+            "volume": 70
+          },
+          {
+            "keyword": "ISA 한도 상향",
+            "volume": 3200
+          },
+          {
+            "keyword": "ISA 신탁형",
+            "volume": 6500
+          },
+          {
+            "keyword": "ISA 중개형",
+            "volume": 4200
+          },
+          {
+            "keyword": "ISA 서민형",
+            "volume": 8500
+          },
+          {
+            "keyword": "ISA 제도 개편",
+            "volume": 2800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "제도 해설"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "바뀐 점 정리"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "ISA 신규 개설 + 기존 유저 활용"
+      },
+      "hook_hypothesis": "2026 ISA 바뀐 점 3가지, 한도 늘어난다면 당신은 얼마까지?",
+      "ai_ideas_seed": {
+        "target": "ISA 기존/신규 관심자",
+        "tone": "뉴스형 · 제도 설명",
+        "format_hint": "25초 숏폼 · 바뀐 점 체크리스트"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC08",
+      "category_id": "D",
+      "subgroup": "ACC-IRP",
+      "title": "퇴직금 IRP 연계",
+      "subtitle": "이직·퇴직 트리거 연동",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "퇴직금 IRP 수령",
+          "이직 시 IRP",
+          "개인형 IRP 퇴직금"
+        ],
+        "cluster_path": [
+          "퇴직금 연금",
+          "수령",
+          "IRP 계좌 개설",
+          "이직 시 IRP 계좌",
+          "복수 계좌"
+        ],
+        "metrics": {
+          "annual_volume": null,
+          "trend_percent": null,
+          "trend_label": "O-B01과 시너지",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 52% · 여 48%",
+          "age": "30대 37% (이직) + 50대 은퇴"
+        },
+        "why_now": "퇴직금 +120% 폭발과 연결",
+        "review_level": "medium",
+        "review_notes": "세금 정확한 계산 · 개인 상황 고지",
+        "monthly_volume": [
+          28000,
+          32000,
+          38000,
+          42000,
+          45000,
+          48000,
+          52000,
+          50000,
+          52000,
+          56000,
+          62000,
+          68000,
+          70000,
+          65000
+        ],
+        "who_tags": [
+          "퇴직·이직자",
+          "30대 37%",
+          "50대 은퇴",
+          "세금 민감"
+        ],
+        "who_evidence": "남 52% · 30대 37% + 50대",
+        "when_tags": [
+          "퇴직금 수령 당일",
+          "이직 시점",
+          "세금 고민"
+        ],
+        "when_evidence": "퇴직금 +120% 폭발과 연결",
+        "journey_tags": [
+          "퇴직금 연금",
+          "수령",
+          "IRP 개설",
+          "복수 계좌"
+        ],
+        "journey_evidence": "퇴직금 → 수령 방법 → IRP → 복수",
+        "pain_tags": [
+          "일시수령 vs IRP",
+          "세금 차이",
+          "복수 계좌 가능?"
+        ],
+        "pain_evidence": "구체적 금액 시뮬 수요",
+        "usp_fit_tags": [
+          "프라임클럽 이체 전문가",
+          "오늘의 콕 가이드"
+        ],
+        "usp_fit_evidence": "전문가 + 가이드",
+        "hook_tags": [
+          "1억 들어왔을 때",
+          "IRP vs 일시수령",
+          "세금 놀람"
+        ],
+        "hook_evidence": "구체 금액 시뮬 선호",
+        "pathfinder_narrative": "퇴직 → IRP 고민 → 세금 계산 → 이체 결정",
+        "cluster_insight": "퇴직금 IRP 연계 = O-B01과 시너지, IRP 핵심 유입",
+        "related_keywords": [
+          {
+            "keyword": "퇴직금 IRP",
+            "volume": 70000
+          },
+          {
+            "keyword": "이직 시 IRP",
+            "volume": 22000
+          },
+          {
+            "keyword": "개인형 IRP 퇴직",
+            "volume": 18000
+          },
+          {
+            "keyword": "IRP 복수 계좌",
+            "volume": 8500
+          },
+          {
+            "keyword": "퇴직연금 이체",
+            "volume": 28000
+          },
+          {
+            "keyword": "퇴직금 세금 차이",
+            "volume": 15000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "이체 전문가"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "이직 가이드"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [],
+        "note": "IRP 신규 개설 (이체 연계)"
+      },
+      "hook_hypothesis": "퇴직금 통장에 1억 들어왔을 때, IRP 이체 vs 일시 수령 세금 차이 (놀람)",
+      "ai_ideas_seed": {
+        "target": "이직자 30대 + 은퇴자 50대",
+        "tone": "실용형 · 세금 충격",
+        "format_hint": "30초 숏폼 · 금액 시뮬레이션"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC09",
+      "category_id": "D",
+      "subgroup": "ACC-IRA",
+      "title": "IRA vs IRP vs ISA 헷갈림 해소",
+      "subtitle": "이름 혼동 현상 자체가 기회",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": 4,
+      "analysis": {
+        "interests": [
+          "IRA 계좌",
+          "IRA vs IRP",
+          "연금계좌 혼동",
+          "개인퇴직계좌"
+        ],
+        "cluster_path": [
+          "IRA 계좌",
+          "IRP 계좌 (완전 이동)",
+          "IRP 계좌 종류·단점·비교",
+          "퇴직금 IRP 계좌 개설"
+        ],
+        "metrics": {
+          "annual_volume": 52540,
+          "trend_percent": 123,
+          "trend_label": "+123% 🔥 (2025.10부터 폭발)",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남 63% · 여 37%",
+          "age": "40대↑ 73%"
+        },
+        "why_now": "+123% 폭발 + 이름 혼동 수요 급증",
+        "review_level": "low",
+        "review_notes": "교육적 · 팩트 기반",
+        "monthly_volume": [
+          820,
+          1390,
+          1240,
+          1020,
+          1100,
+          1130,
+          1020,
+          1130,
+          1080,
+          1150,
+          1160,
+          1200,
+          1460,
+          1160
+        ],
+        "who_tags": [
+          "연금계좌 관심자",
+          "40-50대",
+          "남 63%",
+          "퇴직 준비자"
+        ],
+        "who_evidence": "50대↑ 41% · 40대 31% · 이름 혼동 세그먼트",
+        "when_tags": [
+          "2025.10부터 폭발",
+          "세액공제 시즌",
+          "연말정산 직전"
+        ],
+        "when_evidence": "+123% 성장 · 월 1만+ 검색 꾸준",
+        "journey_tags": [
+          "IRA 계좌",
+          "IRP 이동(혼동)",
+          "IRP 종류",
+          "ISA 차이"
+        ],
+        "journey_evidence": "'IRA 계좌' 검색자 90%가 IRP·ISA로 경로 이동",
+        "pain_tags": [
+          "이름 혼동",
+          "뭐가 뭔지 모름",
+          "선택 불가",
+          "설명 부족"
+        ],
+        "pain_evidence": "IRA/IRP/ISA 이름 차이를 3초 안에 설명하는 콘텐츠 부재",
+        "usp_fit_tags": [
+          "오늘의 콕 비교 가이드",
+          "AI투자브리핑 해설"
+        ],
+        "usp_fit_evidence": "입문·해설형 서비스가 혼동 해소 콘텐츠에 최적",
+        "hook_tags": [
+          "3분 정리",
+          "이름 차이",
+          "한 장 비교",
+          "당신에 맞는 계좌"
+        ],
+        "hook_evidence": "혼동 해소 = 가장 높은 교육 콘텐츠 수요",
+        "pathfinder_narrative": "IRA 검색 → IRP 혼동 → ISA 비교 → 최종 선택 고민",
+        "cluster_insight": "한국인에게 IRA = IRP와 혼동되는 단어. 이 혼동 자체가 기회",
+        "related_keywords": [
+          {
+            "keyword": "IRA 계좌",
+            "volume": 14130
+          },
+          {
+            "keyword": "IRA 뜻",
+            "volume": 1200
+          },
+          {
+            "keyword": "개인퇴직계좌",
+            "volume": 554
+          },
+          {
+            "keyword": "IRP 계좌",
+            "volume": 87500
+          },
+          {
+            "keyword": "IRA vs IRP",
+            "volume": 340
+          },
+          {
+            "keyword": "연금저축 IRP ISA 차이",
+            "volume": 3150
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "비교 가이드"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "제도 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [
+          "ISA"
+        ],
+        "note": "IRA 검색자를 IRP 개설로 전환"
+      },
+      "hook_hypothesis": "IRA? IRP? ISA? 이름도 헷갈리는 3개 연금계좌, 3분 만에 정리",
+      "ai_ideas_seed": {
+        "target": "계좌 혼동자 4050",
+        "tone": "해설형 · 쉬운 비교",
+        "format_hint": "25초 숏폼 · 3개 나란히 비교"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC10",
+      "category_id": "D",
+      "subgroup": "ACC-IRA",
+      "title": "서학개미의 미국 IRA",
+      "subtitle": "고급 자산설계 · 블루오션",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "미국 IRA",
+          "Roth IRA",
+          "미국 은퇴 계좌",
+          "한미 이중국적"
+        ],
+        "cluster_path": [
+          "Roth IRA",
+          "미국 IRA",
+          "미국 은퇴 계좌",
+          "해외 절세",
+          "미국 세금 보고"
+        ],
+        "metrics": {
+          "annual_volume": 190000,
+          "trend_percent": null,
+          "trend_label": "서학개미 고급 수요",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 75% (Roth IRA)",
+          "age": "40대↑"
+        },
+        "why_now": "서학개미 볼륨 꾸준 + 고급 수요 확대",
+        "review_level": "medium",
+        "review_notes": "해외 세제 주의 · 개인 상황",
+        "monthly_volume": [
+          12000,
+          14000,
+          15000,
+          15000,
+          16000,
+          16000,
+          17000,
+          17000,
+          17000,
+          17000,
+          17000,
+          17000,
+          17000,
+          16000
+        ],
+        "who_tags": [
+          "서학개미 고급자",
+          "여 75% (Roth IRA)",
+          "40대↑",
+          "해외 세제"
+        ],
+        "who_evidence": "여 75% (Roth IRA) · 40대↑",
+        "when_tags": [
+          "서학개미 본진",
+          "미국 세제 관심",
+          "고급 자산"
+        ],
+        "when_evidence": "서학개미 볼륨 꾸준 + 고급 수요",
+        "journey_tags": [
+          "미국 IRA",
+          "Roth IRA",
+          "미국 은퇴 계좌",
+          "해외 절세"
+        ],
+        "journey_evidence": "미국 IRA → Roth IRA → 해외 절세 → 미국 세금",
+        "pain_tags": [
+          "한국인 적용 가능?",
+          "세제 복잡",
+          "실무 방법"
+        ],
+        "pain_evidence": "해외 세제 해설 부족",
+        "usp_fit_tags": [
+          "프라임클럽 해외 세제 전문가",
+          "AI투자브리핑 해설"
+        ],
+        "usp_fit_evidence": "전문가 해설 필수",
+        "hook_tags": [
+          "서학개미 모르는",
+          "Roth IRA 진짜",
+          "한국 적용"
+        ],
+        "hook_evidence": "고급 지식 + 한국 적용",
+        "pathfinder_narrative": "서학개미 심화 → 미국 세제 관심 → Roth IRA → 한국 적용",
+        "cluster_insight": "미국 IRA = 서학개미 고급 블루오션 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "Roth IRA",
+            "volume": 17000
+          },
+          {
+            "keyword": "미국 IRA",
+            "volume": 6500
+          },
+          {
+            "keyword": "미국 은퇴 계좌",
+            "volume": 4200
+          },
+          {
+            "keyword": "해외 절세",
+            "volume": 8500
+          },
+          {
+            "keyword": "미국 세금 보고",
+            "volume": 12000
+          },
+          {
+            "keyword": "한미 이중국적 세금",
+            "volume": 3200
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 해외 세제 설명"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "미국 세제 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [
+          "RIA"
+        ],
+        "note": "일반 해외주식 계좌 + 프라임클럽 구독"
+      },
+      "hook_hypothesis": "서학개미가 모르는 미국 세제 혜택, Roth IRA는 뭐고 우리가 쓸 수 있나",
+      "ai_ideas_seed": {
+        "target": "고급 서학개미 4050",
+        "tone": "전문형 · 해외 세제",
+        "format_hint": "30초 숏폼 · 한국인 적용 가능성"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC11",
+      "category_id": "D",
+      "subgroup": "ACC-RIA",
+      "title": "RIA가 뭐야? — 서학개미 긴급 가이드",
+      "subtitle": "2025.12 신설 계좌 · 키움 선점 중 · 2026 게임체인저",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": 1,
+      "analysis": {
+        "interests": [
+          "RIA 계좌",
+          "뜻",
+          "사용법",
+          "시행일",
+          "국내시장 복귀 계좌",
+          "유턴 계좌"
+        ],
+        "cluster_path": [
+          "RIA 계좌",
+          "뜻",
+          "사용법",
+          "시행일",
+          "키움 RIA 개설",
+          "출시일",
+          "국내시장 복귀 계좌",
+          "유턴 계좌"
+        ],
+        "metrics": {
+          "annual_volume": 255170,
+          "trend_percent": 168,
+          "trend_label": "+168% 🔥🔥🔥",
+          "competition": "LOW",
+          "monthly_pattern": "2025.12 출시 → 2026.3월 단일월 98K"
+        },
+        "demography": {
+          "gender": "🎯 남 66% · 여 34%",
+          "age": "40-50대 60% (서학개미 본진)"
+        },
+        "why_now": "2025.12 출시 직후 대중 궁금증 폭발 · 키움 선점 · KB 진입 골든타임",
+        "review_level": "low",
+        "review_notes": "제도 팩트 · 세금 절감 확정 약속 금지",
+        "monthly_volume": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          26570,
+          77100,
+          53500,
+          98000
+        ],
+        "who_tags": [
+          "서학개미",
+          "40-50대 남성",
+          "해외주식 1억↑",
+          "양도세 민감자"
+        ],
+        "who_evidence": "남 66% · 40-50대 60% · 미국주식 장기 보유자",
+        "when_tags": [
+          "2025.12 출시 직후",
+          "2026.1 급등",
+          "3월 월 98K"
+        ],
+        "when_evidence": "출시 4개월 만에 +168% · 3월 단일월 98K 검색",
+        "journey_tags": [
+          "RIA 계좌",
+          "뜻",
+          "사용법",
+          "시행일",
+          "국내 복귀 계좌"
+        ],
+        "journey_evidence": "'RIA 계좌' → '뜻' → '사용법' → '키움 RIA' 순차 이동",
+        "pain_tags": [
+          "뭔지 모름",
+          "양도세 부담",
+          "키움만 아는듯",
+          "설명 부족"
+        ],
+        "pain_evidence": "'RIA 뜻' 검색 월 680회 · 개념 설명 콘텐츠 부재",
+        "usp_fit_tags": [
+          "AI투자브리핑 제도 해설",
+          "오늘의 콕 3분 설명",
+          "긴급 정보형"
+        ],
+        "usp_fit_evidence": "정보형 서비스 USP가 설명·해소 톤과 100% 매치",
+        "hook_tags": [
+          "3분 설명",
+          "양도세 계산",
+          "키움 vs KB",
+          "1억당 절감액"
+        ],
+        "hook_evidence": "서학개미 4050이 찾는 '진짜 궁금한 것' 직접 해소",
+        "pathfinder_narrative": "RIA가 뭔지 모름 → 이해 → 실행 고민 → 경쟁사 선점 발견",
+        "cluster_insight": "RIA = 국내시장 복귀계좌 / 유턴 계좌. 해외주식 양도세 면제가 핵심 혜택",
+        "related_keywords": [
+          {
+            "keyword": "RIA 계좌",
+            "volume": 98000
+          },
+          {
+            "keyword": "RIA 계좌 키움",
+            "volume": 12000
+          },
+          {
+            "keyword": "유턴 계좌",
+            "volume": 5400
+          },
+          {
+            "keyword": "RIA 뜻",
+            "volume": 680
+          },
+          {
+            "keyword": "국내시장 복귀 계좌",
+            "volume": 3200
+          },
+          {
+            "keyword": "RIA 계좌 만들기",
+            "volume": 770
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "제도 해설 · 긴급성"
+        },
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "3분 설명 · 꿀팁 톤"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [
+          "ISA",
+          "IRP"
+        ],
+        "note": "KB증권 RIA 계좌 개설 직접 유도"
+      },
+      "hook_hypothesis": "RIA 계좌, 3분만 봐도 내 양도세 얼마 아낄 수 있는지 딱 나온다",
+      "ai_ideas_seed": {
+        "target": "서학개미 4050 남성",
+        "tone": "긴급 정보형 · 이해 쉬움",
+        "format_hint": "30초 숏폼 · 3분 설명 + 양도세 계산"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-ACC12",
+      "category_id": "D",
+      "subgroup": "ACC-RIA",
+      "title": "서학개미 → RIA 이전 가이드",
+      "subtitle": "해외주식 양도세 면제 실행 방법",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "RIA 계좌로 옮기기",
+          "해외주식 복귀 계좌",
+          "유턴",
+          "해외주식 양도소득세 면제"
+        ],
+        "cluster_path": [
+          "RIA 계좌로 옮기기",
+          "옮기는 방법",
+          "해외주식 복귀계좌",
+          "양도소득세 면제",
+          "서학개미 세금 감면"
+        ],
+        "metrics": {
+          "annual_volume": 30000,
+          "trend_percent": null,
+          "trend_label": "기존 서학개미 대규모 이동기",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 남 66% · 여 34%",
+          "age": "40-50대 (해외주식 보유자)"
+        },
+        "why_now": "기존 서학개미 대규모 이동기",
+        "review_level": "medium",
+        "review_notes": "세금 개인 상황 주의 · 단정 금지",
+        "monthly_volume": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5000,
+          12000,
+          15000
+        ],
+        "who_tags": [
+          "미국주식 1억↑ 보유자",
+          "남 66%",
+          "40-50대",
+          "세금 민감"
+        ],
+        "who_evidence": "남 66% · 40-50대",
+        "when_tags": [
+          "RIA 출시 직후",
+          "이전 고민기",
+          "양도세 시즌"
+        ],
+        "when_evidence": "기존 서학개미 대규모 이동기",
+        "journey_tags": [
+          "RIA 계좌로 옮기기",
+          "해외주식 복귀",
+          "유턴",
+          "양도세 면제"
+        ],
+        "journey_evidence": "RIA → 이전 방법 → 복귀 계좌 → 양도세",
+        "pain_tags": [
+          "이전 절차 복잡",
+          "실제 절감액 불확실",
+          "타이밍"
+        ],
+        "pain_evidence": "이전 가이드 부족",
+        "usp_fit_tags": [
+          "프라임클럽 이전 전략 상담",
+          "마이브리프 이전 후 관리"
+        ],
+        "usp_fit_evidence": "전략 상담 + 사후 관리",
+        "hook_tags": [
+          "1억 보유 시",
+          "연 절감액",
+          "실제 계산"
+        ],
+        "hook_evidence": "구체 금액 시뮬",
+        "pathfinder_narrative": "RIA 이해 → 이전 검토 → 절차 확인 → 실행",
+        "cluster_insight": "RIA 이전 = 서학개미 대이동의 실행 단계",
+        "related_keywords": [
+          {
+            "keyword": "RIA 계좌로 옮기기",
+            "volume": 12000
+          },
+          {
+            "keyword": "해외주식 복귀계좌",
+            "volume": 8500
+          },
+          {
+            "keyword": "유턴 계좌",
+            "volume": 5400
+          },
+          {
+            "keyword": "해외주식 양도소득세 면제",
+            "volume": 6500
+          },
+          {
+            "keyword": "RIA 이전 방법",
+            "volume": 4200
+          },
+          {
+            "keyword": "서학개미 세금 감면",
+            "volume": 3800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "이전 전략 상담"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "이전 후 관리"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "RIA 개설 + 해외주식 이관"
+      },
+      "hook_hypothesis": "미국주식 1억 있는 사람이 RIA로 이전하면 연간 양도세 얼마나 아낄까 (실제 계산)",
+      "ai_ideas_seed": {
+        "target": "미국주식 1억↑ 보유자",
+        "tone": "실행 가이드형 · 금액 충격",
+        "format_hint": "30초 숏폼 · 이전 전후 세금 비교"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC13",
+      "category_id": "D",
+      "subgroup": "ACC-RIA",
+      "title": "RIA 증권사 비교 — KB의 추격전",
+      "subtitle": "키움 선점, KB 진입 전략",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "RIA 계좌 키움",
+          "미래에셋 RIA",
+          "삼성증권",
+          "토스 RIA",
+          "RIA 증권사 비교"
+        ],
+        "cluster_path": [
+          "RIA 계좌 키움",
+          "미래에셋 RIA",
+          "삼성증권",
+          "토스 RIA",
+          "RIA 계좌 비교·증권사·단점·혜택·이벤트"
+        ],
+        "metrics": {
+          "annual_volume": 60000,
+          "trend_percent": null,
+          "trend_label": "증권사 경쟁 초기",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 68% · 여 32%",
+          "age": "40-50대"
+        },
+        "why_now": "증권사 경쟁 초기 진입 골든타임",
+        "review_level": "low",
+        "review_notes": "비교 팩트 · 수수료 정확한 정보",
+        "monthly_volume": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8000,
+          15000,
+          18000
+        ],
+        "who_tags": [
+          "RIA 증권사 고민자",
+          "남 68%",
+          "40-50대",
+          "비교 쇼핑"
+        ],
+        "who_evidence": "남 68% · 40-50대",
+        "when_tags": [
+          "증권사 경쟁 초기",
+          "키움 vs 미래에셋",
+          "진입 골든타임"
+        ],
+        "when_evidence": "증권사 경쟁 초기 진입 골든타임",
+        "journey_tags": [
+          "RIA 계좌 키움",
+          "미래에셋",
+          "삼성",
+          "토스",
+          "KB"
+        ],
+        "journey_evidence": "증권사별 비교 → 혜택·수수료 → 선택",
+        "pain_tags": [
+          "어느 증권사가 유리?",
+          "수수료 vs 운용",
+          "이벤트 차이"
+        ],
+        "pain_evidence": "초기 비교 콘텐츠 부족",
+        "usp_fit_tags": [
+          "프라임클럽 운용 전문성",
+          "AI투자브리핑 혜택 해설"
+        ],
+        "usp_fit_evidence": "KB 차별화 포인트 강조",
+        "hook_tags": [
+          "수수료 말고 중요한 것",
+          "체크 3가지",
+          "운용 차이"
+        ],
+        "hook_evidence": "수수료 너머 가치 선호",
+        "pathfinder_narrative": "RIA 증권사 고민 → 비교 → KB 차별점 인식 → 선택",
+        "cluster_insight": "RIA 증권사 비교 = KB 추격전 핵심",
+        "related_keywords": [
+          {
+            "keyword": "RIA 계좌 키움",
+            "volume": 12000
+          },
+          {
+            "keyword": "미래에셋 RIA",
+            "volume": 8500
+          },
+          {
+            "keyword": "RIA 증권사 비교",
+            "volume": 6500
+          },
+          {
+            "keyword": "RIA 수수료",
+            "volume": 4200
+          },
+          {
+            "keyword": "RIA 이벤트",
+            "volume": 3200
+          },
+          {
+            "keyword": "토스 RIA",
+            "volume": 360
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "운용 전문성"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "혜택 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "RIA 계좌 개설 (타사 비교 후 KB 선택)"
+      },
+      "hook_hypothesis": "RIA 증권사 고르기 전 꼭 체크해야 할 3가지 (수수료 말고 더 중요한 것)",
+      "ai_ideas_seed": {
+        "target": "RIA 증권사 고민자 4050",
+        "tone": "비교형 · 차별점 강조",
+        "format_hint": "25초 숏폼 · 증권사 비교 표"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    }
+  ]
+}

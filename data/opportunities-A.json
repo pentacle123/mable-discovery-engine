@@ -1,0 +1,1633 @@
+{
+  "_meta": {
+    "total_count": 49,
+    "structure_version": "1.0",
+    "last_updated": "2026-04-20",
+    "note": "각 opportunity는 트립닷컴 3단 드릴다운(analysis / ai_ideas / storyboard) 호환 구조"
+  },
+  "opportunities": [
+    {
+      "id": "O-A01",
+      "category_id": "A",
+      "subgroup": "A1",
+      "title": "테크주 보유자의 일상 모니터링",
+      "subtitle": "테슬라·엔비디아 급등락 대응 순간",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "테슬라 주가",
+          "엔비디아 전망",
+          "반도체 주식 폭락",
+          "급락 이유"
+        ],
+        "cluster_path": [
+          "테슬라",
+          "주가",
+          "폭락",
+          "엔비디아",
+          "폭락이유"
+        ],
+        "metrics": {
+          "annual_volume": 38500000,
+          "trend_percent": null,
+          "trend_label": "월 3,234만 피크 (2026.1)",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "남 70-73%",
+          "age": "30-44세 주력 · 50대 증가"
+        },
+        "why_now": "2026.1 월 3,234만 검색 피크. 테크주 변동성 지속 + 50대 서학개미 증가로 시의성 최상",
+        "review_level": "low",
+        "review_notes": "팩트 중심 · 주가 예측 금지",
+        "monthly_volume": [
+          2800000,
+          2950000,
+          3100000,
+          3200000,
+          3300000,
+          3400000,
+          3500000,
+          3600000,
+          3700000,
+          3800000,
+          3900000,
+          3850000,
+          3234000,
+          3400000
+        ],
+        "who_tags": [
+          "테크주 보유자",
+          "30-44세 남성",
+          "서학개미",
+          "얼리어답터"
+        ],
+        "who_evidence": "남 70-73% · 30-44세 주력 · 50대 증가",
+        "when_tags": [
+          "급등락 당일",
+          "실적 발표 시즌",
+          "2026.1 피크"
+        ],
+        "when_evidence": "월 3,234만 피크 · 변동성 지속",
+        "journey_tags": [
+          "테슬라 주가",
+          "엔비디아 전망",
+          "반도체 폭락",
+          "급락 이유"
+        ],
+        "journey_evidence": "종목명 → 주가 → 폭락(위기) → 이유(해설)",
+        "pain_tags": [
+          "변동성 공포",
+          "실시간 정보 부족",
+          "판단 어려움"
+        ],
+        "pain_evidence": "일일 검색량 10만+ · 정보 수요 지속",
+        "usp_fit_tags": [
+          "마이브리프 실시간 알림",
+          "AI투자브리핑 해설"
+        ],
+        "usp_fit_evidence": "보유 종목 맞춤 알림 + 시장 해설 조합 최적",
+        "hook_tags": [
+          "오늘의 체크 3가지",
+          "실시간 대응",
+          "내 종목 영향"
+        ],
+        "hook_evidence": "일상 루틴화된 투자자의 데일리 콘텐츠 수요",
+        "pathfinder_narrative": "종목명 검색 → 주가 확인 → 급락 시 이유 찾기 → 대응 고민",
+        "cluster_insight": "테크주 보유자 = 일일 모니터링 루틴 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "테슬라 주가",
+            "volume": 3850000
+          },
+          {
+            "keyword": "엔비디아 전망",
+            "volume": 1200000
+          },
+          {
+            "keyword": "반도체 주식",
+            "volume": 880000
+          },
+          {
+            "keyword": "테슬라 폭락",
+            "volume": 420000
+          },
+          {
+            "keyword": "엔비디아 실적",
+            "volume": 280000
+          },
+          {
+            "keyword": "테슬라 호재",
+            "volume": 180000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "보유 종목 급등락 실시간 알림"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "테크주 섹터 시장 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "일반 주식 계좌 유도"
+      },
+      "hook_hypothesis": "테슬라 7% 빠진 날 해야 할 3가지 체크",
+      "ai_ideas_seed": {
+        "target": "테크주 보유 3040 남성",
+        "tone": "정보형 · 팩트 기반",
+        "format_hint": "15초 숏폼 · 차트 인포그래픽"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-A02",
+      "category_id": "A",
+      "subgroup": "A1",
+      "title": "월배당 ETF 은퇴 대비자",
+      "subtitle": "국내·미국 월배당 ETF 포트폴리오 고민",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "월배당 ETF 추천",
+          "미국 월배당",
+          "국내 월배당",
+          "ETF 단점",
+          "포트폴리오"
+        ],
+        "cluster_path": [
+          "월배당",
+          "ETF 추천",
+          "단점",
+          "포트폴리오",
+          "국내·미국 월배당 ETF 순위"
+        ],
+        "metrics": {
+          "annual_volume": 400000,
+          "trend_percent": null,
+          "trend_label": "꾸준한 증가",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 61% · 여 39%",
+          "age": "30-44세 · 50대 42%"
+        },
+        "why_now": "금리 인하 기대 + 50대 은퇴 세대 관심 증가",
+        "review_level": "low",
+        "review_notes": "배당률만 강조 금지 · 전체 수익률 고려 안내",
+        "monthly_volume": [
+          22000,
+          28000,
+          32000,
+          35000,
+          38000,
+          40000,
+          42000,
+          38000,
+          36000,
+          34000,
+          38000,
+          42000,
+          45000,
+          40000
+        ],
+        "who_tags": [
+          "은퇴 대비 4050",
+          "현금흐름 추구",
+          "SCHD 관심자",
+          "50대 여성"
+        ],
+        "who_evidence": "남 61% · 50대 42% · 30-44세 활발",
+        "when_tags": [
+          "금리 인하 기대",
+          "연말 배당 시즌",
+          "은퇴 임박"
+        ],
+        "when_evidence": "50대 관심 +18% 증가",
+        "journey_tags": [
+          "월배당 ETF",
+          "추천",
+          "단점",
+          "국내·미국",
+          "SCHD"
+        ],
+        "journey_evidence": "입문 → 추천 → 단점(회의) → 국가 비교",
+        "pain_tags": [
+          "배당률 함정",
+          "세금 걱정",
+          "종목 선택 어려움"
+        ],
+        "pain_evidence": "'월배당 ETF 단점' 월 1만 검색 · 신중한 접근",
+        "usp_fit_tags": [
+          "마이브리프 배당 일정",
+          "프라임클럽 포트폴리오"
+        ],
+        "usp_fit_evidence": "배당 관리 + 전문가 추천 필수",
+        "hook_tags": [
+          "배당률 말고 이것",
+          "5년 실제 수익",
+          "연금계좌 최적화"
+        ],
+        "hook_evidence": "배당률 단순 비교 함정 경계 콘텐츠",
+        "pathfinder_narrative": "월배당 관심 → 추천 종목 → 단점 검토 → 국가별 비교",
+        "cluster_insight": "월배당 ETF = 은퇴 대비 현금흐름 설계 핵심 도구",
+        "related_keywords": [
+          {
+            "keyword": "월배당 ETF",
+            "volume": 40000
+          },
+          {
+            "keyword": "SCHD",
+            "volume": 32000
+          },
+          {
+            "keyword": "월배당 ETF 추천",
+            "volume": 24000
+          },
+          {
+            "keyword": "미국 월배당 ETF",
+            "volume": 18000
+          },
+          {
+            "keyword": "월배당 ETF 단점",
+            "volume": 10000
+          },
+          {
+            "keyword": "국내 월배당 ETF",
+            "volume": 14000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "배당 일정·지급 알림"
+        },
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 배당주 포트폴리오"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "ISA",
+          "IRP"
+        ],
+        "note": "월배당 ETF는 연금계좌 운용 최적"
+      },
+      "hook_hypothesis": "월배당 ETF 고를 때 놓치는 3가지 (배당률만 보면 안 되는 이유)",
+      "ai_ideas_seed": {
+        "target": "4050 배당 수익 관심자",
+        "tone": "분석형 · 비교 표 활용",
+        "format_hint": "20초 숏폼 · 월배당 vs 분기배당 비교"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A03",
+      "category_id": "A",
+      "subgroup": "A1",
+      "title": "서학개미 — 환율 중심 진입",
+      "subtitle": "원달러 환율이 미국주식 투자에 미치는 영향",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "서학개미",
+          "환율",
+          "달러 환율",
+          "원달러 환율 전망",
+          "엔화"
+        ],
+        "cluster_path": [
+          "서학개미",
+          "환율",
+          "달러 환율",
+          "원달러 환율 전망",
+          "2026 환율 전망"
+        ],
+        "metrics": {
+          "annual_volume": 490000,
+          "trend_percent": null,
+          "trend_label": "환율 변동성 지속",
+          "competition": "HIGH",
+          "related_volume": {
+            "미국주식 추천": 260000
+          }
+        },
+        "demography": {
+          "gender": "남 65% · 여 35%",
+          "age": "50대↑ 34% · 40대 29%"
+        },
+        "why_now": "2026 환율 변동성 지속 + 서학개미 대량 유입. RIA 계좌(O-ACC11/12) 연계 가능",
+        "review_level": "low",
+        "review_notes": "환율 예측 단정 금지",
+        "monthly_volume": [
+          28000,
+          32000,
+          35000,
+          38000,
+          42000,
+          45000,
+          48000,
+          52000,
+          56000,
+          48000,
+          42000,
+          38000,
+          49000,
+          46000
+        ],
+        "who_tags": [
+          "서학개미",
+          "50대↑ 남성",
+          "환율 민감자",
+          "미국주식 보유자"
+        ],
+        "who_evidence": "남 65% · 50대↑ 34% · 40대 29%",
+        "when_tags": [
+          "달러 1400원 돌파",
+          "환율 변동기",
+          "2026 환율 전망"
+        ],
+        "when_evidence": "환율 변동성 지속 · RIA 출시로 연계 관심 급증",
+        "journey_tags": [
+          "서학개미",
+          "환율",
+          "달러",
+          "엔화",
+          "2026 전망"
+        ],
+        "journey_evidence": "서학개미 → 환율(고민) → 달러/엔화 → 전망",
+        "pain_tags": [
+          "환차손 공포",
+          "손절 타이밍",
+          "환헤지 방법"
+        ],
+        "pain_evidence": "'1400원 돌파' 검색 급증 · 불안 최고조",
+        "usp_fit_tags": [
+          "마이브리프 환율 연동 알림",
+          "AI투자브리핑 거시 해설"
+        ],
+        "usp_fit_evidence": "환율 연동 종목 관리 + 거시 환경 분석 필수",
+        "hook_tags": [
+          "1400원 당일 행동",
+          "손절 아닌 대응",
+          "RIA로 이전"
+        ],
+        "hook_evidence": "RIA 출시로 '이전' 옵션 제시 가능",
+        "pathfinder_narrative": "서학개미 환율 걱정 → 전망 확인 → RIA 이전 검토",
+        "cluster_insight": "서학개미 = 환율 리스크 회피 수단 적극 탐색 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "서학개미",
+            "volume": 49000
+          },
+          {
+            "keyword": "달러 환율",
+            "volume": 380000
+          },
+          {
+            "keyword": "원달러 환율 전망",
+            "volume": 120000
+          },
+          {
+            "keyword": "미국주식 추천",
+            "volume": 26000
+          },
+          {
+            "keyword": "2026 환율 전망",
+            "volume": 42000
+          },
+          {
+            "keyword": "엔화 전망",
+            "volume": 32000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "미국 종목 환율 연동 알림"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "환율·거시 환경 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "환율 리스크 회피하려는 서학개미 → RIA 이전 유도 가능"
+      },
+      "hook_hypothesis": "달러 1,400원 넘었을 때 서학개미가 해야 할 1가지 (손절 아님)",
+      "ai_ideas_seed": {
+        "target": "서학개미 4050 남성",
+        "tone": "분석형 · 거시 해설",
+        "format_hint": "25초 숏폼 · 환율 차트 + 대응 시나리오"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A04",
+      "category_id": "A",
+      "subgroup": "A2",
+      "title": "반대매매·패닉 — 긴급 구조",
+      "subtitle": "2026.3 급락 여파, +2,951% 실시간 폭발",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": 2,
+      "analysis": {
+        "interests": [
+          "반대매매",
+          "반대매매 막는법",
+          "깡통계좌",
+          "마진콜",
+          "신용거래"
+        ],
+        "cluster_path": [
+          "반대매매",
+          "막는법",
+          "뜻",
+          "후기",
+          "주식 신용거래",
+          "마진콜"
+        ],
+        "metrics": {
+          "annual_volume": 170000,
+          "trend_percent": 2951,
+          "trend_label": "+2,951% 🔥🔥",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남 63% · 여 37%",
+          "age": "40-50대"
+        },
+        "why_now": "2026.3 급락 여파 실시간 폭발. 위기 대응 콘텐츠 수요 극대",
+        "review_level": "medium",
+        "review_notes": "손절 추천 금지 · 차분한 톤 · 전문가 상담 권유",
+        "monthly_volume": [
+          5600,
+          4800,
+          170000,
+          42000,
+          28000,
+          18000,
+          14000,
+          12000,
+          11000,
+          9800,
+          8500,
+          7200,
+          6800,
+          6100
+        ],
+        "who_tags": [
+          "신용거래 투자자",
+          "40-50대 남성",
+          "급락 피해자",
+          "마진콜 대상자"
+        ],
+        "who_evidence": "남 63% · 40-50대 주력 · 레버리지 투자자",
+        "when_tags": [
+          "2026.3 급락 직후",
+          "반대매매 통보 당일",
+          "현재 진행형"
+        ],
+        "when_evidence": "2026.3월 +2,951% 실시간 폭발 · 4월까지 고점 유지",
+        "journey_tags": [
+          "반대매매",
+          "막는법",
+          "뜻",
+          "후기",
+          "마진콜",
+          "깡통계좌"
+        ],
+        "journey_evidence": "'반대매매' → '막는법'(긴급) → '후기'(공감) 순차",
+        "pain_tags": [
+          "패닉",
+          "손절 고민",
+          "절망감",
+          "정보 부족",
+          "통보 당일"
+        ],
+        "pain_evidence": "'반대매매 막는법' 월 17만 검색 · 위기 대응 수요 폭증",
+        "usp_fit_tags": [
+          "마이브리프 팩트",
+          "AI투자브리핑 냉정",
+          "프라임클럽 위기"
+        ],
+        "usp_fit_evidence": "3개 서비스 협업형 — 팩트+분석+전문가 삼각편대 필요",
+        "hook_tags": [
+          "당일 체크리스트",
+          "패닉 전 3가지",
+          "손절 타이밍",
+          "전문가 멘트"
+        ],
+        "hook_evidence": "'패닉 매도 전에' 콘텐츠 수요 최대치",
+        "pathfinder_narrative": "급락 충격 → 반대매매 통보 → 막는법 검색 → 전문가 상담 니즈",
+        "cluster_insight": "반대매매 = 긴급 구조 콘텐츠. '당일 해야 할 것' 형식이 핵심",
+        "related_keywords": [
+          {
+            "keyword": "반대매매",
+            "volume": 170000
+          },
+          {
+            "keyword": "반대매매 막는법",
+            "volume": 42000
+          },
+          {
+            "keyword": "마진콜",
+            "volume": 28000
+          },
+          {
+            "keyword": "깡통계좌",
+            "volume": 18000
+          },
+          {
+            "keyword": "반대매매 후기",
+            "volume": 14000
+          },
+          {
+            "keyword": "주식 신용거래",
+            "volume": 12000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "팩트 기반 보유 종목 현황"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "냉정한 시장 분석"
+        },
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "위기 상황 전문가 상담"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "직접 계좌 개설보다 신뢰 회복 우선"
+      },
+      "hook_hypothesis": "반대매매 통보받은 당일 해야 할 3가지 (패닉 매도 전에)",
+      "ai_ideas_seed": {
+        "target": "급락 후 심리 불안 투자자",
+        "tone": "차분형 · 구조적 가이드 · 공감",
+        "format_hint": "30초 숏폼 · 단계별 가이드 + 전문가 멘트"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A05",
+      "category_id": "A",
+      "subgroup": "A2",
+      "title": "심리불안 — 존버·물타기·손절 타이밍",
+      "subtitle": "의외의 인구통계: 여성 58-61%",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "존버",
+          "물타기",
+          "손절 타이밍",
+          "평균단가 계산",
+          "언제 팔아야"
+        ],
+        "cluster_path": [
+          "물타기",
+          "평균단가 계산",
+          "존버",
+          "언제 팔아야"
+        ],
+        "metrics": {
+          "annual_volume": 153000,
+          "trend_percent": null,
+          "trend_label": "3월 패닉 여파 지속",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 58-61% (의외)",
+          "age": "30-44세"
+        },
+        "why_now": "3월 패닉 여파 지속 + 여성 투자자 급증 세그먼트 반영",
+        "review_level": "medium",
+        "review_notes": "손절 추천 금지 · 평균단가 계산법은 교육적 톤",
+        "monthly_volume": [
+          8500,
+          9800,
+          42000,
+          18000,
+          15000,
+          13000,
+          12000,
+          11000,
+          10500,
+          11800,
+          13500,
+          14800,
+          15300,
+          13200
+        ],
+        "who_tags": [
+          "심리 불안 투자자",
+          "30-44세 여성",
+          "물타기 고민",
+          "손절 갈등"
+        ],
+        "who_evidence": "여 58-61% (의외) · 30-44세 주력",
+        "when_tags": [
+          "3월 패닉 직후",
+          "평가손실 확대 시점",
+          "존버 한계"
+        ],
+        "when_evidence": "2026.3월 +395% 폭발 이후 유지",
+        "journey_tags": [
+          "존버",
+          "물타기",
+          "평균단가",
+          "손절 타이밍"
+        ],
+        "journey_evidence": "존버(초기) → 물타기(고민) → 평균단가(계산) → 손절(결정)",
+        "pain_tags": [
+          "손실 확정 공포",
+          "회복 기대",
+          "판단 마비"
+        ],
+        "pain_evidence": "평균단가 계산법 검색 월 3만+ · 실용 도구 수요",
+        "usp_fit_tags": [
+          "마이브리프 팩트",
+          "AI투자브리핑 냉정 분석"
+        ],
+        "usp_fit_evidence": "감정 아닌 숫자 기반 판단 도구 필요",
+        "hook_tags": [
+          "평균단가 5초 계산",
+          "물타기 전 체크",
+          "데이터 기반 판단"
+        ],
+        "hook_evidence": "계산 도구형 콘텐츠 높은 반응",
+        "pathfinder_narrative": "손실 인식 → 존버 결심 → 물타기 유혹 → 평균단가 계산 → 판단",
+        "cluster_insight": "심리 불안 = 숫자로 감정 극복하려는 여성 세그먼트 핵심",
+        "related_keywords": [
+          {
+            "keyword": "물타기",
+            "volume": 42000
+          },
+          {
+            "keyword": "존버",
+            "volume": 32000
+          },
+          {
+            "keyword": "평균단가 계산",
+            "volume": 18000
+          },
+          {
+            "keyword": "손절 타이밍",
+            "volume": 15000
+          },
+          {
+            "keyword": "언제 팔아야",
+            "volume": 12000
+          },
+          {
+            "keyword": "주식 심리",
+            "volume": 9800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "평균단가·보유 현황 팩트"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "냉정한 판단 신호 제공"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "유지·신뢰 강화 중심"
+      },
+      "hook_hypothesis": "내 평균단가 계산하는 법 (물타기 전 필수 체크)",
+      "ai_ideas_seed": {
+        "target": "3040 여성 투자자 · 심리 불안",
+        "tone": "공감형 · 계산기 활용 · 실용",
+        "format_hint": "20초 숏폼 · 스마트폰 계산기 시뮬레이션"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A06",
+      "category_id": "A",
+      "subgroup": "A2",
+      "title": "FOMO·공포탐욕 지수 학습자",
+      "subtitle": "VIX·공포탐욕 지수 실시간 확인자",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "FOMO",
+          "VIX",
+          "공포탐욕 지수",
+          "실시간 지수"
+        ],
+        "cluster_path": [
+          "FOMO",
+          "지수",
+          "VIX",
+          "공포탐욕 지수",
+          "실시간 지수"
+        ],
+        "metrics": {
+          "annual_volume": 300000,
+          "trend_percent": 54,
+          "trend_label": "+54% 🔥",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 56% · 여 44%",
+          "age": "30-44세"
+        },
+        "why_now": "+54% 성장 · 시장 불안정성으로 지표 학습 수요 증가",
+        "review_level": "low",
+        "review_notes": "교육적 · 과거 데이터 기반",
+        "monthly_volume": [
+          12000,
+          15000,
+          18000,
+          20000,
+          22000,
+          24000,
+          26000,
+          28000,
+          29000,
+          29500,
+          30000,
+          30500,
+          30000,
+          28000
+        ],
+        "who_tags": [
+          "지표 학습자",
+          "30-44세",
+          "남 56%",
+          "기술적 분석 관심"
+        ],
+        "who_evidence": "남 56% · 30-44세 주력 · 중급 투자자",
+        "when_tags": [
+          "시장 불안 시기",
+          "변동성 확대",
+          "지표 활용 트렌드"
+        ],
+        "when_evidence": "+54% 성장 · 지표 학습 수요 지속",
+        "journey_tags": [
+          "FOMO",
+          "VIX",
+          "공포탐욕 지수",
+          "실시간 지수"
+        ],
+        "journey_evidence": "FOMO(감정) → VIX(지표) → 공포탐욕 지수(종합)",
+        "pain_tags": [
+          "감정 휘둘림",
+          "지표 해석 어려움",
+          "활용법 모름"
+        ],
+        "pain_evidence": "지표는 알지만 '어떻게 활용?' 교육 콘텐츠 부족",
+        "usp_fit_tags": [
+          "마이브리프 지표 알림",
+          "AI투자브리핑 해석"
+        ],
+        "usp_fit_evidence": "실시간 지표 + AI 해석 조합 효과적",
+        "hook_tags": [
+          "VIX 30 실제 데이터",
+          "10년 백테스트",
+          "지표 활용법"
+        ],
+        "hook_evidence": "과거 데이터 기반 검증 콘텐츠 선호",
+        "pathfinder_narrative": "FOMO 인식 → VIX 학습 → 공포탐욕 지수 → 실전 활용",
+        "cluster_insight": "FOMO·VIX = 감정을 지표로 극복하려는 중급자 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "FOMO",
+            "volume": 30000
+          },
+          {
+            "keyword": "VIX",
+            "volume": 28000
+          },
+          {
+            "keyword": "공포탐욕 지수",
+            "volume": 18000
+          },
+          {
+            "keyword": "VIX 지수",
+            "volume": 12000
+          },
+          {
+            "keyword": "실시간 지수",
+            "volume": 8500
+          },
+          {
+            "keyword": "시장 심리 지표",
+            "volume": 6200
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "VIX·지수 실시간 팩트"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "AI의 냉정한 해석"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "정보 제공 중심"
+      },
+      "hook_hypothesis": "VIX 30 넘으면 사야 한다? 실제 10년 데이터 확인",
+      "ai_ideas_seed": {
+        "target": "지표 공부하는 3040",
+        "tone": "교육형 · 데이터 기반",
+        "format_hint": "25초 숏폼 · 10년 차트 시각화"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A07",
+      "category_id": "A",
+      "subgroup": "A3",
+      "title": "ETF 궁금증 — '입문' 클러스터",
+      "subtitle": "ETF가 뭐야 · vs 주식 · 사는법",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "ETF 뜻",
+          "ETF vs 주식",
+          "ETF 장단점",
+          "ETF 사는법",
+          "ETF 쉽게 설명"
+        ],
+        "cluster_path": [
+          "ETF가 뭐야",
+          "vs 주식 차이",
+          "장단점",
+          "사는법"
+        ],
+        "metrics": {
+          "annual_volume": 360000,
+          "trend_percent": null,
+          "trend_label": "국장 활황 + ETF 입문 러시",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "여 55% · 남 45%",
+          "age": "25-44세"
+        },
+        "why_now": "국장 활황으로 ETF 입문자 대량 진입",
+        "review_level": "low",
+        "review_notes": "교육적 · 장단점 균형 있게",
+        "monthly_volume": [
+          18000,
+          22000,
+          26000,
+          28000,
+          30000,
+          32000,
+          34000,
+          36000,
+          38000,
+          36000,
+          34000,
+          32000,
+          36000,
+          30000
+        ],
+        "who_tags": [
+          "ETF 입문자",
+          "25-44세",
+          "여 55%",
+          "투자 시작 단계"
+        ],
+        "who_evidence": "여 55% · 25-44세 주력 · 국장 활황 신규 유입",
+        "when_tags": [
+          "국장 활황기",
+          "연금저축 시즌",
+          "ETF 대중화"
+        ],
+        "when_evidence": "국장 활황으로 ETF 입문자 대량 진입",
+        "journey_tags": [
+          "ETF가 뭐야",
+          "vs 주식",
+          "장단점",
+          "사는법"
+        ],
+        "journey_evidence": "뜻(개념) → 비교(이해) → 장단점(검증) → 실전(사는법)",
+        "pain_tags": [
+          "기초 용어 모름",
+          "주식과 차이 혼동",
+          "선택 어려움"
+        ],
+        "pain_evidence": "입문 키워드 월 3만+ · 기초 해설 수요 최대",
+        "usp_fit_tags": [
+          "오늘의 콕 3분 입문",
+          "AI투자브리핑 구조 해설"
+        ],
+        "usp_fit_evidence": "입문자 친화 + 구조 이해 조합 최적",
+        "hook_tags": [
+          "3가지만 알면 됨",
+          "주식과 차이",
+          "첫 ETF 고르기"
+        ],
+        "hook_evidence": "친근한 비유 + 단순 규칙 선호",
+        "pathfinder_narrative": "ETF 궁금증 → 주식과 차이 → 장단점 이해 → 첫 매수",
+        "cluster_insight": "ETF 입문 = 연금저축 이용으로 자연 연결되는 게이트웨이",
+        "related_keywords": [
+          {
+            "keyword": "ETF 뜻",
+            "volume": 12000
+          },
+          {
+            "keyword": "ETF vs 주식",
+            "volume": 8500
+          },
+          {
+            "keyword": "ETF 장단점",
+            "volume": 6800
+          },
+          {
+            "keyword": "ETF 사는법",
+            "volume": 9200
+          },
+          {
+            "keyword": "ETF 쉽게 설명",
+            "volume": 4200
+          },
+          {
+            "keyword": "ETF 초보",
+            "volume": 5800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "입문 가이드 최적"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "ETF 구조 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "ISA"
+        ],
+        "note": "ETF 입문자 → 연금저축 ETF 운용으로 자연 유입"
+      },
+      "hook_hypothesis": "ETF가 주식이랑 뭐가 다르냐고 물어보면 이 3가지만 알려줘도 충분",
+      "ai_ideas_seed": {
+        "target": "투자 입문자 · 2040",
+        "tone": "친근형 · 쉬운 설명",
+        "format_hint": "15초 숏폼 · 비유 중심"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-A08",
+      "category_id": "A",
+      "subgroup": "A3",
+      "title": "ETF 심화 — 장기투자·분산·운용원리",
+      "subtitle": "'분산투자 하지마라' 논쟁 · 찰리 멍거",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "ETF 장기투자 단점",
+          "분산투자 하지마라",
+          "LP 차익거래",
+          "상관계수",
+          "미국 ETF"
+        ],
+        "cluster_path": [
+          "ETF 장기투자",
+          "후기",
+          "단점",
+          "미국 ETF",
+          "분산투자",
+          "포트폴리오",
+          "상관계수"
+        ],
+        "metrics": {
+          "annual_volume": 180000,
+          "trend_percent": null,
+          "trend_label": "투자 고도화 수요",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남 54% · 여 46%",
+          "age": "30-50대"
+        },
+        "why_now": "투자 고도화 수요 증가 + 찰리 멍거 어록 재조명",
+        "review_level": "low",
+        "review_notes": "특정 투자 방법 강요 금지",
+        "monthly_volume": [
+          6500,
+          8000,
+          10000,
+          12000,
+          14000,
+          15000,
+          16000,
+          17000,
+          18000,
+          18500,
+          19000,
+          19500,
+          18000,
+          16500
+        ],
+        "who_tags": [
+          "ETF 경험자",
+          "30-50대",
+          "남 54%",
+          "심화 학습자"
+        ],
+        "who_evidence": "남 54% · 30-50대 · 투자 고도화 단계",
+        "when_tags": [
+          "투자 성숙기",
+          "장기 계획 수립",
+          "찰리 멍거 재조명"
+        ],
+        "when_evidence": "투자 고도화 수요 지속 증가",
+        "journey_tags": [
+          "ETF 장기투자",
+          "단점",
+          "미국 ETF",
+          "분산투자",
+          "상관계수"
+        ],
+        "journey_evidence": "장기(계획) → 단점(비판적) → 미국(고도화) → 분산(철학)",
+        "pain_tags": [
+          "판에 박힌 조언",
+          "심화 콘텐츠 부족",
+          "실제 백테스트 부재"
+        ],
+        "pain_evidence": "'분산투자 하지마라' 반전 콘텐츠 수요 급증",
+        "usp_fit_tags": [
+          "AI투자브리핑 심화 분석",
+          "프라임클럽 전문가 뷰"
+        ],
+        "usp_fit_evidence": "심화 분석 + 전문가 관점 조합 필수",
+        "hook_tags": [
+          "멍거 진의",
+          "분산투자 함정",
+          "10년 백테스트"
+        ],
+        "hook_evidence": "반전·권위 인용 콘텐츠 선호",
+        "pathfinder_narrative": "장기투자 철학 → 단점 검토 → 고도화 → 전문가 의견",
+        "cluster_insight": "ETF 심화 = 투자 철학 형성 단계의 중급·상급 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "ETF 장기투자",
+            "volume": 12000
+          },
+          {
+            "keyword": "분산투자 하지마라",
+            "volume": 4500
+          },
+          {
+            "keyword": "미국 ETF",
+            "volume": 28000
+          },
+          {
+            "keyword": "상관계수",
+            "volume": 3200
+          },
+          {
+            "keyword": "포트폴리오 이론",
+            "volume": 2800
+          },
+          {
+            "keyword": "ETF 단점",
+            "volume": 6500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "심화 분석 해설"
+        },
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 관점 심화"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "ETF 심화자 → ISA 분산 운용 최적"
+      },
+      "hook_hypothesis": "'분산투자 하지마라' 이 말 진짜일까? 찰리 멍거가 했던 말의 정확한 의미",
+      "ai_ideas_seed": {
+        "target": "ETF 경험자 · 3050",
+        "tone": "심화형 · 반전 포인트",
+        "format_hint": "30초 숏폼 · 명언 + 데이터 해석"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A09",
+      "category_id": "A",
+      "subgroup": "A3",
+      "title": "테마 ETF — 반도체·원전·방산·AI",
+      "subtitle": "KODEX·TIGER 테마별 비교",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "반도체 ETF",
+          "원자력 ETF",
+          "방산 ETF",
+          "AI ETF",
+          "로봇 ETF"
+        ],
+        "cluster_path": [
+          "반도체 ETF",
+          "KODEX 반도체",
+          "TIGER 반도체",
+          "국내·미국",
+          "AI 반도체"
+        ],
+        "metrics": {
+          "annual_volume": 500000,
+          "trend_percent": null,
+          "trend_label": "AI·국방·에너지 메가트렌드",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 58% · 여 42%",
+          "age": "30-50대"
+        },
+        "why_now": "AI·국방·에너지 메가트렌드로 테마 ETF 관심 급증",
+        "review_level": "low",
+        "review_notes": "테마주 투기 경계 · 장기 관점 제공",
+        "monthly_volume": [
+          25000,
+          30000,
+          35000,
+          38000,
+          42000,
+          45000,
+          48000,
+          50000,
+          52000,
+          50000,
+          48000,
+          45000,
+          50000,
+          42000
+        ],
+        "who_tags": [
+          "테마 투자자",
+          "30-50대",
+          "남 58%",
+          "트렌드 민감자"
+        ],
+        "who_evidence": "남 58% · 30-50대 · 테마 다양 관심",
+        "when_tags": [
+          "AI 인프라 붐",
+          "방산 수출기",
+          "에너지 전환"
+        ],
+        "when_evidence": "메가트렌드 확산으로 테마 ETF 관심 급증",
+        "journey_tags": [
+          "반도체 ETF",
+          "KODEX",
+          "TIGER",
+          "AI·방산·원전"
+        ],
+        "journey_evidence": "테마 관심 → 상품명 → 구성종목 → 비교",
+        "pain_tags": [
+          "어느 ETF가 진짜?",
+          "구성 종목 다름",
+          "테마주 함정"
+        ],
+        "pain_evidence": "같은 테마 다른 구성 ETF 비교 수요",
+        "usp_fit_tags": [
+          "AI투자브리핑 테마 해설",
+          "마이브리프 테마 ETF 알림"
+        ],
+        "usp_fit_evidence": "테마 해설 + 보유 종목 관리 조합",
+        "hook_tags": [
+          "6종 비교",
+          "진짜 AI 투자",
+          "구성 종목 차이"
+        ],
+        "hook_evidence": "동일 테마 내 차별화 콘텐츠 수요",
+        "pathfinder_narrative": "테마 관심 → 여러 ETF 발견 → 비교 → 최종 선택",
+        "cluster_insight": "테마 ETF = AI·국방·에너지 메가트렌드의 실행 도구",
+        "related_keywords": [
+          {
+            "keyword": "반도체 ETF",
+            "volume": 38000
+          },
+          {
+            "keyword": "AI ETF",
+            "volume": 28000
+          },
+          {
+            "keyword": "방산 ETF",
+            "volume": 18000
+          },
+          {
+            "keyword": "원전 ETF",
+            "volume": 22000
+          },
+          {
+            "keyword": "KODEX 반도체",
+            "volume": 12000
+          },
+          {
+            "keyword": "TIGER AI",
+            "volume": 8500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "테마 해설 · 구성종목 분석"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "테마 ETF 보유 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "테마 ETF 분산 보유에 ISA 비과세 유리"
+      },
+      "hook_hypothesis": "반도체 ETF 6종 비교, 각 ETF가 담고 있는 기업이 왜 다를까",
+      "ai_ideas_seed": {
+        "target": "테마주 관심 3050",
+        "tone": "비교형 · 구성종목 시각화",
+        "format_hint": "25초 숏폼 · 비교 표 + 핵심 차이"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-A10",
+      "category_id": "A",
+      "subgroup": "A3",
+      "title": "주식 세금 · 양도세 · 배당세",
+      "subtitle": "2026 바뀐 세법",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "주식 세금",
+          "양도세",
+          "배당소득세",
+          "분리과세",
+          "금융소득종합과세"
+        ],
+        "cluster_path": [
+          "주식 세금",
+          "양도세",
+          "배당소득세",
+          "분리과세",
+          "금융소득종합과세"
+        ],
+        "metrics": {
+          "annual_volume": 240000,
+          "trend_percent": null,
+          "trend_label": "연말 피크 · 2026 세법 개정",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남 65% · 여 35%",
+          "age": "30-40대"
+        },
+        "why_now": "2026 세법 개정 + 연말정산 시즌 직전 교육 수요",
+        "review_level": "medium",
+        "review_notes": "절세 약속 금지 · 개인 상황 고지",
+        "monthly_volume": [
+          12000,
+          15000,
+          18000,
+          20000,
+          22000,
+          18000,
+          16000,
+          14000,
+          15000,
+          18000,
+          22000,
+          28000,
+          24000,
+          20000
+        ],
+        "who_tags": [
+          "세금 민감자",
+          "30-40대",
+          "남 65%",
+          "고소득 투자자"
+        ],
+        "who_evidence": "남 65% · 30-40대 주력 · 고소득층 집중",
+        "when_tags": [
+          "2026 세법 개정",
+          "연말 정산 직전",
+          "양도세 신고기"
+        ],
+        "when_evidence": "매년 12-2월 피크 · 2026 개정 이슈",
+        "journey_tags": [
+          "주식 세금",
+          "양도세",
+          "배당소득세",
+          "금융소득종합과세"
+        ],
+        "journey_evidence": "일반 → 양도(큰 세금) → 배당 → 종합과세(고소득)",
+        "pain_tags": [
+          "세법 복잡",
+          "절세 방법 몰라",
+          "개정 내용 따라가기"
+        ],
+        "pain_evidence": "세금 교육 콘텐츠 만성 수요",
+        "usp_fit_tags": [
+          "오늘의 콕 절세 팁",
+          "프라임클럽 세무 조언"
+        ],
+        "usp_fit_evidence": "실용 팁 + 전문가 조언 병행",
+        "hook_tags": [
+          "5분 완성",
+          "2026 바뀐 세법",
+          "절세 3가지"
+        ],
+        "hook_evidence": "시간 절약 + 변화 반영 선호",
+        "pathfinder_narrative": "세금 걱정 → 양도세(핵심) → 배당세 → 절세 방법",
+        "cluster_insight": "주식 세금 = ISA·연금저축 등 절세 계좌로 연결되는 게이트",
+        "related_keywords": [
+          {
+            "keyword": "주식 세금",
+            "volume": 28000
+          },
+          {
+            "keyword": "양도세",
+            "volume": 85000
+          },
+          {
+            "keyword": "배당소득세",
+            "volume": 42000
+          },
+          {
+            "keyword": "금융소득종합과세",
+            "volume": 32000
+          },
+          {
+            "keyword": "2026 세법",
+            "volume": 18000
+          },
+          {
+            "keyword": "주식 절세",
+            "volume": 14000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "세금 절세 팁"
+        },
+        {
+          "id": "prime-club",
+          "role": "secondary",
+          "reason": "전문가 세무 조언"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축",
+          "IRP"
+        ],
+        "note": "세금 최적화 → 절세 계좌 유도"
+      },
+      "hook_hypothesis": "주식 세금 5분 정리 (+2026 바뀐 세법)",
+      "ai_ideas_seed": {
+        "target": "세금 신경 쓰는 3040",
+        "tone": "정리형 · 시간 절약",
+        "format_hint": "30초 숏폼 · 표 중심"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-A11",
+      "category_id": "A",
+      "subgroup": "A3",
+      "title": "파이어족 — 경제적 자유 자산 목표",
+      "subtitle": "10억·20억·배당 파이어",
+      "status": "tentative",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "파이어족",
+          "파이어 목표금액",
+          "배당 파이어",
+          "낙원 계산기",
+          "10억 20억"
+        ],
+        "cluster_path": [
+          "파이어족",
+          "목표금액",
+          "계산기",
+          "낙원 계산기",
+          "10억·20억·30억·50억",
+          "실패·개소리"
+        ],
+        "metrics": {
+          "annual_volume": 430000,
+          "trend_percent": 27,
+          "trend_label": "+27% · 배당 파이어 관심 증가",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남녀 50:50",
+          "age": "25-44세"
+        },
+        "why_now": "+27% 성장 + 파이어 회의감 세그먼트 부상",
+        "review_level": "medium",
+        "review_notes": "'경제적 자유' 단정 금지 · 회의감 톤 주의",
+        "monthly_volume": [
+          28000,
+          32000,
+          35000,
+          38000,
+          42000,
+          45000,
+          43000,
+          41000,
+          42000,
+          43000,
+          44000,
+          45000,
+          43000,
+          40000
+        ],
+        "who_tags": [
+          "파이어족 지망자",
+          "25-44세",
+          "남녀 50:50",
+          "고연봉"
+        ],
+        "who_evidence": "25-44세 · 남녀 균형 · 자산 목표 설정자",
+        "when_tags": [
+          "파이어 재유행",
+          "배당 파이어",
+          "회의감 확산"
+        ],
+        "when_evidence": "+27% 성장 · 현실 검증 단계 진입",
+        "journey_tags": [
+          "파이어족",
+          "목표금액",
+          "계산기",
+          "낙원 계산기",
+          "10-50억"
+        ],
+        "journey_evidence": "파이어(꿈) → 목표금액(현실) → 계산기(검증) → 회의(재평가)",
+        "pain_tags": [
+          "금액 감이 없음",
+          "물가 반영 혼란",
+          "회의감"
+        ],
+        "pain_evidence": "'파이어 실패' '개소리' 검색 증가 · 회의감",
+        "usp_fit_tags": [
+          "마이브리프 자산 추적",
+          "AI투자브리핑 시뮬레이션"
+        ],
+        "usp_fit_evidence": "자산 관리 + 시뮬레이션 조합",
+        "hook_tags": [
+          "2026 환산 금액",
+          "진짜 10억",
+          "배당 파이어"
+        ],
+        "hook_evidence": "현실 기반 숫자 콘텐츠 선호",
+        "pathfinder_narrative": "파이어 꿈 → 목표 계산 → 현실 확인 → 수정된 목표",
+        "cluster_insight": "파이어족 = '경제적 자유 재정의' 세그먼트. 단순 계산기보다 철학",
+        "related_keywords": [
+          {
+            "keyword": "파이어족",
+            "volume": 43000
+          },
+          {
+            "keyword": "파이어 목표금액",
+            "volume": 18000
+          },
+          {
+            "keyword": "낙원 계산기",
+            "volume": 12000
+          },
+          {
+            "keyword": "배당 파이어",
+            "volume": 9800
+          },
+          {
+            "keyword": "10억 파이어",
+            "volume": 8500
+          },
+          {
+            "keyword": "파이어 실패",
+            "volume": 4200
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "자산 추적·루틴 관리"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "파이어 시뮬레이션"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "자산 관리 루틴 강화"
+      },
+      "hook_hypothesis": "파이어족 10억 진짜 될까? 2026년 환산 계산법",
+      "ai_ideas_seed": {
+        "target": "파이어 관심 2040",
+        "tone": "현실형 · 숫자 기반",
+        "format_hint": "25초 숏폼 · 계산 시뮬레이션"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    }
+  ]
+}

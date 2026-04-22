@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "id": "A",
+      "code": "🅐",
+      "name": "직접 투자자",
+      "name_en": "Direct Investors",
+      "subtitle": "이미 투자하는 사람의 일상·위기·전문 영역",
+      "color": "#1E40AF",
+      "color_light": "#1E40AF15",
+      "icon": "📈",
+      "order": 1,
+      "opportunity_count": 11,
+      "annual_search_volume": 4500000,
+      "description": "테크주·서학개미·반대매매·ETF·파이어족 등 현재 투자 중인 사람들의 즉각적 궁금증과 위기 대응",
+      "subgroups": [
+        { "code": "A1", "label": "현재 투자자 일상", "count": 3 },
+        { "code": "A2", "label": "위기·심리 대응", "count": 3 },
+        { "code": "A3", "label": "전문 투자 영역", "count": 5 }
+      ],
+      "representative_opportunities": ["O-A04", "O-A03", "O-A08"]
+    },
+    {
+      "id": "B",
+      "code": "🅑",
+      "name": "생애 전환점",
+      "name_en": "Life Transitions",
+      "subtitle": "인생의 순간이 투자로 밀어넣는 사람",
+      "color": "#F59E0B",
+      "color_light": "#F59E0B15",
+      "icon": "🔄",
+      "order": 2,
+      "opportunity_count": 14,
+      "annual_search_volume": 6800000,
+      "description": "퇴직·결혼·출산·세액공제·자녀 금융 등 생애 이벤트가 금융 행동으로 연결되는 순간",
+      "subgroups": [
+        { "code": "B1", "label": "은퇴·노후 궤적", "count": 5 },
+        { "code": "B2", "label": "세액공제·세금 시즌", "count": 3 },
+        { "code": "B3", "label": "자녀 금융 여정", "count": 3 },
+        { "code": "B4", "label": "거시 환경 변화", "count": 3 }
+      ],
+      "representative_opportunities": ["O-B01", "O-B10", "O-B12"]
+    },
+    {
+      "id": "C",
+      "code": "🅒",
+      "name": "라이프스타일 진입",
+      "name_en": "Lifestyle Entry",
+      "subtitle": "일상 경험이 투자로 번지는 사람",
+      "color": "#10B981",
+      "color_light": "#10B98115",
+      "icon": "🌟",
+      "order": 3,
+      "opportunity_count": 11,
+      "annual_search_volume": 2200000,
+      "description": "테슬라·Claude·애플·K-팝·위고비 등 일상에서 마주친 브랜드·제품이 투자 궁금증으로 번지는 피터 린치식 진입로",
+      "subgroups": [
+        { "code": "C1", "label": "일상경험 → 주식", "count": 8 },
+        { "code": "C2", "label": "학습·입문자", "count": 3 }
+      ],
+      "representative_opportunities": ["O-C02", "O-C01", "O-C06"]
+    },
+    {
+      "id": "D",
+      "code": "🅓",
+      "name": "계좌 개설",
+      "name_en": "Account Opening",
+      "subtitle": "5대 계좌(ISA·IRP·연금저축·RIA·IRA) 개설 KPI 직결",
+      "color": "#DC2626",
+      "color_light": "#DC262615",
+      "icon": "🏦",
+      "order": 4,
+      "opportunity_count": 13,
+      "annual_search_volume": 4900000,
+      "description": "KB증권의 가장 명확한 KPI — 계좌 개설. 2016 ISA 10년 만기 + 2025.12 RIA 출시로 2026년은 대이동의 해",
+      "subgroups": [
+        { "code": "ACC-ISA", "label": "ISA 축", "count": 4 },
+        { "code": "ACC-연금", "label": "연금저축 축", "count": 2 },
+        { "code": "ACC-IRP", "label": "IRP 축", "count": 2 },
+        { "code": "ACC-RIA", "label": "RIA 축 🔥", "count": 3 },
+        { "code": "ACC-IRA", "label": "IRA 축", "count": 2 }
+      ],
+      "representative_opportunities": ["O-ACC11", "O-ACC01", "O-ACC09"]
+    }
+  ]
+}

@@ -1,0 +1,2048 @@
+{
+  "_meta": {
+    "category_id": "B",
+    "count": 14
+  },
+  "opportunities": [
+    {
+      "id": "O-B01",
+      "category_id": "B",
+      "subgroup": "B1",
+      "title": "퇴직금 연금화",
+      "subtitle": "30대 이직 + 50대 정년 이중 수요",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": 3,
+      "analysis": {
+        "interests": [
+          "퇴직금 수령",
+          "IRP 연금화",
+          "퇴직소득세 계산기",
+          "퇴직금 이체"
+        ],
+        "cluster_path": [
+          "퇴직금",
+          "퇴직금 연금",
+          "수령",
+          "IRP 계좌 개설",
+          "퇴직소득세 계산기"
+        ],
+        "metrics": {
+          "annual_volume": 1250000,
+          "trend_percent": 120,
+          "trend_label": "+120% 🔥",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 52% · 여 48%",
+          "age": "30대 37% (이직) + 50대 (정년)"
+        },
+        "why_now": "+120% 폭발. 2026 정년 세대 대량 은퇴 + 30대 이직 빈도 증가",
+        "review_level": "low",
+        "review_notes": "세제 혜택 정확한 팩트 · 개인 상황 고지",
+        "monthly_volume": [
+          68000,
+          72000,
+          84000,
+          95000,
+          108000,
+          115000,
+          122000,
+          118000,
+          125000,
+          132000,
+          140000,
+          148000,
+          155000,
+          142000
+        ],
+        "who_tags": [
+          "퇴직 예정자",
+          "30대 이직자",
+          "50대 정년자",
+          "퇴직소득세 민감자"
+        ],
+        "who_evidence": "30대 37% (이직) + 50대 (정년) · 남 52% · 여 48%",
+        "when_tags": [
+          "퇴직금 수령 당일",
+          "이직 결정 시점",
+          "2026 정년 대이동"
+        ],
+        "when_evidence": "+120% 폭발 · 2026 베이비붐 세대 대량 은퇴",
+        "journey_tags": [
+          "퇴직금",
+          "연금",
+          "수령",
+          "IRP 개설",
+          "퇴직소득세 계산기"
+        ],
+        "journey_evidence": "'퇴직금' → '연금'(이체 고민) → '수령'(방법) 순서",
+        "pain_tags": [
+          "일시수령 vs 이체 혼란",
+          "세금 모름",
+          "어디 맡길지 고민"
+        ],
+        "pain_evidence": "'퇴직소득세 계산기' 월 12만 검색 · 세금 부담 공포",
+        "usp_fit_tags": [
+          "프라임클럽 전문가",
+          "오늘의 콕 가이드",
+          "장기 설계"
+        ],
+        "usp_fit_evidence": "전문가 상담 + 교육 콘텐츠 병행 효과적",
+        "hook_tags": [
+          "당일 체크 3가지",
+          "세금 비교 계산",
+          "IRP vs 일시수령"
+        ],
+        "hook_evidence": "'퇴직금 받는 순간' 구체적 행동 가이드 수요 최고",
+        "pathfinder_narrative": "퇴직·이직 임박 → 퇴직금 처리 고민 → IRP 이체 vs 일시수령 결정",
+        "cluster_insight": "퇴직금 = '세금 최소화 + 노후 대비' 양대 목표. IRP가 답",
+        "related_keywords": [
+          {
+            "keyword": "퇴직금 연금화",
+            "volume": 125000
+          },
+          {
+            "keyword": "IRP 계좌 개설",
+            "volume": 94600
+          },
+          {
+            "keyword": "퇴직소득세 계산기",
+            "volume": 120000
+          },
+          {
+            "keyword": "퇴직금 수령",
+            "volume": 68000
+          },
+          {
+            "keyword": "개인형 IRP",
+            "volume": 42000
+          },
+          {
+            "keyword": "퇴직금 이체",
+            "volume": 28000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 연금화 조언"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "연금화 가이드"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "퇴직금 → IRP 직접 연결 KPI"
+      },
+      "hook_hypothesis": "퇴직금 받는 순간 체크해야 할 3가지 (+IRP 이체하면 세금 얼마 아끼나)",
+      "ai_ideas_seed": {
+        "target": "30대 이직자 + 50대 은퇴자",
+        "tone": "신뢰형 · 단계별 가이드",
+        "format_hint": "30초 숏폼 · 시나리오 + 세금 계산"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B02",
+      "category_id": "B",
+      "subgroup": "B1",
+      "title": "30·40대 노후 준비",
+      "subtitle": "선제적 고민 세대",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "30대 노후 준비",
+          "40대 노후 준비",
+          "노후 대비 투자",
+          "연저펀 30년"
+        ],
+        "cluster_path": [
+          "30대 노후 준비",
+          "30대 재테크",
+          "30대 개인연금",
+          "연저펀 30년",
+          "노후 대비 투자"
+        ],
+        "metrics": {
+          "annual_volume": 240000,
+          "trend_percent": null,
+          "trend_label": "조기 고민 세대 확산",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "여 55% · 남 45%",
+          "age": "30-49세"
+        },
+        "why_now": "30-40대 조기 은퇴 고민 시작 트렌드",
+        "review_level": "low",
+        "review_notes": "장기 복리 설명 · 확정 수익 금지",
+        "monthly_volume": [
+          15000,
+          18000,
+          20000,
+          22000,
+          24000,
+          25000,
+          24000,
+          23000,
+          22000,
+          23000,
+          24000,
+          25000,
+          24000,
+          22000
+        ],
+        "who_tags": [
+          "30-40대 조기 고민자",
+          "여 55%",
+          "직장인",
+          "장기 계획"
+        ],
+        "who_evidence": "여 55% · 30-49세 주력",
+        "when_tags": [
+          "노후 고민 시작",
+          "자녀 독립 준비",
+          "연금저축 시즌"
+        ],
+        "when_evidence": "30-40대 조기 은퇴 고민 트렌드",
+        "journey_tags": [
+          "30대 노후",
+          "40대 재테크",
+          "연저펀 30년",
+          "장기 복리"
+        ],
+        "journey_evidence": "30대(선제) → 40대(본격) → 장기 운용 → 복리",
+        "pain_tags": [
+          "얼마 필요한지 모름",
+          "시작 시점 고민",
+          "상품 혼란"
+        ],
+        "pain_evidence": "장기 계획 도구 부족",
+        "usp_fit_tags": [
+          "프라임클럽 장기 설계",
+          "AI투자브리핑 시뮬레이션"
+        ],
+        "usp_fit_evidence": "전문가 설계 + 시뮬레이션 필수",
+        "hook_tags": [
+          "10년 시작 차이",
+          "30대 1만원 vs 40대",
+          "복리 마법"
+        ],
+        "hook_evidence": "시간 가치 시각화 콘텐츠",
+        "pathfinder_narrative": "조기 고민 → 장기 계획 → 상품 선택 → 실행",
+        "cluster_insight": "30-40대 노후 = 복리 시간 가치 인식 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "30대 노후 준비",
+            "volume": 12000
+          },
+          {
+            "keyword": "40대 노후 준비",
+            "volume": 15000
+          },
+          {
+            "keyword": "연저펀 30년",
+            "volume": 4200
+          },
+          {
+            "keyword": "노후 대비 투자",
+            "volume": 18000
+          },
+          {
+            "keyword": "30대 재테크",
+            "volume": 22000
+          },
+          {
+            "keyword": "개인연금 30대",
+            "volume": 8500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "장기 설계 전문가"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "시뮬레이션 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "IRP",
+          "ISA"
+        ],
+        "note": "장기 세액공제 삼각편대"
+      },
+      "hook_hypothesis": "30대에 시작하면 40대 노후 준비가 얼마나 쉬워질까 (진짜 계산)",
+      "ai_ideas_seed": {
+        "target": "3040 조기 고민자",
+        "tone": "설득형 · 복리 효과",
+        "format_hint": "25초 숏폼 · 10년 시뮬레이션"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B03",
+      "category_id": "B",
+      "subgroup": "B1",
+      "title": "부모 노후 걱정하는 3040 자녀",
+      "subtitle": "결혼 세대의 현실적 고민",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "노후준비 안된 부모",
+          "부모 노후 결혼",
+          "흙수저 부모 노후"
+        ],
+        "cluster_path": [
+          "노후준비 안된 부모",
+          "결혼",
+          "부모 노후 결혼 디시",
+          "흙수저 부모 노후"
+        ],
+        "metrics": {
+          "annual_volume": 120000,
+          "trend_percent": null,
+          "trend_label": "결혼 세대 현실 고민",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 70% · 남 30%",
+          "age": "25-39세 (결혼 앞둔 세대)"
+        },
+        "why_now": "결혼 연령 상승 + 부모 노후 책임 세대 확산",
+        "review_level": "medium",
+        "review_notes": "감정적 주제 · 공감 톤 · 부담 가중 금지",
+        "monthly_volume": [
+          8000,
+          9500,
+          11000,
+          12000,
+          10500,
+          9800,
+          10000,
+          10500,
+          11000,
+          10800,
+          11500,
+          12500,
+          12000,
+          10500
+        ],
+        "who_tags": [
+          "결혼 앞둔 2530",
+          "여 70%",
+          "부모 부양 세대",
+          "가족 재무"
+        ],
+        "who_evidence": "여 70% · 25-39세 (결혼 앞둔 세대)",
+        "when_tags": [
+          "결혼 준비기",
+          "상견례 후",
+          "부모 통장 확인"
+        ],
+        "when_evidence": "결혼 연령 상승 + 부모 노후 책임 확산",
+        "journey_tags": [
+          "노후준비 안된 부모",
+          "결혼",
+          "부모 노후 결혼 디시"
+        ],
+        "journey_evidence": "부모 상황 확인 → 결혼 부담 → 커뮤니티 공감",
+        "pain_tags": [
+          "부양 부담",
+          "결혼 비용 충돌",
+          "미안함"
+        ],
+        "pain_evidence": "감정적 주제 · 공감 콘텐츠 수요",
+        "usp_fit_tags": [
+          "프라임클럽 가족 재무 설계",
+          "오늘의 콕 용돈 가이드"
+        ],
+        "usp_fit_evidence": "가족 재무 상담 + 실용 팁 병행",
+        "hook_tags": [
+          "결혼 앞두고 발견한",
+          "부모 통장 3가지",
+          "미안함 해결"
+        ],
+        "hook_evidence": "공감 스토리 + 해결책 조합",
+        "pathfinder_narrative": "결혼 계획 → 부모 상황 확인 → 부담 인식 → 해결책 탐색",
+        "cluster_insight": "부모 노후 = 결혼 세대의 현실적 부담 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "노후준비 안된 부모",
+            "volume": 8500
+          },
+          {
+            "keyword": "부모 노후 결혼",
+            "volume": 4200
+          },
+          {
+            "keyword": "흙수저 부모 노후",
+            "volume": 2800
+          },
+          {
+            "keyword": "부모 부양 재테크",
+            "volume": 3500
+          },
+          {
+            "keyword": "결혼 부모 노후",
+            "volume": 3200
+          },
+          {
+            "keyword": "부모 용돈",
+            "volume": 12000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "가족 재무 설계"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "용돈·부양 가이드"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "IRP"
+        ],
+        "note": "부모용 연금 운용 + 본인 준비 동시"
+      },
+      "hook_hypothesis": "결혼 앞두고 알게 된 부모님 통장 잔액, 내가 지금 해야 할 준비 3가지",
+      "ai_ideas_seed": {
+        "target": "결혼 앞둔 여성 2030",
+        "tone": "공감형 · 현실적 솔루션",
+        "format_hint": "30초 숏폼 · 내레이션 중심"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B04",
+      "category_id": "B",
+      "subgroup": "B1",
+      "title": "주택연금 노후 현금화",
+      "subtitle": "사망·상속 고민",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "주택연금 수령액",
+          "주택연금 단점",
+          "주택연금 상속",
+          "사망시"
+        ],
+        "cluster_path": [
+          "주택연금",
+          "수령액 계산기",
+          "단점",
+          "사망시",
+          "상속"
+        ],
+        "metrics": {
+          "annual_volume": 610000,
+          "trend_percent": 18,
+          "trend_label": "+18%",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "여 50% · 남 50%",
+          "age": "50대↑ 50%"
+        },
+        "why_now": "초고령 사회 진입 + 주택 가격 안정화 영향",
+        "review_level": "medium",
+        "review_notes": "사망·상속 민감 · 중립적 정보 제공",
+        "monthly_volume": [
+          38000,
+          42000,
+          45000,
+          48000,
+          52000,
+          55000,
+          58000,
+          60000,
+          61000,
+          60000,
+          58000,
+          55000,
+          61000,
+          55000
+        ],
+        "who_tags": [
+          "50대↑",
+          "주택 보유자",
+          "은퇴 임박",
+          "상속 고민"
+        ],
+        "who_evidence": "50대↑ 50% · 여 50% · 주택 자산 활용",
+        "when_tags": [
+          "은퇴 2-3년 전",
+          "주택 가격 안정",
+          "초고령 사회"
+        ],
+        "when_evidence": "+18% 성장 · 대량 수요 진입",
+        "journey_tags": [
+          "주택연금 수령액",
+          "단점",
+          "상속",
+          "사망시"
+        ],
+        "journey_evidence": "수령액(기대) → 단점(검증) → 상속(고민) → 사망(불안)",
+        "pain_tags": [
+          "상속 불확실",
+          "주택 가격 하락 공포",
+          "중단 가능성"
+        ],
+        "pain_evidence": "단점 검색 급증 · 신중한 접근",
+        "usp_fit_tags": [
+          "프라임클럽 은퇴 전문가",
+          "오늘의 콕 제도 해설"
+        ],
+        "usp_fit_evidence": "제도 이해 + 전문가 상담 필수",
+        "hook_tags": [
+          "아무도 안 알려준 3가지",
+          "팔고 투자하면",
+          "상속 진실"
+        ],
+        "hook_evidence": "숨겨진 진실 + 대안 비교 선호",
+        "pathfinder_narrative": "주택연금 관심 → 수령액 계산 → 단점 검토 → 대안 비교",
+        "cluster_insight": "주택연금 = 주택 자산 현금화의 가장 큰 옵션, 신중한 검증 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "주택연금",
+            "volume": 61000
+          },
+          {
+            "keyword": "주택연금 수령액",
+            "volume": 28000
+          },
+          {
+            "keyword": "주택연금 단점",
+            "volume": 18000
+          },
+          {
+            "keyword": "주택연금 상속",
+            "volume": 12000
+          },
+          {
+            "keyword": "주택연금 사망시",
+            "volume": 8500
+          },
+          {
+            "keyword": "주택연금 조건",
+            "volume": 14000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "은퇴 전문가 조언"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "제도 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [],
+        "note": "주택연금 대안으로 IRP 운용 비교"
+      },
+      "hook_hypothesis": "주택연금 신청 전 아무도 안 알려준 3가지 (+내 집 팔고 투자하면 얼마 차이?)",
+      "ai_ideas_seed": {
+        "target": "50대↑ 은퇴 예정자",
+        "tone": "신중형 · 비교 중심",
+        "format_hint": "30초 숏폼 · 계산 시뮬레이션"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B05",
+      "category_id": "B",
+      "subgroup": "B1",
+      "title": "50대 후반 노후 준비",
+      "subtitle": "최후의 10년 운용",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "50대 노후 준비",
+          "50대 후반 재테크",
+          "노후 자금 운용"
+        ],
+        "cluster_path": [
+          "50대 노후 준비",
+          "50대 은퇴 준비",
+          "노후 자금 준비 방법",
+          "노후 연금 준비"
+        ],
+        "metrics": {
+          "annual_volume": 120000,
+          "trend_percent": null,
+          "trend_label": "대량 은퇴 세대 진입",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "여 50% · 남 50%",
+          "age": "50대↑ 75%"
+        },
+        "why_now": "50대 베이비붐 세대 대량 은퇴 임박",
+        "review_level": "medium",
+        "review_notes": "짧은 운용 기간 · 안정성 강조",
+        "monthly_volume": [
+          8000,
+          9000,
+          10000,
+          10500,
+          11000,
+          11500,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          11500
+        ],
+        "who_tags": [
+          "50대 후반",
+          "은퇴 임박 10년",
+          "대량 세대",
+          "현실 직시"
+        ],
+        "who_evidence": "50대↑ 75% · 은퇴 임박",
+        "when_tags": [
+          "베이비붐 은퇴기",
+          "2026 대량 은퇴",
+          "마지막 10년"
+        ],
+        "when_evidence": "대량 은퇴 세대 진입",
+        "journey_tags": [
+          "50대 노후 준비",
+          "은퇴 준비",
+          "노후 자금 운용"
+        ],
+        "journey_evidence": "준비(늦음) → 은퇴(현실) → 운용(안정)",
+        "pain_tags": [
+          "준비 부족",
+          "시간 부족",
+          "안정성 vs 수익"
+        ],
+        "pain_evidence": "현실 직시 단계 · 구체적 액션 수요",
+        "usp_fit_tags": [
+          "프라임클럽 긴급 설계",
+          "마이브리프 월배당 관리"
+        ],
+        "usp_fit_evidence": "짧은 기간 + 안정 운용 전문성",
+        "hook_tags": [
+          "퇴직 10년 앞",
+          "현실적 3가지",
+          "자산 모자라면"
+        ],
+        "hook_evidence": "현실 기반 구체 액션 선호",
+        "pathfinder_narrative": "은퇴 임박 인식 → 자산 점검 → 현실적 설계 → 안정 운용",
+        "cluster_insight": "50대 후반 = 은퇴 최종 준비 단계의 압축 설계 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "50대 노후 준비",
+            "volume": 12000
+          },
+          {
+            "keyword": "50대 후반 재테크",
+            "volume": 8500
+          },
+          {
+            "keyword": "노후 자금 운용",
+            "volume": 6500
+          },
+          {
+            "keyword": "50대 은퇴 준비",
+            "volume": 9800
+          },
+          {
+            "keyword": "노후 연금 준비",
+            "volume": 4200
+          },
+          {
+            "keyword": "은퇴 10년",
+            "volume": 3800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "은퇴 임박 전문가 조언"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "월배당 관리"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "단기 세액공제 + 안정 운용"
+      },
+      "hook_hypothesis": "퇴직 10년 앞두고 자산이 모자란다면 지금 할 수 있는 현실적 3가지",
+      "ai_ideas_seed": {
+        "target": "50대 은퇴 임박자",
+        "tone": "현실형 · 구체적 액션",
+        "format_hint": "30초 숏폼 · 체크리스트"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B06",
+      "category_id": "B",
+      "subgroup": "B2",
+      "title": "연금저축·IRP 세액공제 시즌",
+      "subtitle": "매년 11-2월 피크 시즌 자산",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "연금저축 세액공제",
+          "IRP 세액공제",
+          "세액공제 한도",
+          "연말정산"
+        ],
+        "cluster_path": [
+          "연금저축",
+          "ISA",
+          "IRP 차이",
+          "계좌 개설",
+          "ETF 추천"
+        ],
+        "metrics": {
+          "annual_volume": 1310000,
+          "trend_percent": null,
+          "trend_label": "매년 12-2월 피크",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "여 55% · 남 45%",
+          "age": "30-49세"
+        },
+        "why_now": "11-2월 시즌 자산 · 매년 반복 가능",
+        "review_level": "medium",
+        "review_notes": "세액공제 정확한 팩트 · 개인별 한도 고지",
+        "monthly_volume": [
+          85000,
+          95000,
+          108000,
+          118000,
+          125000,
+          128000,
+          125000,
+          120000,
+          115000,
+          118000,
+          125000,
+          135000,
+          131000,
+          120000
+        ],
+        "who_tags": [
+          "직장인 3040",
+          "여 55%",
+          "세액공제 시즌",
+          "절세 관심"
+        ],
+        "who_evidence": "여 55% · 30-49세 · 연말정산 집중",
+        "when_tags": [
+          "11-2월 시즌",
+          "연말정산 임박",
+          "매년 반복"
+        ],
+        "when_evidence": "매년 12-2월 피크 · 시즌 자산",
+        "journey_tags": [
+          "연금저축",
+          "IRP 차이",
+          "ISA",
+          "계좌 개설",
+          "ETF"
+        ],
+        "journey_evidence": "세액공제 고민 → 계좌 비교 → 개설 → ETF 선택",
+        "pain_tags": [
+          "계좌 뭐 선택?",
+          "한도 헷갈림",
+          "ETF 선택 어려움"
+        ],
+        "pain_evidence": "비교 콘텐츠 만성 수요",
+        "usp_fit_tags": [
+          "오늘의 콕 시즌 가이드",
+          "AI투자브리핑 시뮬레이션"
+        ],
+        "usp_fit_evidence": "시즌 가이드 + 시뮬레이션 조합",
+        "hook_tags": [
+          "6개월 남았을 때",
+          "하나만 고른다면",
+          "한도 최적화"
+        ],
+        "hook_evidence": "시간 순 가이드 + 선택 규칙 선호",
+        "pathfinder_narrative": "세액공제 관심 → 계좌 비교 → 개설 → ETF 선택",
+        "cluster_insight": "세액공제 시즌 = 연금저축·IRP 동시 개설 결정의 트리거",
+        "related_keywords": [
+          {
+            "keyword": "연금저축 세액공제",
+            "volume": 131000
+          },
+          {
+            "keyword": "IRP 세액공제",
+            "volume": 45000
+          },
+          {
+            "keyword": "세액공제 한도",
+            "volume": 28000
+          },
+          {
+            "keyword": "연금저축 IRP 차이",
+            "volume": 18000
+          },
+          {
+            "keyword": "연말정산 연금",
+            "volume": 35000
+          },
+          {
+            "keyword": "세액공제 최적화",
+            "volume": 8500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "시즌 가이드"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "시뮬레이션"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "IRP"
+        ],
+        "note": "시즌 연금저축 + IRP 동시 개설 유도"
+      },
+      "hook_hypothesis": "연말정산 6개월 남았을 때 IRP와 연금저축, 하나만 고른다면 이 질문 먼저",
+      "ai_ideas_seed": {
+        "target": "직장인 3040",
+        "tone": "시즌형 · 실용 가이드",
+        "format_hint": "25초 숏폼 · 질문→답 구조"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B07",
+      "category_id": "B",
+      "subgroup": "B2",
+      "title": "ISA 계좌 — 비과세 혜택",
+      "subtitle": "5년 절세 효과",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "ISA 계좌",
+          "ISA 종목 추천",
+          "ISA ETF",
+          "ISA 비과세"
+        ],
+        "cluster_path": [
+          "ISA",
+          "계좌 개설",
+          "추천 종목",
+          "ETF",
+          "분산투자"
+        ],
+        "metrics": {
+          "annual_volume": 600000,
+          "trend_percent": null,
+          "trend_label": "한도 상향 기대",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "여 52% · 남 48%",
+          "age": "25-44세"
+        },
+        "why_now": "2026 제도 개편 + 한도 상향 기대",
+        "review_level": "medium",
+        "review_notes": "비과세 정확한 한도 · 중도해지 불이익 고지",
+        "monthly_volume": [
+          45000,
+          50000,
+          55000,
+          58000,
+          60000,
+          62000,
+          60000,
+          58000,
+          56000,
+          58000,
+          60000,
+          62000,
+          60000,
+          56000
+        ],
+        "who_tags": [
+          "ISA 관심자",
+          "2544세",
+          "여 52%",
+          "절세 수요"
+        ],
+        "who_evidence": "여 52% · 25-44세 · 초보~중급",
+        "when_tags": [
+          "2026 제도 개편",
+          "한도 상향 기대",
+          "5년 장기"
+        ],
+        "when_evidence": "2016 출시 10년 만기 + 개편 이슈",
+        "journey_tags": [
+          "ISA 계좌",
+          "종목 추천",
+          "ETF",
+          "비과세"
+        ],
+        "journey_evidence": "ISA(개념) → 종목(실행) → ETF(운용) → 비과세(혜택)",
+        "pain_tags": [
+          "비과세 한도 혼란",
+          "중도해지 불이익",
+          "만기 후 선택"
+        ],
+        "pain_evidence": "한도·불이익 정보 부족",
+        "usp_fit_tags": [
+          "오늘의 콕 ISA 가이드",
+          "AI투자브리핑 절세 시뮬"
+        ],
+        "usp_fit_evidence": "가이드 + 시뮬레이션 조합",
+        "hook_tags": [
+          "5년 절세 효과",
+          "실제 절세액",
+          "만기 전략"
+        ],
+        "hook_evidence": "구체 절세액 계산 선호",
+        "pathfinder_narrative": "ISA 관심 → 개설 → 종목 선택 → 5년 운용 → 만기 대응",
+        "cluster_insight": "ISA = 국내 가장 큰 절세 계좌, 5년 장기 설계 필수",
+        "related_keywords": [
+          {
+            "keyword": "ISA 계좌",
+            "volume": 60000
+          },
+          {
+            "keyword": "ISA 종목 추천",
+            "volume": 18000
+          },
+          {
+            "keyword": "ISA ETF",
+            "volume": 12000
+          },
+          {
+            "keyword": "ISA 비과세",
+            "volume": 15000
+          },
+          {
+            "keyword": "ISA 한도",
+            "volume": 28000
+          },
+          {
+            "keyword": "ISA 중도해지",
+            "volume": 8500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "ISA 가이드"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "절세 시뮬레이션"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "ISA 신규 개설 직접 유도"
+      },
+      "hook_hypothesis": "ISA 계좌에 넣으면 세금 얼마 아낄까 (+5년 뒤 실제 절세 효과 계산)",
+      "ai_ideas_seed": {
+        "target": "2540 재테크 초보",
+        "tone": "입문형 · 절세 효과 중심",
+        "format_hint": "25초 숏폼 · 비포·애프터 비교"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B08",
+      "category_id": "B",
+      "subgroup": "B2",
+      "title": "고배당주 — 배당 소득 설계",
+      "subtitle": "월 200 배당 목표",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "고배당주",
+          "배당주 추천",
+          "배당 경제적 자유",
+          "미국 배당주"
+        ],
+        "cluster_path": [
+          "고배당주",
+          "추천",
+          "국내 배당주",
+          "미국 배당주",
+          "배당 경제적 자유"
+        ],
+        "metrics": {
+          "annual_volume": 340000,
+          "trend_percent": null,
+          "trend_label": "배당 파이어 트렌드",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 68% · 여 32%",
+          "age": "50대↑ 48%"
+        },
+        "why_now": "배당 파이어 트렌드 + 고령화로 현금흐름 수요",
+        "review_level": "low",
+        "review_notes": "배당 안정성 주의 · 세금 포함 설명",
+        "monthly_volume": [
+          22000,
+          25000,
+          28000,
+          30000,
+          32000,
+          33000,
+          34000,
+          34000,
+          34000,
+          34000,
+          34000,
+          34000,
+          34000,
+          32000
+        ],
+        "who_tags": [
+          "배당 수익 추구",
+          "50대↑ 남 68%",
+          "현금흐름",
+          "은퇴 세대"
+        ],
+        "who_evidence": "남 68% · 50대↑ 48%",
+        "when_tags": [
+          "배당 파이어 트렌드",
+          "고령화 대응",
+          "현금흐름 수요"
+        ],
+        "when_evidence": "배당 파이어 트렌드 지속",
+        "journey_tags": [
+          "고배당주",
+          "배당주 추천",
+          "국내 배당주",
+          "미국 배당주"
+        ],
+        "journey_evidence": "고배당(관심) → 추천(선택) → 국내 or 미국",
+        "pain_tags": [
+          "배당 안정성 공포",
+          "세금 포함 계산",
+          "종목 선택"
+        ],
+        "pain_evidence": "단순 배당률 함정 경계 수요",
+        "usp_fit_tags": [
+          "프라임클럽 배당 포트폴리오",
+          "마이브리프 배당 일정"
+        ],
+        "usp_fit_evidence": "전문가 포트폴리오 + 일정 관리",
+        "hook_tags": [
+          "월 200 받으려면",
+          "자산 역산",
+          "세후 실제"
+        ],
+        "hook_evidence": "목표 → 자산 역산 콘텐츠 선호",
+        "pathfinder_narrative": "배당 수익 목표 → 고배당주 탐색 → 국내·미국 비교 → 포트폴리오",
+        "cluster_insight": "고배당주 = 배당 파이어 실행 도구, ISA 비과세 극대화",
+        "related_keywords": [
+          {
+            "keyword": "고배당주",
+            "volume": 34000
+          },
+          {
+            "keyword": "배당주 추천",
+            "volume": 28000
+          },
+          {
+            "keyword": "국내 배당주",
+            "volume": 18000
+          },
+          {
+            "keyword": "미국 배당주",
+            "volume": 22000
+          },
+          {
+            "keyword": "배당 경제적 자유",
+            "volume": 8500
+          },
+          {
+            "keyword": "월배당주",
+            "volume": 15000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 배당 포트폴리오"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "배당 일정 관리"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "배당 비과세 혜택 극대화"
+      },
+      "hook_hypothesis": "배당만으로 월 200 받으려면 자산 얼마 있어야 할까 (세후)",
+      "ai_ideas_seed": {
+        "target": "4050 배당 관심자",
+        "tone": "분석형 · 숫자 중심",
+        "format_hint": "25초 숏폼 · 자산 역산"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B09",
+      "category_id": "B",
+      "subgroup": "B3",
+      "title": "자녀 주식·증여세",
+      "subtitle": "부모의 자산 전수",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "자녀 주식 계좌",
+          "증여세",
+          "10년 기준",
+          "면제한도"
+        ],
+        "cluster_path": [
+          "자녀 주식",
+          "계좌",
+          "증여",
+          "증여 신고",
+          "10년 기준",
+          "면제한도",
+          "홈택스"
+        ],
+        "metrics": {
+          "annual_volume": 48000,
+          "trend_percent": 31,
+          "trend_label": "+31% 🔥",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 64% · 남 36%",
+          "age": "40대 54%"
+        },
+        "why_now": "+31% 성장 · 40대 여성 지속",
+        "review_level": "low",
+        "review_notes": "증여세 정확한 세율 · 개인 상황 차이 고지",
+        "monthly_volume": [
+          3200,
+          3500,
+          3800,
+          4200,
+          4500,
+          4800,
+          4800,
+          4800,
+          4800,
+          4800,
+          4800,
+          5000,
+          4800,
+          4500
+        ],
+        "who_tags": [
+          "40대 엄마",
+          "여 64%",
+          "자녀 증여",
+          "장기 자산 설계"
+        ],
+        "who_evidence": "여 64% · 40대 54% · 자녀 교육 세대",
+        "when_tags": [
+          "자녀 성장기",
+          "증여 시점 고민",
+          "10년 리셋"
+        ],
+        "when_evidence": "+31% 성장 지속",
+        "journey_tags": [
+          "자녀 주식",
+          "계좌",
+          "증여세",
+          "10년 기준",
+          "면제한도"
+        ],
+        "journey_evidence": "자녀 주식 → 계좌 → 증여 → 신고 → 한도",
+        "pain_tags": [
+          "증여세 공포",
+          "10년 기준 혼동",
+          "신고 절차"
+        ],
+        "pain_evidence": "실용 가이드 부족",
+        "usp_fit_tags": [
+          "오늘의 콕 증여세 가이드",
+          "프라임클럽 장기 설계"
+        ],
+        "usp_fit_evidence": "실용 팁 + 장기 설계 조합",
+        "hook_tags": [
+          "계좌 만들 때 3가지",
+          "10년 기준",
+          "면제한도"
+        ],
+        "hook_evidence": "자녀 관련 실용 콘텐츠 고반응",
+        "pathfinder_narrative": "자녀 증여 관심 → 계좌 개설 → 증여 신고 → 10년 리셋",
+        "cluster_insight": "자녀 주식 = 엄마 주도 장기 자산 전수 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "자녀 주식 계좌",
+            "volume": 4800
+          },
+          {
+            "keyword": "증여세",
+            "volume": 42000
+          },
+          {
+            "keyword": "10년 기준",
+            "volume": 8500
+          },
+          {
+            "keyword": "증여 면제한도",
+            "volume": 12000
+          },
+          {
+            "keyword": "증여 신고",
+            "volume": 18000
+          },
+          {
+            "keyword": "자녀 ISA",
+            "volume": 3200
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "증여세 가이드"
+        },
+        {
+          "id": "prime-club",
+          "role": "secondary",
+          "reason": "장기 설계"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "자녀용 ISA · 연금저축 장기 운용"
+      },
+      "hook_hypothesis": "자녀 명의 주식 계좌 만들 때 꼭 알아야 할 증여세 3가지",
+      "ai_ideas_seed": {
+        "target": "40대 엄마",
+        "tone": "실용형 · 세금 주의점",
+        "format_hint": "25초 숏폼 · 체크리스트"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B10",
+      "category_id": "B",
+      "subgroup": "B3",
+      "title": "아기 통장·백일선물 — 생애 첫 금융",
+      "subtitle": "2026 출산 엄마 블루오션",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "아기 통장",
+          "백일선물",
+          "신생아 주식 계좌",
+          "부모급여 아기통장"
+        ],
+        "cluster_path": [
+          "백일선물",
+          "아기 통장",
+          "만들기·준비물",
+          "은행 비교",
+          "신생아 주식 계좌",
+          "청약통장"
+        ],
+        "metrics": {
+          "annual_volume": 360000,
+          "trend_percent": null,
+          "trend_label": "블루오션 · 경쟁 격화 초기",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 85% · 남 15%",
+          "age": "25-39세 (출산 엄마)"
+        },
+        "why_now": "생애 첫 금융 상품 경쟁 격화 초기 진입 기회",
+        "review_level": "low",
+        "review_notes": "유아 대상 안전 강조",
+        "monthly_volume": [
+          22000,
+          26000,
+          30000,
+          32000,
+          34000,
+          35000,
+          36000,
+          36000,
+          36000,
+          36000,
+          36000,
+          36000,
+          36000,
+          34000
+        ],
+        "who_tags": [
+          "출산 엄마 2539",
+          "여 85%",
+          "생애 첫 금융",
+          "블루오션"
+        ],
+        "who_evidence": "여 85% · 25-39세",
+        "when_tags": [
+          "출산 직후",
+          "백일 기념",
+          "부모급여 시점"
+        ],
+        "when_evidence": "생애 첫 금융 상품 경쟁 초기",
+        "journey_tags": [
+          "아기 통장",
+          "백일선물",
+          "신생아 주식 계좌",
+          "부모급여"
+        ],
+        "journey_evidence": "선물(트리거) → 통장(실행) → 주식 계좌(발전) → 부모급여",
+        "pain_tags": [
+          "뭐가 좋은지 모름",
+          "예적금 vs 투자",
+          "은행 비교"
+        ],
+        "pain_evidence": "초보 엄마 대상 교육 부족",
+        "usp_fit_tags": [
+          "마이브리프 자녀 자산 추적",
+          "공모주 신규 종목"
+        ],
+        "usp_fit_evidence": "장기 자녀 자산 관리 중심",
+        "hook_tags": [
+          "예적금 말고 주식",
+          "20년 복리",
+          "백일선물 업그레이드"
+        ],
+        "hook_evidence": "장기 관점 + 따뜻한 톤 선호",
+        "pathfinder_narrative": "백일선물 고민 → 아기 통장 → 주식 계좌 → 20년 운용",
+        "cluster_insight": "아기 통장 = 생애 첫 금융의 블루오션. 주식 계좌로 업그레이드 가능",
+        "related_keywords": [
+          {
+            "keyword": "아기 통장",
+            "volume": 36000
+          },
+          {
+            "keyword": "백일선물",
+            "volume": 28000
+          },
+          {
+            "keyword": "신생아 주식 계좌",
+            "volume": 12000
+          },
+          {
+            "keyword": "부모급여 아기통장",
+            "volume": 8500
+          },
+          {
+            "keyword": "아기 청약통장",
+            "volume": 18000
+          },
+          {
+            "keyword": "자녀 주식",
+            "volume": 22000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "자녀 자산 추적"
+        },
+        {
+          "id": "ipo-tracker",
+          "role": "secondary",
+          "reason": "신규 종목 아기 투자"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "자녀용 ISA · 주식 계좌 개설"
+      },
+      "hook_hypothesis": "2026 아기 통장, 단순 예적금보다 '아기 주식 계좌' 추천하는 3가지 이유",
+      "ai_ideas_seed": {
+        "target": "출산 직후 엄마 2030",
+        "tone": "따뜻형 · 장기 관점",
+        "format_hint": "30초 숏폼 · 아기 사진 + 20년 복리"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B11",
+      "category_id": "B",
+      "subgroup": "B3",
+      "title": "결혼·내집마련 자금",
+      "subtitle": "생애 대형 지출 준비",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "결혼 자금",
+          "내집마련",
+          "청약통장",
+          "신혼부부 재무"
+        ],
+        "cluster_path": [
+          "결혼 자금",
+          "신혼 통장",
+          "맞벌이 재테크",
+          "내집마련",
+          "청약통장",
+          "예적금"
+        ],
+        "metrics": {
+          "annual_volume": 1460000,
+          "trend_percent": null,
+          "trend_label": "결혼 연령 상승 + 자금 필요",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "🎯 여 65% · 남 35%",
+          "age": "25-39세"
+        },
+        "why_now": "결혼 연령 상승 + 자금 필요 증가",
+        "review_level": "low",
+        "review_notes": "자금 목적별 상품 안내",
+        "monthly_volume": [
+          95000,
+          105000,
+          115000,
+          125000,
+          135000,
+          145000,
+          150000,
+          148000,
+          145000,
+          145000,
+          145000,
+          148000,
+          146000,
+          138000
+        ],
+        "who_tags": [
+          "결혼 준비 커플",
+          "여 65%",
+          "25-39세",
+          "대형 지출"
+        ],
+        "who_evidence": "여 65% · 25-39세 집중",
+        "when_tags": [
+          "결혼 준비 3년",
+          "내집마련 계획",
+          "맞벌이 시작"
+        ],
+        "when_evidence": "결혼 연령 상승 + 자금 필요 증가",
+        "journey_tags": [
+          "결혼 자금",
+          "신혼 통장",
+          "맞벌이 재테크",
+          "내집마련",
+          "청약"
+        ],
+        "journey_evidence": "결혼(목표) → 통장(도구) → 재테크(실행) → 내집(장기)",
+        "pain_tags": [
+          "자금 부족 공포",
+          "예적금 vs 투자",
+          "청약 기회"
+        ],
+        "pain_evidence": "대형 지출 준비 스트레스",
+        "usp_fit_tags": [
+          "오늘의 콕 생애 가이드",
+          "공모주 목돈 운용"
+        ],
+        "usp_fit_evidence": "생애 이벤트 가이드 + 운용 조합",
+        "hook_tags": [
+          "3년 로드맵",
+          "예적금 vs 투자 차이",
+          "맞벌이 전략"
+        ],
+        "hook_evidence": "단계별 로드맵 선호",
+        "pathfinder_narrative": "결혼 계획 → 자금 조달 → 맞벌이 재테크 → 내집 준비",
+        "cluster_insight": "결혼 자금 = ISA 5년 비과세와 정확히 일치하는 시간 구조",
+        "related_keywords": [
+          {
+            "keyword": "결혼 자금",
+            "volume": 47000
+          },
+          {
+            "keyword": "내집마련",
+            "volume": 63000
+          },
+          {
+            "keyword": "신혼 통장",
+            "volume": 18000
+          },
+          {
+            "keyword": "맞벌이 재테크",
+            "volume": 28000
+          },
+          {
+            "keyword": "청약통장",
+            "volume": 146000
+          },
+          {
+            "keyword": "신혼부부 재테크",
+            "volume": 12000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "생애 금융 가이드"
+        },
+        {
+          "id": "ipo-tracker",
+          "role": "secondary",
+          "reason": "목돈 운용 기회"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "5년 비과세 + 목돈 운용 최적"
+      },
+      "hook_hypothesis": "결혼 준비 3년 앞두고 시작한 맞벌이 통장 전략, 예적금 vs 투자 실제 차이",
+      "ai_ideas_seed": {
+        "target": "결혼 준비 2030 커플",
+        "tone": "실용형 · 단계별 가이드",
+        "format_hint": "30초 숏폼 · 3년 로드맵"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B12",
+      "category_id": "B",
+      "subgroup": "B4",
+      "title": "국장 활황 혼란자",
+      "subtitle": "'이게 좋은 거야?' 혼란 세그먼트",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": 5,
+      "analysis": {
+        "interests": [
+          "코스피 3000",
+          "코스피 5000",
+          "박스피",
+          "코리아 프리미엄"
+        ],
+        "cluster_path": [
+          "코스피 3000",
+          "자랑할 일인가",
+          "높으면 좋은점·안좋은점",
+          "5000 돌파",
+          "4000 거품",
+          "박스피"
+        ],
+        "metrics": {
+          "annual_volume": 600000,
+          "trend_percent": null,
+          "trend_label": "2026 시의성 최상",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "남녀 50:50",
+          "age": "전연령"
+        },
+        "why_now": "2026 국장 활황 · 코스피 5000 돌파로 혼란자 대량 생성",
+        "review_level": "low",
+        "review_notes": "상승/하락 단정 금지 · 과거 데이터 기반",
+        "monthly_volume": [
+          8200,
+          12000,
+          18000,
+          25000,
+          32000,
+          38000,
+          42000,
+          46000,
+          52000,
+          58000,
+          63000,
+          68000,
+          72000,
+          60000
+        ],
+        "who_tags": [
+          "국장 복귀자",
+          "초보 투자자",
+          "코스피 관심자",
+          "뉴스 민감자"
+        ],
+        "who_evidence": "전연령 · 남녀 50:50 · 장기 휴면 투자자 귀환",
+        "when_tags": [
+          "2026 코스피 5000 돌파",
+          "대세 상승 국면",
+          "과거 박스피 기억"
+        ],
+        "when_evidence": "2026 국장 활황으로 '이게 좋은 거야?' 세그먼트 대량 생성",
+        "journey_tags": [
+          "코스피 3000",
+          "5000 돌파",
+          "자랑할 일인가",
+          "박스피 탈출"
+        ],
+        "journey_evidence": "'코스피 3000' → '5000'(경이) → '지금 사면?'(고민)",
+        "pain_tags": [
+          "해석 못함",
+          "늦었나 걱정",
+          "거품 공포",
+          "복귀 타이밍"
+        ],
+        "pain_evidence": "'코스피 5000 거품인가' 검색 급증",
+        "usp_fit_tags": [
+          "AI투자브리핑 해설",
+          "오늘의 콕 초보 가이드"
+        ],
+        "usp_fit_evidence": "시장 해설 + 쉬운 가이드 조합 필수",
+        "hook_tags": [
+          "5000 역사 비교",
+          "2008·2020 데이터",
+          "지금 들어가도?"
+        ],
+        "hook_evidence": "과거 사이클 데이터 기반 객관 답변 선호",
+        "pathfinder_narrative": "코스피 활황 목격 → 복귀 고민 → 역사 데이터 확인 니즈",
+        "cluster_insight": "코스피 5000 = '좋은 건지 나쁜 건지 모르는' 혼란 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "코스피 5000",
+            "volume": 68000
+          },
+          {
+            "keyword": "코스피 3000",
+            "volume": 52000
+          },
+          {
+            "keyword": "박스피 탈출",
+            "volume": 28000
+          },
+          {
+            "keyword": "코리아 프리미엄",
+            "volume": 18000
+          },
+          {
+            "keyword": "코스피 거품",
+            "volume": 12000
+          },
+          {
+            "keyword": "국장 복귀",
+            "volume": 9800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "시장 해설"
+        },
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "초보 가이드"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "시장 이해 → 전반적 계좌 유입"
+      },
+      "hook_hypothesis": "코스피 5000 시대, 지금 들어가면 늦은 걸까? (2008·2020 데이터로 본 답)",
+      "ai_ideas_seed": {
+        "target": "국장 초보 + 복귀자",
+        "tone": "해설형 · 역사 데이터",
+        "format_hint": "30초 숏폼 · 과거 사이클 차트"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-B13",
+      "category_id": "B",
+      "subgroup": "B4",
+      "title": "공모주 모아보기",
+      "subtitle": "신규 상장 사냥꾼",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "공모주 청약",
+          "상장일",
+          "따상",
+          "수요예측",
+          "균등배정"
+        ],
+        "cluster_path": [
+          "공모주",
+          "청약",
+          "상장일",
+          "수요예측",
+          "균등배정",
+          "따상"
+        ],
+        "metrics": {
+          "annual_volume": 380000,
+          "trend_percent": null,
+          "trend_label": "공모주 러시 지속",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 58% · 여 42%",
+          "age": "30-44세"
+        },
+        "why_now": "공모주 시장 활성화 지속",
+        "review_level": "medium",
+        "review_notes": "수익 예측 금지 · 리스크 고지",
+        "monthly_volume": [
+          28000,
+          32000,
+          35000,
+          36000,
+          38000,
+          38000,
+          38000,
+          38000,
+          38000,
+          38000,
+          38000,
+          38000,
+          38000,
+          36000
+        ],
+        "who_tags": [
+          "공모주 청약자",
+          "30-44세",
+          "남 58%",
+          "신규 상장 사냥"
+        ],
+        "who_evidence": "남 58% · 30-44세",
+        "when_tags": [
+          "청약 일정",
+          "상장일",
+          "따상 기대"
+        ],
+        "when_evidence": "공모주 러시 지속",
+        "journey_tags": [
+          "공모주",
+          "청약",
+          "상장일",
+          "따상",
+          "균등배정"
+        ],
+        "journey_evidence": "공모주(관심) → 청약(실행) → 상장(기대) → 따상(수익)",
+        "pain_tags": [
+          "청약 경쟁",
+          "배정 불확실",
+          "매도 타이밍"
+        ],
+        "pain_evidence": "청약 전략 정보 수요",
+        "usp_fit_tags": [
+          "공모주 모아보기 (100% 매칭)",
+          "마이브리프 알림"
+        ],
+        "usp_fit_evidence": "전용 서비스 + 알림 조합",
+        "hook_tags": [
+          "이번 주 3개",
+          "균등배정 계산",
+          "따상 기대치"
+        ],
+        "hook_evidence": "주간 일정 + 계산 도구 선호",
+        "pathfinder_narrative": "공모주 관심 → 일정 확인 → 청약 → 상장 후 매도",
+        "cluster_insight": "공모주 = 마블 전용 서비스의 가장 명확한 1:1 매칭",
+        "related_keywords": [
+          {
+            "keyword": "공모주 청약",
+            "volume": 38000
+          },
+          {
+            "keyword": "상장일",
+            "volume": 28000
+          },
+          {
+            "keyword": "따상",
+            "volume": 18000
+          },
+          {
+            "keyword": "수요예측",
+            "volume": 12000
+          },
+          {
+            "keyword": "균등배정",
+            "volume": 22000
+          },
+          {
+            "keyword": "공모주 일정",
+            "volume": 15000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ipo-tracker",
+          "role": "primary",
+          "reason": "전용 서비스 · 100% 매칭"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "청약 현황 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "공모주 청약 계좌 유도"
+      },
+      "hook_hypothesis": "이번 주 공모주 3개, 균등배정 몇 주씩 배분될지 미리 계산하는 법",
+      "ai_ideas_seed": {
+        "target": "공모주 관심 3040",
+        "tone": "실용형 · 계산 시뮬레이션",
+        "format_hint": "20초 숏폼 · 계산기 화면"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B14",
+      "category_id": "B",
+      "subgroup": "B4",
+      "title": "금리 인하·환율 변동",
+      "subtitle": "경제 뉴스 민감자",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "금리 인하",
+          "환율 전망",
+          "달러",
+          "물가"
+        ],
+        "cluster_path": [
+          "금리 인하",
+          "영향",
+          "달러 환율",
+          "2026 환율 전망",
+          "ETF·채권 연관"
+        ],
+        "metrics": {
+          "annual_volume": 2500000,
+          "trend_percent": null,
+          "trend_label": "통화정책 전환기",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "남 60% · 여 40%",
+          "age": "30-50대"
+        },
+        "why_now": "2026 통화정책 전환기 · 거시 변수 민감도 최고",
+        "review_level": "low",
+        "review_notes": "전망 단정 금지 · 시나리오 기반",
+        "monthly_volume": [
+          180000,
+          195000,
+          210000,
+          220000,
+          230000,
+          240000,
+          245000,
+          248000,
+          250000,
+          250000,
+          250000,
+          250000,
+          245000,
+          230000
+        ],
+        "who_tags": [
+          "거시 뉴스 민감자",
+          "30-50대",
+          "남 60%",
+          "경제 관심"
+        ],
+        "who_evidence": "남 60% · 30-50대",
+        "when_tags": [
+          "통화정책 전환기",
+          "금리 인하 시작",
+          "환율 변동"
+        ],
+        "when_evidence": "2026 통화정책 전환기",
+        "journey_tags": [
+          "금리 인하",
+          "영향",
+          "달러 환율",
+          "2026 전망",
+          "ETF 연관"
+        ],
+        "journey_evidence": "금리(원인) → 영향(연쇄) → 환율(결과) → ETF(실행)",
+        "pain_tags": [
+          "영향 파악 어려움",
+          "대응 방법 모름",
+          "시나리오 다양"
+        ],
+        "pain_evidence": "전망 콘텐츠 만성 수요",
+        "usp_fit_tags": [
+          "AI투자브리핑 거시 해설",
+          "마이브리프 환율 알림"
+        ],
+        "usp_fit_evidence": "거시 해설 + 연동 알림 조합",
+        "hook_tags": [
+          "월배당 ETF 영향",
+          "금리 인하 시나리오",
+          "환율 대응"
+        ],
+        "hook_evidence": "구체적 보유 자산 영향 선호",
+        "pathfinder_narrative": "금리 뉴스 → 영향 고민 → 환율 확인 → 대응 전략",
+        "cluster_insight": "금리·환율 = 거시 변수 민감자의 핵심 관심. RIA 이전 연결 가능",
+        "related_keywords": [
+          {
+            "keyword": "금리 인하",
+            "volume": 145000
+          },
+          {
+            "keyword": "환율 전망",
+            "volume": 62000
+          },
+          {
+            "keyword": "달러 환율",
+            "volume": 380000
+          },
+          {
+            "keyword": "2026 환율",
+            "volume": 42000
+          },
+          {
+            "keyword": "금리 영향",
+            "volume": 28000
+          },
+          {
+            "keyword": "물가",
+            "volume": 120000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "거시 환경 해설"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "환율 연동 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "환율 민감자 → RIA 이전 유도"
+      },
+      "hook_hypothesis": "금리 인하 시작되면 내 월배당 ETF, 진짜로 어떻게 될까",
+      "ai_ideas_seed": {
+        "target": "거시 뉴스 민감 3050",
+        "tone": "분석형 · 시나리오",
+        "format_hint": "25초 숏폼 · 금리-ETF 상관관계"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    }
+  ]
+}

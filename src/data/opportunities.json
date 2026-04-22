@@ -1,0 +1,7193 @@
+{
+  "_meta": {
+    "total_count": 49,
+    "structure_version": "1.0",
+    "last_updated": "2026-04-20",
+    "by_category": {
+      "A": 11,
+      "B": 14,
+      "C": 11,
+      "D": 13
+    },
+    "display_mode_distribution": {
+      "service": 37,
+      "moment": 12,
+      "total": 49
+    }
+  },
+  "opportunities": [
+    {
+      "id": "O-A01",
+      "category_id": "A",
+      "subgroup": "A1",
+      "title": "테크주 보유자의 일상 모니터링",
+      "subtitle": "테슬라·엔비디아 급등락 대응 순간",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "테슬라 주가",
+          "엔비디아 전망",
+          "반도체 주식 폭락",
+          "급락 이유"
+        ],
+        "cluster_path": [
+          "테슬라",
+          "주가",
+          "폭락",
+          "엔비디아",
+          "폭락이유"
+        ],
+        "metrics": {
+          "annual_volume": 38500000,
+          "trend_percent": null,
+          "trend_label": "월 3,234만 피크 (2026.1)",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "남 70-73%",
+          "age": "30-44세 주력 · 50대 증가"
+        },
+        "why_now": "2026.1 월 3,234만 검색 피크. 테크주 변동성 지속 + 50대 서학개미 증가로 시의성 최상",
+        "review_level": "low",
+        "review_notes": "팩트 중심 · 주가 예측 금지",
+        "monthly_volume": [
+          2800000,
+          2950000,
+          3100000,
+          3200000,
+          3300000,
+          3400000,
+          3500000,
+          3600000,
+          3700000,
+          3800000,
+          3900000,
+          3850000,
+          3234000,
+          3400000
+        ],
+        "who_tags": [
+          "테크주 보유자",
+          "30-44세 남성",
+          "서학개미",
+          "얼리어답터"
+        ],
+        "who_evidence": "남 70-73% · 30-44세 주력 · 50대 증가",
+        "when_tags": [
+          "급등락 당일",
+          "실적 발표 시즌",
+          "2026.1 피크"
+        ],
+        "when_evidence": "월 3,234만 피크 · 변동성 지속",
+        "journey_tags": [
+          "테슬라 주가",
+          "엔비디아 전망",
+          "반도체 폭락",
+          "급락 이유"
+        ],
+        "journey_evidence": "종목명 → 주가 → 폭락(위기) → 이유(해설)",
+        "pain_tags": [
+          "변동성 공포",
+          "실시간 정보 부족",
+          "판단 어려움"
+        ],
+        "pain_evidence": "일일 검색량 10만+ · 정보 수요 지속",
+        "usp_fit_tags": [
+          "마이브리프 실시간 알림",
+          "AI투자브리핑 해설"
+        ],
+        "usp_fit_evidence": "보유 종목 맞춤 알림 + 시장 해설 조합 최적",
+        "hook_tags": [
+          "오늘의 체크 3가지",
+          "실시간 대응",
+          "내 종목 영향"
+        ],
+        "hook_evidence": "일상 루틴화된 투자자의 데일리 콘텐츠 수요",
+        "pathfinder_narrative": "종목명 검색 → 주가 확인 → 급락 시 이유 찾기 → 대응 고민",
+        "cluster_insight": "테크주 보유자 = 일일 모니터링 루틴 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "테슬라 주가",
+            "volume": 3850000
+          },
+          {
+            "keyword": "엔비디아 전망",
+            "volume": 1200000
+          },
+          {
+            "keyword": "반도체 주식",
+            "volume": 880000
+          },
+          {
+            "keyword": "테슬라 폭락",
+            "volume": 420000
+          },
+          {
+            "keyword": "엔비디아 실적",
+            "volume": 280000
+          },
+          {
+            "keyword": "테슬라 호재",
+            "volume": 180000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "보유 종목 급등락 실시간 알림"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "테크주 섹터 시장 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "일반 주식 계좌 유도"
+      },
+      "hook_hypothesis": "테슬라 7% 빠진 날 해야 할 3가지 체크",
+      "ai_ideas_seed": {
+        "target": "테크주 보유 3040 남성",
+        "tone": "정보형 · 팩트 기반",
+        "format_hint": "15초 숏폼 · 차트 인포그래픽"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-A02",
+      "category_id": "A",
+      "subgroup": "A1",
+      "title": "월배당 ETF 은퇴 대비자",
+      "subtitle": "국내·미국 월배당 ETF 포트폴리오 고민",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "월배당 ETF 추천",
+          "미국 월배당",
+          "국내 월배당",
+          "ETF 단점",
+          "포트폴리오"
+        ],
+        "cluster_path": [
+          "월배당",
+          "ETF 추천",
+          "단점",
+          "포트폴리오",
+          "국내·미국 월배당 ETF 순위"
+        ],
+        "metrics": {
+          "annual_volume": 400000,
+          "trend_percent": null,
+          "trend_label": "꾸준한 증가",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 61% · 여 39%",
+          "age": "30-44세 · 50대 42%"
+        },
+        "why_now": "금리 인하 기대 + 50대 은퇴 세대 관심 증가",
+        "review_level": "low",
+        "review_notes": "배당률만 강조 금지 · 전체 수익률 고려 안내",
+        "monthly_volume": [
+          22000,
+          28000,
+          32000,
+          35000,
+          38000,
+          40000,
+          42000,
+          38000,
+          36000,
+          34000,
+          38000,
+          42000,
+          45000,
+          40000
+        ],
+        "who_tags": [
+          "은퇴 대비 4050",
+          "현금흐름 추구",
+          "SCHD 관심자",
+          "50대 여성"
+        ],
+        "who_evidence": "남 61% · 50대 42% · 30-44세 활발",
+        "when_tags": [
+          "금리 인하 기대",
+          "연말 배당 시즌",
+          "은퇴 임박"
+        ],
+        "when_evidence": "50대 관심 +18% 증가",
+        "journey_tags": [
+          "월배당 ETF",
+          "추천",
+          "단점",
+          "국내·미국",
+          "SCHD"
+        ],
+        "journey_evidence": "입문 → 추천 → 단점(회의) → 국가 비교",
+        "pain_tags": [
+          "배당률 함정",
+          "세금 걱정",
+          "종목 선택 어려움"
+        ],
+        "pain_evidence": "'월배당 ETF 단점' 월 1만 검색 · 신중한 접근",
+        "usp_fit_tags": [
+          "마이브리프 배당 일정",
+          "프라임클럽 포트폴리오"
+        ],
+        "usp_fit_evidence": "배당 관리 + 전문가 추천 필수",
+        "hook_tags": [
+          "배당률 말고 이것",
+          "5년 실제 수익",
+          "연금계좌 최적화"
+        ],
+        "hook_evidence": "배당률 단순 비교 함정 경계 콘텐츠",
+        "pathfinder_narrative": "월배당 관심 → 추천 종목 → 단점 검토 → 국가별 비교",
+        "cluster_insight": "월배당 ETF = 은퇴 대비 현금흐름 설계 핵심 도구",
+        "related_keywords": [
+          {
+            "keyword": "월배당 ETF",
+            "volume": 40000
+          },
+          {
+            "keyword": "SCHD",
+            "volume": 32000
+          },
+          {
+            "keyword": "월배당 ETF 추천",
+            "volume": 24000
+          },
+          {
+            "keyword": "미국 월배당 ETF",
+            "volume": 18000
+          },
+          {
+            "keyword": "월배당 ETF 단점",
+            "volume": 10000
+          },
+          {
+            "keyword": "국내 월배당 ETF",
+            "volume": 14000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "배당 일정·지급 알림"
+        },
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 배당주 포트폴리오"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "ISA",
+          "IRP"
+        ],
+        "note": "월배당 ETF는 연금계좌 운용 최적"
+      },
+      "hook_hypothesis": "월배당 ETF 고를 때 놓치는 3가지 (배당률만 보면 안 되는 이유)",
+      "ai_ideas_seed": {
+        "target": "4050 배당 수익 관심자",
+        "tone": "분석형 · 비교 표 활용",
+        "format_hint": "20초 숏폼 · 월배당 vs 분기배당 비교"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A03",
+      "category_id": "A",
+      "subgroup": "A1",
+      "title": "서학개미 — 환율 중심 진입",
+      "subtitle": "원달러 환율이 미국주식 투자에 미치는 영향",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "서학개미",
+          "환율",
+          "달러 환율",
+          "원달러 환율 전망",
+          "엔화"
+        ],
+        "cluster_path": [
+          "서학개미",
+          "환율",
+          "달러 환율",
+          "원달러 환율 전망",
+          "2026 환율 전망"
+        ],
+        "metrics": {
+          "annual_volume": 490000,
+          "trend_percent": null,
+          "trend_label": "환율 변동성 지속",
+          "competition": "HIGH",
+          "related_volume": {
+            "미국주식 추천": 260000
+          }
+        },
+        "demography": {
+          "gender": "남 65% · 여 35%",
+          "age": "50대↑ 34% · 40대 29%"
+        },
+        "why_now": "2026 환율 변동성 지속 + 서학개미 대량 유입. RIA 계좌(O-ACC11/12) 연계 가능",
+        "review_level": "low",
+        "review_notes": "환율 예측 단정 금지",
+        "monthly_volume": [
+          28000,
+          32000,
+          35000,
+          38000,
+          42000,
+          45000,
+          48000,
+          52000,
+          56000,
+          48000,
+          42000,
+          38000,
+          49000,
+          46000
+        ],
+        "who_tags": [
+          "서학개미",
+          "50대↑ 남성",
+          "환율 민감자",
+          "미국주식 보유자"
+        ],
+        "who_evidence": "남 65% · 50대↑ 34% · 40대 29%",
+        "when_tags": [
+          "달러 1400원 돌파",
+          "환율 변동기",
+          "2026 환율 전망"
+        ],
+        "when_evidence": "환율 변동성 지속 · RIA 출시로 연계 관심 급증",
+        "journey_tags": [
+          "서학개미",
+          "환율",
+          "달러",
+          "엔화",
+          "2026 전망"
+        ],
+        "journey_evidence": "서학개미 → 환율(고민) → 달러/엔화 → 전망",
+        "pain_tags": [
+          "환차손 공포",
+          "손절 타이밍",
+          "환헤지 방법"
+        ],
+        "pain_evidence": "'1400원 돌파' 검색 급증 · 불안 최고조",
+        "usp_fit_tags": [
+          "마이브리프 환율 연동 알림",
+          "AI투자브리핑 거시 해설"
+        ],
+        "usp_fit_evidence": "환율 연동 종목 관리 + 거시 환경 분석 필수",
+        "hook_tags": [
+          "1400원 당일 행동",
+          "손절 아닌 대응",
+          "RIA로 이전"
+        ],
+        "hook_evidence": "RIA 출시로 '이전' 옵션 제시 가능",
+        "pathfinder_narrative": "서학개미 환율 걱정 → 전망 확인 → RIA 이전 검토",
+        "cluster_insight": "서학개미 = 환율 리스크 회피 수단 적극 탐색 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "서학개미",
+            "volume": 49000
+          },
+          {
+            "keyword": "달러 환율",
+            "volume": 380000
+          },
+          {
+            "keyword": "원달러 환율 전망",
+            "volume": 120000
+          },
+          {
+            "keyword": "미국주식 추천",
+            "volume": 26000
+          },
+          {
+            "keyword": "2026 환율 전망",
+            "volume": 42000
+          },
+          {
+            "keyword": "엔화 전망",
+            "volume": 32000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "미국 종목 환율 연동 알림"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "환율·거시 환경 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "환율 리스크 회피하려는 서학개미 → RIA 이전 유도 가능"
+      },
+      "hook_hypothesis": "달러 1,400원 넘었을 때 서학개미가 해야 할 1가지 (손절 아님)",
+      "ai_ideas_seed": {
+        "target": "서학개미 4050 남성",
+        "tone": "분석형 · 거시 해설",
+        "format_hint": "25초 숏폼 · 환율 차트 + 대응 시나리오"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A04",
+      "category_id": "A",
+      "subgroup": "A2",
+      "title": "반대매매·패닉 — 긴급 구조",
+      "subtitle": "2026.3 급락 여파, +2,951% 실시간 폭발",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": 2,
+      "analysis": {
+        "interests": [
+          "반대매매",
+          "반대매매 막는법",
+          "깡통계좌",
+          "마진콜",
+          "신용거래"
+        ],
+        "cluster_path": [
+          "반대매매",
+          "막는법",
+          "뜻",
+          "후기",
+          "주식 신용거래",
+          "마진콜"
+        ],
+        "metrics": {
+          "annual_volume": 170000,
+          "trend_percent": 2951,
+          "trend_label": "+2,951% 🔥🔥",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남 63% · 여 37%",
+          "age": "40-50대"
+        },
+        "why_now": "2026.3 급락 여파 실시간 폭발. 위기 대응 콘텐츠 수요 극대",
+        "review_level": "medium",
+        "review_notes": "손절 추천 금지 · 차분한 톤 · 전문가 상담 권유",
+        "monthly_volume": [
+          5600,
+          4800,
+          170000,
+          42000,
+          28000,
+          18000,
+          14000,
+          12000,
+          11000,
+          9800,
+          8500,
+          7200,
+          6800,
+          6100
+        ],
+        "who_tags": [
+          "신용거래 투자자",
+          "40-50대 남성",
+          "급락 피해자",
+          "마진콜 대상자"
+        ],
+        "who_evidence": "남 63% · 40-50대 주력 · 레버리지 투자자",
+        "when_tags": [
+          "2026.3 급락 직후",
+          "반대매매 통보 당일",
+          "현재 진행형"
+        ],
+        "when_evidence": "2026.3월 +2,951% 실시간 폭발 · 4월까지 고점 유지",
+        "journey_tags": [
+          "반대매매",
+          "막는법",
+          "뜻",
+          "후기",
+          "마진콜",
+          "깡통계좌"
+        ],
+        "journey_evidence": "'반대매매' → '막는법'(긴급) → '후기'(공감) 순차",
+        "pain_tags": [
+          "패닉",
+          "손절 고민",
+          "절망감",
+          "정보 부족",
+          "통보 당일"
+        ],
+        "pain_evidence": "'반대매매 막는법' 월 17만 검색 · 위기 대응 수요 폭증",
+        "usp_fit_tags": [
+          "마이브리프 팩트",
+          "AI투자브리핑 냉정",
+          "프라임클럽 위기"
+        ],
+        "usp_fit_evidence": "3개 서비스 협업형 — 팩트+분석+전문가 삼각편대 필요",
+        "hook_tags": [
+          "당일 체크리스트",
+          "패닉 전 3가지",
+          "손절 타이밍",
+          "전문가 멘트"
+        ],
+        "hook_evidence": "'패닉 매도 전에' 콘텐츠 수요 최대치",
+        "pathfinder_narrative": "급락 충격 → 반대매매 통보 → 막는법 검색 → 전문가 상담 니즈",
+        "cluster_insight": "반대매매 = 긴급 구조 콘텐츠. '당일 해야 할 것' 형식이 핵심",
+        "related_keywords": [
+          {
+            "keyword": "반대매매",
+            "volume": 170000
+          },
+          {
+            "keyword": "반대매매 막는법",
+            "volume": 42000
+          },
+          {
+            "keyword": "마진콜",
+            "volume": 28000
+          },
+          {
+            "keyword": "깡통계좌",
+            "volume": 18000
+          },
+          {
+            "keyword": "반대매매 후기",
+            "volume": 14000
+          },
+          {
+            "keyword": "주식 신용거래",
+            "volume": 12000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "팩트 기반 보유 종목 현황"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "냉정한 시장 분석"
+        },
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "위기 상황 전문가 상담"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "직접 계좌 개설보다 신뢰 회복 우선"
+      },
+      "hook_hypothesis": "반대매매 통보받은 당일 해야 할 3가지 (패닉 매도 전에)",
+      "ai_ideas_seed": {
+        "target": "급락 후 심리 불안 투자자",
+        "tone": "차분형 · 구조적 가이드 · 공감",
+        "format_hint": "30초 숏폼 · 단계별 가이드 + 전문가 멘트"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A05",
+      "category_id": "A",
+      "subgroup": "A2",
+      "title": "심리불안 — 존버·물타기·손절 타이밍",
+      "subtitle": "의외의 인구통계: 여성 58-61%",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "존버",
+          "물타기",
+          "손절 타이밍",
+          "평균단가 계산",
+          "언제 팔아야"
+        ],
+        "cluster_path": [
+          "물타기",
+          "평균단가 계산",
+          "존버",
+          "언제 팔아야"
+        ],
+        "metrics": {
+          "annual_volume": 153000,
+          "trend_percent": null,
+          "trend_label": "3월 패닉 여파 지속",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 58-61% (의외)",
+          "age": "30-44세"
+        },
+        "why_now": "3월 패닉 여파 지속 + 여성 투자자 급증 세그먼트 반영",
+        "review_level": "medium",
+        "review_notes": "손절 추천 금지 · 평균단가 계산법은 교육적 톤",
+        "monthly_volume": [
+          8500,
+          9800,
+          42000,
+          18000,
+          15000,
+          13000,
+          12000,
+          11000,
+          10500,
+          11800,
+          13500,
+          14800,
+          15300,
+          13200
+        ],
+        "who_tags": [
+          "심리 불안 투자자",
+          "30-44세 여성",
+          "물타기 고민",
+          "손절 갈등"
+        ],
+        "who_evidence": "여 58-61% (의외) · 30-44세 주력",
+        "when_tags": [
+          "3월 패닉 직후",
+          "평가손실 확대 시점",
+          "존버 한계"
+        ],
+        "when_evidence": "2026.3월 +395% 폭발 이후 유지",
+        "journey_tags": [
+          "존버",
+          "물타기",
+          "평균단가",
+          "손절 타이밍"
+        ],
+        "journey_evidence": "존버(초기) → 물타기(고민) → 평균단가(계산) → 손절(결정)",
+        "pain_tags": [
+          "손실 확정 공포",
+          "회복 기대",
+          "판단 마비"
+        ],
+        "pain_evidence": "평균단가 계산법 검색 월 3만+ · 실용 도구 수요",
+        "usp_fit_tags": [
+          "마이브리프 팩트",
+          "AI투자브리핑 냉정 분석"
+        ],
+        "usp_fit_evidence": "감정 아닌 숫자 기반 판단 도구 필요",
+        "hook_tags": [
+          "평균단가 5초 계산",
+          "물타기 전 체크",
+          "데이터 기반 판단"
+        ],
+        "hook_evidence": "계산 도구형 콘텐츠 높은 반응",
+        "pathfinder_narrative": "손실 인식 → 존버 결심 → 물타기 유혹 → 평균단가 계산 → 판단",
+        "cluster_insight": "심리 불안 = 숫자로 감정 극복하려는 여성 세그먼트 핵심",
+        "related_keywords": [
+          {
+            "keyword": "물타기",
+            "volume": 42000
+          },
+          {
+            "keyword": "존버",
+            "volume": 32000
+          },
+          {
+            "keyword": "평균단가 계산",
+            "volume": 18000
+          },
+          {
+            "keyword": "손절 타이밍",
+            "volume": 15000
+          },
+          {
+            "keyword": "언제 팔아야",
+            "volume": 12000
+          },
+          {
+            "keyword": "주식 심리",
+            "volume": 9800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "평균단가·보유 현황 팩트"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "냉정한 판단 신호 제공"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "유지·신뢰 강화 중심"
+      },
+      "hook_hypothesis": "내 평균단가 계산하는 법 (물타기 전 필수 체크)",
+      "ai_ideas_seed": {
+        "target": "3040 여성 투자자 · 심리 불안",
+        "tone": "공감형 · 계산기 활용 · 실용",
+        "format_hint": "20초 숏폼 · 스마트폰 계산기 시뮬레이션"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A06",
+      "category_id": "A",
+      "subgroup": "A2",
+      "title": "FOMO·공포탐욕 지수 학습자",
+      "subtitle": "VIX·공포탐욕 지수 실시간 확인자",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "FOMO",
+          "VIX",
+          "공포탐욕 지수",
+          "실시간 지수"
+        ],
+        "cluster_path": [
+          "FOMO",
+          "지수",
+          "VIX",
+          "공포탐욕 지수",
+          "실시간 지수"
+        ],
+        "metrics": {
+          "annual_volume": 300000,
+          "trend_percent": 54,
+          "trend_label": "+54% 🔥",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 56% · 여 44%",
+          "age": "30-44세"
+        },
+        "why_now": "+54% 성장 · 시장 불안정성으로 지표 학습 수요 증가",
+        "review_level": "low",
+        "review_notes": "교육적 · 과거 데이터 기반",
+        "monthly_volume": [
+          12000,
+          15000,
+          18000,
+          20000,
+          22000,
+          24000,
+          26000,
+          28000,
+          29000,
+          29500,
+          30000,
+          30500,
+          30000,
+          28000
+        ],
+        "who_tags": [
+          "지표 학습자",
+          "30-44세",
+          "남 56%",
+          "기술적 분석 관심"
+        ],
+        "who_evidence": "남 56% · 30-44세 주력 · 중급 투자자",
+        "when_tags": [
+          "시장 불안 시기",
+          "변동성 확대",
+          "지표 활용 트렌드"
+        ],
+        "when_evidence": "+54% 성장 · 지표 학습 수요 지속",
+        "journey_tags": [
+          "FOMO",
+          "VIX",
+          "공포탐욕 지수",
+          "실시간 지수"
+        ],
+        "journey_evidence": "FOMO(감정) → VIX(지표) → 공포탐욕 지수(종합)",
+        "pain_tags": [
+          "감정 휘둘림",
+          "지표 해석 어려움",
+          "활용법 모름"
+        ],
+        "pain_evidence": "지표는 알지만 '어떻게 활용?' 교육 콘텐츠 부족",
+        "usp_fit_tags": [
+          "마이브리프 지표 알림",
+          "AI투자브리핑 해석"
+        ],
+        "usp_fit_evidence": "실시간 지표 + AI 해석 조합 효과적",
+        "hook_tags": [
+          "VIX 30 실제 데이터",
+          "10년 백테스트",
+          "지표 활용법"
+        ],
+        "hook_evidence": "과거 데이터 기반 검증 콘텐츠 선호",
+        "pathfinder_narrative": "FOMO 인식 → VIX 학습 → 공포탐욕 지수 → 실전 활용",
+        "cluster_insight": "FOMO·VIX = 감정을 지표로 극복하려는 중급자 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "FOMO",
+            "volume": 30000
+          },
+          {
+            "keyword": "VIX",
+            "volume": 28000
+          },
+          {
+            "keyword": "공포탐욕 지수",
+            "volume": 18000
+          },
+          {
+            "keyword": "VIX 지수",
+            "volume": 12000
+          },
+          {
+            "keyword": "실시간 지수",
+            "volume": 8500
+          },
+          {
+            "keyword": "시장 심리 지표",
+            "volume": 6200
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "VIX·지수 실시간 팩트"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "AI의 냉정한 해석"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "정보 제공 중심"
+      },
+      "hook_hypothesis": "VIX 30 넘으면 사야 한다? 실제 10년 데이터 확인",
+      "ai_ideas_seed": {
+        "target": "지표 공부하는 3040",
+        "tone": "교육형 · 데이터 기반",
+        "format_hint": "25초 숏폼 · 10년 차트 시각화"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A07",
+      "category_id": "A",
+      "subgroup": "A3",
+      "title": "ETF 궁금증 — '입문' 클러스터",
+      "subtitle": "ETF가 뭐야 · vs 주식 · 사는법",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "ETF 뜻",
+          "ETF vs 주식",
+          "ETF 장단점",
+          "ETF 사는법",
+          "ETF 쉽게 설명"
+        ],
+        "cluster_path": [
+          "ETF가 뭐야",
+          "vs 주식 차이",
+          "장단점",
+          "사는법"
+        ],
+        "metrics": {
+          "annual_volume": 360000,
+          "trend_percent": null,
+          "trend_label": "국장 활황 + ETF 입문 러시",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "여 55% · 남 45%",
+          "age": "25-44세"
+        },
+        "why_now": "국장 활황으로 ETF 입문자 대량 진입",
+        "review_level": "low",
+        "review_notes": "교육적 · 장단점 균형 있게",
+        "monthly_volume": [
+          18000,
+          22000,
+          26000,
+          28000,
+          30000,
+          32000,
+          34000,
+          36000,
+          38000,
+          36000,
+          34000,
+          32000,
+          36000,
+          30000
+        ],
+        "who_tags": [
+          "ETF 입문자",
+          "25-44세",
+          "여 55%",
+          "투자 시작 단계"
+        ],
+        "who_evidence": "여 55% · 25-44세 주력 · 국장 활황 신규 유입",
+        "when_tags": [
+          "국장 활황기",
+          "연금저축 시즌",
+          "ETF 대중화"
+        ],
+        "when_evidence": "국장 활황으로 ETF 입문자 대량 진입",
+        "journey_tags": [
+          "ETF가 뭐야",
+          "vs 주식",
+          "장단점",
+          "사는법"
+        ],
+        "journey_evidence": "뜻(개념) → 비교(이해) → 장단점(검증) → 실전(사는법)",
+        "pain_tags": [
+          "기초 용어 모름",
+          "주식과 차이 혼동",
+          "선택 어려움"
+        ],
+        "pain_evidence": "입문 키워드 월 3만+ · 기초 해설 수요 최대",
+        "usp_fit_tags": [
+          "오늘의 콕 3분 입문",
+          "AI투자브리핑 구조 해설"
+        ],
+        "usp_fit_evidence": "입문자 친화 + 구조 이해 조합 최적",
+        "hook_tags": [
+          "3가지만 알면 됨",
+          "주식과 차이",
+          "첫 ETF 고르기"
+        ],
+        "hook_evidence": "친근한 비유 + 단순 규칙 선호",
+        "pathfinder_narrative": "ETF 궁금증 → 주식과 차이 → 장단점 이해 → 첫 매수",
+        "cluster_insight": "ETF 입문 = 연금저축 이용으로 자연 연결되는 게이트웨이",
+        "related_keywords": [
+          {
+            "keyword": "ETF 뜻",
+            "volume": 12000
+          },
+          {
+            "keyword": "ETF vs 주식",
+            "volume": 8500
+          },
+          {
+            "keyword": "ETF 장단점",
+            "volume": 6800
+          },
+          {
+            "keyword": "ETF 사는법",
+            "volume": 9200
+          },
+          {
+            "keyword": "ETF 쉽게 설명",
+            "volume": 4200
+          },
+          {
+            "keyword": "ETF 초보",
+            "volume": 5800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "입문 가이드 최적"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "ETF 구조 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "ISA"
+        ],
+        "note": "ETF 입문자 → 연금저축 ETF 운용으로 자연 유입"
+      },
+      "hook_hypothesis": "ETF가 주식이랑 뭐가 다르냐고 물어보면 이 3가지만 알려줘도 충분",
+      "ai_ideas_seed": {
+        "target": "투자 입문자 · 2040",
+        "tone": "친근형 · 쉬운 설명",
+        "format_hint": "15초 숏폼 · 비유 중심"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-A08",
+      "category_id": "A",
+      "subgroup": "A3",
+      "title": "ETF 심화 — 장기투자·분산·운용원리",
+      "subtitle": "'분산투자 하지마라' 논쟁 · 찰리 멍거",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "ETF 장기투자 단점",
+          "분산투자 하지마라",
+          "LP 차익거래",
+          "상관계수",
+          "미국 ETF"
+        ],
+        "cluster_path": [
+          "ETF 장기투자",
+          "후기",
+          "단점",
+          "미국 ETF",
+          "분산투자",
+          "포트폴리오",
+          "상관계수"
+        ],
+        "metrics": {
+          "annual_volume": 180000,
+          "trend_percent": null,
+          "trend_label": "투자 고도화 수요",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남 54% · 여 46%",
+          "age": "30-50대"
+        },
+        "why_now": "투자 고도화 수요 증가 + 찰리 멍거 어록 재조명",
+        "review_level": "low",
+        "review_notes": "특정 투자 방법 강요 금지",
+        "monthly_volume": [
+          6500,
+          8000,
+          10000,
+          12000,
+          14000,
+          15000,
+          16000,
+          17000,
+          18000,
+          18500,
+          19000,
+          19500,
+          18000,
+          16500
+        ],
+        "who_tags": [
+          "ETF 경험자",
+          "30-50대",
+          "남 54%",
+          "심화 학습자"
+        ],
+        "who_evidence": "남 54% · 30-50대 · 투자 고도화 단계",
+        "when_tags": [
+          "투자 성숙기",
+          "장기 계획 수립",
+          "찰리 멍거 재조명"
+        ],
+        "when_evidence": "투자 고도화 수요 지속 증가",
+        "journey_tags": [
+          "ETF 장기투자",
+          "단점",
+          "미국 ETF",
+          "분산투자",
+          "상관계수"
+        ],
+        "journey_evidence": "장기(계획) → 단점(비판적) → 미국(고도화) → 분산(철학)",
+        "pain_tags": [
+          "판에 박힌 조언",
+          "심화 콘텐츠 부족",
+          "실제 백테스트 부재"
+        ],
+        "pain_evidence": "'분산투자 하지마라' 반전 콘텐츠 수요 급증",
+        "usp_fit_tags": [
+          "AI투자브리핑 심화 분석",
+          "프라임클럽 전문가 뷰"
+        ],
+        "usp_fit_evidence": "심화 분석 + 전문가 관점 조합 필수",
+        "hook_tags": [
+          "멍거 진의",
+          "분산투자 함정",
+          "10년 백테스트"
+        ],
+        "hook_evidence": "반전·권위 인용 콘텐츠 선호",
+        "pathfinder_narrative": "장기투자 철학 → 단점 검토 → 고도화 → 전문가 의견",
+        "cluster_insight": "ETF 심화 = 투자 철학 형성 단계의 중급·상급 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "ETF 장기투자",
+            "volume": 12000
+          },
+          {
+            "keyword": "분산투자 하지마라",
+            "volume": 4500
+          },
+          {
+            "keyword": "미국 ETF",
+            "volume": 28000
+          },
+          {
+            "keyword": "상관계수",
+            "volume": 3200
+          },
+          {
+            "keyword": "포트폴리오 이론",
+            "volume": 2800
+          },
+          {
+            "keyword": "ETF 단점",
+            "volume": 6500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "심화 분석 해설"
+        },
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 관점 심화"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "ETF 심화자 → ISA 분산 운용 최적"
+      },
+      "hook_hypothesis": "'분산투자 하지마라' 이 말 진짜일까? 찰리 멍거가 했던 말의 정확한 의미",
+      "ai_ideas_seed": {
+        "target": "ETF 경험자 · 3050",
+        "tone": "심화형 · 반전 포인트",
+        "format_hint": "30초 숏폼 · 명언 + 데이터 해석"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-A09",
+      "category_id": "A",
+      "subgroup": "A3",
+      "title": "테마 ETF — 반도체·원전·방산·AI",
+      "subtitle": "KODEX·TIGER 테마별 비교",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "반도체 ETF",
+          "원자력 ETF",
+          "방산 ETF",
+          "AI ETF",
+          "로봇 ETF"
+        ],
+        "cluster_path": [
+          "반도체 ETF",
+          "KODEX 반도체",
+          "TIGER 반도체",
+          "국내·미국",
+          "AI 반도체"
+        ],
+        "metrics": {
+          "annual_volume": 500000,
+          "trend_percent": null,
+          "trend_label": "AI·국방·에너지 메가트렌드",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 58% · 여 42%",
+          "age": "30-50대"
+        },
+        "why_now": "AI·국방·에너지 메가트렌드로 테마 ETF 관심 급증",
+        "review_level": "low",
+        "review_notes": "테마주 투기 경계 · 장기 관점 제공",
+        "monthly_volume": [
+          25000,
+          30000,
+          35000,
+          38000,
+          42000,
+          45000,
+          48000,
+          50000,
+          52000,
+          50000,
+          48000,
+          45000,
+          50000,
+          42000
+        ],
+        "who_tags": [
+          "테마 투자자",
+          "30-50대",
+          "남 58%",
+          "트렌드 민감자"
+        ],
+        "who_evidence": "남 58% · 30-50대 · 테마 다양 관심",
+        "when_tags": [
+          "AI 인프라 붐",
+          "방산 수출기",
+          "에너지 전환"
+        ],
+        "when_evidence": "메가트렌드 확산으로 테마 ETF 관심 급증",
+        "journey_tags": [
+          "반도체 ETF",
+          "KODEX",
+          "TIGER",
+          "AI·방산·원전"
+        ],
+        "journey_evidence": "테마 관심 → 상품명 → 구성종목 → 비교",
+        "pain_tags": [
+          "어느 ETF가 진짜?",
+          "구성 종목 다름",
+          "테마주 함정"
+        ],
+        "pain_evidence": "같은 테마 다른 구성 ETF 비교 수요",
+        "usp_fit_tags": [
+          "AI투자브리핑 테마 해설",
+          "마이브리프 테마 ETF 알림"
+        ],
+        "usp_fit_evidence": "테마 해설 + 보유 종목 관리 조합",
+        "hook_tags": [
+          "6종 비교",
+          "진짜 AI 투자",
+          "구성 종목 차이"
+        ],
+        "hook_evidence": "동일 테마 내 차별화 콘텐츠 수요",
+        "pathfinder_narrative": "테마 관심 → 여러 ETF 발견 → 비교 → 최종 선택",
+        "cluster_insight": "테마 ETF = AI·국방·에너지 메가트렌드의 실행 도구",
+        "related_keywords": [
+          {
+            "keyword": "반도체 ETF",
+            "volume": 38000
+          },
+          {
+            "keyword": "AI ETF",
+            "volume": 28000
+          },
+          {
+            "keyword": "방산 ETF",
+            "volume": 18000
+          },
+          {
+            "keyword": "원전 ETF",
+            "volume": 22000
+          },
+          {
+            "keyword": "KODEX 반도체",
+            "volume": 12000
+          },
+          {
+            "keyword": "TIGER AI",
+            "volume": 8500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "테마 해설 · 구성종목 분석"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "테마 ETF 보유 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "테마 ETF 분산 보유에 ISA 비과세 유리"
+      },
+      "hook_hypothesis": "반도체 ETF 6종 비교, 각 ETF가 담고 있는 기업이 왜 다를까",
+      "ai_ideas_seed": {
+        "target": "테마주 관심 3050",
+        "tone": "비교형 · 구성종목 시각화",
+        "format_hint": "25초 숏폼 · 비교 표 + 핵심 차이"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-A10",
+      "category_id": "A",
+      "subgroup": "A3",
+      "title": "주식 세금 · 양도세 · 배당세",
+      "subtitle": "2026 바뀐 세법",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "주식 세금",
+          "양도세",
+          "배당소득세",
+          "분리과세",
+          "금융소득종합과세"
+        ],
+        "cluster_path": [
+          "주식 세금",
+          "양도세",
+          "배당소득세",
+          "분리과세",
+          "금융소득종합과세"
+        ],
+        "metrics": {
+          "annual_volume": 240000,
+          "trend_percent": null,
+          "trend_label": "연말 피크 · 2026 세법 개정",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남 65% · 여 35%",
+          "age": "30-40대"
+        },
+        "why_now": "2026 세법 개정 + 연말정산 시즌 직전 교육 수요",
+        "review_level": "medium",
+        "review_notes": "절세 약속 금지 · 개인 상황 고지",
+        "monthly_volume": [
+          12000,
+          15000,
+          18000,
+          20000,
+          22000,
+          18000,
+          16000,
+          14000,
+          15000,
+          18000,
+          22000,
+          28000,
+          24000,
+          20000
+        ],
+        "who_tags": [
+          "세금 민감자",
+          "30-40대",
+          "남 65%",
+          "고소득 투자자"
+        ],
+        "who_evidence": "남 65% · 30-40대 주력 · 고소득층 집중",
+        "when_tags": [
+          "2026 세법 개정",
+          "연말 정산 직전",
+          "양도세 신고기"
+        ],
+        "when_evidence": "매년 12-2월 피크 · 2026 개정 이슈",
+        "journey_tags": [
+          "주식 세금",
+          "양도세",
+          "배당소득세",
+          "금융소득종합과세"
+        ],
+        "journey_evidence": "일반 → 양도(큰 세금) → 배당 → 종합과세(고소득)",
+        "pain_tags": [
+          "세법 복잡",
+          "절세 방법 몰라",
+          "개정 내용 따라가기"
+        ],
+        "pain_evidence": "세금 교육 콘텐츠 만성 수요",
+        "usp_fit_tags": [
+          "오늘의 콕 절세 팁",
+          "프라임클럽 세무 조언"
+        ],
+        "usp_fit_evidence": "실용 팁 + 전문가 조언 병행",
+        "hook_tags": [
+          "5분 완성",
+          "2026 바뀐 세법",
+          "절세 3가지"
+        ],
+        "hook_evidence": "시간 절약 + 변화 반영 선호",
+        "pathfinder_narrative": "세금 걱정 → 양도세(핵심) → 배당세 → 절세 방법",
+        "cluster_insight": "주식 세금 = ISA·연금저축 등 절세 계좌로 연결되는 게이트",
+        "related_keywords": [
+          {
+            "keyword": "주식 세금",
+            "volume": 28000
+          },
+          {
+            "keyword": "양도세",
+            "volume": 85000
+          },
+          {
+            "keyword": "배당소득세",
+            "volume": 42000
+          },
+          {
+            "keyword": "금융소득종합과세",
+            "volume": 32000
+          },
+          {
+            "keyword": "2026 세법",
+            "volume": 18000
+          },
+          {
+            "keyword": "주식 절세",
+            "volume": 14000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "세금 절세 팁"
+        },
+        {
+          "id": "prime-club",
+          "role": "secondary",
+          "reason": "전문가 세무 조언"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축",
+          "IRP"
+        ],
+        "note": "세금 최적화 → 절세 계좌 유도"
+      },
+      "hook_hypothesis": "주식 세금 5분 정리 (+2026 바뀐 세법)",
+      "ai_ideas_seed": {
+        "target": "세금 신경 쓰는 3040",
+        "tone": "정리형 · 시간 절약",
+        "format_hint": "30초 숏폼 · 표 중심"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-A11",
+      "category_id": "A",
+      "subgroup": "A3",
+      "title": "파이어족 — 경제적 자유 자산 목표",
+      "subtitle": "10억·20억·배당 파이어",
+      "status": "tentative",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "파이어족",
+          "파이어 목표금액",
+          "배당 파이어",
+          "낙원 계산기",
+          "10억 20억"
+        ],
+        "cluster_path": [
+          "파이어족",
+          "목표금액",
+          "계산기",
+          "낙원 계산기",
+          "10억·20억·30억·50억",
+          "실패·개소리"
+        ],
+        "metrics": {
+          "annual_volume": 430000,
+          "trend_percent": 27,
+          "trend_label": "+27% · 배당 파이어 관심 증가",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남녀 50:50",
+          "age": "25-44세"
+        },
+        "why_now": "+27% 성장 + 파이어 회의감 세그먼트 부상",
+        "review_level": "medium",
+        "review_notes": "'경제적 자유' 단정 금지 · 회의감 톤 주의",
+        "monthly_volume": [
+          28000,
+          32000,
+          35000,
+          38000,
+          42000,
+          45000,
+          43000,
+          41000,
+          42000,
+          43000,
+          44000,
+          45000,
+          43000,
+          40000
+        ],
+        "who_tags": [
+          "파이어족 지망자",
+          "25-44세",
+          "남녀 50:50",
+          "고연봉"
+        ],
+        "who_evidence": "25-44세 · 남녀 균형 · 자산 목표 설정자",
+        "when_tags": [
+          "파이어 재유행",
+          "배당 파이어",
+          "회의감 확산"
+        ],
+        "when_evidence": "+27% 성장 · 현실 검증 단계 진입",
+        "journey_tags": [
+          "파이어족",
+          "목표금액",
+          "계산기",
+          "낙원 계산기",
+          "10-50억"
+        ],
+        "journey_evidence": "파이어(꿈) → 목표금액(현실) → 계산기(검증) → 회의(재평가)",
+        "pain_tags": [
+          "금액 감이 없음",
+          "물가 반영 혼란",
+          "회의감"
+        ],
+        "pain_evidence": "'파이어 실패' '개소리' 검색 증가 · 회의감",
+        "usp_fit_tags": [
+          "마이브리프 자산 추적",
+          "AI투자브리핑 시뮬레이션"
+        ],
+        "usp_fit_evidence": "자산 관리 + 시뮬레이션 조합",
+        "hook_tags": [
+          "2026 환산 금액",
+          "진짜 10억",
+          "배당 파이어"
+        ],
+        "hook_evidence": "현실 기반 숫자 콘텐츠 선호",
+        "pathfinder_narrative": "파이어 꿈 → 목표 계산 → 현실 확인 → 수정된 목표",
+        "cluster_insight": "파이어족 = '경제적 자유 재정의' 세그먼트. 단순 계산기보다 철학",
+        "related_keywords": [
+          {
+            "keyword": "파이어족",
+            "volume": 43000
+          },
+          {
+            "keyword": "파이어 목표금액",
+            "volume": 18000
+          },
+          {
+            "keyword": "낙원 계산기",
+            "volume": 12000
+          },
+          {
+            "keyword": "배당 파이어",
+            "volume": 9800
+          },
+          {
+            "keyword": "10억 파이어",
+            "volume": 8500
+          },
+          {
+            "keyword": "파이어 실패",
+            "volume": 4200
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "자산 추적·루틴 관리"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "파이어 시뮬레이션"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "자산 관리 루틴 강화"
+      },
+      "hook_hypothesis": "파이어족 10억 진짜 될까? 2026년 환산 계산법",
+      "ai_ideas_seed": {
+        "target": "파이어 관심 2040",
+        "tone": "현실형 · 숫자 기반",
+        "format_hint": "25초 숏폼 · 계산 시뮬레이션"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B01",
+      "category_id": "B",
+      "subgroup": "B1",
+      "title": "퇴직금 연금화",
+      "subtitle": "30대 이직 + 50대 정년 이중 수요",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": 3,
+      "analysis": {
+        "interests": [
+          "퇴직금 수령",
+          "IRP 연금화",
+          "퇴직소득세 계산기",
+          "퇴직금 이체"
+        ],
+        "cluster_path": [
+          "퇴직금",
+          "퇴직금 연금",
+          "수령",
+          "IRP 계좌 개설",
+          "퇴직소득세 계산기"
+        ],
+        "metrics": {
+          "annual_volume": 1250000,
+          "trend_percent": 120,
+          "trend_label": "+120% 🔥",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 52% · 여 48%",
+          "age": "30대 37% (이직) + 50대 (정년)"
+        },
+        "why_now": "+120% 폭발. 2026 정년 세대 대량 은퇴 + 30대 이직 빈도 증가",
+        "review_level": "low",
+        "review_notes": "세제 혜택 정확한 팩트 · 개인 상황 고지",
+        "monthly_volume": [
+          68000,
+          72000,
+          84000,
+          95000,
+          108000,
+          115000,
+          122000,
+          118000,
+          125000,
+          132000,
+          140000,
+          148000,
+          155000,
+          142000
+        ],
+        "who_tags": [
+          "퇴직 예정자",
+          "30대 이직자",
+          "50대 정년자",
+          "퇴직소득세 민감자"
+        ],
+        "who_evidence": "30대 37% (이직) + 50대 (정년) · 남 52% · 여 48%",
+        "when_tags": [
+          "퇴직금 수령 당일",
+          "이직 결정 시점",
+          "2026 정년 대이동"
+        ],
+        "when_evidence": "+120% 폭발 · 2026 베이비붐 세대 대량 은퇴",
+        "journey_tags": [
+          "퇴직금",
+          "연금",
+          "수령",
+          "IRP 개설",
+          "퇴직소득세 계산기"
+        ],
+        "journey_evidence": "'퇴직금' → '연금'(이체 고민) → '수령'(방법) 순서",
+        "pain_tags": [
+          "일시수령 vs 이체 혼란",
+          "세금 모름",
+          "어디 맡길지 고민"
+        ],
+        "pain_evidence": "'퇴직소득세 계산기' 월 12만 검색 · 세금 부담 공포",
+        "usp_fit_tags": [
+          "프라임클럽 전문가",
+          "오늘의 콕 가이드",
+          "장기 설계"
+        ],
+        "usp_fit_evidence": "전문가 상담 + 교육 콘텐츠 병행 효과적",
+        "hook_tags": [
+          "당일 체크 3가지",
+          "세금 비교 계산",
+          "IRP vs 일시수령"
+        ],
+        "hook_evidence": "'퇴직금 받는 순간' 구체적 행동 가이드 수요 최고",
+        "pathfinder_narrative": "퇴직·이직 임박 → 퇴직금 처리 고민 → IRP 이체 vs 일시수령 결정",
+        "cluster_insight": "퇴직금 = '세금 최소화 + 노후 대비' 양대 목표. IRP가 답",
+        "related_keywords": [
+          {
+            "keyword": "퇴직금 연금화",
+            "volume": 125000
+          },
+          {
+            "keyword": "IRP 계좌 개설",
+            "volume": 94600
+          },
+          {
+            "keyword": "퇴직소득세 계산기",
+            "volume": 120000
+          },
+          {
+            "keyword": "퇴직금 수령",
+            "volume": 68000
+          },
+          {
+            "keyword": "개인형 IRP",
+            "volume": 42000
+          },
+          {
+            "keyword": "퇴직금 이체",
+            "volume": 28000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 연금화 조언"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "연금화 가이드"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "퇴직금 → IRP 직접 연결 KPI"
+      },
+      "hook_hypothesis": "퇴직금 받는 순간 체크해야 할 3가지 (+IRP 이체하면 세금 얼마 아끼나)",
+      "ai_ideas_seed": {
+        "target": "30대 이직자 + 50대 은퇴자",
+        "tone": "신뢰형 · 단계별 가이드",
+        "format_hint": "30초 숏폼 · 시나리오 + 세금 계산"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B02",
+      "category_id": "B",
+      "subgroup": "B1",
+      "title": "30·40대 노후 준비",
+      "subtitle": "선제적 고민 세대",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "30대 노후 준비",
+          "40대 노후 준비",
+          "노후 대비 투자",
+          "연저펀 30년"
+        ],
+        "cluster_path": [
+          "30대 노후 준비",
+          "30대 재테크",
+          "30대 개인연금",
+          "연저펀 30년",
+          "노후 대비 투자"
+        ],
+        "metrics": {
+          "annual_volume": 240000,
+          "trend_percent": null,
+          "trend_label": "조기 고민 세대 확산",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "여 55% · 남 45%",
+          "age": "30-49세"
+        },
+        "why_now": "30-40대 조기 은퇴 고민 시작 트렌드",
+        "review_level": "low",
+        "review_notes": "장기 복리 설명 · 확정 수익 금지",
+        "monthly_volume": [
+          15000,
+          18000,
+          20000,
+          22000,
+          24000,
+          25000,
+          24000,
+          23000,
+          22000,
+          23000,
+          24000,
+          25000,
+          24000,
+          22000
+        ],
+        "who_tags": [
+          "30-40대 조기 고민자",
+          "여 55%",
+          "직장인",
+          "장기 계획"
+        ],
+        "who_evidence": "여 55% · 30-49세 주력",
+        "when_tags": [
+          "노후 고민 시작",
+          "자녀 독립 준비",
+          "연금저축 시즌"
+        ],
+        "when_evidence": "30-40대 조기 은퇴 고민 트렌드",
+        "journey_tags": [
+          "30대 노후",
+          "40대 재테크",
+          "연저펀 30년",
+          "장기 복리"
+        ],
+        "journey_evidence": "30대(선제) → 40대(본격) → 장기 운용 → 복리",
+        "pain_tags": [
+          "얼마 필요한지 모름",
+          "시작 시점 고민",
+          "상품 혼란"
+        ],
+        "pain_evidence": "장기 계획 도구 부족",
+        "usp_fit_tags": [
+          "프라임클럽 장기 설계",
+          "AI투자브리핑 시뮬레이션"
+        ],
+        "usp_fit_evidence": "전문가 설계 + 시뮬레이션 필수",
+        "hook_tags": [
+          "10년 시작 차이",
+          "30대 1만원 vs 40대",
+          "복리 마법"
+        ],
+        "hook_evidence": "시간 가치 시각화 콘텐츠",
+        "pathfinder_narrative": "조기 고민 → 장기 계획 → 상품 선택 → 실행",
+        "cluster_insight": "30-40대 노후 = 복리 시간 가치 인식 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "30대 노후 준비",
+            "volume": 12000
+          },
+          {
+            "keyword": "40대 노후 준비",
+            "volume": 15000
+          },
+          {
+            "keyword": "연저펀 30년",
+            "volume": 4200
+          },
+          {
+            "keyword": "노후 대비 투자",
+            "volume": 18000
+          },
+          {
+            "keyword": "30대 재테크",
+            "volume": 22000
+          },
+          {
+            "keyword": "개인연금 30대",
+            "volume": 8500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "장기 설계 전문가"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "시뮬레이션 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "IRP",
+          "ISA"
+        ],
+        "note": "장기 세액공제 삼각편대"
+      },
+      "hook_hypothesis": "30대에 시작하면 40대 노후 준비가 얼마나 쉬워질까 (진짜 계산)",
+      "ai_ideas_seed": {
+        "target": "3040 조기 고민자",
+        "tone": "설득형 · 복리 효과",
+        "format_hint": "25초 숏폼 · 10년 시뮬레이션"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B03",
+      "category_id": "B",
+      "subgroup": "B1",
+      "title": "부모 노후 걱정하는 3040 자녀",
+      "subtitle": "결혼 세대의 현실적 고민",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "노후준비 안된 부모",
+          "부모 노후 결혼",
+          "흙수저 부모 노후"
+        ],
+        "cluster_path": [
+          "노후준비 안된 부모",
+          "결혼",
+          "부모 노후 결혼 디시",
+          "흙수저 부모 노후"
+        ],
+        "metrics": {
+          "annual_volume": 120000,
+          "trend_percent": null,
+          "trend_label": "결혼 세대 현실 고민",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 70% · 남 30%",
+          "age": "25-39세 (결혼 앞둔 세대)"
+        },
+        "why_now": "결혼 연령 상승 + 부모 노후 책임 세대 확산",
+        "review_level": "medium",
+        "review_notes": "감정적 주제 · 공감 톤 · 부담 가중 금지",
+        "monthly_volume": [
+          8000,
+          9500,
+          11000,
+          12000,
+          10500,
+          9800,
+          10000,
+          10500,
+          11000,
+          10800,
+          11500,
+          12500,
+          12000,
+          10500
+        ],
+        "who_tags": [
+          "결혼 앞둔 2530",
+          "여 70%",
+          "부모 부양 세대",
+          "가족 재무"
+        ],
+        "who_evidence": "여 70% · 25-39세 (결혼 앞둔 세대)",
+        "when_tags": [
+          "결혼 준비기",
+          "상견례 후",
+          "부모 통장 확인"
+        ],
+        "when_evidence": "결혼 연령 상승 + 부모 노후 책임 확산",
+        "journey_tags": [
+          "노후준비 안된 부모",
+          "결혼",
+          "부모 노후 결혼 디시"
+        ],
+        "journey_evidence": "부모 상황 확인 → 결혼 부담 → 커뮤니티 공감",
+        "pain_tags": [
+          "부양 부담",
+          "결혼 비용 충돌",
+          "미안함"
+        ],
+        "pain_evidence": "감정적 주제 · 공감 콘텐츠 수요",
+        "usp_fit_tags": [
+          "프라임클럽 가족 재무 설계",
+          "오늘의 콕 용돈 가이드"
+        ],
+        "usp_fit_evidence": "가족 재무 상담 + 실용 팁 병행",
+        "hook_tags": [
+          "결혼 앞두고 발견한",
+          "부모 통장 3가지",
+          "미안함 해결"
+        ],
+        "hook_evidence": "공감 스토리 + 해결책 조합",
+        "pathfinder_narrative": "결혼 계획 → 부모 상황 확인 → 부담 인식 → 해결책 탐색",
+        "cluster_insight": "부모 노후 = 결혼 세대의 현실적 부담 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "노후준비 안된 부모",
+            "volume": 8500
+          },
+          {
+            "keyword": "부모 노후 결혼",
+            "volume": 4200
+          },
+          {
+            "keyword": "흙수저 부모 노후",
+            "volume": 2800
+          },
+          {
+            "keyword": "부모 부양 재테크",
+            "volume": 3500
+          },
+          {
+            "keyword": "결혼 부모 노후",
+            "volume": 3200
+          },
+          {
+            "keyword": "부모 용돈",
+            "volume": 12000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "가족 재무 설계"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "용돈·부양 가이드"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "IRP"
+        ],
+        "note": "부모용 연금 운용 + 본인 준비 동시"
+      },
+      "hook_hypothesis": "결혼 앞두고 알게 된 부모님 통장 잔액, 내가 지금 해야 할 준비 3가지",
+      "ai_ideas_seed": {
+        "target": "결혼 앞둔 여성 2030",
+        "tone": "공감형 · 현실적 솔루션",
+        "format_hint": "30초 숏폼 · 내레이션 중심"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B04",
+      "category_id": "B",
+      "subgroup": "B1",
+      "title": "주택연금 노후 현금화",
+      "subtitle": "사망·상속 고민",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "주택연금 수령액",
+          "주택연금 단점",
+          "주택연금 상속",
+          "사망시"
+        ],
+        "cluster_path": [
+          "주택연금",
+          "수령액 계산기",
+          "단점",
+          "사망시",
+          "상속"
+        ],
+        "metrics": {
+          "annual_volume": 610000,
+          "trend_percent": 18,
+          "trend_label": "+18%",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "여 50% · 남 50%",
+          "age": "50대↑ 50%"
+        },
+        "why_now": "초고령 사회 진입 + 주택 가격 안정화 영향",
+        "review_level": "medium",
+        "review_notes": "사망·상속 민감 · 중립적 정보 제공",
+        "monthly_volume": [
+          38000,
+          42000,
+          45000,
+          48000,
+          52000,
+          55000,
+          58000,
+          60000,
+          61000,
+          60000,
+          58000,
+          55000,
+          61000,
+          55000
+        ],
+        "who_tags": [
+          "50대↑",
+          "주택 보유자",
+          "은퇴 임박",
+          "상속 고민"
+        ],
+        "who_evidence": "50대↑ 50% · 여 50% · 주택 자산 활용",
+        "when_tags": [
+          "은퇴 2-3년 전",
+          "주택 가격 안정",
+          "초고령 사회"
+        ],
+        "when_evidence": "+18% 성장 · 대량 수요 진입",
+        "journey_tags": [
+          "주택연금 수령액",
+          "단점",
+          "상속",
+          "사망시"
+        ],
+        "journey_evidence": "수령액(기대) → 단점(검증) → 상속(고민) → 사망(불안)",
+        "pain_tags": [
+          "상속 불확실",
+          "주택 가격 하락 공포",
+          "중단 가능성"
+        ],
+        "pain_evidence": "단점 검색 급증 · 신중한 접근",
+        "usp_fit_tags": [
+          "프라임클럽 은퇴 전문가",
+          "오늘의 콕 제도 해설"
+        ],
+        "usp_fit_evidence": "제도 이해 + 전문가 상담 필수",
+        "hook_tags": [
+          "아무도 안 알려준 3가지",
+          "팔고 투자하면",
+          "상속 진실"
+        ],
+        "hook_evidence": "숨겨진 진실 + 대안 비교 선호",
+        "pathfinder_narrative": "주택연금 관심 → 수령액 계산 → 단점 검토 → 대안 비교",
+        "cluster_insight": "주택연금 = 주택 자산 현금화의 가장 큰 옵션, 신중한 검증 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "주택연금",
+            "volume": 61000
+          },
+          {
+            "keyword": "주택연금 수령액",
+            "volume": 28000
+          },
+          {
+            "keyword": "주택연금 단점",
+            "volume": 18000
+          },
+          {
+            "keyword": "주택연금 상속",
+            "volume": 12000
+          },
+          {
+            "keyword": "주택연금 사망시",
+            "volume": 8500
+          },
+          {
+            "keyword": "주택연금 조건",
+            "volume": 14000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "은퇴 전문가 조언"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "제도 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [],
+        "note": "주택연금 대안으로 IRP 운용 비교"
+      },
+      "hook_hypothesis": "주택연금 신청 전 아무도 안 알려준 3가지 (+내 집 팔고 투자하면 얼마 차이?)",
+      "ai_ideas_seed": {
+        "target": "50대↑ 은퇴 예정자",
+        "tone": "신중형 · 비교 중심",
+        "format_hint": "30초 숏폼 · 계산 시뮬레이션"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B05",
+      "category_id": "B",
+      "subgroup": "B1",
+      "title": "50대 후반 노후 준비",
+      "subtitle": "최후의 10년 운용",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "50대 노후 준비",
+          "50대 후반 재테크",
+          "노후 자금 운용"
+        ],
+        "cluster_path": [
+          "50대 노후 준비",
+          "50대 은퇴 준비",
+          "노후 자금 준비 방법",
+          "노후 연금 준비"
+        ],
+        "metrics": {
+          "annual_volume": 120000,
+          "trend_percent": null,
+          "trend_label": "대량 은퇴 세대 진입",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "여 50% · 남 50%",
+          "age": "50대↑ 75%"
+        },
+        "why_now": "50대 베이비붐 세대 대량 은퇴 임박",
+        "review_level": "medium",
+        "review_notes": "짧은 운용 기간 · 안정성 강조",
+        "monthly_volume": [
+          8000,
+          9000,
+          10000,
+          10500,
+          11000,
+          11500,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          11500
+        ],
+        "who_tags": [
+          "50대 후반",
+          "은퇴 임박 10년",
+          "대량 세대",
+          "현실 직시"
+        ],
+        "who_evidence": "50대↑ 75% · 은퇴 임박",
+        "when_tags": [
+          "베이비붐 은퇴기",
+          "2026 대량 은퇴",
+          "마지막 10년"
+        ],
+        "when_evidence": "대량 은퇴 세대 진입",
+        "journey_tags": [
+          "50대 노후 준비",
+          "은퇴 준비",
+          "노후 자금 운용"
+        ],
+        "journey_evidence": "준비(늦음) → 은퇴(현실) → 운용(안정)",
+        "pain_tags": [
+          "준비 부족",
+          "시간 부족",
+          "안정성 vs 수익"
+        ],
+        "pain_evidence": "현실 직시 단계 · 구체적 액션 수요",
+        "usp_fit_tags": [
+          "프라임클럽 긴급 설계",
+          "마이브리프 월배당 관리"
+        ],
+        "usp_fit_evidence": "짧은 기간 + 안정 운용 전문성",
+        "hook_tags": [
+          "퇴직 10년 앞",
+          "현실적 3가지",
+          "자산 모자라면"
+        ],
+        "hook_evidence": "현실 기반 구체 액션 선호",
+        "pathfinder_narrative": "은퇴 임박 인식 → 자산 점검 → 현실적 설계 → 안정 운용",
+        "cluster_insight": "50대 후반 = 은퇴 최종 준비 단계의 압축 설계 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "50대 노후 준비",
+            "volume": 12000
+          },
+          {
+            "keyword": "50대 후반 재테크",
+            "volume": 8500
+          },
+          {
+            "keyword": "노후 자금 운용",
+            "volume": 6500
+          },
+          {
+            "keyword": "50대 은퇴 준비",
+            "volume": 9800
+          },
+          {
+            "keyword": "노후 연금 준비",
+            "volume": 4200
+          },
+          {
+            "keyword": "은퇴 10년",
+            "volume": 3800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "은퇴 임박 전문가 조언"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "월배당 관리"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "단기 세액공제 + 안정 운용"
+      },
+      "hook_hypothesis": "퇴직 10년 앞두고 자산이 모자란다면 지금 할 수 있는 현실적 3가지",
+      "ai_ideas_seed": {
+        "target": "50대 은퇴 임박자",
+        "tone": "현실형 · 구체적 액션",
+        "format_hint": "30초 숏폼 · 체크리스트"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B06",
+      "category_id": "B",
+      "subgroup": "B2",
+      "title": "연금저축·IRP 세액공제 시즌",
+      "subtitle": "매년 11-2월 피크 시즌 자산",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "연금저축 세액공제",
+          "IRP 세액공제",
+          "세액공제 한도",
+          "연말정산"
+        ],
+        "cluster_path": [
+          "연금저축",
+          "ISA",
+          "IRP 차이",
+          "계좌 개설",
+          "ETF 추천"
+        ],
+        "metrics": {
+          "annual_volume": 1310000,
+          "trend_percent": null,
+          "trend_label": "매년 12-2월 피크",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "여 55% · 남 45%",
+          "age": "30-49세"
+        },
+        "why_now": "11-2월 시즌 자산 · 매년 반복 가능",
+        "review_level": "medium",
+        "review_notes": "세액공제 정확한 팩트 · 개인별 한도 고지",
+        "monthly_volume": [
+          85000,
+          95000,
+          108000,
+          118000,
+          125000,
+          128000,
+          125000,
+          120000,
+          115000,
+          118000,
+          125000,
+          135000,
+          131000,
+          120000
+        ],
+        "who_tags": [
+          "직장인 3040",
+          "여 55%",
+          "세액공제 시즌",
+          "절세 관심"
+        ],
+        "who_evidence": "여 55% · 30-49세 · 연말정산 집중",
+        "when_tags": [
+          "11-2월 시즌",
+          "연말정산 임박",
+          "매년 반복"
+        ],
+        "when_evidence": "매년 12-2월 피크 · 시즌 자산",
+        "journey_tags": [
+          "연금저축",
+          "IRP 차이",
+          "ISA",
+          "계좌 개설",
+          "ETF"
+        ],
+        "journey_evidence": "세액공제 고민 → 계좌 비교 → 개설 → ETF 선택",
+        "pain_tags": [
+          "계좌 뭐 선택?",
+          "한도 헷갈림",
+          "ETF 선택 어려움"
+        ],
+        "pain_evidence": "비교 콘텐츠 만성 수요",
+        "usp_fit_tags": [
+          "오늘의 콕 시즌 가이드",
+          "AI투자브리핑 시뮬레이션"
+        ],
+        "usp_fit_evidence": "시즌 가이드 + 시뮬레이션 조합",
+        "hook_tags": [
+          "6개월 남았을 때",
+          "하나만 고른다면",
+          "한도 최적화"
+        ],
+        "hook_evidence": "시간 순 가이드 + 선택 규칙 선호",
+        "pathfinder_narrative": "세액공제 관심 → 계좌 비교 → 개설 → ETF 선택",
+        "cluster_insight": "세액공제 시즌 = 연금저축·IRP 동시 개설 결정의 트리거",
+        "related_keywords": [
+          {
+            "keyword": "연금저축 세액공제",
+            "volume": 131000
+          },
+          {
+            "keyword": "IRP 세액공제",
+            "volume": 45000
+          },
+          {
+            "keyword": "세액공제 한도",
+            "volume": 28000
+          },
+          {
+            "keyword": "연금저축 IRP 차이",
+            "volume": 18000
+          },
+          {
+            "keyword": "연말정산 연금",
+            "volume": 35000
+          },
+          {
+            "keyword": "세액공제 최적화",
+            "volume": 8500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "시즌 가이드"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "시뮬레이션"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "IRP"
+        ],
+        "note": "시즌 연금저축 + IRP 동시 개설 유도"
+      },
+      "hook_hypothesis": "연말정산 6개월 남았을 때 IRP와 연금저축, 하나만 고른다면 이 질문 먼저",
+      "ai_ideas_seed": {
+        "target": "직장인 3040",
+        "tone": "시즌형 · 실용 가이드",
+        "format_hint": "25초 숏폼 · 질문→답 구조"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B07",
+      "category_id": "B",
+      "subgroup": "B2",
+      "title": "ISA 계좌 — 비과세 혜택",
+      "subtitle": "5년 절세 효과",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "ISA 계좌",
+          "ISA 종목 추천",
+          "ISA ETF",
+          "ISA 비과세"
+        ],
+        "cluster_path": [
+          "ISA",
+          "계좌 개설",
+          "추천 종목",
+          "ETF",
+          "분산투자"
+        ],
+        "metrics": {
+          "annual_volume": 600000,
+          "trend_percent": null,
+          "trend_label": "한도 상향 기대",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "여 52% · 남 48%",
+          "age": "25-44세"
+        },
+        "why_now": "2026 제도 개편 + 한도 상향 기대",
+        "review_level": "medium",
+        "review_notes": "비과세 정확한 한도 · 중도해지 불이익 고지",
+        "monthly_volume": [
+          45000,
+          50000,
+          55000,
+          58000,
+          60000,
+          62000,
+          60000,
+          58000,
+          56000,
+          58000,
+          60000,
+          62000,
+          60000,
+          56000
+        ],
+        "who_tags": [
+          "ISA 관심자",
+          "2544세",
+          "여 52%",
+          "절세 수요"
+        ],
+        "who_evidence": "여 52% · 25-44세 · 초보~중급",
+        "when_tags": [
+          "2026 제도 개편",
+          "한도 상향 기대",
+          "5년 장기"
+        ],
+        "when_evidence": "2016 출시 10년 만기 + 개편 이슈",
+        "journey_tags": [
+          "ISA 계좌",
+          "종목 추천",
+          "ETF",
+          "비과세"
+        ],
+        "journey_evidence": "ISA(개념) → 종목(실행) → ETF(운용) → 비과세(혜택)",
+        "pain_tags": [
+          "비과세 한도 혼란",
+          "중도해지 불이익",
+          "만기 후 선택"
+        ],
+        "pain_evidence": "한도·불이익 정보 부족",
+        "usp_fit_tags": [
+          "오늘의 콕 ISA 가이드",
+          "AI투자브리핑 절세 시뮬"
+        ],
+        "usp_fit_evidence": "가이드 + 시뮬레이션 조합",
+        "hook_tags": [
+          "5년 절세 효과",
+          "실제 절세액",
+          "만기 전략"
+        ],
+        "hook_evidence": "구체 절세액 계산 선호",
+        "pathfinder_narrative": "ISA 관심 → 개설 → 종목 선택 → 5년 운용 → 만기 대응",
+        "cluster_insight": "ISA = 국내 가장 큰 절세 계좌, 5년 장기 설계 필수",
+        "related_keywords": [
+          {
+            "keyword": "ISA 계좌",
+            "volume": 60000
+          },
+          {
+            "keyword": "ISA 종목 추천",
+            "volume": 18000
+          },
+          {
+            "keyword": "ISA ETF",
+            "volume": 12000
+          },
+          {
+            "keyword": "ISA 비과세",
+            "volume": 15000
+          },
+          {
+            "keyword": "ISA 한도",
+            "volume": 28000
+          },
+          {
+            "keyword": "ISA 중도해지",
+            "volume": 8500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "ISA 가이드"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "절세 시뮬레이션"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "ISA 신규 개설 직접 유도"
+      },
+      "hook_hypothesis": "ISA 계좌에 넣으면 세금 얼마 아낄까 (+5년 뒤 실제 절세 효과 계산)",
+      "ai_ideas_seed": {
+        "target": "2540 재테크 초보",
+        "tone": "입문형 · 절세 효과 중심",
+        "format_hint": "25초 숏폼 · 비포·애프터 비교"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B08",
+      "category_id": "B",
+      "subgroup": "B2",
+      "title": "고배당주 — 배당 소득 설계",
+      "subtitle": "월 200 배당 목표",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "고배당주",
+          "배당주 추천",
+          "배당 경제적 자유",
+          "미국 배당주"
+        ],
+        "cluster_path": [
+          "고배당주",
+          "추천",
+          "국내 배당주",
+          "미국 배당주",
+          "배당 경제적 자유"
+        ],
+        "metrics": {
+          "annual_volume": 340000,
+          "trend_percent": null,
+          "trend_label": "배당 파이어 트렌드",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 68% · 여 32%",
+          "age": "50대↑ 48%"
+        },
+        "why_now": "배당 파이어 트렌드 + 고령화로 현금흐름 수요",
+        "review_level": "low",
+        "review_notes": "배당 안정성 주의 · 세금 포함 설명",
+        "monthly_volume": [
+          22000,
+          25000,
+          28000,
+          30000,
+          32000,
+          33000,
+          34000,
+          34000,
+          34000,
+          34000,
+          34000,
+          34000,
+          34000,
+          32000
+        ],
+        "who_tags": [
+          "배당 수익 추구",
+          "50대↑ 남 68%",
+          "현금흐름",
+          "은퇴 세대"
+        ],
+        "who_evidence": "남 68% · 50대↑ 48%",
+        "when_tags": [
+          "배당 파이어 트렌드",
+          "고령화 대응",
+          "현금흐름 수요"
+        ],
+        "when_evidence": "배당 파이어 트렌드 지속",
+        "journey_tags": [
+          "고배당주",
+          "배당주 추천",
+          "국내 배당주",
+          "미국 배당주"
+        ],
+        "journey_evidence": "고배당(관심) → 추천(선택) → 국내 or 미국",
+        "pain_tags": [
+          "배당 안정성 공포",
+          "세금 포함 계산",
+          "종목 선택"
+        ],
+        "pain_evidence": "단순 배당률 함정 경계 수요",
+        "usp_fit_tags": [
+          "프라임클럽 배당 포트폴리오",
+          "마이브리프 배당 일정"
+        ],
+        "usp_fit_evidence": "전문가 포트폴리오 + 일정 관리",
+        "hook_tags": [
+          "월 200 받으려면",
+          "자산 역산",
+          "세후 실제"
+        ],
+        "hook_evidence": "목표 → 자산 역산 콘텐츠 선호",
+        "pathfinder_narrative": "배당 수익 목표 → 고배당주 탐색 → 국내·미국 비교 → 포트폴리오",
+        "cluster_insight": "고배당주 = 배당 파이어 실행 도구, ISA 비과세 극대화",
+        "related_keywords": [
+          {
+            "keyword": "고배당주",
+            "volume": 34000
+          },
+          {
+            "keyword": "배당주 추천",
+            "volume": 28000
+          },
+          {
+            "keyword": "국내 배당주",
+            "volume": 18000
+          },
+          {
+            "keyword": "미국 배당주",
+            "volume": 22000
+          },
+          {
+            "keyword": "배당 경제적 자유",
+            "volume": 8500
+          },
+          {
+            "keyword": "월배당주",
+            "volume": 15000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 배당 포트폴리오"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "배당 일정 관리"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "배당 비과세 혜택 극대화"
+      },
+      "hook_hypothesis": "배당만으로 월 200 받으려면 자산 얼마 있어야 할까 (세후)",
+      "ai_ideas_seed": {
+        "target": "4050 배당 관심자",
+        "tone": "분석형 · 숫자 중심",
+        "format_hint": "25초 숏폼 · 자산 역산"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B09",
+      "category_id": "B",
+      "subgroup": "B3",
+      "title": "자녀 주식·증여세",
+      "subtitle": "부모의 자산 전수",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "자녀 주식 계좌",
+          "증여세",
+          "10년 기준",
+          "면제한도"
+        ],
+        "cluster_path": [
+          "자녀 주식",
+          "계좌",
+          "증여",
+          "증여 신고",
+          "10년 기준",
+          "면제한도",
+          "홈택스"
+        ],
+        "metrics": {
+          "annual_volume": 48000,
+          "trend_percent": 31,
+          "trend_label": "+31% 🔥",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 64% · 남 36%",
+          "age": "40대 54%"
+        },
+        "why_now": "+31% 성장 · 40대 여성 지속",
+        "review_level": "low",
+        "review_notes": "증여세 정확한 세율 · 개인 상황 차이 고지",
+        "monthly_volume": [
+          3200,
+          3500,
+          3800,
+          4200,
+          4500,
+          4800,
+          4800,
+          4800,
+          4800,
+          4800,
+          4800,
+          5000,
+          4800,
+          4500
+        ],
+        "who_tags": [
+          "40대 엄마",
+          "여 64%",
+          "자녀 증여",
+          "장기 자산 설계"
+        ],
+        "who_evidence": "여 64% · 40대 54% · 자녀 교육 세대",
+        "when_tags": [
+          "자녀 성장기",
+          "증여 시점 고민",
+          "10년 리셋"
+        ],
+        "when_evidence": "+31% 성장 지속",
+        "journey_tags": [
+          "자녀 주식",
+          "계좌",
+          "증여세",
+          "10년 기준",
+          "면제한도"
+        ],
+        "journey_evidence": "자녀 주식 → 계좌 → 증여 → 신고 → 한도",
+        "pain_tags": [
+          "증여세 공포",
+          "10년 기준 혼동",
+          "신고 절차"
+        ],
+        "pain_evidence": "실용 가이드 부족",
+        "usp_fit_tags": [
+          "오늘의 콕 증여세 가이드",
+          "프라임클럽 장기 설계"
+        ],
+        "usp_fit_evidence": "실용 팁 + 장기 설계 조합",
+        "hook_tags": [
+          "계좌 만들 때 3가지",
+          "10년 기준",
+          "면제한도"
+        ],
+        "hook_evidence": "자녀 관련 실용 콘텐츠 고반응",
+        "pathfinder_narrative": "자녀 증여 관심 → 계좌 개설 → 증여 신고 → 10년 리셋",
+        "cluster_insight": "자녀 주식 = 엄마 주도 장기 자산 전수 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "자녀 주식 계좌",
+            "volume": 4800
+          },
+          {
+            "keyword": "증여세",
+            "volume": 42000
+          },
+          {
+            "keyword": "10년 기준",
+            "volume": 8500
+          },
+          {
+            "keyword": "증여 면제한도",
+            "volume": 12000
+          },
+          {
+            "keyword": "증여 신고",
+            "volume": 18000
+          },
+          {
+            "keyword": "자녀 ISA",
+            "volume": 3200
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "증여세 가이드"
+        },
+        {
+          "id": "prime-club",
+          "role": "secondary",
+          "reason": "장기 설계"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "자녀용 ISA · 연금저축 장기 운용"
+      },
+      "hook_hypothesis": "자녀 명의 주식 계좌 만들 때 꼭 알아야 할 증여세 3가지",
+      "ai_ideas_seed": {
+        "target": "40대 엄마",
+        "tone": "실용형 · 세금 주의점",
+        "format_hint": "25초 숏폼 · 체크리스트"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B10",
+      "category_id": "B",
+      "subgroup": "B3",
+      "title": "아기 통장·백일선물 — 생애 첫 금융",
+      "subtitle": "2026 출산 엄마 블루오션",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "아기 통장",
+          "백일선물",
+          "신생아 주식 계좌",
+          "부모급여 아기통장"
+        ],
+        "cluster_path": [
+          "백일선물",
+          "아기 통장",
+          "만들기·준비물",
+          "은행 비교",
+          "신생아 주식 계좌",
+          "청약통장"
+        ],
+        "metrics": {
+          "annual_volume": 360000,
+          "trend_percent": null,
+          "trend_label": "블루오션 · 경쟁 격화 초기",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 85% · 남 15%",
+          "age": "25-39세 (출산 엄마)"
+        },
+        "why_now": "생애 첫 금융 상품 경쟁 격화 초기 진입 기회",
+        "review_level": "low",
+        "review_notes": "유아 대상 안전 강조",
+        "monthly_volume": [
+          22000,
+          26000,
+          30000,
+          32000,
+          34000,
+          35000,
+          36000,
+          36000,
+          36000,
+          36000,
+          36000,
+          36000,
+          36000,
+          34000
+        ],
+        "who_tags": [
+          "출산 엄마 2539",
+          "여 85%",
+          "생애 첫 금융",
+          "블루오션"
+        ],
+        "who_evidence": "여 85% · 25-39세",
+        "when_tags": [
+          "출산 직후",
+          "백일 기념",
+          "부모급여 시점"
+        ],
+        "when_evidence": "생애 첫 금융 상품 경쟁 초기",
+        "journey_tags": [
+          "아기 통장",
+          "백일선물",
+          "신생아 주식 계좌",
+          "부모급여"
+        ],
+        "journey_evidence": "선물(트리거) → 통장(실행) → 주식 계좌(발전) → 부모급여",
+        "pain_tags": [
+          "뭐가 좋은지 모름",
+          "예적금 vs 투자",
+          "은행 비교"
+        ],
+        "pain_evidence": "초보 엄마 대상 교육 부족",
+        "usp_fit_tags": [
+          "마이브리프 자녀 자산 추적",
+          "공모주 신규 종목"
+        ],
+        "usp_fit_evidence": "장기 자녀 자산 관리 중심",
+        "hook_tags": [
+          "예적금 말고 주식",
+          "20년 복리",
+          "백일선물 업그레이드"
+        ],
+        "hook_evidence": "장기 관점 + 따뜻한 톤 선호",
+        "pathfinder_narrative": "백일선물 고민 → 아기 통장 → 주식 계좌 → 20년 운용",
+        "cluster_insight": "아기 통장 = 생애 첫 금융의 블루오션. 주식 계좌로 업그레이드 가능",
+        "related_keywords": [
+          {
+            "keyword": "아기 통장",
+            "volume": 36000
+          },
+          {
+            "keyword": "백일선물",
+            "volume": 28000
+          },
+          {
+            "keyword": "신생아 주식 계좌",
+            "volume": 12000
+          },
+          {
+            "keyword": "부모급여 아기통장",
+            "volume": 8500
+          },
+          {
+            "keyword": "아기 청약통장",
+            "volume": 18000
+          },
+          {
+            "keyword": "자녀 주식",
+            "volume": 22000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "자녀 자산 추적"
+        },
+        {
+          "id": "ipo-tracker",
+          "role": "secondary",
+          "reason": "신규 종목 아기 투자"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "자녀용 ISA · 주식 계좌 개설"
+      },
+      "hook_hypothesis": "2026 아기 통장, 단순 예적금보다 '아기 주식 계좌' 추천하는 3가지 이유",
+      "ai_ideas_seed": {
+        "target": "출산 직후 엄마 2030",
+        "tone": "따뜻형 · 장기 관점",
+        "format_hint": "30초 숏폼 · 아기 사진 + 20년 복리"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B11",
+      "category_id": "B",
+      "subgroup": "B3",
+      "title": "결혼·내집마련 자금",
+      "subtitle": "생애 대형 지출 준비",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "결혼 자금",
+          "내집마련",
+          "청약통장",
+          "신혼부부 재무"
+        ],
+        "cluster_path": [
+          "결혼 자금",
+          "신혼 통장",
+          "맞벌이 재테크",
+          "내집마련",
+          "청약통장",
+          "예적금"
+        ],
+        "metrics": {
+          "annual_volume": 1460000,
+          "trend_percent": null,
+          "trend_label": "결혼 연령 상승 + 자금 필요",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "🎯 여 65% · 남 35%",
+          "age": "25-39세"
+        },
+        "why_now": "결혼 연령 상승 + 자금 필요 증가",
+        "review_level": "low",
+        "review_notes": "자금 목적별 상품 안내",
+        "monthly_volume": [
+          95000,
+          105000,
+          115000,
+          125000,
+          135000,
+          145000,
+          150000,
+          148000,
+          145000,
+          145000,
+          145000,
+          148000,
+          146000,
+          138000
+        ],
+        "who_tags": [
+          "결혼 준비 커플",
+          "여 65%",
+          "25-39세",
+          "대형 지출"
+        ],
+        "who_evidence": "여 65% · 25-39세 집중",
+        "when_tags": [
+          "결혼 준비 3년",
+          "내집마련 계획",
+          "맞벌이 시작"
+        ],
+        "when_evidence": "결혼 연령 상승 + 자금 필요 증가",
+        "journey_tags": [
+          "결혼 자금",
+          "신혼 통장",
+          "맞벌이 재테크",
+          "내집마련",
+          "청약"
+        ],
+        "journey_evidence": "결혼(목표) → 통장(도구) → 재테크(실행) → 내집(장기)",
+        "pain_tags": [
+          "자금 부족 공포",
+          "예적금 vs 투자",
+          "청약 기회"
+        ],
+        "pain_evidence": "대형 지출 준비 스트레스",
+        "usp_fit_tags": [
+          "오늘의 콕 생애 가이드",
+          "공모주 목돈 운용"
+        ],
+        "usp_fit_evidence": "생애 이벤트 가이드 + 운용 조합",
+        "hook_tags": [
+          "3년 로드맵",
+          "예적금 vs 투자 차이",
+          "맞벌이 전략"
+        ],
+        "hook_evidence": "단계별 로드맵 선호",
+        "pathfinder_narrative": "결혼 계획 → 자금 조달 → 맞벌이 재테크 → 내집 준비",
+        "cluster_insight": "결혼 자금 = ISA 5년 비과세와 정확히 일치하는 시간 구조",
+        "related_keywords": [
+          {
+            "keyword": "결혼 자금",
+            "volume": 47000
+          },
+          {
+            "keyword": "내집마련",
+            "volume": 63000
+          },
+          {
+            "keyword": "신혼 통장",
+            "volume": 18000
+          },
+          {
+            "keyword": "맞벌이 재테크",
+            "volume": 28000
+          },
+          {
+            "keyword": "청약통장",
+            "volume": 146000
+          },
+          {
+            "keyword": "신혼부부 재테크",
+            "volume": 12000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "생애 금융 가이드"
+        },
+        {
+          "id": "ipo-tracker",
+          "role": "secondary",
+          "reason": "목돈 운용 기회"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "5년 비과세 + 목돈 운용 최적"
+      },
+      "hook_hypothesis": "결혼 준비 3년 앞두고 시작한 맞벌이 통장 전략, 예적금 vs 투자 실제 차이",
+      "ai_ideas_seed": {
+        "target": "결혼 준비 2030 커플",
+        "tone": "실용형 · 단계별 가이드",
+        "format_hint": "30초 숏폼 · 3년 로드맵"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B12",
+      "category_id": "B",
+      "subgroup": "B4",
+      "title": "국장 활황 혼란자",
+      "subtitle": "'이게 좋은 거야?' 혼란 세그먼트",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": 5,
+      "analysis": {
+        "interests": [
+          "코스피 3000",
+          "코스피 5000",
+          "박스피",
+          "코리아 프리미엄"
+        ],
+        "cluster_path": [
+          "코스피 3000",
+          "자랑할 일인가",
+          "높으면 좋은점·안좋은점",
+          "5000 돌파",
+          "4000 거품",
+          "박스피"
+        ],
+        "metrics": {
+          "annual_volume": 600000,
+          "trend_percent": null,
+          "trend_label": "2026 시의성 최상",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "남녀 50:50",
+          "age": "전연령"
+        },
+        "why_now": "2026 국장 활황 · 코스피 5000 돌파로 혼란자 대량 생성",
+        "review_level": "low",
+        "review_notes": "상승/하락 단정 금지 · 과거 데이터 기반",
+        "monthly_volume": [
+          8200,
+          12000,
+          18000,
+          25000,
+          32000,
+          38000,
+          42000,
+          46000,
+          52000,
+          58000,
+          63000,
+          68000,
+          72000,
+          60000
+        ],
+        "who_tags": [
+          "국장 복귀자",
+          "초보 투자자",
+          "코스피 관심자",
+          "뉴스 민감자"
+        ],
+        "who_evidence": "전연령 · 남녀 50:50 · 장기 휴면 투자자 귀환",
+        "when_tags": [
+          "2026 코스피 5000 돌파",
+          "대세 상승 국면",
+          "과거 박스피 기억"
+        ],
+        "when_evidence": "2026 국장 활황으로 '이게 좋은 거야?' 세그먼트 대량 생성",
+        "journey_tags": [
+          "코스피 3000",
+          "5000 돌파",
+          "자랑할 일인가",
+          "박스피 탈출"
+        ],
+        "journey_evidence": "'코스피 3000' → '5000'(경이) → '지금 사면?'(고민)",
+        "pain_tags": [
+          "해석 못함",
+          "늦었나 걱정",
+          "거품 공포",
+          "복귀 타이밍"
+        ],
+        "pain_evidence": "'코스피 5000 거품인가' 검색 급증",
+        "usp_fit_tags": [
+          "AI투자브리핑 해설",
+          "오늘의 콕 초보 가이드"
+        ],
+        "usp_fit_evidence": "시장 해설 + 쉬운 가이드 조합 필수",
+        "hook_tags": [
+          "5000 역사 비교",
+          "2008·2020 데이터",
+          "지금 들어가도?"
+        ],
+        "hook_evidence": "과거 사이클 데이터 기반 객관 답변 선호",
+        "pathfinder_narrative": "코스피 활황 목격 → 복귀 고민 → 역사 데이터 확인 니즈",
+        "cluster_insight": "코스피 5000 = '좋은 건지 나쁜 건지 모르는' 혼란 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "코스피 5000",
+            "volume": 68000
+          },
+          {
+            "keyword": "코스피 3000",
+            "volume": 52000
+          },
+          {
+            "keyword": "박스피 탈출",
+            "volume": 28000
+          },
+          {
+            "keyword": "코리아 프리미엄",
+            "volume": 18000
+          },
+          {
+            "keyword": "코스피 거품",
+            "volume": 12000
+          },
+          {
+            "keyword": "국장 복귀",
+            "volume": 9800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "시장 해설"
+        },
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "초보 가이드"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "시장 이해 → 전반적 계좌 유입"
+      },
+      "hook_hypothesis": "코스피 5000 시대, 지금 들어가면 늦은 걸까? (2008·2020 데이터로 본 답)",
+      "ai_ideas_seed": {
+        "target": "국장 초보 + 복귀자",
+        "tone": "해설형 · 역사 데이터",
+        "format_hint": "30초 숏폼 · 과거 사이클 차트"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-B13",
+      "category_id": "B",
+      "subgroup": "B4",
+      "title": "공모주 모아보기",
+      "subtitle": "신규 상장 사냥꾼",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "공모주 청약",
+          "상장일",
+          "따상",
+          "수요예측",
+          "균등배정"
+        ],
+        "cluster_path": [
+          "공모주",
+          "청약",
+          "상장일",
+          "수요예측",
+          "균등배정",
+          "따상"
+        ],
+        "metrics": {
+          "annual_volume": 380000,
+          "trend_percent": null,
+          "trend_label": "공모주 러시 지속",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 58% · 여 42%",
+          "age": "30-44세"
+        },
+        "why_now": "공모주 시장 활성화 지속",
+        "review_level": "medium",
+        "review_notes": "수익 예측 금지 · 리스크 고지",
+        "monthly_volume": [
+          28000,
+          32000,
+          35000,
+          36000,
+          38000,
+          38000,
+          38000,
+          38000,
+          38000,
+          38000,
+          38000,
+          38000,
+          38000,
+          36000
+        ],
+        "who_tags": [
+          "공모주 청약자",
+          "30-44세",
+          "남 58%",
+          "신규 상장 사냥"
+        ],
+        "who_evidence": "남 58% · 30-44세",
+        "when_tags": [
+          "청약 일정",
+          "상장일",
+          "따상 기대"
+        ],
+        "when_evidence": "공모주 러시 지속",
+        "journey_tags": [
+          "공모주",
+          "청약",
+          "상장일",
+          "따상",
+          "균등배정"
+        ],
+        "journey_evidence": "공모주(관심) → 청약(실행) → 상장(기대) → 따상(수익)",
+        "pain_tags": [
+          "청약 경쟁",
+          "배정 불확실",
+          "매도 타이밍"
+        ],
+        "pain_evidence": "청약 전략 정보 수요",
+        "usp_fit_tags": [
+          "공모주 모아보기 (100% 매칭)",
+          "마이브리프 알림"
+        ],
+        "usp_fit_evidence": "전용 서비스 + 알림 조합",
+        "hook_tags": [
+          "이번 주 3개",
+          "균등배정 계산",
+          "따상 기대치"
+        ],
+        "hook_evidence": "주간 일정 + 계산 도구 선호",
+        "pathfinder_narrative": "공모주 관심 → 일정 확인 → 청약 → 상장 후 매도",
+        "cluster_insight": "공모주 = 마블 전용 서비스의 가장 명확한 1:1 매칭",
+        "related_keywords": [
+          {
+            "keyword": "공모주 청약",
+            "volume": 38000
+          },
+          {
+            "keyword": "상장일",
+            "volume": 28000
+          },
+          {
+            "keyword": "따상",
+            "volume": 18000
+          },
+          {
+            "keyword": "수요예측",
+            "volume": 12000
+          },
+          {
+            "keyword": "균등배정",
+            "volume": 22000
+          },
+          {
+            "keyword": "공모주 일정",
+            "volume": 15000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ipo-tracker",
+          "role": "primary",
+          "reason": "전용 서비스 · 100% 매칭"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "청약 현황 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "공모주 청약 계좌 유도"
+      },
+      "hook_hypothesis": "이번 주 공모주 3개, 균등배정 몇 주씩 배분될지 미리 계산하는 법",
+      "ai_ideas_seed": {
+        "target": "공모주 관심 3040",
+        "tone": "실용형 · 계산 시뮬레이션",
+        "format_hint": "20초 숏폼 · 계산기 화면"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-B14",
+      "category_id": "B",
+      "subgroup": "B4",
+      "title": "금리 인하·환율 변동",
+      "subtitle": "경제 뉴스 민감자",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "금리 인하",
+          "환율 전망",
+          "달러",
+          "물가"
+        ],
+        "cluster_path": [
+          "금리 인하",
+          "영향",
+          "달러 환율",
+          "2026 환율 전망",
+          "ETF·채권 연관"
+        ],
+        "metrics": {
+          "annual_volume": 2500000,
+          "trend_percent": null,
+          "trend_label": "통화정책 전환기",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "남 60% · 여 40%",
+          "age": "30-50대"
+        },
+        "why_now": "2026 통화정책 전환기 · 거시 변수 민감도 최고",
+        "review_level": "low",
+        "review_notes": "전망 단정 금지 · 시나리오 기반",
+        "monthly_volume": [
+          180000,
+          195000,
+          210000,
+          220000,
+          230000,
+          240000,
+          245000,
+          248000,
+          250000,
+          250000,
+          250000,
+          250000,
+          245000,
+          230000
+        ],
+        "who_tags": [
+          "거시 뉴스 민감자",
+          "30-50대",
+          "남 60%",
+          "경제 관심"
+        ],
+        "who_evidence": "남 60% · 30-50대",
+        "when_tags": [
+          "통화정책 전환기",
+          "금리 인하 시작",
+          "환율 변동"
+        ],
+        "when_evidence": "2026 통화정책 전환기",
+        "journey_tags": [
+          "금리 인하",
+          "영향",
+          "달러 환율",
+          "2026 전망",
+          "ETF 연관"
+        ],
+        "journey_evidence": "금리(원인) → 영향(연쇄) → 환율(결과) → ETF(실행)",
+        "pain_tags": [
+          "영향 파악 어려움",
+          "대응 방법 모름",
+          "시나리오 다양"
+        ],
+        "pain_evidence": "전망 콘텐츠 만성 수요",
+        "usp_fit_tags": [
+          "AI투자브리핑 거시 해설",
+          "마이브리프 환율 알림"
+        ],
+        "usp_fit_evidence": "거시 해설 + 연동 알림 조합",
+        "hook_tags": [
+          "월배당 ETF 영향",
+          "금리 인하 시나리오",
+          "환율 대응"
+        ],
+        "hook_evidence": "구체적 보유 자산 영향 선호",
+        "pathfinder_narrative": "금리 뉴스 → 영향 고민 → 환율 확인 → 대응 전략",
+        "cluster_insight": "금리·환율 = 거시 변수 민감자의 핵심 관심. RIA 이전 연결 가능",
+        "related_keywords": [
+          {
+            "keyword": "금리 인하",
+            "volume": 145000
+          },
+          {
+            "keyword": "환율 전망",
+            "volume": 62000
+          },
+          {
+            "keyword": "달러 환율",
+            "volume": 380000
+          },
+          {
+            "keyword": "2026 환율",
+            "volume": 42000
+          },
+          {
+            "keyword": "금리 영향",
+            "volume": 28000
+          },
+          {
+            "keyword": "물가",
+            "volume": 120000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "거시 환경 해설"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "환율 연동 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "환율 민감자 → RIA 이전 유도"
+      },
+      "hook_hypothesis": "금리 인하 시작되면 내 월배당 ETF, 진짜로 어떻게 될까",
+      "ai_ideas_seed": {
+        "target": "거시 뉴스 민감 3050",
+        "tone": "분석형 · 시나리오",
+        "format_hint": "25초 숏폼 · 금리-ETF 상관관계"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-C01",
+      "category_id": "C",
+      "subgroup": "C1",
+      "title": "전기차 오너 → 테슬라·밸류체인",
+      "subtitle": "FSD 체감이 투자로 번지는 순간",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "테슬라 FSD",
+          "자율주행",
+          "로보택시",
+          "옵티머스",
+          "테슬라 밸류체인"
+        ],
+        "cluster_path": [
+          "테슬라 FSD",
+          "주식 대박",
+          "지금사면",
+          "삼성전자 반도체",
+          "브로드컴",
+          "파운드리",
+          "로보택시",
+          "옵티머스"
+        ],
+        "metrics": {
+          "annual_volume": 240000,
+          "trend_percent": null,
+          "trend_label": "FSD 한국 도입 임박",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 75% · 여 25%",
+          "age": "30-49세 (얼리어답터)"
+        },
+        "why_now": "FSD 한국 도입 임박 + 로보택시 공개 임박",
+        "review_level": "low",
+        "review_notes": "종목 추천 수위 관리",
+        "monthly_volume": [
+          12000,
+          14000,
+          16000,
+          18000,
+          20000,
+          22000,
+          22000,
+          22000,
+          22000,
+          22000,
+          22000,
+          22000,
+          22000,
+          20000
+        ],
+        "who_tags": [
+          "전기차 오너",
+          "30-49세 남 75%",
+          "얼리어답터",
+          "FSD 체감자"
+        ],
+        "who_evidence": "남 75% · 30-49세",
+        "when_tags": [
+          "FSD 한국 도입 임박",
+          "로보택시 공개",
+          "테슬라 신제품"
+        ],
+        "when_evidence": "FSD 한국 도입 + 로보택시 이벤트",
+        "journey_tags": [
+          "테슬라 FSD",
+          "자율주행",
+          "로보택시",
+          "옵티머스",
+          "밸류체인"
+        ],
+        "journey_evidence": "FSD(체감) → 주식(관심) → 밸류체인(확장)",
+        "pain_tags": [
+          "밸류체인 파악",
+          "관련주 선택",
+          "기회 놓침"
+        ],
+        "pain_evidence": "관련주 정보 수요",
+        "usp_fit_tags": [
+          "마이브리프 테슬라 알림",
+          "AI투자브리핑 밸류체인"
+        ],
+        "usp_fit_evidence": "종목 알림 + 밸류체인 해설",
+        "hook_tags": [
+          "테슬라 빼고 4개",
+          "밸류체인 선점",
+          "FSD 수혜주"
+        ],
+        "hook_evidence": "확장 사고 + 기회 발견 선호",
+        "pathfinder_narrative": "FSD 체감 → 테슬라 주식 → 밸류체인 확장 → 다각화",
+        "cluster_insight": "전기차 오너 = 일상 체감이 투자로 번지는 피터 린치형 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "테슬라 FSD",
+            "volume": 22000
+          },
+          {
+            "keyword": "자율주행 관련주",
+            "volume": 18000
+          },
+          {
+            "keyword": "로보택시 관련주",
+            "volume": 12000
+          },
+          {
+            "keyword": "옵티머스",
+            "volume": 8500
+          },
+          {
+            "keyword": "테슬라 밸류체인",
+            "volume": 4200
+          },
+          {
+            "keyword": "FSD 한국",
+            "volume": 6800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "테슬라 보유 알림"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "밸류체인 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "미국 테슬라 보유 → RIA 이전 자연 유입"
+      },
+      "hook_hypothesis": "테슬라 FSD 한국 도입 소식에 사야 할 4개 밸류체인 주식 (테슬라 빼고)",
+      "ai_ideas_seed": {
+        "target": "테슬라 팬 · 전기차 오너 3040",
+        "tone": "흥미형 · 밸류체인 연결",
+        "format_hint": "30초 숏폼 · FSD 영상 + 관련주"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-C02",
+      "category_id": "C",
+      "subgroup": "C1",
+      "title": "AI 도구 사용자 → Anthropic·MS·구글·엔비디아",
+      "subtitle": "Claude·ChatGPT·Gemini 일상 사용자",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "클로드 주식",
+          "OpenAI 상장",
+          "구글 제미나이",
+          "MS OpenAI 지분",
+          "Anthropic 주식"
+        ],
+        "cluster_path": [
+          "클로드 주식",
+          "Anthropic 주식",
+          "OpenAI 주식",
+          "상장일",
+          "투자 방법",
+          "MS OpenAI 지분",
+          "구글 제미나이 주식",
+          "구글 알파벳 A vs C"
+        ],
+        "metrics": {
+          "annual_volume": 240000,
+          "trend_percent": null,
+          "trend_label": "AI 도구 대중화 · 상장 루머",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 62% · 여 38%",
+          "age": "25-44세 (IT 종사자·얼리어답터)"
+        },
+        "why_now": "AI 도구 대중화 + 2026 상장 임박 루머",
+        "review_level": "low",
+        "review_notes": "상장 확정 금지 · 루머 고지",
+        "monthly_volume": [
+          5000,
+          8000,
+          12000,
+          16000,
+          20000,
+          22000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          22000
+        ],
+        "who_tags": [
+          "AI 도구 사용자",
+          "25-44세 남 62%",
+          "IT 종사자",
+          "얼리어답터"
+        ],
+        "who_evidence": "남 62% · 25-44세 · IT 관련",
+        "when_tags": [
+          "AI 대중화",
+          "2026 상장 루머",
+          "Claude·ChatGPT 일상화"
+        ],
+        "when_evidence": "AI 도구 대중화 + 상장 임박 루머",
+        "journey_tags": [
+          "클로드 주식",
+          "OpenAI 상장",
+          "구글 제미나이",
+          "MS 지분"
+        ],
+        "journey_evidence": "사용 경험 → 주식 관심 → 상장 정보 → 투자 방법",
+        "pain_tags": [
+          "Anthropic 비상장",
+          "상장 정보 불확실",
+          "대체 투자 방법"
+        ],
+        "pain_evidence": "비상장 투자 방법 정보 부족",
+        "usp_fit_tags": [
+          "AI투자브리핑 AI 시장 해설",
+          "프라임클럽 섹터 뷰"
+        ],
+        "usp_fit_evidence": "AI 전문 해설 필수",
+        "hook_tags": [
+          "Claude 쓰면서 앤트로픽",
+          "비상장 투자",
+          "대체 종목"
+        ],
+        "hook_evidence": "반전 + 실행 가능한 대안",
+        "pathfinder_narrative": "AI 도구 사용 → 기업 관심 → 투자 방법 모색 → 대체 종목",
+        "cluster_insight": "AI 도구 사용자 = 가장 최신 트렌드 기반 피터 린치형 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "클로드 주식",
+            "volume": 8500
+          },
+          {
+            "keyword": "OpenAI 상장",
+            "volume": 12000
+          },
+          {
+            "keyword": "구글 제미나이 주식",
+            "volume": 6500
+          },
+          {
+            "keyword": "MS OpenAI",
+            "volume": 4200
+          },
+          {
+            "keyword": "Anthropic 주식",
+            "volume": 2800
+          },
+          {
+            "keyword": "AI 관련주",
+            "volume": 18000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "AI 시장 해설"
+        },
+        {
+          "id": "prime-club",
+          "role": "secondary",
+          "reason": "전문가 AI 섹터 뷰"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "미국 AI 주식 보유 → RIA 이전"
+      },
+      "hook_hypothesis": "Claude 매일 쓰는 당신이 앤트로픽 주식 사는 유일한 방법 (아직 비상장)",
+      "ai_ideas_seed": {
+        "target": "AI 도구 유저 2540",
+        "tone": "얼리형 · 반전 포인트",
+        "format_hint": "25초 숏폼 · 스크린샷 + 투자 방법"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-C03",
+      "category_id": "C",
+      "subgroup": "C1",
+      "title": "애플 생태계 유저 → 애플·부품주",
+      "subtitle": "폴더블·비전프로 루머",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "애플 주식",
+          "폴더블 관련주",
+          "애플 부품주",
+          "애플워치 주식"
+        ],
+        "cluster_path": [
+          "애플 주식",
+          "주가 전망",
+          "폴더블 관련주",
+          "폴더블폰 관련주",
+          "애플워치 주식"
+        ],
+        "metrics": {
+          "annual_volume": 180000,
+          "trend_percent": null,
+          "trend_label": "폴더블 루머 + 비전프로 2세대",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "남 55% · 여 45%",
+          "age": "25-44세"
+        },
+        "why_now": "애플 폴더블 루머 + 비전프로 2세대 기대",
+        "review_level": "low",
+        "review_notes": "부품주 단정 금지",
+        "monthly_volume": [
+          12000,
+          13000,
+          14000,
+          15000,
+          16000,
+          17000,
+          18000,
+          18000,
+          18000,
+          18000,
+          18000,
+          18000,
+          18000,
+          17000
+        ],
+        "who_tags": [
+          "애플 유저",
+          "25-44세 남 55%",
+          "아이폰 사용자",
+          "비전프로 기대"
+        ],
+        "who_evidence": "남 55% · 25-44세",
+        "when_tags": [
+          "폴더블 루머",
+          "비전프로 2세대",
+          "신제품 시즌"
+        ],
+        "when_evidence": "애플 폴더블 루머 + 비전프로 2세대",
+        "journey_tags": [
+          "애플 주식",
+          "폴더블 관련주",
+          "애플워치",
+          "부품주"
+        ],
+        "journey_evidence": "애플 유저 → 주식 → 폴더블 → 부품주",
+        "pain_tags": [
+          "부품주 선별",
+          "루머 신빙성",
+          "타이밍"
+        ],
+        "pain_evidence": "폴더블 관련주 검증 수요",
+        "usp_fit_tags": [
+          "마이브리프 애플 알림",
+          "AI투자브리핑 밸류체인"
+        ],
+        "usp_fit_evidence": "종목 관리 + 해설",
+        "hook_tags": [
+          "폴더블 현실화",
+          "국내 부품주 3곳",
+          "애플워치 수혜"
+        ],
+        "hook_evidence": "국내 종목 구체 선호",
+        "pathfinder_narrative": "애플 생태계 → 신제품 기대 → 부품주 관심",
+        "cluster_insight": "애플 생태계 = 국내 부품주로 자연 확장되는 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "애플 주식",
+            "volume": 18000
+          },
+          {
+            "keyword": "폴더블 관련주",
+            "volume": 12000
+          },
+          {
+            "keyword": "애플 부품주",
+            "volume": 8500
+          },
+          {
+            "keyword": "애플워치 주식",
+            "volume": 4200
+          },
+          {
+            "keyword": "아이폰 부품주",
+            "volume": 6800
+          },
+          {
+            "keyword": "비전프로 관련주",
+            "volume": 3500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "애플 종목 알림"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "밸류체인 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "애플 해외주식 → RIA 이전"
+      },
+      "hook_hypothesis": "애플 폴더블 출시 소문이 현실이 되면 가장 먼저 움직일 국내 부품주 3곳",
+      "ai_ideas_seed": {
+        "target": "애플 유저 2540",
+        "tone": "예측형 · 부품주 연결",
+        "format_hint": "25초 숏폼 · 루머 → 관련주"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-C04",
+      "category_id": "C",
+      "subgroup": "C1",
+      "title": "K-팝·K-콘텐츠 팬 → 엔터·콘텐츠주",
+      "subtitle": "최애 기획사 주식",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "하이브 주식",
+          "JYP",
+          "SM",
+          "CJ 계열",
+          "BTS 관련주"
+        ],
+        "cluster_path": [
+          "하이브 주식",
+          "BTS 관련주",
+          "JYP·SM",
+          "CJ 올리브영·CGV·ENM·제일제당",
+          "넷플릭스 관련주"
+        ],
+        "metrics": {
+          "annual_volume": 240000,
+          "trend_percent": null,
+          "trend_label": "엔터 Q3 실적 시즌",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "🎯 여 70% · 남 30%",
+          "age": "20-39세 (팬덤)"
+        },
+        "why_now": "엔터 Q3 실적 시즌 + K-팝 글로벌 확장",
+        "review_level": "low",
+        "review_notes": "팬심 과열 경계",
+        "monthly_volume": [
+          15000,
+          18000,
+          20000,
+          22000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          24000,
+          22000
+        ],
+        "who_tags": [
+          "K-팝 팬덤",
+          "20-39세 여 70%",
+          "엔터 관심",
+          "최애 기획사"
+        ],
+        "who_evidence": "여 70% · 20-39세",
+        "when_tags": [
+          "Q3 엔터 실적",
+          "K-팝 글로벌 확장",
+          "신규 IPO"
+        ],
+        "when_evidence": "엔터 실적 시즌 + 글로벌 확장",
+        "journey_tags": [
+          "하이브",
+          "JYP",
+          "SM",
+          "CJ 계열",
+          "BTS 관련주"
+        ],
+        "journey_evidence": "최애(감정) → 기획사(관심) → 계열사(확장)",
+        "pain_tags": [
+          "팬심 vs 투자",
+          "종목 선택",
+          "기업 실적 파악"
+        ],
+        "pain_evidence": "팬심 투자 경계 수요",
+        "usp_fit_tags": [
+          "오늘의 콕 입문 가이드",
+          "마이브리프 엔터주 알림"
+        ],
+        "usp_fit_evidence": "초보 가이드 + 알림",
+        "hook_tags": [
+          "단순 팬심 말고",
+          "체크 3가지",
+          "최애 기업 실적"
+        ],
+        "hook_evidence": "팬심 + 합리적 투자 조합",
+        "pathfinder_narrative": "최애 팬덤 → 기획사 주식 → 실적 확인 → 투자 결정",
+        "cluster_insight": "K-팝 팬 = 감정→투자 전환 세그먼트. 여성 2030 신규 진입 핵심",
+        "related_keywords": [
+          {
+            "keyword": "하이브 주식",
+            "volume": 24000
+          },
+          {
+            "keyword": "JYP 주식",
+            "volume": 12000
+          },
+          {
+            "keyword": "SM 주식",
+            "volume": 8500
+          },
+          {
+            "keyword": "CJ 엔터 주식",
+            "volume": 6500
+          },
+          {
+            "keyword": "BTS 관련주",
+            "volume": 18000
+          },
+          {
+            "keyword": "엔터 관련주",
+            "volume": 9800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "팬덤 입문 가이드"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "엔터주 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [
+          "ISA"
+        ],
+        "note": "주식 계좌 진입 유도"
+      },
+      "hook_hypothesis": "내 최애 아이돌 기획사 주식, 살 때 꼭 체크할 3가지 (단순 팬심 말고)",
+      "ai_ideas_seed": {
+        "target": "여성 2030 팬덤",
+        "tone": "친근형 · 팬 언어",
+        "format_hint": "20초 숏폼 · 아이돌 이미지 활용"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-C05",
+      "category_id": "C",
+      "subgroup": "C1",
+      "title": "라이프스타일 브랜드 소비자",
+      "subtitle": "올리브영·아모레·나이키",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "올리브영 주식",
+          "CJ 올리브영",
+          "아모레 주식",
+          "나이키 관련주"
+        ],
+        "cluster_path": [
+          "올리브영 주식",
+          "CJ 올리브영",
+          "관련 주식",
+          "상장 여부",
+          "아모레·LG생건",
+          "나이키"
+        ],
+        "metrics": {
+          "annual_volume": 120000,
+          "trend_percent": null,
+          "trend_label": "올리브영 IPO 루머",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "🎯 여 68% · 남 32%",
+          "age": "25-44세"
+        },
+        "why_now": "올리브영 IPO 루머 지속",
+        "review_level": "low",
+        "review_notes": "상장 확정 금지",
+        "monthly_volume": [
+          8000,
+          9000,
+          10000,
+          11000,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          12000,
+          11500
+        ],
+        "who_tags": [
+          "브랜드 소비자",
+          "25-44세 여 68%",
+          "소비 트렌드",
+          "IPO 관심"
+        ],
+        "who_evidence": "여 68% · 25-44세",
+        "when_tags": [
+          "올리브영 IPO 루머",
+          "아모레 실적",
+          "브랜드 성장기"
+        ],
+        "when_evidence": "IPO 루머 지속",
+        "journey_tags": [
+          "올리브영 주식",
+          "CJ 올리브영",
+          "아모레",
+          "나이키 관련주"
+        ],
+        "journey_evidence": "브랜드 소비 → 주식 → 상장 여부 → 모회사",
+        "pain_tags": [
+          "상장 여부 혼동",
+          "관련주 복잡",
+          "대체 투자"
+        ],
+        "pain_evidence": "'올리브영 주식 없음' 반전 수요",
+        "usp_fit_tags": [
+          "마이브리프 브랜드주 알림",
+          "오늘의 콕 브랜드 투자"
+        ],
+        "usp_fit_evidence": "종목 + 가이드 조합",
+        "hook_tags": [
+          "올리브영 상장 없음",
+          "CJ 투자법",
+          "대체 종목"
+        ],
+        "hook_evidence": "반전 + 대안 선호",
+        "pathfinder_narrative": "브랜드 소비 → 주식 관심 → 상장 확인 → 모회사 투자",
+        "cluster_insight": "라이프스타일 브랜드 = 여성 소비자 피터 린치형 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "올리브영 주식",
+            "volume": 12000
+          },
+          {
+            "keyword": "CJ 올리브영",
+            "volume": 8500
+          },
+          {
+            "keyword": "아모레 주식",
+            "volume": 6500
+          },
+          {
+            "keyword": "나이키 관련주",
+            "volume": 4200
+          },
+          {
+            "keyword": "LG생활건강",
+            "volume": 9800
+          },
+          {
+            "keyword": "브랜드 관련주",
+            "volume": 3800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "브랜드주 알림"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "브랜드 투자 가이드"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [],
+        "note": "일반 주식 진입 유도"
+      },
+      "hook_hypothesis": "올리브영이 하도 잘 되길래 주식 사려다 알게 된 놀라운 사실 (상장 아직 안 함)",
+      "ai_ideas_seed": {
+        "target": "여성 2540 브랜드 소비자",
+        "tone": "친근형 · 반전",
+        "format_hint": "20초 숏폼 · 브랜드 사진"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-C06",
+      "category_id": "C",
+      "subgroup": "C1",
+      "title": "헬스·다이어트 트렌드 소비자",
+      "subtitle": "위고비·GLP-1 열풍",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "위고비 관련주",
+          "노보노디스크",
+          "다이어트약 관련주",
+          "GLP-1"
+        ],
+        "cluster_path": [
+          "위고비",
+          "관련주",
+          "노보노디스크 주식",
+          "다이어트약 관련주",
+          "비만치료제",
+          "당뇨병 관련주"
+        ],
+        "metrics": {
+          "annual_volume": 180000,
+          "trend_percent": null,
+          "trend_label": "2026 GLP-1 시장 폭증",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 58% · 남 42%",
+          "age": "30-49세"
+        },
+        "why_now": "2026 GLP-1 치료제 시장 폭증",
+        "review_level": "medium",
+        "review_notes": "의료 정보 주의 · 약 추천 금지",
+        "monthly_volume": [
+          8000,
+          10000,
+          12000,
+          14000,
+          16000,
+          17000,
+          18000,
+          18000,
+          18000,
+          18000,
+          18000,
+          18000,
+          18000,
+          17000
+        ],
+        "who_tags": [
+          "헬스·다이어트 관심",
+          "30-49세 여 58%",
+          "GLP-1 주목",
+          "위고비"
+        ],
+        "who_evidence": "여 58% · 30-49세",
+        "when_tags": [
+          "GLP-1 시장 폭증",
+          "위고비 열풍",
+          "비만 치료제"
+        ],
+        "when_evidence": "2026 GLP-1 시장 폭증",
+        "journey_tags": [
+          "위고비 관련주",
+          "노보노디스크",
+          "다이어트약",
+          "당뇨약"
+        ],
+        "journey_evidence": "위고비(관심) → 관련주 → 노보노디스크 → GLP-1",
+        "pain_tags": [
+          "관련주 복잡",
+          "의료 정보 검증",
+          "타이밍"
+        ],
+        "pain_evidence": "초기 열풍에서 놓친 경험",
+        "usp_fit_tags": [
+          "AI투자브리핑 트렌드 해설",
+          "오늘의 콕 입문"
+        ],
+        "usp_fit_evidence": "트렌드 해설 + 초보 가이드",
+        "hook_tags": [
+          "초기 알았다면",
+          "3개 주식",
+          "GLP-1 계열"
+        ],
+        "hook_evidence": "후회 + 기회 조합",
+        "pathfinder_narrative": "위고비 열풍 인식 → 관련주 탐색 → 투자 결정",
+        "cluster_insight": "헬스·다이어트 = 의료 트렌드가 투자로 번지는 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "위고비 관련주",
+            "volume": 15000
+          },
+          {
+            "keyword": "노보노디스크",
+            "volume": 12000
+          },
+          {
+            "keyword": "다이어트약 관련주",
+            "volume": 8500
+          },
+          {
+            "keyword": "비만치료제",
+            "volume": 6500
+          },
+          {
+            "keyword": "GLP-1",
+            "volume": 4200
+          },
+          {
+            "keyword": "당뇨병 관련주",
+            "volume": 9800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "헬스 트렌드 해설"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "투자 가이드"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "노보노디스크 등 해외주식 → RIA"
+      },
+      "hook_hypothesis": "위고비 열풍 시작됐을 때 알았다면 좋았을 3개 주식",
+      "ai_ideas_seed": {
+        "target": "다이어트 관심 3040 여성",
+        "tone": "트렌드형 · 제약주 연결",
+        "format_hint": "25초 숏폼 · 주가 상승 차트"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-C07",
+      "category_id": "C",
+      "subgroup": "C1",
+      "title": "게임 덕후 → 게임주",
+      "subtitle": "리니지·배그·쿠키런·닌텐도 플레이어",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "엔씨 주식",
+          "크래프톤 주식",
+          "카카오게임즈 주식",
+          "닌텐도 주식"
+        ],
+        "cluster_path": [
+          "엔씨 주식",
+          "크래프톤 주식",
+          "카카오게임즈 주식",
+          "닌텐도 주식",
+          "닌텐도 주식 사는법"
+        ],
+        "metrics": {
+          "annual_volume": 96000,
+          "trend_percent": null,
+          "trend_label": "신작 출시 시즌",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 68% · 여 32%",
+          "age": "20-39세"
+        },
+        "why_now": "신작 출시 시즌 + 글로벌 게임주 관심",
+        "review_level": "low",
+        "review_notes": "실적 기반 정보 제공",
+        "monthly_volume": [
+          6000,
+          7000,
+          8000,
+          8500,
+          9000,
+          9500,
+          9500,
+          9500,
+          9500,
+          9500,
+          9500,
+          9600,
+          9500,
+          8800
+        ],
+        "who_tags": [
+          "게이머",
+          "20-39세 남 68%",
+          "신작 관심",
+          "글로벌 게임"
+        ],
+        "who_evidence": "남 68% · 20-39세",
+        "when_tags": [
+          "신작 출시 시즌",
+          "게임쇼",
+          "글로벌 이벤트"
+        ],
+        "when_evidence": "신작 시즌 관심 증가",
+        "journey_tags": [
+          "엔씨 주식",
+          "크래프톤",
+          "카카오게임즈",
+          "닌텐도"
+        ],
+        "journey_evidence": "좋아하는 게임 → 회사 → 주식 → 해외(닌텐도)",
+        "pain_tags": [
+          "게임 흥행 vs 주가 괴리",
+          "해외 주식 방법",
+          "실적 파악"
+        ],
+        "pain_evidence": "흥행과 주가 괴리 이해 수요",
+        "usp_fit_tags": [
+          "마이브리프 게임주 알림",
+          "AI투자브리핑 산업 해설"
+        ],
+        "usp_fit_evidence": "종목 + 산업 해설",
+        "hook_tags": [
+          "재밌던 게임 왜 주가 반대",
+          "게임주 진실",
+          "닌텐도 매수법"
+        ],
+        "hook_evidence": "공감 + 반전",
+        "pathfinder_narrative": "게임 플레이 → 회사 관심 → 주가 확인 → 투자 결정",
+        "cluster_insight": "게임 덕후 = 남성 2030 피터 린치형 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "엔씨 주식",
+            "volume": 9500
+          },
+          {
+            "keyword": "크래프톤 주식",
+            "volume": 8500
+          },
+          {
+            "keyword": "카카오게임즈 주식",
+            "volume": 6500
+          },
+          {
+            "keyword": "닌텐도 주식",
+            "volume": 4200
+          },
+          {
+            "keyword": "게임 관련주",
+            "volume": 12000
+          },
+          {
+            "keyword": "닌텐도 주식 사는법",
+            "volume": 2800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "mybrief",
+          "role": "primary",
+          "reason": "게임주 알림"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "게임 산업 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [
+          "RIA"
+        ],
+        "note": "닌텐도 해외주식 → RIA 유입"
+      },
+      "hook_hypothesis": "내가 재밌게 하던 그 게임 회사, 왜 주가는 반대로 갔을까",
+      "ai_ideas_seed": {
+        "target": "게이머 2030 남성",
+        "tone": "흥미형 · 플레이어 공감",
+        "format_hint": "25초 숏폼 · 게임 화면 + 주가"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-C08",
+      "category_id": "C",
+      "subgroup": "C1",
+      "title": "거시 트렌드 관찰자 → 테마 관련주",
+      "subtitle": "AI 데이터센터·SMR·방산·우주",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "AI 데이터센터 관련주",
+          "SMR 원전",
+          "K 방산",
+          "우주 방산"
+        ],
+        "cluster_path": [
+          "AI 데이터센터 관련주",
+          "냉각",
+          "전력",
+          "SMR 원전",
+          "소형모듈원전",
+          "K 방산",
+          "방산 드론",
+          "우주 방산"
+        ],
+        "metrics": {
+          "annual_volume": 360000,
+          "trend_percent": null,
+          "trend_label": "AI 인프라 투자 폭증기",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "남 65% · 여 35%",
+          "age": "30-49세"
+        },
+        "why_now": "AI 인프라 투자 폭증기 + 방산 수출 확대",
+        "review_level": "medium",
+        "review_notes": "테마주 투기 경계 · 장기 관점",
+        "monthly_volume": [
+          22000,
+          25000,
+          28000,
+          30000,
+          32000,
+          34000,
+          35000,
+          36000,
+          36000,
+          36000,
+          36000,
+          36000,
+          36000,
+          34000
+        ],
+        "who_tags": [
+          "거시 트렌드 관찰자",
+          "30-49세 남 65%",
+          "뉴스 민감",
+          "메가 테마"
+        ],
+        "who_evidence": "남 65% · 30-49세",
+        "when_tags": [
+          "AI 인프라 붐",
+          "방산 수출",
+          "에너지 전환"
+        ],
+        "when_evidence": "AI 인프라 투자 폭증기",
+        "journey_tags": [
+          "AI 데이터센터",
+          "SMR 원전",
+          "K 방산",
+          "우주 방산"
+        ],
+        "journey_evidence": "메가 트렌드 → 섹터 → 관련주 → 비교",
+        "pain_tags": [
+          "테마 과열",
+          "진짜 vs 거품",
+          "장기 vs 단기"
+        ],
+        "pain_evidence": "테마주 투기 경계 수요",
+        "usp_fit_tags": [
+          "AI투자브리핑 테마 해설",
+          "프라임클럽 종목 추천"
+        ],
+        "usp_fit_evidence": "해설 + 전문가 종목",
+        "hook_tags": [
+          "AI 전력 부족하면",
+          "3개 섹터",
+          "메가 트렌드 실행"
+        ],
+        "hook_evidence": "연쇄 시나리오 + 구체 종목",
+        "pathfinder_narrative": "거시 트렌드 인식 → 섹터 확인 → 관련주 → 포트폴리오",
+        "cluster_insight": "거시 트렌드 = 메가 테마 실행 세그먼트. AI·국방 핵심",
+        "related_keywords": [
+          {
+            "keyword": "AI 데이터센터 관련주",
+            "volume": 12000
+          },
+          {
+            "keyword": "SMR 원전 관련주",
+            "volume": 18000
+          },
+          {
+            "keyword": "K 방산",
+            "volume": 28000
+          },
+          {
+            "keyword": "우주 방산",
+            "volume": 8500
+          },
+          {
+            "keyword": "방산 드론",
+            "volume": 6500
+          },
+          {
+            "keyword": "전력 관련주",
+            "volume": 9800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "테마 해설"
+        },
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 종목 추천"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "테마 ETF 비과세 운용"
+      },
+      "hook_hypothesis": "AI 시대 전력이 부족해진다면 가장 먼저 오를 3개 섹터",
+      "ai_ideas_seed": {
+        "target": "거시 트렌드 관찰자 3050",
+        "tone": "분석형 · 예측 포인트",
+        "format_hint": "30초 숏폼 · 섹터 차트"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-C09",
+      "category_id": "C",
+      "subgroup": "C2",
+      "title": "돈 공부 입문자 — 학습 커뮤니티",
+      "subtitle": "월부·라이프체인징 생태계",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "주식 공부",
+          "돈 공부",
+          "재테크 공부",
+          "주식 공부 책 추천"
+        ],
+        "cluster_path": [
+          "주식 공부",
+          "방법·기초·책 추천",
+          "5일 완성",
+          "순서",
+          "차트 공부",
+          "돈 공부 디시·카페"
+        ],
+        "metrics": {
+          "annual_volume": 600000,
+          "trend_percent": null,
+          "trend_label": "돈 공부 카페 생태계 활황",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "여 62% · 남 38%",
+          "age": "20-39세"
+        },
+        "why_now": "돈 공부 커뮤니티 생태계 활황",
+        "review_level": "low",
+        "review_notes": "학습 동반자 톤",
+        "monthly_volume": [
+          45000,
+          50000,
+          55000,
+          58000,
+          60000,
+          60000,
+          60000,
+          60000,
+          60000,
+          60000,
+          60000,
+          60000,
+          60000,
+          56000
+        ],
+        "who_tags": [
+          "돈 공부 입문자",
+          "20-39세 여 62%",
+          "커뮤니티 활발",
+          "재테크 공부"
+        ],
+        "who_evidence": "여 62% · 20-39세",
+        "when_tags": [
+          "커뮤니티 활황",
+          "재테크 붐",
+          "자기계발 트렌드"
+        ],
+        "when_evidence": "돈 공부 카페 생태계 활황",
+        "journey_tags": [
+          "주식 공부",
+          "돈 공부",
+          "재테크",
+          "방법",
+          "책 추천"
+        ],
+        "journey_evidence": "관심 → 방법 → 기초 → 책 → 커뮤니티",
+        "pain_tags": [
+          "어디서 시작?",
+          "정보 홍수",
+          "동반자 부재"
+        ],
+        "pain_evidence": "체계적 학습 수요",
+        "usp_fit_tags": [
+          "오늘의 콕 데일리 학습",
+          "프라임클럽 전문가"
+        ],
+        "usp_fit_evidence": "데일리 학습 + 전문가",
+        "hook_tags": [
+          "5일 완성 해봤다",
+          "진짜 배운 건",
+          "커뮤니티 실상"
+        ],
+        "hook_evidence": "경험담 + 공감",
+        "pathfinder_narrative": "돈 공부 시작 → 방법 탐색 → 커뮤니티 참여 → 실전",
+        "cluster_insight": "돈 공부 입문자 = 여성 2030 학습 세그먼트. 첫 계좌 유입 핵심",
+        "related_keywords": [
+          {
+            "keyword": "주식 공부",
+            "volume": 50000
+          },
+          {
+            "keyword": "돈 공부",
+            "volume": 22000
+          },
+          {
+            "keyword": "재테크 공부",
+            "volume": 18000
+          },
+          {
+            "keyword": "주식 공부 5일",
+            "volume": 8500
+          },
+          {
+            "keyword": "돈 공부 카페",
+            "volume": 12000
+          },
+          {
+            "keyword": "재테크 책 추천",
+            "volume": 14000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "데일리 학습 콘텐츠"
+        },
+        {
+          "id": "prime-club",
+          "role": "secondary",
+          "reason": "전문가 교육 콘텐츠"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "입문자 첫 계좌 개설 유도"
+      },
+      "hook_hypothesis": "주식 공부 5일 완성한다고 해서 해봤는데 진짜 알게 된 건 이거였어",
+      "ai_ideas_seed": {
+        "target": "입문자 2030",
+        "tone": "후기형 · 공감",
+        "format_hint": "30초 숏폼 · 경험담"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-C10",
+      "category_id": "C",
+      "subgroup": "C2",
+      "title": "주린이 → 업그레이드 내러티브",
+      "subtitle": "토스증권에서 졸업",
+      "status": "tentative",
+      "priority": "low",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "주린이",
+          "주식 초보",
+          "토스증권 PC",
+          "토스증권 수수료"
+        ],
+        "cluster_path": [
+          "주린이",
+          "토스증권 PC/수수료/단점",
+          "KB 진입 필요"
+        ],
+        "metrics": {
+          "annual_volume": 137000,
+          "trend_percent": 49,
+          "trend_label": "+49%",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "여 68% · 남 32%",
+          "age": "40-50대↑ (의외)"
+        },
+        "why_now": "초보 졸업 세그먼트 확보 필요",
+        "review_level": "low",
+        "review_notes": "경쟁사 우위 상황 · 신중 접근",
+        "monthly_volume": [
+          8500,
+          10000,
+          11500,
+          12500,
+          13000,
+          13500,
+          13500,
+          13500,
+          13700,
+          13700,
+          13700,
+          13700,
+          13700,
+          12500
+        ],
+        "who_tags": [
+          "주린이 졸업 대상",
+          "4050 여 68%",
+          "토스증권 이용",
+          "업그레이드 니즈"
+        ],
+        "who_evidence": "여 68% · 40-50대↑ (의외)",
+        "when_tags": [
+          "토스 이탈 시작",
+          "본격 투자 진입",
+          "수수료 인식"
+        ],
+        "when_evidence": "+49% 성장 · 졸업 세그먼트 확보 필요",
+        "journey_tags": [
+          "주린이",
+          "토스증권 PC",
+          "수수료",
+          "단점"
+        ],
+        "journey_evidence": "주린이(시작) → 토스(초보) → 수수료(불만) → 졸업",
+        "pain_tags": [
+          "초보 티 벗기",
+          "본격 증권사 차이",
+          "이전 부담"
+        ],
+        "pain_evidence": "졸업 가이드 부재",
+        "usp_fit_tags": [
+          "오늘의 콕 졸업 가이드",
+          "마이브리프 업그레이드"
+        ],
+        "usp_fit_evidence": "업그레이드 내러티브",
+        "hook_tags": [
+          "주린이 1년",
+          "토스 vs 본격",
+          "다음 단계"
+        ],
+        "hook_evidence": "경험담 + 차이점",
+        "pathfinder_narrative": "주린이 시작 → 토스 경험 → 한계 인식 → 본격 증권사",
+        "cluster_insight": "주린이 = 토스 졸업 후 본격 증권사 이동 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "주린이",
+            "volume": 13700
+          },
+          {
+            "keyword": "주식 초보",
+            "volume": 18000
+          },
+          {
+            "keyword": "토스증권 PC",
+            "volume": 8500
+          },
+          {
+            "keyword": "토스증권 수수료",
+            "volume": 6500
+          },
+          {
+            "keyword": "토스증권 단점",
+            "volume": 4200
+          },
+          {
+            "keyword": "증권사 비교",
+            "volume": 12000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "졸업 가이드"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "업그레이드 내러티브"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "본격 투자 계좌 전환"
+      },
+      "hook_hypothesis": "주린이 1년 차, 토스 쓰다가 알게 된 '다음 단계' 증권사의 진짜 차이",
+      "ai_ideas_seed": {
+        "target": "주린이 졸업 대상 4050",
+        "tone": "업그레이드형 · 차별점 명확",
+        "format_hint": "30초 숏폼 · 토스 vs 본격 증권사"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-C11",
+      "category_id": "C",
+      "subgroup": "C2",
+      "title": "종목 추천 갈망자 — 계좌별 맞춤",
+      "subtitle": "ISA·연금저축·IRP 종목 추천",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "종목 추천",
+          "ISA 종목",
+          "연금저축 종목",
+          "IRP 종목"
+        ],
+        "cluster_path": [
+          "종목 추천",
+          "ISA 추천 종목",
+          "연금저축 펀드",
+          "IRP 종목",
+          "ETF 종목 추천",
+          "배당주 추천"
+        ],
+        "metrics": {
+          "annual_volume": 480000,
+          "trend_percent": null,
+          "trend_label": "계좌별 특화 콘텐츠 수요",
+          "competition": "HIGH"
+        },
+        "demography": {
+          "gender": "남 55% · 여 45%",
+          "age": "30-49세"
+        },
+        "why_now": "계좌별 특화 종목 수요 증가",
+        "review_level": "medium",
+        "review_notes": "종목 추천 수위 관리 · 개인 상황 고지",
+        "monthly_volume": [
+          32000,
+          36000,
+          40000,
+          42000,
+          44000,
+          46000,
+          48000,
+          48000,
+          48000,
+          48000,
+          48000,
+          48000,
+          48000,
+          44000
+        ],
+        "who_tags": [
+          "계좌별 종목 고민",
+          "30-49세 남 55%",
+          "맞춤 니즈",
+          "계좌 활성자"
+        ],
+        "who_evidence": "남 55% · 30-49세",
+        "when_tags": [
+          "계좌 개설 직후",
+          "운용 고민기",
+          "연말 정리"
+        ],
+        "when_evidence": "계좌별 특화 콘텐츠 수요 증가",
+        "journey_tags": [
+          "종목 추천",
+          "ISA 종목",
+          "연금저축 종목",
+          "IRP 종목"
+        ],
+        "journey_evidence": "일반 → 계좌별 → ETF → 배당주",
+        "pain_tags": [
+          "계좌별 차이 모름",
+          "종목 선택 어려움",
+          "추천 신뢰"
+        ],
+        "pain_evidence": "계좌별 특화 콘텐츠 부족",
+        "usp_fit_tags": [
+          "프라임클럽 전문가 종목",
+          "AI투자브리핑 AI 분석"
+        ],
+        "usp_fit_evidence": "전문가 + AI 조합",
+        "hook_tags": [
+          "ISA에 뭐 넣을까",
+          "계좌별 Top 3",
+          "비과세 극대화"
+        ],
+        "hook_evidence": "계좌별 맞춤 선호",
+        "pathfinder_narrative": "계좌 개설 후 → 종목 고민 → 계좌별 추천 → 매수",
+        "cluster_insight": "종목 추천 갈망자 = 3개 계좌 동시 유도 가능 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "종목 추천",
+            "volume": 48000
+          },
+          {
+            "keyword": "ISA 종목 추천",
+            "volume": 18000
+          },
+          {
+            "keyword": "연금저축 펀드 추천",
+            "volume": 12000
+          },
+          {
+            "keyword": "IRP 종목",
+            "volume": 8500
+          },
+          {
+            "keyword": "ETF 추천",
+            "volume": 28000
+          },
+          {
+            "keyword": "배당주 추천",
+            "volume": 22000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 종목 추천"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "AI 종목 분석"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축",
+          "IRP"
+        ],
+        "note": "계좌별 특화 종목 콘텐츠로 3개 계좌 모두 유도"
+      },
+      "hook_hypothesis": "ISA 계좌에 뭐 넣을까? 세액공제+비과세 효율 1위 종목 3개",
+      "ai_ideas_seed": {
+        "target": "계좌 보유자 3040",
+        "tone": "맞춤형 · 계좌별 분리",
+        "format_hint": "25초 숏폼 · 계좌별 Top 3"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-ACC01",
+      "category_id": "D",
+      "subgroup": "ACC-ISA",
+      "title": "5대 계좌 선택 가이드",
+      "subtitle": "ISA · 연금저축 · IRP · RIA · IRA 통합 맵",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "연금저축 IRP ISA 차이",
+          "비교",
+          "순서",
+          "우선순위",
+          "IRA 혼동",
+          "RIA 혼동"
+        ],
+        "cluster_path": [
+          "연금저축 IRP ISA 차이",
+          "순서",
+          "ISA IRP 계좌 차이",
+          "연금저축 계좌 ISA 차이",
+          "우선순위"
+        ],
+        "metrics": {
+          "annual_volume": 240000,
+          "trend_percent": null,
+          "trend_label": "2025.12월 610% 폭발 (단일월)",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남녀 균형 50:50",
+          "age": "25-49세 (90%)"
+        },
+        "why_now": "2026.1 RIA 출시로 선택지 복잡해짐 + ISA 제도 변경",
+        "review_level": "medium",
+        "review_notes": "추천 톤 관리 · 개인 상황 고지",
+        "monthly_volume": [
+          8000,
+          12000,
+          18000,
+          22000,
+          26000,
+          30000,
+          32000,
+          28000,
+          20000,
+          22000,
+          26000,
+          61000,
+          48000,
+          24000
+        ],
+        "who_tags": [
+          "계좌 선택 고민자",
+          "25-49세",
+          "남녀 균형",
+          "혼동 해소 니즈"
+        ],
+        "who_evidence": "남녀 50:50 · 25-49세 90%",
+        "when_tags": [
+          "2026.1 RIA 출시",
+          "세액공제 시즌",
+          "제도 변경"
+        ],
+        "when_evidence": "2025.12월 단일월 610% 폭발",
+        "journey_tags": [
+          "연금저축 IRP ISA 차이",
+          "순서",
+          "우선순위"
+        ],
+        "journey_evidence": "차이(이해) → 비교 → 순서(결정)",
+        "pain_tags": [
+          "5개 이름 혼동",
+          "선택 기준 없음",
+          "세제 차이"
+        ],
+        "pain_evidence": "RIA 출시로 혼동 증가",
+        "usp_fit_tags": [
+          "오늘의 콕 비교 가이드",
+          "AI투자브리핑 시나리오"
+        ],
+        "usp_fit_evidence": "5개 계좌 통합 해설",
+        "hook_tags": [
+          "5개 영문 이름",
+          "연봉·해외주식 기준",
+          "딱 정해진다"
+        ],
+        "hook_evidence": "간단 규칙 + 의사결정 트리",
+        "pathfinder_narrative": "계좌 혼동 → 비교 → 본인 상황 → 선택",
+        "cluster_insight": "5대 계좌 가이드 = 모든 계좌 KPI 게이트웨이 콘텐츠",
+        "related_keywords": [
+          {
+            "keyword": "연금저축 IRP ISA 차이",
+            "volume": 3150
+          },
+          {
+            "keyword": "연금저축 순서",
+            "volume": 2800
+          },
+          {
+            "keyword": "계좌 우선순위",
+            "volume": 1800
+          },
+          {
+            "keyword": "IRP ISA 차이",
+            "volume": 4200
+          },
+          {
+            "keyword": "연금계좌 종류",
+            "volume": 1200
+          },
+          {
+            "keyword": "ISA IRP 선택",
+            "volume": 2100
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "종합 비교 가이드"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "AI 추천 시나리오"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [
+          "ISA",
+          "IRP",
+          "연금저축",
+          "RIA",
+          "IRA"
+        ],
+        "note": "게이트웨이 콘텐츠 · 5개 계좌 모두 유도 가능"
+      },
+      "hook_hypothesis": "ISA? 연금저축? IRP? RIA? IRA? 5개 영문 이름, 당신한테 맞는 건 연봉·해외주식 보유 여부로 딱 정해진다",
+      "ai_ideas_seed": {
+        "target": "계좌 선택 고민자 전체",
+        "tone": "가이드형 · 플로우차트 활용",
+        "format_hint": "30초 숏폼 · 의사결정 트리"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC02",
+      "category_id": "D",
+      "subgroup": "ACC-ISA",
+      "title": "ISA 한도 활용·만기 설계",
+      "subtitle": "2016 출시 10년 만기 대이동",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "ISA 한도",
+          "5천만원",
+          "2억",
+          "만기 활용",
+          "만기 연금계좌 납입"
+        ],
+        "cluster_path": [
+          "ISA 한도",
+          "2억",
+          "월 납입금",
+          "만기",
+          "만기 연금계좌 납입"
+        ],
+        "metrics": {
+          "annual_volume": 115000,
+          "trend_percent": null,
+          "trend_label": "12월 피크 · 2026 만기 폭증",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "여 52% · 남 48%",
+          "age": "🎯 50대↑ 32% · 40대 28%"
+        },
+        "why_now": "2016 출시 ISA가 2026 대규모 만기 시점",
+        "review_level": "medium",
+        "review_notes": "만기 시 불이익 정확히 고지",
+        "monthly_volume": [
+          5400,
+          6500,
+          8000,
+          9500,
+          10000,
+          10500,
+          11000,
+          11500,
+          11500,
+          11000,
+          11000,
+          20000,
+          20200,
+          12000
+        ],
+        "who_tags": [
+          "ISA 만기 도래자",
+          "50대↑ 32%",
+          "2016 가입자",
+          "전환 고민"
+        ],
+        "who_evidence": "50대↑ 32% · 40대 28%",
+        "when_tags": [
+          "2026 대규모 만기",
+          "연말 한도 체크",
+          "전환 결정"
+        ],
+        "when_evidence": "2016 출시 10년 만기 시점",
+        "journey_tags": [
+          "ISA 한도",
+          "5천만원",
+          "2억",
+          "만기 연금계좌 납입"
+        ],
+        "journey_evidence": "한도(확인) → 월 납입(계산) → 만기(전환)",
+        "pain_tags": [
+          "만기 후 선택지 몰라",
+          "전환 불이익",
+          "재가입 혼란"
+        ],
+        "pain_evidence": "대규모 만기 처음 경험",
+        "usp_fit_tags": [
+          "오늘의 콕 만기 가이드",
+          "프라임클럽 장기 설계"
+        ],
+        "usp_fit_evidence": "만기 전략 + 장기 설계",
+        "hook_tags": [
+          "만기 돌아오는 사람",
+          "다음 5년",
+          "세금 한 번 더"
+        ],
+        "hook_evidence": "만기 특화 가이드 부재",
+        "pathfinder_narrative": "ISA 만기 도래 → 선택지 탐색 → 전환 또는 재가입",
+        "cluster_insight": "ISA 만기 = 연금저축 전환의 가장 큰 기회",
+        "related_keywords": [
+          {
+            "keyword": "ISA 한도",
+            "volume": 20200
+          },
+          {
+            "keyword": "ISA 2억",
+            "volume": 8500
+          },
+          {
+            "keyword": "ISA 만기",
+            "volume": 12000
+          },
+          {
+            "keyword": "ISA 연금계좌 전환",
+            "volume": 4200
+          },
+          {
+            "keyword": "ISA 재가입",
+            "volume": 3200
+          },
+          {
+            "keyword": "ISA 5년",
+            "volume": 6500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "만기 가이드"
+        },
+        {
+          "id": "prime-club",
+          "role": "secondary",
+          "reason": "장기 설계"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [
+          "연금저축"
+        ],
+        "note": "ISA 만기 → 연금저축 전환 유도"
+      },
+      "hook_hypothesis": "ISA 만기 돌아오는 사람들, 다음 5년 이렇게 굴리면 세금 한 번 더 아낌",
+      "ai_ideas_seed": {
+        "target": "ISA 만기 도래자 4050",
+        "tone": "전환 가이드형 · 세금 절약",
+        "format_hint": "25초 숏폼 · 만기 → 전환 시나리오"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC03",
+      "category_id": "D",
+      "subgroup": "ACC-연금",
+      "title": "연금저축 ETF 추천",
+      "subtitle": "직접 운용의 매력",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "연금저축 ETF 추천",
+          "펀드",
+          "SCHD",
+          "미국 월배당"
+        ],
+        "cluster_path": [
+          "연금저축 ETF 추천",
+          "펀드 추천",
+          "상품",
+          "미국 월배당",
+          "SCHD"
+        ],
+        "metrics": {
+          "annual_volume": 74000,
+          "trend_percent": 24,
+          "trend_label": "+24% 🔥 · 2026.1월 폭발",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 53% · 남 47%",
+          "age": "40대 39% · 50대↑ 28%"
+        },
+        "why_now": "+24% 성장 + 세액공제 시즌 수요",
+        "review_level": "medium",
+        "review_notes": "종목 추천 톤 조심 · 개인 상황",
+        "monthly_volume": [
+          1600,
+          2400,
+          3500,
+          5000,
+          7000,
+          8500,
+          10000,
+          10500,
+          10500,
+          10500,
+          10500,
+          19400,
+          15700,
+          10700
+        ],
+        "who_tags": [
+          "연금저축 운용자",
+          "40대 39%",
+          "여 53%",
+          "직장인"
+        ],
+        "who_evidence": "여 53% · 40대 39% · 50대↑ 28%",
+        "when_tags": [
+          "세액공제 시즌",
+          "ETF 대중화",
+          "+24% 성장"
+        ],
+        "when_evidence": "+24% 성장 + 2026.1월 폭발",
+        "journey_tags": [
+          "연금저축 ETF 추천",
+          "펀드",
+          "SCHD",
+          "미국 월배당"
+        ],
+        "journey_evidence": "ETF 추천(핵심) → 펀드(대안) → SCHD(구체)",
+        "pain_tags": [
+          "어떤 ETF?",
+          "국내 vs 미국",
+          "장기 운용 방법"
+        ],
+        "pain_evidence": "구체적 상품 가이드 수요",
+        "usp_fit_tags": [
+          "AI투자브리핑 ETF 분석",
+          "마이브리프 포트폴리오"
+        ],
+        "usp_fit_evidence": "분석 + 포트폴리오 관리",
+        "hook_tags": [
+          "4050이 많이 고른",
+          "실제 Top 3",
+          "SCHD 진짜"
+        ],
+        "hook_evidence": "실제 사용자 데이터 선호",
+        "pathfinder_narrative": "연금저축 개설 → ETF 선택 → 장기 운용",
+        "cluster_insight": "연금저축 ETF = 세액공제 시즌 개설의 핵심 운용 수요",
+        "related_keywords": [
+          {
+            "keyword": "연금저축 ETF 추천",
+            "volume": 15700
+          },
+          {
+            "keyword": "연금저축 펀드",
+            "volume": 8500
+          },
+          {
+            "keyword": "SCHD",
+            "volume": 32000
+          },
+          {
+            "keyword": "연금저축 미국 ETF",
+            "volume": 6500
+          },
+          {
+            "keyword": "연금저축 ETF 순위",
+            "volume": 4200
+          },
+          {
+            "keyword": "연저펀 ETF",
+            "volume": 3800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "ETF 분석"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "포트폴리오 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [],
+        "note": "연금저축 신규 개설 + ETF 매수 유도"
+      },
+      "hook_hypothesis": "연금저축 통장에 뭐 넣을지 모르겠다면, 직장인 4050이 가장 많이 고른 ETF 3개",
+      "ai_ideas_seed": {
+        "target": "연금저축 보유 4050",
+        "tone": "실용형 · 실제 사용자 기반",
+        "format_hint": "25초 숏폼 · 실제 선택 Top 3"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC04",
+      "category_id": "D",
+      "subgroup": "ACC-IRP",
+      "title": "IRP 증권사 비교 — KB의 방어전",
+      "subtitle": "수수료 0.1% 30년 차이",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "IRP 계좌 비교",
+          "IRP 증권사 수수료",
+          "IRP 계좌 추천",
+          "다이렉트 IRP"
+        ],
+        "cluster_path": [
+          "IRP 계좌 비교",
+          "수수료 비교",
+          "증권사 추천",
+          "다이렉트 IRP",
+          "KB증권 IRP 계좌 개설방법"
+        ],
+        "metrics": {
+          "annual_volume": 40000,
+          "trend_percent": null,
+          "trend_label": "IRP 계좌 +31% 성장 지속",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "🎯 여 65% · 남 35%",
+          "age": "25-44세 55%"
+        },
+        "why_now": "IRP 계좌 +31% 성장 + KB 이미 검색됨 (방어 전략)",
+        "review_level": "low",
+        "review_notes": "수수료 팩트 · 세금 고지",
+        "monthly_volume": [
+          1900,
+          2500,
+          3200,
+          3500,
+          3800,
+          4000,
+          4000,
+          4000,
+          4000,
+          4000,
+          4000,
+          4000,
+          3900,
+          3600
+        ],
+        "who_tags": [
+          "IRP 고민자",
+          "여 65%",
+          "2544세 55%",
+          "수수료 민감"
+        ],
+        "who_evidence": "여 65% · 25-44세 55%",
+        "when_tags": [
+          "IRP 성장기",
+          "2026 급상승",
+          "수수료 비교 수요"
+        ],
+        "when_evidence": "IRP +31% 성장 지속",
+        "journey_tags": [
+          "IRP 비교",
+          "수수료",
+          "증권사 추천",
+          "다이렉트"
+        ],
+        "journey_evidence": "비교(요구) → 수수료(핵심) → 추천 → 다이렉트",
+        "pain_tags": [
+          "수수료 차이 체감 안됨",
+          "30년 후 차이",
+          "증권사 선택"
+        ],
+        "pain_evidence": "장기 수수료 효과 이해 부족",
+        "usp_fit_tags": [
+          "프라임클럽 수수료 강점",
+          "마이브리프 IRP 운용"
+        ],
+        "usp_fit_evidence": "KB IRP 방어 + 차별화",
+        "hook_tags": [
+          "0.1% 차이",
+          "30년 후 충격",
+          "실제 금액"
+        ],
+        "hook_evidence": "장기 복리 시각화 선호",
+        "pathfinder_narrative": "IRP 관심 → 증권사 비교 → 수수료 확인 → 선택",
+        "cluster_insight": "IRP 증권사 비교 = KB 방어 전략 핵심",
+        "related_keywords": [
+          {
+            "keyword": "IRP 계좌 비교",
+            "volume": 4000
+          },
+          {
+            "keyword": "IRP 수수료 비교",
+            "volume": 3200
+          },
+          {
+            "keyword": "IRP 증권사 추천",
+            "volume": 2800
+          },
+          {
+            "keyword": "다이렉트 IRP",
+            "volume": 1800
+          },
+          {
+            "keyword": "KB증권 IRP",
+            "volume": 1200
+          },
+          {
+            "keyword": "IRP 수수료",
+            "volume": 5500
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "수수료 강점 · 전문성"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "IRP 운용 알림"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [],
+        "note": "IRP 계좌 개설 (타사 이전 포함)"
+      },
+      "hook_hypothesis": "IRP 증권사 수수료 0.1% 차이, 30년 뒤 실제 금액 차이는 (계산 결과 충격)",
+      "ai_ideas_seed": {
+        "target": "IRP 고민자 2540 여성",
+        "tone": "비교형 · 숫자 충격",
+        "format_hint": "25초 숏폼 · 30년 복리 차이"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC05",
+      "category_id": "D",
+      "subgroup": "ACC-연금",
+      "title": "연금저축 세액공제 한도",
+      "subtitle": "연말정산 최적화",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "연금저축 세액공제 한도",
+          "IRP 세액공제",
+          "900만원 추가 납입"
+        ],
+        "cluster_path": [
+          "세액공제 한도",
+          "IRP 세액공제",
+          "900만원 추가 납입",
+          "ETF 운용"
+        ],
+        "metrics": {
+          "annual_volume": 460000,
+          "trend_percent": null,
+          "trend_label": "매년 11-2월 피크",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남녀 균형",
+          "age": "🎯 40대↑ 67%"
+        },
+        "why_now": "매년 반복 시즌 자산",
+        "review_level": "medium",
+        "review_notes": "구체 금액 주의 · 연봉 상황 고지",
+        "monthly_volume": [
+          32000,
+          38000,
+          42000,
+          45000,
+          46000,
+          46000,
+          46000,
+          46000,
+          46000,
+          46000,
+          46000,
+          46000,
+          45000,
+          40000
+        ],
+        "who_tags": [
+          "직장인 4050",
+          "여 55%",
+          "고소득",
+          "세액공제 극대화"
+        ],
+        "who_evidence": "여 55% · 40대↑ 67%",
+        "when_tags": [
+          "11-2월 시즌",
+          "연봉 확정 후",
+          "매년 반복"
+        ],
+        "when_evidence": "매년 12-2월 피크",
+        "journey_tags": [
+          "연금저축 세액공제 한도",
+          "IRP 세액공제",
+          "900만원"
+        ],
+        "journey_evidence": "한도(정보) → IRP 한도 → 추가 납입",
+        "pain_tags": [
+          "한도 최적 배분",
+          "연봉별 차이",
+          "계좌 분산"
+        ],
+        "pain_evidence": "개인별 최적화 수요",
+        "usp_fit_tags": [
+          "오늘의 콕 시즌 가이드",
+          "프라임클럽 개인 최적"
+        ],
+        "usp_fit_evidence": "시즌 가이드 + 맞춤",
+        "hook_tags": [
+          "연봉 8천",
+          "최대 받는 금액",
+          "계좌 배분"
+        ],
+        "hook_evidence": "연봉별 시나리오 선호",
+        "pathfinder_narrative": "세액공제 관심 → 한도 확인 → 연봉별 배분 → 계좌 개설",
+        "cluster_insight": "세액공제 한도 = 연금저축+IRP 동시 개설 촉발",
+        "related_keywords": [
+          {
+            "keyword": "연금저축 세액공제 한도",
+            "volume": 46000
+          },
+          {
+            "keyword": "IRP 세액공제",
+            "volume": 45000
+          },
+          {
+            "keyword": "세액공제 900만원",
+            "volume": 8500
+          },
+          {
+            "keyword": "연말정산 연금저축",
+            "volume": 18000
+          },
+          {
+            "keyword": "세액공제 연봉",
+            "volume": 4200
+          },
+          {
+            "keyword": "세액공제 계산",
+            "volume": 12000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "시즌 가이드"
+        },
+        {
+          "id": "prime-club",
+          "role": "secondary",
+          "reason": "개인 최적화"
+        }
+      ],
+      "account_kpi": {
+        "primary": "연금저축",
+        "secondary": [
+          "IRP"
+        ],
+        "note": "연금저축 + IRP 동시 개설 유도"
+      },
+      "hook_hypothesis": "연봉 8천만원, 연금저축+IRP 합쳐 세액공제 최대로 받는 금액 (맞는 배분)",
+      "ai_ideas_seed": {
+        "target": "연봉 5천만원↑ 직장인 4050",
+        "tone": "최적화형 · 연봉 구간별",
+        "format_hint": "30초 숏폼 · 연봉별 시나리오"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC06",
+      "category_id": "D",
+      "subgroup": "ACC-ISA",
+      "title": "ISA 계좌 종목 추천",
+      "subtitle": "비과세 혜택 극대화",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "ISA 계좌 종목 추천",
+          "종목 추천",
+          "ETF",
+          "국내 배당주"
+        ],
+        "cluster_path": [
+          "ISA 계좌 종목 추천",
+          "추천 종목",
+          "ETF",
+          "국내 배당주",
+          "미국 ETF"
+        ],
+        "metrics": {
+          "annual_volume": 12000,
+          "trend_percent": null,
+          "trend_label": "2026 지속 상승",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 54% · 남 46%",
+          "age": "30대 34%"
+        },
+        "why_now": "ISA 활성 유저 운용 니즈 증가",
+        "review_level": "medium",
+        "review_notes": "종목 추천 수위 관리",
+        "monthly_volume": [
+          2800,
+          3500,
+          4500,
+          5500,
+          6500,
+          7500,
+          8500,
+          9000,
+          9500,
+          10500,
+          11500,
+          12500,
+          13600,
+          12000
+        ],
+        "who_tags": [
+          "ISA 운용자",
+          "30대 34%",
+          "여 54%",
+          "비과세 극대화"
+        ],
+        "who_evidence": "여 54% · 30대 34%",
+        "when_tags": [
+          "ISA 개설 직후",
+          "운용 고민기",
+          "종목 선택"
+        ],
+        "when_evidence": "2026 지속 상승",
+        "journey_tags": [
+          "ISA 종목 추천",
+          "ETF",
+          "국내 배당주",
+          "미국 ETF"
+        ],
+        "journey_evidence": "ISA 종목 → 추천 → ETF → 배당주",
+        "pain_tags": [
+          "ISA 최적 종목?",
+          "비과세 극대화 방법",
+          "조합"
+        ],
+        "pain_evidence": "ISA 전용 콘텐츠 부족",
+        "usp_fit_tags": [
+          "프라임클럽 전문가 종목",
+          "AI투자브리핑 AI 분석"
+        ],
+        "usp_fit_evidence": "전문가 + AI 종목 분석",
+        "hook_tags": [
+          "비과세 최대로",
+          "3가지 조합",
+          "세후 수익"
+        ],
+        "hook_evidence": "조합 중심 콘텐츠 선호",
+        "pathfinder_narrative": "ISA 개설 → 종목 추천 → 조합 구성 → 운용",
+        "cluster_insight": "ISA 종목 추천 = 이미 개설한 사용자 활성화 핵심",
+        "related_keywords": [
+          {
+            "keyword": "ISA 종목 추천",
+            "volume": 13600
+          },
+          {
+            "keyword": "ISA ETF",
+            "volume": 12000
+          },
+          {
+            "keyword": "ISA 국내 배당주",
+            "volume": 6500
+          },
+          {
+            "keyword": "ISA 미국 ETF",
+            "volume": 8500
+          },
+          {
+            "keyword": "ISA 포트폴리오",
+            "volume": 4200
+          },
+          {
+            "keyword": "ISA 조합",
+            "volume": 3200
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 종목 추천"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "AI 종목 분석"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "ISA 개설 + 매수 활성화"
+      },
+      "hook_hypothesis": "ISA 계좌 비과세 혜택 최대로 뽑으려면 이 3가지 조합 종목이 정답에 가까움",
+      "ai_ideas_seed": {
+        "target": "ISA 보유 3040",
+        "tone": "맞춤형 · 조합 중심",
+        "format_hint": "25초 숏폼 · 3가지 조합"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-ACC07",
+      "category_id": "D",
+      "subgroup": "ACC-ISA",
+      "title": "2026 ISA 제도 변경",
+      "subtitle": "한도 상향·신상품 소개",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "2026 ISA 계좌 변경",
+          "신탁형",
+          "중개형",
+          "서민형",
+          "한도 상향"
+        ],
+        "cluster_path": [
+          "2026 ISA 변경",
+          "한도 상향",
+          "신탁형 vs 중개형",
+          "서민형 전환"
+        ],
+        "metrics": {
+          "annual_volume": 90,
+          "trend_percent": 1000,
+          "trend_label": "시의성 최상 · 신규 검색어",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남녀 균형",
+          "age": "30-50대 · 기존 ISA 보유자"
+        },
+        "why_now": "제도 변경 공식화 시점에 터짐",
+        "review_level": "low",
+        "review_notes": "제도 팩트 · 확정 사항 기반",
+        "monthly_volume": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          70,
+          10
+        ],
+        "who_tags": [
+          "ISA 기존 가입자",
+          "30-50대",
+          "제도 민감자",
+          "변화 대응"
+        ],
+        "who_evidence": "30-50대 · 기존 ISA 보유자",
+        "when_tags": [
+          "2026.1 제도 변경",
+          "한도 상향",
+          "신상품"
+        ],
+        "when_evidence": "제도 변경 공식화 시점",
+        "journey_tags": [
+          "2026 ISA 변경",
+          "한도 상향",
+          "신탁형 중개형",
+          "서민형"
+        ],
+        "journey_evidence": "2026 ISA → 한도 → 유형 비교",
+        "pain_tags": [
+          "바뀐 점 모름",
+          "본인 적용?",
+          "기존 계좌 영향"
+        ],
+        "pain_evidence": "제도 변경 해설 수요 급증",
+        "usp_fit_tags": [
+          "AI투자브리핑 제도 해설",
+          "오늘의 콕 체크리스트"
+        ],
+        "usp_fit_evidence": "뉴스형 해설",
+        "hook_tags": [
+          "바뀐 점 3가지",
+          "한도 늘면",
+          "본인 적용"
+        ],
+        "hook_evidence": "뉴스 + 본인 영향 조합",
+        "pathfinder_narrative": "제도 변경 인식 → 내용 확인 → 본인 적용 → 계좌 활용",
+        "cluster_insight": "2026 ISA 제도 = 신규 개설 + 기존 활용 동시 트리거",
+        "related_keywords": [
+          {
+            "keyword": "2026 ISA 계좌 변경",
+            "volume": 70
+          },
+          {
+            "keyword": "ISA 한도 상향",
+            "volume": 3200
+          },
+          {
+            "keyword": "ISA 신탁형",
+            "volume": 6500
+          },
+          {
+            "keyword": "ISA 중개형",
+            "volume": 4200
+          },
+          {
+            "keyword": "ISA 서민형",
+            "volume": 8500
+          },
+          {
+            "keyword": "ISA 제도 개편",
+            "volume": 2800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "제도 해설"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "바뀐 점 정리"
+        }
+      ],
+      "account_kpi": {
+        "primary": "ISA",
+        "secondary": [],
+        "note": "ISA 신규 개설 + 기존 유저 활용"
+      },
+      "hook_hypothesis": "2026 ISA 바뀐 점 3가지, 한도 늘어난다면 당신은 얼마까지?",
+      "ai_ideas_seed": {
+        "target": "ISA 기존/신규 관심자",
+        "tone": "뉴스형 · 제도 설명",
+        "format_hint": "25초 숏폼 · 바뀐 점 체크리스트"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC08",
+      "category_id": "D",
+      "subgroup": "ACC-IRP",
+      "title": "퇴직금 IRP 연계",
+      "subtitle": "이직·퇴직 트리거 연동",
+      "status": "confirmed",
+      "priority": "high",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "퇴직금 IRP 수령",
+          "이직 시 IRP",
+          "개인형 IRP 퇴직금"
+        ],
+        "cluster_path": [
+          "퇴직금 연금",
+          "수령",
+          "IRP 계좌 개설",
+          "이직 시 IRP 계좌",
+          "복수 계좌"
+        ],
+        "metrics": {
+          "annual_volume": null,
+          "trend_percent": null,
+          "trend_label": "O-B01과 시너지",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 52% · 여 48%",
+          "age": "30대 37% (이직) + 50대 은퇴"
+        },
+        "why_now": "퇴직금 +120% 폭발과 연결",
+        "review_level": "medium",
+        "review_notes": "세금 정확한 계산 · 개인 상황 고지",
+        "monthly_volume": [
+          28000,
+          32000,
+          38000,
+          42000,
+          45000,
+          48000,
+          52000,
+          50000,
+          52000,
+          56000,
+          62000,
+          68000,
+          70000,
+          65000
+        ],
+        "who_tags": [
+          "퇴직·이직자",
+          "30대 37%",
+          "50대 은퇴",
+          "세금 민감"
+        ],
+        "who_evidence": "남 52% · 30대 37% + 50대",
+        "when_tags": [
+          "퇴직금 수령 당일",
+          "이직 시점",
+          "세금 고민"
+        ],
+        "when_evidence": "퇴직금 +120% 폭발과 연결",
+        "journey_tags": [
+          "퇴직금 연금",
+          "수령",
+          "IRP 개설",
+          "복수 계좌"
+        ],
+        "journey_evidence": "퇴직금 → 수령 방법 → IRP → 복수",
+        "pain_tags": [
+          "일시수령 vs IRP",
+          "세금 차이",
+          "복수 계좌 가능?"
+        ],
+        "pain_evidence": "구체적 금액 시뮬 수요",
+        "usp_fit_tags": [
+          "프라임클럽 이체 전문가",
+          "오늘의 콕 가이드"
+        ],
+        "usp_fit_evidence": "전문가 + 가이드",
+        "hook_tags": [
+          "1억 들어왔을 때",
+          "IRP vs 일시수령",
+          "세금 놀람"
+        ],
+        "hook_evidence": "구체 금액 시뮬 선호",
+        "pathfinder_narrative": "퇴직 → IRP 고민 → 세금 계산 → 이체 결정",
+        "cluster_insight": "퇴직금 IRP 연계 = O-B01과 시너지, IRP 핵심 유입",
+        "related_keywords": [
+          {
+            "keyword": "퇴직금 IRP",
+            "volume": 70000
+          },
+          {
+            "keyword": "이직 시 IRP",
+            "volume": 22000
+          },
+          {
+            "keyword": "개인형 IRP 퇴직",
+            "volume": 18000
+          },
+          {
+            "keyword": "IRP 복수 계좌",
+            "volume": 8500
+          },
+          {
+            "keyword": "퇴직연금 이체",
+            "volume": 28000
+          },
+          {
+            "keyword": "퇴직금 세금 차이",
+            "volume": 15000
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "이체 전문가"
+        },
+        {
+          "id": "today-kok",
+          "role": "secondary",
+          "reason": "이직 가이드"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [],
+        "note": "IRP 신규 개설 (이체 연계)"
+      },
+      "hook_hypothesis": "퇴직금 통장에 1억 들어왔을 때, IRP 이체 vs 일시 수령 세금 차이 (놀람)",
+      "ai_ideas_seed": {
+        "target": "이직자 30대 + 은퇴자 50대",
+        "tone": "실용형 · 세금 충격",
+        "format_hint": "30초 숏폼 · 금액 시뮬레이션"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC09",
+      "category_id": "D",
+      "subgroup": "ACC-IRA",
+      "title": "IRA vs IRP vs ISA 헷갈림 해소",
+      "subtitle": "이름 혼동 현상 자체가 기회",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": 4,
+      "analysis": {
+        "interests": [
+          "IRA 계좌",
+          "IRA vs IRP",
+          "연금계좌 혼동",
+          "개인퇴직계좌"
+        ],
+        "cluster_path": [
+          "IRA 계좌",
+          "IRP 계좌 (완전 이동)",
+          "IRP 계좌 종류·단점·비교",
+          "퇴직금 IRP 계좌 개설"
+        ],
+        "metrics": {
+          "annual_volume": 52540,
+          "trend_percent": 123,
+          "trend_label": "+123% 🔥 (2025.10부터 폭발)",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "남 63% · 여 37%",
+          "age": "40대↑ 73%"
+        },
+        "why_now": "+123% 폭발 + 이름 혼동 수요 급증",
+        "review_level": "low",
+        "review_notes": "교육적 · 팩트 기반",
+        "monthly_volume": [
+          820,
+          1390,
+          1240,
+          1020,
+          1100,
+          1130,
+          1020,
+          1130,
+          1080,
+          1150,
+          1160,
+          1200,
+          1460,
+          1160
+        ],
+        "who_tags": [
+          "연금계좌 관심자",
+          "40-50대",
+          "남 63%",
+          "퇴직 준비자"
+        ],
+        "who_evidence": "50대↑ 41% · 40대 31% · 이름 혼동 세그먼트",
+        "when_tags": [
+          "2025.10부터 폭발",
+          "세액공제 시즌",
+          "연말정산 직전"
+        ],
+        "when_evidence": "+123% 성장 · 월 1만+ 검색 꾸준",
+        "journey_tags": [
+          "IRA 계좌",
+          "IRP 이동(혼동)",
+          "IRP 종류",
+          "ISA 차이"
+        ],
+        "journey_evidence": "'IRA 계좌' 검색자 90%가 IRP·ISA로 경로 이동",
+        "pain_tags": [
+          "이름 혼동",
+          "뭐가 뭔지 모름",
+          "선택 불가",
+          "설명 부족"
+        ],
+        "pain_evidence": "IRA/IRP/ISA 이름 차이를 3초 안에 설명하는 콘텐츠 부재",
+        "usp_fit_tags": [
+          "오늘의 콕 비교 가이드",
+          "AI투자브리핑 해설"
+        ],
+        "usp_fit_evidence": "입문·해설형 서비스가 혼동 해소 콘텐츠에 최적",
+        "hook_tags": [
+          "3분 정리",
+          "이름 차이",
+          "한 장 비교",
+          "당신에 맞는 계좌"
+        ],
+        "hook_evidence": "혼동 해소 = 가장 높은 교육 콘텐츠 수요",
+        "pathfinder_narrative": "IRA 검색 → IRP 혼동 → ISA 비교 → 최종 선택 고민",
+        "cluster_insight": "한국인에게 IRA = IRP와 혼동되는 단어. 이 혼동 자체가 기회",
+        "related_keywords": [
+          {
+            "keyword": "IRA 계좌",
+            "volume": 14130
+          },
+          {
+            "keyword": "IRA 뜻",
+            "volume": 1200
+          },
+          {
+            "keyword": "개인퇴직계좌",
+            "volume": 554
+          },
+          {
+            "keyword": "IRP 계좌",
+            "volume": 87500
+          },
+          {
+            "keyword": "IRA vs IRP",
+            "volume": 340
+          },
+          {
+            "keyword": "연금저축 IRP ISA 차이",
+            "volume": 3150
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "비교 가이드"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "제도 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "IRP",
+        "secondary": [
+          "ISA"
+        ],
+        "note": "IRA 검색자를 IRP 개설로 전환"
+      },
+      "hook_hypothesis": "IRA? IRP? ISA? 이름도 헷갈리는 3개 연금계좌, 3분 만에 정리",
+      "ai_ideas_seed": {
+        "target": "계좌 혼동자 4050",
+        "tone": "해설형 · 쉬운 비교",
+        "format_hint": "25초 숏폼 · 3개 나란히 비교"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC10",
+      "category_id": "D",
+      "subgroup": "ACC-IRA",
+      "title": "서학개미의 미국 IRA",
+      "subtitle": "고급 자산설계 · 블루오션",
+      "status": "confirmed",
+      "priority": "medium",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "미국 IRA",
+          "Roth IRA",
+          "미국 은퇴 계좌",
+          "한미 이중국적"
+        ],
+        "cluster_path": [
+          "Roth IRA",
+          "미국 IRA",
+          "미국 은퇴 계좌",
+          "해외 절세",
+          "미국 세금 보고"
+        ],
+        "metrics": {
+          "annual_volume": 190000,
+          "trend_percent": null,
+          "trend_label": "서학개미 고급 수요",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 여 75% (Roth IRA)",
+          "age": "40대↑"
+        },
+        "why_now": "서학개미 볼륨 꾸준 + 고급 수요 확대",
+        "review_level": "medium",
+        "review_notes": "해외 세제 주의 · 개인 상황",
+        "monthly_volume": [
+          12000,
+          14000,
+          15000,
+          15000,
+          16000,
+          16000,
+          17000,
+          17000,
+          17000,
+          17000,
+          17000,
+          17000,
+          17000,
+          16000
+        ],
+        "who_tags": [
+          "서학개미 고급자",
+          "여 75% (Roth IRA)",
+          "40대↑",
+          "해외 세제"
+        ],
+        "who_evidence": "여 75% (Roth IRA) · 40대↑",
+        "when_tags": [
+          "서학개미 본진",
+          "미국 세제 관심",
+          "고급 자산"
+        ],
+        "when_evidence": "서학개미 볼륨 꾸준 + 고급 수요",
+        "journey_tags": [
+          "미국 IRA",
+          "Roth IRA",
+          "미국 은퇴 계좌",
+          "해외 절세"
+        ],
+        "journey_evidence": "미국 IRA → Roth IRA → 해외 절세 → 미국 세금",
+        "pain_tags": [
+          "한국인 적용 가능?",
+          "세제 복잡",
+          "실무 방법"
+        ],
+        "pain_evidence": "해외 세제 해설 부족",
+        "usp_fit_tags": [
+          "프라임클럽 해외 세제 전문가",
+          "AI투자브리핑 해설"
+        ],
+        "usp_fit_evidence": "전문가 해설 필수",
+        "hook_tags": [
+          "서학개미 모르는",
+          "Roth IRA 진짜",
+          "한국 적용"
+        ],
+        "hook_evidence": "고급 지식 + 한국 적용",
+        "pathfinder_narrative": "서학개미 심화 → 미국 세제 관심 → Roth IRA → 한국 적용",
+        "cluster_insight": "미국 IRA = 서학개미 고급 블루오션 세그먼트",
+        "related_keywords": [
+          {
+            "keyword": "Roth IRA",
+            "volume": 17000
+          },
+          {
+            "keyword": "미국 IRA",
+            "volume": 6500
+          },
+          {
+            "keyword": "미국 은퇴 계좌",
+            "volume": 4200
+          },
+          {
+            "keyword": "해외 절세",
+            "volume": 8500
+          },
+          {
+            "keyword": "미국 세금 보고",
+            "volume": 12000
+          },
+          {
+            "keyword": "한미 이중국적 세금",
+            "volume": 3200
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "전문가 해외 세제 설명"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "미국 세제 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": null,
+        "secondary": [
+          "RIA"
+        ],
+        "note": "일반 해외주식 계좌 + 프라임클럽 구독"
+      },
+      "hook_hypothesis": "서학개미가 모르는 미국 세제 혜택, Roth IRA는 뭐고 우리가 쓸 수 있나",
+      "ai_ideas_seed": {
+        "target": "고급 서학개미 4050",
+        "tone": "전문형 · 해외 세제",
+        "format_hint": "30초 숏폼 · 한국인 적용 가능성"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC11",
+      "category_id": "D",
+      "subgroup": "ACC-RIA",
+      "title": "RIA가 뭐야? — 서학개미 긴급 가이드",
+      "subtitle": "2025.12 신설 계좌 · 키움 선점 중 · 2026 게임체인저",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": 1,
+      "analysis": {
+        "interests": [
+          "RIA 계좌",
+          "뜻",
+          "사용법",
+          "시행일",
+          "국내시장 복귀 계좌",
+          "유턴 계좌"
+        ],
+        "cluster_path": [
+          "RIA 계좌",
+          "뜻",
+          "사용법",
+          "시행일",
+          "키움 RIA 개설",
+          "출시일",
+          "국내시장 복귀 계좌",
+          "유턴 계좌"
+        ],
+        "metrics": {
+          "annual_volume": 255170,
+          "trend_percent": 168,
+          "trend_label": "+168% 🔥🔥🔥",
+          "competition": "LOW",
+          "monthly_pattern": "2025.12 출시 → 2026.3월 단일월 98K"
+        },
+        "demography": {
+          "gender": "🎯 남 66% · 여 34%",
+          "age": "40-50대 60% (서학개미 본진)"
+        },
+        "why_now": "2025.12 출시 직후 대중 궁금증 폭발 · 키움 선점 · KB 진입 골든타임",
+        "review_level": "low",
+        "review_notes": "제도 팩트 · 세금 절감 확정 약속 금지",
+        "monthly_volume": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          26570,
+          77100,
+          53500,
+          98000
+        ],
+        "who_tags": [
+          "서학개미",
+          "40-50대 남성",
+          "해외주식 1억↑",
+          "양도세 민감자"
+        ],
+        "who_evidence": "남 66% · 40-50대 60% · 미국주식 장기 보유자",
+        "when_tags": [
+          "2025.12 출시 직후",
+          "2026.1 급등",
+          "3월 월 98K"
+        ],
+        "when_evidence": "출시 4개월 만에 +168% · 3월 단일월 98K 검색",
+        "journey_tags": [
+          "RIA 계좌",
+          "뜻",
+          "사용법",
+          "시행일",
+          "국내 복귀 계좌"
+        ],
+        "journey_evidence": "'RIA 계좌' → '뜻' → '사용법' → '키움 RIA' 순차 이동",
+        "pain_tags": [
+          "뭔지 모름",
+          "양도세 부담",
+          "키움만 아는듯",
+          "설명 부족"
+        ],
+        "pain_evidence": "'RIA 뜻' 검색 월 680회 · 개념 설명 콘텐츠 부재",
+        "usp_fit_tags": [
+          "AI투자브리핑 제도 해설",
+          "오늘의 콕 3분 설명",
+          "긴급 정보형"
+        ],
+        "usp_fit_evidence": "정보형 서비스 USP가 설명·해소 톤과 100% 매치",
+        "hook_tags": [
+          "3분 설명",
+          "양도세 계산",
+          "키움 vs KB",
+          "1억당 절감액"
+        ],
+        "hook_evidence": "서학개미 4050이 찾는 '진짜 궁금한 것' 직접 해소",
+        "pathfinder_narrative": "RIA가 뭔지 모름 → 이해 → 실행 고민 → 경쟁사 선점 발견",
+        "cluster_insight": "RIA = 국내시장 복귀계좌 / 유턴 계좌. 해외주식 양도세 면제가 핵심 혜택",
+        "related_keywords": [
+          {
+            "keyword": "RIA 계좌",
+            "volume": 98000
+          },
+          {
+            "keyword": "RIA 계좌 키움",
+            "volume": 12000
+          },
+          {
+            "keyword": "유턴 계좌",
+            "volume": 5400
+          },
+          {
+            "keyword": "RIA 뜻",
+            "volume": 680
+          },
+          {
+            "keyword": "국내시장 복귀 계좌",
+            "volume": 3200
+          },
+          {
+            "keyword": "RIA 계좌 만들기",
+            "volume": 770
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "ai-briefing",
+          "role": "primary",
+          "reason": "제도 해설 · 긴급성"
+        },
+        {
+          "id": "today-kok",
+          "role": "primary",
+          "reason": "3분 설명 · 꿀팁 톤"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [
+          "ISA",
+          "IRP"
+        ],
+        "note": "KB증권 RIA 계좌 개설 직접 유도"
+      },
+      "hook_hypothesis": "RIA 계좌, 3분만 봐도 내 양도세 얼마 아낄 수 있는지 딱 나온다",
+      "ai_ideas_seed": {
+        "target": "서학개미 4050 남성",
+        "tone": "긴급 정보형 · 이해 쉬움",
+        "format_hint": "30초 숏폼 · 3분 설명 + 양도세 계산"
+      },
+      "storyboard": null,
+      "display_mode": "moment"
+    },
+    {
+      "id": "O-ACC12",
+      "category_id": "D",
+      "subgroup": "ACC-RIA",
+      "title": "서학개미 → RIA 이전 가이드",
+      "subtitle": "해외주식 양도세 면제 실행 방법",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "RIA 계좌로 옮기기",
+          "해외주식 복귀 계좌",
+          "유턴",
+          "해외주식 양도소득세 면제"
+        ],
+        "cluster_path": [
+          "RIA 계좌로 옮기기",
+          "옮기는 방법",
+          "해외주식 복귀계좌",
+          "양도소득세 면제",
+          "서학개미 세금 감면"
+        ],
+        "metrics": {
+          "annual_volume": 30000,
+          "trend_percent": null,
+          "trend_label": "기존 서학개미 대규모 이동기",
+          "competition": "LOW"
+        },
+        "demography": {
+          "gender": "🎯 남 66% · 여 34%",
+          "age": "40-50대 (해외주식 보유자)"
+        },
+        "why_now": "기존 서학개미 대규모 이동기",
+        "review_level": "medium",
+        "review_notes": "세금 개인 상황 주의 · 단정 금지",
+        "monthly_volume": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5000,
+          12000,
+          15000
+        ],
+        "who_tags": [
+          "미국주식 1억↑ 보유자",
+          "남 66%",
+          "40-50대",
+          "세금 민감"
+        ],
+        "who_evidence": "남 66% · 40-50대",
+        "when_tags": [
+          "RIA 출시 직후",
+          "이전 고민기",
+          "양도세 시즌"
+        ],
+        "when_evidence": "기존 서학개미 대규모 이동기",
+        "journey_tags": [
+          "RIA 계좌로 옮기기",
+          "해외주식 복귀",
+          "유턴",
+          "양도세 면제"
+        ],
+        "journey_evidence": "RIA → 이전 방법 → 복귀 계좌 → 양도세",
+        "pain_tags": [
+          "이전 절차 복잡",
+          "실제 절감액 불확실",
+          "타이밍"
+        ],
+        "pain_evidence": "이전 가이드 부족",
+        "usp_fit_tags": [
+          "프라임클럽 이전 전략 상담",
+          "마이브리프 이전 후 관리"
+        ],
+        "usp_fit_evidence": "전략 상담 + 사후 관리",
+        "hook_tags": [
+          "1억 보유 시",
+          "연 절감액",
+          "실제 계산"
+        ],
+        "hook_evidence": "구체 금액 시뮬",
+        "pathfinder_narrative": "RIA 이해 → 이전 검토 → 절차 확인 → 실행",
+        "cluster_insight": "RIA 이전 = 서학개미 대이동의 실행 단계",
+        "related_keywords": [
+          {
+            "keyword": "RIA 계좌로 옮기기",
+            "volume": 12000
+          },
+          {
+            "keyword": "해외주식 복귀계좌",
+            "volume": 8500
+          },
+          {
+            "keyword": "유턴 계좌",
+            "volume": 5400
+          },
+          {
+            "keyword": "해외주식 양도소득세 면제",
+            "volume": 6500
+          },
+          {
+            "keyword": "RIA 이전 방법",
+            "volume": 4200
+          },
+          {
+            "keyword": "서학개미 세금 감면",
+            "volume": 3800
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "이전 전략 상담"
+        },
+        {
+          "id": "mybrief",
+          "role": "secondary",
+          "reason": "이전 후 관리"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "RIA 개설 + 해외주식 이관"
+      },
+      "hook_hypothesis": "미국주식 1억 있는 사람이 RIA로 이전하면 연간 양도세 얼마나 아낄까 (실제 계산)",
+      "ai_ideas_seed": {
+        "target": "미국주식 1억↑ 보유자",
+        "tone": "실행 가이드형 · 금액 충격",
+        "format_hint": "30초 숏폼 · 이전 전후 세금 비교"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    },
+    {
+      "id": "O-ACC13",
+      "category_id": "D",
+      "subgroup": "ACC-RIA",
+      "title": "RIA 증권사 비교 — KB의 추격전",
+      "subtitle": "키움 선점, KB 진입 전략",
+      "status": "confirmed",
+      "priority": "critical",
+      "now_rank": null,
+      "analysis": {
+        "interests": [
+          "RIA 계좌 키움",
+          "미래에셋 RIA",
+          "삼성증권",
+          "토스 RIA",
+          "RIA 증권사 비교"
+        ],
+        "cluster_path": [
+          "RIA 계좌 키움",
+          "미래에셋 RIA",
+          "삼성증권",
+          "토스 RIA",
+          "RIA 계좌 비교·증권사·단점·혜택·이벤트"
+        ],
+        "metrics": {
+          "annual_volume": 60000,
+          "trend_percent": null,
+          "trend_label": "증권사 경쟁 초기",
+          "competition": "MEDIUM"
+        },
+        "demography": {
+          "gender": "남 68% · 여 32%",
+          "age": "40-50대"
+        },
+        "why_now": "증권사 경쟁 초기 진입 골든타임",
+        "review_level": "low",
+        "review_notes": "비교 팩트 · 수수료 정확한 정보",
+        "monthly_volume": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8000,
+          15000,
+          18000
+        ],
+        "who_tags": [
+          "RIA 증권사 고민자",
+          "남 68%",
+          "40-50대",
+          "비교 쇼핑"
+        ],
+        "who_evidence": "남 68% · 40-50대",
+        "when_tags": [
+          "증권사 경쟁 초기",
+          "키움 vs 미래에셋",
+          "진입 골든타임"
+        ],
+        "when_evidence": "증권사 경쟁 초기 진입 골든타임",
+        "journey_tags": [
+          "RIA 계좌 키움",
+          "미래에셋",
+          "삼성",
+          "토스",
+          "KB"
+        ],
+        "journey_evidence": "증권사별 비교 → 혜택·수수료 → 선택",
+        "pain_tags": [
+          "어느 증권사가 유리?",
+          "수수료 vs 운용",
+          "이벤트 차이"
+        ],
+        "pain_evidence": "초기 비교 콘텐츠 부족",
+        "usp_fit_tags": [
+          "프라임클럽 운용 전문성",
+          "AI투자브리핑 혜택 해설"
+        ],
+        "usp_fit_evidence": "KB 차별화 포인트 강조",
+        "hook_tags": [
+          "수수료 말고 중요한 것",
+          "체크 3가지",
+          "운용 차이"
+        ],
+        "hook_evidence": "수수료 너머 가치 선호",
+        "pathfinder_narrative": "RIA 증권사 고민 → 비교 → KB 차별점 인식 → 선택",
+        "cluster_insight": "RIA 증권사 비교 = KB 추격전 핵심",
+        "related_keywords": [
+          {
+            "keyword": "RIA 계좌 키움",
+            "volume": 12000
+          },
+          {
+            "keyword": "미래에셋 RIA",
+            "volume": 8500
+          },
+          {
+            "keyword": "RIA 증권사 비교",
+            "volume": 6500
+          },
+          {
+            "keyword": "RIA 수수료",
+            "volume": 4200
+          },
+          {
+            "keyword": "RIA 이벤트",
+            "volume": 3200
+          },
+          {
+            "keyword": "토스 RIA",
+            "volume": 360
+          }
+        ]
+      },
+      "services": [
+        {
+          "id": "prime-club",
+          "role": "primary",
+          "reason": "운용 전문성"
+        },
+        {
+          "id": "ai-briefing",
+          "role": "secondary",
+          "reason": "혜택 해설"
+        }
+      ],
+      "account_kpi": {
+        "primary": "RIA",
+        "secondary": [],
+        "note": "RIA 계좌 개설 (타사 비교 후 KB 선택)"
+      },
+      "hook_hypothesis": "RIA 증권사 고르기 전 꼭 체크해야 할 3가지 (수수료 말고 더 중요한 것)",
+      "ai_ideas_seed": {
+        "target": "RIA 증권사 고민자 4050",
+        "tone": "비교형 · 차별점 강조",
+        "format_hint": "25초 숏폼 · 증권사 비교 표"
+      },
+      "storyboard": null,
+      "display_mode": "service"
+    }
+  ]
+}

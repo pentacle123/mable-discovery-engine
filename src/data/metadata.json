@@ -1,0 +1,60 @@
+{
+  "platform": {
+    "name": "M-able Discovery Engine",
+    "subtitle": "ALGORITHM PERFORMANCE PLATFORM",
+    "owner": "KB증권",
+    "agency": "Pentacle",
+    "version": "1.0",
+    "last_updated": "2026-04-20",
+    "tagline": "소비자의 관심사에서 마블과 KB증권을 발견하게 하는 AI 브랜드포먼스 엔진",
+    "description": "투자가 궁금한 49가지 순간에서 출발해, 마블 서비스로 도착하는 숏폼 전략 플랫폼"
+  },
+  "stats": {
+    "total_opportunities": 49,
+    "total_services": 5,
+    "total_categories": 4,
+    "total_accounts": 5,
+    "annual_search_volume": 12000000,
+    "data_source": "ListeningMind MCP · 93회 도구 호출 검증"
+  },
+  "navigation": {
+    "views": [
+      { "id": "discovery", "label": "기회 발견", "order": 1 },
+      { "id": "usp-map", "label": "USP × 기회 맵", "order": 2 },
+      { "id": "content-strategy", "label": "콘텐츠 전략", "order": 3 }
+    ],
+    "entry_modes": [
+      {
+        "id": "services",
+        "label_en": "Services",
+        "label_ko": "마블 5대 자산의 기회",
+        "color": "#1E40AF"
+      },
+      {
+        "id": "moments",
+        "label_en": "Moments",
+        "label_ko": "소비자 49가지 상황의 기회",
+        "color": "#10B981",
+        "default": true
+      }
+    ]
+  },
+  "brand_colors": {
+    "primary": "#1D1D1B",
+    "accent": "#FFD700",
+    "background": "#F5F7FA",
+    "surface": "#FFFFFF",
+    "text_primary": "#1E293B",
+    "text_secondary": "#64748B",
+    "border": "#E2E8F0"
+  },
+  "drilldown_sections": [
+    { "id": "analysis", "label": "기회 분석", "icon": "📊" },
+    { "id": "ai-ideas", "label": "AI 아이디어", "icon": "🤖" },
+    { "id": "storyboard", "label": "스토리보드", "icon": "🎬" }
+  ],
+  "font": {
+    "family": "Pretendard",
+    "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+  }
+}
