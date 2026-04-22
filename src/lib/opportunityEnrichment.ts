@@ -125,7 +125,7 @@ export const ENRICHMENT: Record<string, Enrichment> = {
     hookLabel: 'Panic-hook',
     hookCopy: '당일 3가지부터 체크',
     narrative:
-      '연 17만 / +2,951% 🔥🔥 폭발. 2026.3 급락 여파 실시간. 남 63% · 40-50대. 패닉 매도 전 프로세스 설명 콘텐츠 수요 극대.',
+      '연 16.8만 / +1,237% 실측 폭발. 2026.3.4 이란 전쟁발 코스피 12% 폭락 직격탄, 3월 단일월 111,700회 피크. 남 63% · 40-50대 중심. 4월 회복 국면에도 트라우마 검색 지속.',
     contentType: '긴급',
     consumerQuote: '😨 반대매매 떴어요 지금 어떡하죠...'
   },
@@ -331,13 +331,13 @@ export const ENRICHMENT: Record<string, Enrichment> = {
   'O-B12': {
     emoji: '📈',
     tone: '시의성폭발',
-    persona: '코스피 5000에 "지금 들어가도 돼?" 묻는 신규 투자자',
-    hookLabel: 'Confusion-hook',
-    hookCopy: '2008·2020 데이터로 본 답',
+    persona: '코스피 6000 돌파 · 전쟁 폭락 · 최단 회복을 다 겪은 투자자',
+    hookLabel: 'Drama-hook',
+    hookCopy: '2.25 돌파 → 3.4 -12% → 4.14 재탈환',
     narrative:
-      '연 60만. 2026 국장 활황 + 신규 혼란자 대량 생성. "이게 좋은거야?" 전연령·남녀 균형 신세그먼트. ai-briefing 해설 핵심.',
+      '연 57.4만 / +127%. 2026.1 코스피 5000 피크(월 11.7만) → 2.25 6000 최초 돌파 → 3.4 이란 전쟁 12% 폭락 → 4.14 6000 재탈환. 전연령·남녀 균형. 신규 진입 + 복귀 세그먼트 동시 폭증.',
     contentType: '해설',
-    consumerQuote: '😰 코스피 5000인데 지금 사면 늦은거야...'
+    consumerQuote: '😰 이런 거 처음이야 지금 들어가도 되나...'
   },
   'O-B13': {
     emoji: '🎟️',

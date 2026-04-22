@@ -34,7 +34,9 @@
       "category_id": "A",
       "account_kpi": null,
       "demography_highlight": "남 63% · 40-50대",
-      "hook_preview": "반대매매 통보받은 당일 해야 할 3가지 (패닉 매도 전에)"
+      "hook_preview": "반대매매 통보받은 당일 해야 할 3가지 (패닉 매도 전에)",
+      "trend": "+1,237%",
+      "detail": "2026.3월 단일월 111,700회 (이란 전쟁 직격)"
     },
     {
       "rank": 3,
@@ -82,7 +84,10 @@
       "category_id": "B",
       "account_kpi": null,
       "demography_highlight": "전연령 · 남녀 균형",
-      "hook_preview": "코스피 5000 시대, 지금 들어가면 늦은 걸까? (2008·2020 데이터로 본 답)"
+      "hook_preview": "코스피 5000 시대, 지금 들어가면 늦은 걸까? (2008·2020 데이터로 본 답)",
+      "headline": "코스피 6000 시대 — 전쟁 폭락 뚫고 최단기 회복",
+      "trend": "+127%",
+      "detail": "2026.2 최초 6000 돌파 → 3.4 이란 전쟁 12% 폭락 → 4월 전고점 회복"
     }
   ]
 }

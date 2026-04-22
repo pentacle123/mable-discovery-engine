@@ -2,7 +2,7 @@
   "title": "2026 NOW",
   "subtitle": "지금 폭발하는 5개 기회",
   "description": "ListeningMind 실시간 데이터 · 2026.4 기준",
-  "updated_at": "2026-04-20",
+  "updated_at": "2026-04-22",
   "entries": [
     {
       "rank": 1,
@@ -24,13 +24,13 @@
       "rank": 2,
       "medal": "🥈",
       "opportunity_id": "O-A04",
-      "title": "반대매매·패닉",
-      "subtitle": "2026.3 급락 여파 실시간 폭발",
-      "trend_percent": 2951,
-      "trend_label": "+2,951% 🔥🔥",
-      "annual_volume": 170000,
+      "title": "반대매매·패닉 — 긴급 구조",
+      "subtitle": "2026.3.4 이란 전쟁발 12% 폭락 직격탄 — 반대매매 +1,237% 폭발",
+      "trend_percent": 1237,
+      "trend_label": "+1,237% 🔥🔥",
+      "annual_volume": 167980,
       "urgency": "critical",
-      "urgency_note": "위기 대응 콘텐츠 수요 극대",
+      "urgency_note": "2026.3월 단일월 111,700회 피크 · 트라우마 검색 지속",
       "category_id": "A",
       "account_kpi": null,
       "demography_highlight": "남 63% · 40-50대",
@@ -39,6 +39,22 @@
     {
       "rank": 3,
       "medal": "🥉",
+      "opportunity_id": "O-B12",
+      "title": "코스피 6000 시대 — 전쟁 폭락 → 최단 회복의 드라마",
+      "subtitle": "'이런 거 처음이야' 신규 투자자 + 복귀 세그먼트 대량 생성",
+      "trend_percent": 127,
+      "trend_label": "+127% 🔥",
+      "annual_volume": 574109,
+      "urgency": "high",
+      "urgency_note": "2026.2 6000 돌파 → 3.4 -12% → 4.14 재탈환 2개월 롤러코스터",
+      "category_id": "B",
+      "account_kpi": null,
+      "demography_highlight": "전연령 · 남녀 50:50",
+      "hook_preview": "코스피 6000 돌파하고 전쟁 폭락 뚫고 회복까지 — 지금 들어가면 늦은 걸까"
+    },
+    {
+      "rank": 4,
+      "medal": "4️⃣",
       "opportunity_id": "O-B01",
       "title": "퇴직금 연금화",
       "subtitle": "2026 정년 세대 대량 은퇴",
@@ -53,8 +69,8 @@
       "hook_preview": "퇴직금 받는 순간 체크해야 할 3가지 (+IRP 이체하면 세금 얼마 아끼나)"
     },
     {
-      "rank": 4,
-      "medal": "4️⃣",
+      "rank": 5,
+      "medal": "5️⃣",
       "opportunity_id": "O-ACC09",
       "title": "IRA·IRP·ISA 혼동",
       "subtitle": "2025.10부터 폭발, 이름조차 헷갈림",
@@ -67,22 +83,6 @@
       "account_kpi": "IRA",
       "demography_highlight": "40대↑ 73%",
       "hook_preview": "IRA? IRP? ISA? 이름도 헷갈리는 3개 연금계좌, 3분 만에 정리"
-    },
-    {
-      "rank": 5,
-      "medal": "5️⃣",
-      "opportunity_id": "O-B12",
-      "title": "국장 활황 혼란",
-      "subtitle": "2026 코스피 5000 돌파 + 신규 혼란자 대량 생성",
-      "trend_percent": null,
-      "trend_label": "2026 시의성 최상",
-      "annual_volume": 600000,
-      "urgency": "high",
-      "urgency_note": "'이게 좋은 거야?' 새 세그먼트",
-      "category_id": "B",
-      "account_kpi": null,
-      "demography_highlight": "전연령 · 남녀 균형",
-      "hook_preview": "코스피 5000 시대, 지금 들어가면 늦은 걸까? (2008·2020 데이터로 본 답)"
     }
   ]
 }
