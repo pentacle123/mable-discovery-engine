@@ -12,6 +12,7 @@ import type {
 } from '@/types';
 import { brand, card, radius } from '@/lib/brand';
 import { loadIdeas, saveIdeas } from '@/lib/ideasStore';
+import CreatorMatchPanel from './CreatorMatchPanel';
 
 interface Props {
   opportunity: Opportunity;
@@ -258,9 +259,9 @@ export default function StoryboardClient({ opportunity: o, ideaIndex }: Props) {
       {/* 5. Factsheet (new 4-block schema) */}
       {hasStoryboard && sb?.factSheet && <FactSheetBox fact={sb.factSheet} />}
 
-      {/* 6. Creator matching — context-aware */}
-      {hasStoryboard && (
-        <CreatorMatching
+      {/* 6. Creator matching — context-aware (YouTube API) */}
+      {hasStoryboard && idea.creatorSearchQueries && idea.creatorSearchQueries.length > 0 && (
+        <CreatorMatchPanel
           queries={idea.creatorSearchQueries}
           strategy={idea.creatorStrategy}
           contentType={idea.contentType}
@@ -704,121 +705,6 @@ function FactBlock({ title, children }: { title: string; children: React.ReactNo
     >
       <div style={{ fontSize: 14, fontWeight: 700, color: brand.textTitle }}>{title}</div>
       {children}
-    </div>
-  );
-}
-
-function CreatorMatching({
-  queries,
-  strategy,
-  contentType
-}: {
-  queries?: string[];
-  strategy?: string;
-  contentType: ContentType;
-}) {
-  const normalized = (queries || []).filter(Boolean);
-  const ct = CT_STYLE[contentType] ?? CT_STYLE.C;
-
-  return (
-    <div
-      style={{
-        background: brand.surface,
-        border: `0.5px solid ${brand.border}`,
-        borderRadius: radius.lg,
-        padding: 18,
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 12
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          gap: 10,
-          flexWrap: 'wrap'
-        }}
-      >
-        <div style={{ fontSize: 13, fontWeight: 700, color: brand.textTitle }}>
-          🎤 크리에이터 매칭 (맥락 기반)
-        </div>
-        <div
-          style={{
-            fontSize: 10,
-            padding: '2px 7px',
-            borderRadius: 4,
-            background: ct.bg,
-            color: ct.fg,
-            fontWeight: 600
-          }}
-        >
-          {contentType}. {ct.label}
-        </div>
-      </div>
-
-      {strategy && (
-        <div
-          style={{
-            fontSize: 12,
-            color: brand.textBody,
-            lineHeight: 1.6,
-            padding: '10px 12px',
-            background: brand.bg,
-            borderRadius: 8,
-            borderLeft: `3px solid ${brand.primary}`
-          }}
-        >
-          👤 <strong style={{ color: brand.textTitle, fontWeight: 600 }}>협업 포인트 —</strong>{' '}
-          {strategy}
-        </div>
-      )}
-
-      {normalized.length > 0 && (
-        <div>
-          <div
-            style={{
-              fontSize: 10,
-              fontWeight: 700,
-              letterSpacing: 0.5,
-              color: brand.textMeta,
-              marginBottom: 8,
-              textTransform: 'uppercase'
-            }}
-          >
-            추천 YouTube 검색어
-          </div>
-          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-            {normalized.map((q) => {
-              const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}&sp=EgIYAQ%253D%253D`;
-              return (
-                <a
-                  key={q}
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    fontSize: 12,
-                    padding: '6px 12px',
-                    background: brand.heroBg,
-                    color: brand.primary,
-                    borderRadius: 999,
-                    fontWeight: 500,
-                    textDecoration: 'none',
-                    border: `0.5px solid rgba(12, 68, 124, 0.15)`
-                  }}
-                >
-                  🔎 {q} ↗
-                </a>
-              );
-            })}
-          </div>
-          <div style={{ fontSize: 11, color: brand.textMeta, marginTop: 10, lineHeight: 1.55 }}>
-            💡 클릭 시 YouTube에서 숏폼(4분 미만) 필터로 검색 열림. 뉴스사가 아닌 **개인 크리에이터** 중심의 맥락 기반 쿼리로 구성.
-          </div>
-        </div>
-      )}
     </div>
   );
 }
