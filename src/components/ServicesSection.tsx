@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import type { Opportunity, Service } from '@/types';
-import { brand, container, radius } from '@/lib/brand';
+import { brand, container, SECTION_COLOR, SERVICE_COLOR, toBorder, toSoft } from '@/lib/brand';
 import { opportunities, services } from '@/lib/data';
 import OpportunityRow from './OpportunityRow';
 import SectionTitle from './SectionTitle';
@@ -14,24 +14,27 @@ export default function ServicesSection() {
 
   const connected = (sid: string) => pool.filter((o) => o.services.some((s) => s.id === sid));
   const filtered = connected(activeId);
+  const activeColor = SERVICE_COLOR[activeId] ?? SECTION_COLOR.services;
 
   return (
-    <section style={{ ...container, paddingTop: 28 }}>
+    <section style={container}>
       <SectionTitle
         icon="🔵"
-        title="Services — 마블 5대 자산의 기회"
-        meta={`${pool.length}개 · display_mode=service`}
+        label={`Services · 마블 5대 자산의 기회 — ${pool.length}개`}
+        color={SECTION_COLOR.services}
       />
 
+      {/* 5 service tabs */}
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(170px, 1fr))',
+          gridTemplateColumns: 'repeat(5, 1fr)',
           gap: 8,
-          marginBottom: 14
+          marginBottom: 16
         }}
       >
         {services.map((s) => {
+          const color = SERVICE_COLOR[s.id] ?? SECTION_COLOR.services;
           const count = connected(s.id).length;
           const isActive = s.id === activeId;
           return (
@@ -40,37 +43,46 @@ export default function ServicesSection() {
               onClick={() => setActiveId(s.id)}
               style={{
                 textAlign: 'left',
-                padding: '10px 12px',
-                borderRadius: radius.md,
-                background: isActive ? '#EEF4FB' : brand.surface,
-                border: `0.5px solid ${isActive ? 'rgba(12, 68, 124, 0.35)' : brand.border}`,
+                padding: '14px 16px',
+                borderRadius: 10,
+                background: isActive ? toSoft(color) : brand.surface,
+                border: isActive
+                  ? `1px solid ${toBorder(color)}`
+                  : `0.5px solid ${brand.border}`,
+                borderTop: `3px solid ${color}`,
+                cursor: 'pointer',
+                transition: 'all 0.15s ease',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: 3,
-                cursor: 'pointer',
-                transition: 'all 0.15s ease'
+                gap: 4
               }}
             >
               <div
                 style={{
                   display: 'flex',
                   alignItems: 'center',
-                  justifyContent: 'space-between'
+                  justifyContent: 'space-between',
+                  gap: 8
                 }}
               >
                 <div
                   style={{
                     fontSize: 13,
-                    fontWeight: isActive ? 700 : 500,
-                    color: isActive ? brand.primary : brand.textTitle
+                    fontWeight: 700,
+                    color: isActive ? color : brand.textTitle,
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    whiteSpace: 'nowrap'
                   }}
                 >
                   {s.name}
                 </div>
                 <div
                   style={{
-                    fontSize: 11,
-                    color: isActive ? brand.primary : brand.textMeta,
+                    fontSize: 14,
+                    fontWeight: 700,
+                    color: color,
+                    opacity: 0.6,
                     fontVariantNumeric: 'tabular-nums'
                   }}
                 >
@@ -80,7 +92,7 @@ export default function ServicesSection() {
               <div
                 style={{
                   fontSize: 11,
-                  color: brand.textMeta,
+                  color: brand.textBody,
                   lineHeight: 1.4,
                   overflow: 'hidden',
                   textOverflow: 'ellipsis',
@@ -94,17 +106,19 @@ export default function ServicesSection() {
         })}
       </div>
 
-      <ActiveServicePanel service={active} opportunities={filtered} />
+      <ActiveServicePanel service={active} opportunities={filtered} color={activeColor} />
     </section>
   );
 }
 
 function ActiveServicePanel({
   service,
-  opportunities
+  opportunities,
+  color
 }: {
   service: Service;
   opportunities: Opportunity[];
+  color: string;
 }) {
   const primary = opportunities.filter(
     (o) => o.services.find((s) => s.id === service.id)?.role === 'primary'
@@ -114,45 +128,60 @@ function ActiveServicePanel({
   );
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
       {primary.length > 0 && (
-        <Group label={`Primary · ${primary.length}`} opportunities={primary} />
+        <div>
+          <GroupLabel color={color}>Primary · {primary.length}</GroupLabel>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+            {primary.map((o, i) => (
+              <OpportunityRow key={o.id} opportunity={o} index={i + 1} sectionColor={color} />
+            ))}
+          </div>
+        </div>
       )}
       {secondary.length > 0 && (
-        <Group label={`Secondary · ${secondary.length}`} opportunities={secondary} muted />
+        <div>
+          <GroupLabel color={color} muted>
+            Secondary · {secondary.length}
+          </GroupLabel>
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
+              gap: 12
+            }}
+          >
+            {secondary.map((o) => (
+              <OpportunityRow key={o.id} opportunity={o} sectionColor={color} compact />
+            ))}
+          </div>
+        </div>
       )}
     </div>
   );
 }
 
-function Group({
-  label,
-  opportunities,
+function GroupLabel({
+  children,
+  color,
   muted
 }: {
-  label: string;
-  opportunities: Opportunity[];
+  children: React.ReactNode;
+  color: string;
   muted?: boolean;
 }) {
   return (
-    <div>
-      <div
-        style={{
-          fontSize: 11,
-          fontWeight: 600,
-          color: muted ? brand.textMeta : brand.primary,
-          letterSpacing: 0.3,
-          textTransform: 'uppercase',
-          marginBottom: 6
-        }}
-      >
-        {label}
-      </div>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-        {opportunities.map((o, i) => (
-          <OpportunityRow key={o.id} opportunity={o} index={i + 1} />
-        ))}
-      </div>
+    <div
+      style={{
+        fontSize: 11,
+        fontWeight: 700,
+        color: muted ? brand.textMeta : color,
+        letterSpacing: 0.4,
+        textTransform: 'uppercase',
+        marginBottom: 8
+      }}
+    >
+      {children}
     </div>
   );
 }

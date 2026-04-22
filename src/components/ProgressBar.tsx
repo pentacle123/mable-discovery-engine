@@ -20,11 +20,13 @@ const STEPS: Array<{ id: ProgressStep; label: string }> = [
   { id: 'storyboard', label: '스토리보드' }
 ];
 
+const DONE_GREEN = '#10B981';
+const CURRENT_YELLOW = '#FFD700';
+const UPCOMING_GRAY = '#CBD5E1';
+
 export default function ProgressBar({ active, opportunityId, ideaIndex }: Props) {
   const activeIndex = STEPS.findIndex((s) => s.id === active);
 
-  // On client, check whether ideas are cached for this opportunity
-  // so the storyboard step can be reached forward as well.
   const [cachedIdeaIdx, setCachedIdeaIdx] = useState<number | null>(null);
 
   useEffect(() => {
@@ -33,11 +35,7 @@ export default function ProgressBar({ active, opportunityId, ideaIndex }: Props)
       return;
     }
     const ideas = loadIdeas(opportunityId);
-    if (ideas && ideas.length > 0) {
-      setCachedIdeaIdx(0);
-    } else {
-      setCachedIdeaIdx(null);
-    }
+    setCachedIdeaIdx(ideas && ideas.length > 0 ? 0 : null);
   }, [opportunityId]);
 
   const hrefFor = (step: ProgressStep): string | null => {
@@ -83,9 +81,20 @@ export default function ProgressBar({ active, opportunityId, ideaIndex }: Props)
           const isActive = i === activeIndex;
           const isDone = i < activeIndex;
           const href = hrefFor(s.id);
-          // Enabled if there is a target URL for this step and it's not the step you're already on.
           const enabled = !!href && !isActive;
-          const reachedColor = isActive || isDone ? brand.primary : brand.textMeta;
+
+          // Step circle styling
+          const circleBg = isActive
+            ? brand.kbNavy
+            : isDone
+              ? DONE_GREEN
+              : brand.surface;
+          const circleFg = isActive
+            ? brand.kbYellow
+            : isDone
+              ? '#fff'
+              : brand.textMeta;
+          const circleBorder = isActive || isDone ? 'none' : `0.5px solid ${brand.border}`;
 
           const circleStyle: React.CSSProperties = {
             width: 18,
@@ -96,11 +105,17 @@ export default function ProgressBar({ active, opportunityId, ideaIndex }: Props)
             justifyContent: 'center',
             fontSize: 10,
             fontWeight: 700,
-            background: isActive ? brand.primary : brand.surface,
-            color: isActive ? '#fff' : reachedColor,
-            border: isActive ? 'none' : `0.5px solid ${brand.border}`,
+            background: circleBg,
+            color: circleFg,
+            border: circleBorder,
             flexShrink: 0
           };
+
+          const labelColor = isActive
+            ? brand.kbNavy
+            : isDone
+              ? DONE_GREEN
+              : brand.textMeta;
 
           const stepContent = (
             <div
@@ -110,7 +125,7 @@ export default function ProgressBar({ active, opportunityId, ideaIndex }: Props)
                 gap: 8,
                 padding: '0 4px',
                 cursor: enabled ? 'pointer' : isActive ? 'default' : 'not-allowed',
-                opacity: enabled || isActive || isDone ? 1 : 0.55
+                opacity: enabled || isActive || isDone ? 1 : 0.7
               }}
             >
               <div style={circleStyle}>{i + 1}</div>
@@ -118,7 +133,7 @@ export default function ProgressBar({ active, opportunityId, ideaIndex }: Props)
                 style={{
                   fontSize: 12,
                   fontWeight: isActive ? 700 : 500,
-                  color: reachedColor,
+                  color: labelColor,
                   whiteSpace: 'nowrap'
                 }}
               >
@@ -126,6 +141,11 @@ export default function ProgressBar({ active, opportunityId, ideaIndex }: Props)
               </div>
             </div>
           );
+
+          // Connector color between step i and i+1
+          let connectorColor = UPCOMING_GRAY;
+          if (i < activeIndex) connectorColor = DONE_GREEN;
+          else if (i === activeIndex) connectorColor = CURRENT_YELLOW;
 
           return (
             <div key={s.id} style={{ display: 'flex', alignItems: 'center', flexShrink: 0 }}>
@@ -141,7 +161,7 @@ export default function ProgressBar({ active, opportunityId, ideaIndex }: Props)
                   style={{
                     width: 24,
                     height: 0,
-                    borderTop: `0.5px solid ${i < activeIndex ? brand.primary : brand.border}`,
+                    borderTop: `1.5px solid ${connectorColor}`,
                     margin: '0 8px'
                   }}
                 />

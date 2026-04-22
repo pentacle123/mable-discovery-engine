@@ -4,7 +4,7 @@ export type Priority = 'critical' | 'high' | 'medium' | 'low';
 export type Competition = 'LOW' | 'MEDIUM' | 'HIGH';
 export type ReviewLevel = 'low' | 'medium' | 'high';
 export type DisplayMode = 'service' | 'moment';
-export type MomentAxis = '위기·심리' | '라이프진입' | '경계';
+export type MomentAxis = '위기·심리' | '라이프진입';
 
 export interface ServiceRef {
   id: string;

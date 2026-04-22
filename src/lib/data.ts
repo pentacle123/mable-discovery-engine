@@ -41,6 +41,8 @@ export function opportunitiesByService(serviceId: string): Opportunity[] {
   return opportunities.filter((o) => o.services.some((s) => s.id === serviceId));
 }
 
+// O-ACC06 (이전 '경계')는 '라이프진입'으로 통합 — ISA 종목 추천은
+// 일상 자산 설계 맥락에서 라이프 전환 진입에 가까움.
 export const MOMENT_AXIS: Record<string, MomentAxis> = {
   'O-A04': '위기·심리',
   'O-A05': '위기·심리',
@@ -53,11 +55,11 @@ export const MOMENT_AXIS: Record<string, MomentAxis> = {
   'O-C01': '라이프진입',
   'O-C08': '라이프진입',
   'O-C11': '라이프진입',
-  'O-ACC06': '경계'
+  'O-ACC06': '라이프진입'
 };
 
 export function momentAxis(id: string): MomentAxis {
-  return MOMENT_AXIS[id] ?? '경계';
+  return MOMENT_AXIS[id] ?? '라이프진입';
 }
 
 export const MOMENT_AXIS_META: Record<
@@ -66,18 +68,13 @@ export const MOMENT_AXIS_META: Record<
 > = {
   '위기·심리': {
     color: '#DC2626',
-    icon: '🚨',
+    icon: '🔥',
     description: '급락·패닉·공포·혼란 — 지금 구조 요청이 폭발하는 상황'
   },
   '라이프진입': {
-    color: '#10B981',
-    icon: '🌱',
+    color: '#8B5CF6',
+    icon: '💼',
     description: '일상 경험·생애 이벤트가 투자로 번지는 피터 린치식 진입로'
-  },
-  '경계': {
-    color: '#F59E0B',
-    icon: '⚡',
-    description: '서비스/계좌 KPI와 순간적으로 겹치는 경계 영역'
   }
 };
 

@@ -1,21 +1,54 @@
 import Link from 'next/link';
 import type { Opportunity } from '@/types';
-import { brand, displayModeBadge, formatNumber, formatTrend, radius } from '@/lib/brand';
-import { enrichmentFor, monthlyAverage, TONE_META } from '@/lib/opportunityEnrichment';
+import {
+  brand,
+  displayModeBadge,
+  formatNumber,
+  formatTrend,
+  pad2,
+  radius,
+  toSoft
+} from '@/lib/brand';
+import { enrichmentFor } from '@/lib/opportunityEnrichment';
 
 interface Props {
   opportunity: Opportunity;
   index?: number;
-  toneOverride?: keyof typeof TONE_META;
+  sectionColor: string;
+  compact?: boolean;
 }
 
-export default function OpportunityRow({ opportunity: o, index, toneOverride }: Props) {
+export default function OpportunityRow({
+  opportunity: o,
+  index,
+  sectionColor,
+  compact = false
+}: Props) {
+  return compact ? (
+    <CompactRow opportunity={o} index={index} sectionColor={sectionColor} />
+  ) : (
+    <FullRow opportunity={o} index={index} sectionColor={sectionColor} />
+  );
+}
+
+// ───────────────────────────── Full (primary / NOW / moment) ─────────────────────────────
+
+function FullRow({
+  opportunity: o,
+  index,
+  sectionColor
+}: {
+  opportunity: Opportunity;
+  index?: number;
+  sectionColor: string;
+}) {
   const e = enrichmentFor(o.id);
-  const tone = TONE_META[toneOverride ?? e.tone];
   const mode = displayModeBadge[o.display_mode];
-  const avg = monthlyAverage(o.analysis.monthly_volume);
   const trend = o.analysis.metrics.trend_percent;
   const annual = o.analysis.metrics.annual_volume;
+  const trendLabel =
+    trend !== null && trend !== undefined ? formatTrend(trend) : o.analysis.metrics.trend_label;
+  const showTrendRed = trend !== null && trend !== undefined;
 
   return (
     <Link
@@ -28,41 +61,36 @@ export default function OpportunityRow({ opportunity: o, index, toneOverride }: 
         alignItems: 'flex-start',
         background: brand.surface,
         border: `0.5px solid ${brand.border}`,
+        borderLeft: `3px solid ${sectionColor}`,
         borderRadius: radius.lg,
-        padding: 16,
+        padding: '16px 20px',
         textDecoration: 'none',
         color: brand.textTitle
       }}
     >
-      {/* LEFT · 52×52 emoji + tone chip */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 6, alignItems: 'center' }}>
+      {/* LEFT · emoji box + number */}
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 6
+        }}
+      >
         <div
           style={{
             width: 52,
             height: 52,
-            borderRadius: radius.md,
-            background: tone.bg,
+            borderRadius: 10,
+            background: toSoft(sectionColor),
+            color: sectionColor,
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            fontSize: 26
+            fontSize: 24
           }}
         >
           {e.emoji}
-        </div>
-        <div
-          style={{
-            fontSize: 10,
-            fontWeight: 600,
-            color: tone.fg,
-            background: tone.chipBg,
-            padding: '2px 7px',
-            borderRadius: 999,
-            letterSpacing: 0.2,
-            whiteSpace: 'nowrap'
-          }}
-        >
-          {tone.label}
         </div>
         {index !== undefined && (
           <div
@@ -73,14 +101,13 @@ export default function OpportunityRow({ opportunity: o, index, toneOverride }: 
               fontWeight: 500
             }}
           >
-            {index.toString().padStart(2, '0')}
+            {pad2(index)}
           </div>
         )}
       </div>
 
       {/* MIDDLE · persona title / hook / narrative / tag row */}
       <div style={{ minWidth: 0, display: 'flex', flexDirection: 'column', gap: 8 }}>
-        {/* Persona title */}
         <div
           style={{
             fontSize: 15,
@@ -94,7 +121,6 @@ export default function OpportunityRow({ opportunity: o, index, toneOverride }: 
         >
           {e.persona}
         </div>
-        {/* Hook label + copy (orange) */}
         <div
           style={{
             fontSize: 12,
@@ -109,7 +135,6 @@ export default function OpportunityRow({ opportunity: o, index, toneOverride }: 
           <span style={{ fontWeight: 700 }}>{e.hookLabel}</span>
           <span style={{ color: '#9A5E12' }}>{e.hookCopy}</span>
         </div>
-        {/* Narrative with inline data */}
         <div
           style={{
             fontSize: 12,
@@ -119,7 +144,6 @@ export default function OpportunityRow({ opportunity: o, index, toneOverride }: 
         >
           {e.narrative}
         </div>
-        {/* Tag row */}
         <div
           style={{
             display: 'flex',
@@ -136,8 +160,7 @@ export default function OpportunityRow({ opportunity: o, index, toneOverride }: 
               padding: '2px 7px',
               background: mode.bg,
               color: mode.fg,
-              borderRadius: 4,
-              letterSpacing: 0.2
+              borderRadius: 4
             }}
           >
             {mode.label}
@@ -150,8 +173,7 @@ export default function OpportunityRow({ opportunity: o, index, toneOverride }: 
               background: brand.bg,
               color: brand.textBody,
               borderRadius: 4,
-              border: `0.5px solid ${brand.border}`,
-              letterSpacing: 0.2
+              border: `0.5px solid ${brand.border}`
             }}
           >
             {e.contentType}
@@ -174,7 +196,7 @@ export default function OpportunityRow({ opportunity: o, index, toneOverride }: 
         </div>
       </div>
 
-      {/* RIGHT · 3-line numeric column */}
+      {/* RIGHT · numeric column */}
       <div
         style={{
           display: 'flex',
@@ -195,11 +217,6 @@ export default function OpportunityRow({ opportunity: o, index, toneOverride }: 
         >
           연 {formatNumber(annual)}회
         </div>
-        {avg !== null && (
-          <div style={{ fontSize: 10, color: brand.textMeta, fontVariantNumeric: 'tabular-nums' }}>
-            월 평균 {avg.toLocaleString('ko-KR')}회
-          </div>
-        )}
         {trend !== null && trend !== undefined ? (
           <div
             style={{
@@ -213,19 +230,109 @@ export default function OpportunityRow({ opportunity: o, index, toneOverride }: 
           </div>
         ) : (
           <div style={{ fontSize: 10, color: brand.textMeta, lineHeight: 1.4, textAlign: 'right' }}>
-            {o.analysis.metrics.trend_label}
+            {trendLabel || o.analysis.metrics.trend_label}
           </div>
         )}
         <div
           style={{
             marginTop: 'auto',
-            color: brand.primary,
+            color: sectionColor,
             fontSize: 14,
             fontWeight: 500
           }}
         >
           →
         </div>
+      </div>
+    </Link>
+  );
+}
+
+// ───────────────────────────── Compact (secondary 2-col) ─────────────────────────────
+
+function CompactRow({
+  opportunity: o,
+  sectionColor
+}: {
+  opportunity: Opportunity;
+  index?: number;
+  sectionColor: string;
+}) {
+  const e = enrichmentFor(o.id);
+  const annual = o.analysis.metrics.annual_volume;
+
+  return (
+    <Link
+      href={`/opportunity/${o.id}`}
+      className="mde-opp-card"
+      style={{
+        display: 'grid',
+        gridTemplateColumns: '52px 1fr auto',
+        gap: 12,
+        alignItems: 'center',
+        background: brand.surface,
+        border: `0.5px solid ${brand.border}`,
+        borderLeft: `3px solid ${sectionColor}`,
+        borderRadius: radius.lg,
+        padding: '12px 16px',
+        textDecoration: 'none',
+        color: brand.textTitle,
+        minHeight: 64
+      }}
+    >
+      <div
+        style={{
+          width: 40,
+          height: 40,
+          borderRadius: 8,
+          background: toSoft(sectionColor),
+          color: sectionColor,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: 20
+        }}
+      >
+        {e.emoji}
+      </div>
+      <div style={{ minWidth: 0 }}>
+        <div
+          style={{
+            fontSize: 13,
+            fontWeight: 700,
+            color: brand.textTitle,
+            lineHeight: 1.35,
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'nowrap'
+          }}
+        >
+          {o.title}
+        </div>
+        <div
+          style={{
+            fontSize: 11,
+            color: brand.textBody,
+            lineHeight: 1.4,
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'nowrap',
+            marginTop: 2
+          }}
+        >
+          {o.subtitle}
+        </div>
+      </div>
+      <div
+        style={{
+          fontSize: 12,
+          fontWeight: 700,
+          color: sectionColor,
+          fontVariantNumeric: 'tabular-nums',
+          whiteSpace: 'nowrap'
+        }}
+      >
+        연 {formatNumber(annual)}
       </div>
     </Link>
   );
