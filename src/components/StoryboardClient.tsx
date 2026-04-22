@@ -669,23 +669,81 @@ function FactSheetBox({ fact }: { fact: FactSheet }) {
           >
             {fact.timing}
           </div>
-          {fact.mableConnection && (
-            <div
-              style={{
-                fontSize: 11,
-                color: brand.textBody,
-                marginTop: 8,
-                padding: '8px 10px',
-                background: '#FFFBEB',
-                borderRadius: 6,
-                lineHeight: 1.55
-              }}
-            >
-              🔗 M-able 연결: {fact.mableConnection}
-            </div>
-          )}
+          {fact.mableConnection && <MableConnectionBlock conn={fact.mableConnection} />}
         </FactBlock>
       </div>
+    </div>
+  );
+}
+
+function MableConnectionBlock({
+  conn
+}: {
+  conn: NonNullable<FactSheet['mableConnection']>;
+}) {
+  // Legacy: string value (old factsheets cached before prompt update)
+  if (typeof conn === 'string') {
+    return (
+      <div
+        style={{
+          fontSize: 11,
+          color: brand.textBody,
+          marginTop: 8,
+          padding: '8px 10px',
+          background: '#FFFBEB',
+          borderRadius: 6,
+          lineHeight: 1.55
+        }}
+      >
+        🔗 M-able 연결: {conn}
+      </div>
+    );
+  }
+
+  // New structured shape
+  return (
+    <div
+      style={{
+        marginTop: 10,
+        padding: 12,
+        background: '#FFFBEB',
+        borderRadius: 8,
+        border: '0.5px solid #FDE68A',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 6
+      }}
+    >
+      <div style={{ display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap' }}>
+        <span style={{ fontSize: 10, fontWeight: 700, color: '#92400E', letterSpacing: 0.3 }}>
+          🔗 M-ABLE 연결
+        </span>
+        <span
+          style={{
+            fontSize: 12,
+            fontWeight: 700,
+            color: brand.primary,
+            background: brand.heroBg,
+            padding: '2px 8px',
+            borderRadius: 999
+          }}
+        >
+          {conn.service_name}
+        </span>
+      </div>
+      <div style={{ fontSize: 12, color: brand.textTitle, lineHeight: 1.55 }}>
+        📱 <strong style={{ fontWeight: 600 }}>진입</strong> — {conn.entry_path}
+      </div>
+      {conn.specific_content && (
+        <div style={{ fontSize: 12, color: brand.textTitle, lineHeight: 1.55 }}>
+          🎯 <strong style={{ fontWeight: 600 }}>콘텐츠</strong> — {conn.specific_content}
+        </div>
+      )}
+      {conn.why_here && (
+        <div style={{ fontSize: 11, color: brand.textBody, lineHeight: 1.5, fontStyle: 'italic' }}>
+          💡 {conn.why_here}
+        </div>
+      )}
     </div>
   );
 }

@@ -2,6 +2,11 @@ import { NextResponse } from 'next/server';
 import Anthropic from '@anthropic-ai/sdk';
 import opportunitiesData from '@/data/opportunities.json';
 import type { AIIdea, Opportunity } from '@/types';
+import {
+  MABLE_SERVICE_FACTS,
+  SCENE_COMPOSITION_RULES,
+  serviceLockDirective
+} from '@/lib/serviceFacts';
 
 const opportunities = opportunitiesData.opportunities as Opportunity[];
 
@@ -51,21 +56,24 @@ export async function POST(req: Request) {
 - Hook: "${idea.hook3s}"
 - Scene flow (키워드): ${(idea.sceneFlow || []).map((s, i) => `${i + 1}) ${s}`).join(' / ')}
 - Target keyword: ${idea.targetKeyword} (${idea.targetKeywordVol}/연)
-- USP 연결: ${idea.uspConnection}
+- USP 연결 (= 선택된 단일 마블 서비스): ${idea.uspConnection}
 - 크리에이터 전략: ${idea.creatorStrategy}
 - 데이터 근거: ${idea.dataProof}
 
-[scenes 규칙 — 매우 중요]
-youtubeShorts.scenes · instagramReels.scenes 각각 정확히 4개.
-- **각 씬 1줄, 15-25자**
-- 구체적 앱·서비스·수치·행동 포함
+${MABLE_SERVICE_FACTS}
+${serviceLockDirective(opportunity.id)}
+${SCENE_COMPOSITION_RULES}
+
+[scenes 보충 규칙]
+youtubeShorts.scenes · instagramReels.scenes 각각 정확히 4개 · 각 씬 1줄 15-25자.
 - "Scene N. N." 같은 중복 번호 표기 금지 (번호는 UI가 붙임)
 - 연출·자막·오버레이·BGM·표정·"~느낌" 같은 영상 지시어 절대 금지
-- 좋은 예: "스마트폰에 퇴직금 4,972만원 입금 알림"
-- 좋은 예: "국세청 홈택스에서 세금 321만원 확인"
-- 좋은 예: "KB M-able IRP 계좌 개설 화면"
-- 좋은 예: "연금 시뮬레이션 + 다운로드 CTA"
-- 나쁜 예: "Scene 1. 1. 크리에이터가 스마트폰을 보며 긴박감..."
+- **씬 3은 아이디어가 선택한 단일 마블 서비스의 구체 진입 경로**.
+- 좋은 예: "홈 해외 탭 AI 시황요약 시장이슈 카테고리"
+- 좋은 예: "종목 현재가 우측 플로팅 종목요약 3분 해설"
+- 좋은 예: "홈 내투자자 MY 브리프 카드 · 내 보유 종목"
+- 좋은 예: "메뉴 공모주/청약 공모주 모아보기 D-day"
+- 나쁜 예: "앱에서 AI 추천으로..." (모호·금지 표현)
 
 플랫폼 차별화:
 - YouTube Shorts: 정보 밀도 · 수치 강조 · 명확한 CTA
@@ -95,6 +103,12 @@ factSheet 객체는 반드시 아래 4개 필드:
 
 4. timing (문자열) — 최적 제작·공개 타이밍. 시즌성·골든타임 포함.
 
+5. mableConnection (객체 · **반드시 아래 4필드 객체로 반환**, 문자열로 반환 금지):
+   - service_name: 선택된 단일 서비스 한글명 (마이브리프 / AI 시황요약 / 오늘의 콕 / PRIME CLUB / 공모주 모아보기)
+   - entry_path: 위 SERVICE FACTS의 진입 경로 그대로 (예: "M-able 홈 해외 탭 상단 AI 시황요약")
+   - specific_content: 8개 카테고리 중 어디 / 어떤 화면 조각인지 (예: "시장이슈 카테고리 중 'RIA 계좌 도입' 요약")
+   - why_here: 타겟에게 이 경로가 왜 최적인지 한 줄 (예: "서학개미에게 RIA 개념을 3분 안에 설명하는 가장 빠른 경로")
+
 [출력]
 아래 JSON만. 설명·마크다운·코드펜스 금지.
 {
@@ -123,7 +137,13 @@ factSheet 객체는 반드시 아래 4개 필드:
       "serviceAssets": [{"name":"...","access":"...","path":"...","tip":"..."}],
       "keyMetrics": [{"metric":"...","value":"...","source":"...","caveat":"..."}],
       "legalChecks": ["...", "...", "..."],
-      "timing": "..."
+      "timing": "...",
+      "mableConnection": {
+        "service_name": "...",
+        "entry_path": "...",
+        "specific_content": "...",
+        "why_here": "..."
+      }
     }
   }
 }`;

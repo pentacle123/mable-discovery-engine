@@ -188,12 +188,20 @@ export interface KeyMetric {
   caveat: string;
 }
 
+export interface MableConnection {
+  service_name: string;
+  entry_path: string;
+  specific_content: string;
+  why_here: string;
+}
+
 export interface FactSheet {
   serviceAssets: ServiceAsset[];
   keyMetrics: KeyMetric[];
   legalChecks: string[];
   timing: string;
-  mableConnection?: string;
+  // Accept legacy string (pre-migration) or structured MableConnection (new).
+  mableConnection?: string | MableConnection;
 }
 
 export interface IdeaStoryboard {
