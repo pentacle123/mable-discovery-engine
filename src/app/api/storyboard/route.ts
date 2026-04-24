@@ -42,7 +42,7 @@ export async function POST(req: Request) {
     const anthropic = new Anthropic({ apiKey });
     const model = process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-6';
 
-    const prompt = `너는 KB증권 마블 숏폼 스토리보드 감독·미디어 플래너다. 주어진 **단일 아이디어**에 대해 YouTube Shorts + Instagram Reels 병렬 스토리보드 + 팩트시트를 JSON으로 반환해.
+    const prompt = `너는 KB증권 마블 숏폼 스토리보드 감독·미디어 플래너다. 주어진 **단일 아이디어**에 대해 YouTube Shorts (브랜드 자체 제작) + 크리에이터 협업 숏폼 2트랙 + 팩트시트를 JSON으로 반환해.
 
 [기회]
 - ${opportunity.id} — ${opportunity.title} / ${opportunity.subtitle}

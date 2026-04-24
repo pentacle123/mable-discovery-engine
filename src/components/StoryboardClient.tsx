@@ -125,7 +125,9 @@ export default function StoryboardClient({ opportunity: o, ideaIndex }: Props) {
 
   const ct = CT_STYLE[idea.contentType] ?? CT_STYLE.C;
   const sb = idea.storyboard;
-  const hasStoryboard = !!sb?.youtubeShorts && !!sb?.instagramReels;
+  // YouTube 트랙만 있어도 OK. 우측 컬럼은 creatorCollab (신규) 또는
+  // instagramReels (레거시 캐시) 중 존재하는 쪽을 내부에서 선택 렌더.
+  const hasStoryboard = !!sb?.youtubeShorts;
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>

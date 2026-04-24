@@ -64,7 +64,7 @@ export default function StoryboardPage({ params }: { params: { id: string; idx: 
             🎬 {o.title} — 스토리보드
           </h1>
           <p style={{ fontSize: 12, color: brand.textBody, lineHeight: 1.55 }}>
-            YouTube Shorts × Instagram Reels 병렬 · 팩트시트 · 크리에이터 매칭
+            YouTube Shorts · 크리에이터 협업 숏폼 · 팩트시트 · 크리에이터 매칭
           </p>
         </div>
       </section>
