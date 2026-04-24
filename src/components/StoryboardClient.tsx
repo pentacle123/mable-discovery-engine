@@ -220,12 +220,13 @@ export default function StoryboardClient({ opportunity: o, ideaIndex }: Props) {
         </div>
       )}
 
-      {/* 3. Two-track parallel: YouTube 자체 제작 | 크리에이터 협업 */}
+      {/* 3. Two-track stacked (full-width each): YouTube 자체 제작 → 크리에이터 협업
+             세로 나열로 전환해서 좌우 컬럼 간 높이 차이 이슈 해소 + 각 트랙이 폭을 크게 활용. */}
       {hasStoryboard && (
         <div
           style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
+            display: 'flex',
+            flexDirection: 'column',
             gap: 16
           }}
         >
