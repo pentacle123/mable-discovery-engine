@@ -21,11 +21,6 @@ const CONTENT_TYPE: Record<
   F: { label: 'USP실증형', bar: '#0770E3', badgeBg: '#EFF6FF', badgeFg: '#0770E3' }
 };
 
-const PRODUCTION_BADGE: Record<'creator' | 'brand', { bg: string; fg: string; label: string }> = {
-  creator: { bg: '#FEF2F2', fg: '#DC2626', label: '🎬 크리에이터' },
-  brand: { bg: '#F0FDF4', fg: '#16A34A', label: '🖥️ 브랜드 자체제작' }
-};
-
 const STAGE_BADGE: Record<string, { bg: string; fg: string }> = {
   Dream: { bg: '#EFF6FF', fg: '#0770E3' },
   Plan: { bg: '#FFF7ED', fg: '#FF6B00' },
@@ -261,7 +256,6 @@ function IdeaCard({
       ? idea.conversionScore
       : 95 - index * 3;
   const scoreColor = score >= 95 ? '#10B981' : score >= 85 ? '#0770E3' : '#FF6B00';
-  const production = idea.productionBy === 'creator' ? PRODUCTION_BADGE.creator : PRODUCTION_BADGE.brand;
   const stageStyle = idea.stage ? STAGE_BADGE[idea.stage] : undefined;
   const scenes = (idea.sceneFlow || []).slice(0, 4);
 
@@ -304,9 +298,6 @@ function IdeaCard({
         <div style={{ display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap' }}>
           <Badge bg={type.badgeBg} fg={type.badgeFg}>
             {idea.contentType}. {idea.contentTypeLabel || type.label}
-          </Badge>
-          <Badge bg={production.bg} fg={production.fg}>
-            {production.label}
           </Badge>
           {stageStyle && idea.stage && (
             <Badge bg={stageStyle.bg} fg={stageStyle.fg}>

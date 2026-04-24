@@ -64,8 +64,11 @@ ${MABLE_SERVICE_FACTS}
 ${serviceLockDirective(opportunity.id)}
 ${SCENE_COMPOSITION_RULES}
 
-[scenes 보충 규칙]
-youtubeShorts.scenes · instagramReels.scenes 각각 정확히 4개 · 각 씬 1줄 15-25자.
+[두 트랙 구조 — 중요]
+이 스토리보드는 **YouTube 자체 제작** 트랙과 **크리에이터 협업** 트랙을 동시에 제안해야 한다. Instagram Reels 트랙은 만들지 않는다.
+
+[youtubeShorts 규칙 — 자체 제작]
+scenes 정확히 4개 · 각 씬 1줄 15-25자.
 - "Scene N. N." 같은 중복 번호 표기 금지 (번호는 UI가 붙임)
 - 연출·자막·오버레이·BGM·표정·"~느낌" 같은 영상 지시어 절대 금지
 - **씬 3은 아이디어가 선택한 단일 마블 서비스의 구체 진입 경로**.
@@ -75,9 +78,35 @@ youtubeShorts.scenes · instagramReels.scenes 각각 정확히 4개 · 각 씬 1
 - 좋은 예: "메뉴 공모주/청약 공모주 모아보기 D-day"
 - 나쁜 예: "앱에서 AI 추천으로..." (모호·금지 표현)
 
-플랫폼 차별화:
-- YouTube Shorts: 정보 밀도 · 수치 강조 · 명확한 CTA
-- Instagram Reels: 감정 훅 · 비주얼 중심 · 짧은 전환
+[creatorCollab 규칙 — 크리에이터 협업]
+창작 주체가 마이크로 크리에이터이고, 브랜드는 가이드·팩트·1순간의 노출만 제공한다. 2분짜리 광고 영상이 아님.
+
+1. scenes는 크리에이터가 실제로 말할 법한 **구어체 한 줄** (15-25자).
+   - 좋은 예: "저도 주식 처음엔 하나도 몰랐거든요"
+   - 좋은 예: "그래서 앱 하나 깔아봤어요"
+   - 좋은 예: "이거 진짜 의외로 쉽더라고요"
+   - 나쁜 예: "Scene 1: 주식 초보의 경험담 오프닝"
+   - 나쁜 예: "크리에이터가 침착하게 설명한다" (연출 지시)
+
+2. creatorProfile.idealTier는 기본 **"MICRO"** (1만~10만 구독자). MACRO는 금지, NANO는 이유가 명확할 때만.
+   - 사유: 핸들링 용이 · 진정성 · 니치 도달 · 예산 효율
+
+3. brief.brandMoment는 브랜드가 **자연스럽게** 노출되는 1개 순간.
+   - 좋은 예: "썰 풀다가 M-able 홈 화면 보여주며 AI시황요약 카테고리 언급"
+   - 좋은 예: "계산기 보여주다가 M-able 오늘의 콕 1분 카드 자연 노출"
+   - 나쁜 예: "KB증권 M-able 앱을 적극 홍보하는 장면"
+
+4. brief.guidelines:
+   - must: ["#광고 또는 #협찬 표시", "개인 경험 중심", "30초 엄수"] 류
+   - avoid: ["수익률 보장 표현", "투자 권유 문구", "과장된 후기"] 류
+
+5. creatorProfile.niche는 **구체적**으로.
+   - 좋은 예: "주식 초보 재테크 브이로그", "서학개미 일상 공유", "30대 이직 브이로그"
+   - 나쁜 예: "재테크 유튜버", "금융 크리에이터"
+
+6. rationale: 왜 이 니치의 크리에이터가 이 아이디어에 맞는지 한 문장.
+
+7. hashtags: 5개. 한국어/영문 혼합 가능.
 
 [팩트시트 규칙 — 신규 4블록 구조]
 factSheet 객체는 반드시 아래 4개 필드:
@@ -110,7 +139,7 @@ factSheet 객체는 반드시 아래 4개 필드:
    - why_here: 타겟에게 이 경로가 왜 최적인지 한 줄 (예: "서학개미에게 RIA 개념을 3분 안에 설명하는 가장 빠른 경로")
 
 [출력]
-아래 JSON만. 설명·마크다운·코드펜스 금지.
+아래 JSON만. 설명·마크다운·코드펜스 금지. **instagramReels 필드는 포함하지 말 것.**
 {
   "storyboard": {
     "youtubeShorts": {
@@ -123,15 +152,26 @@ factSheet 객체는 반드시 아래 4개 필드:
       "uploadTime": "...",
       "targetCluster": "..."
     },
-    "instagramReels": {
-      "title": "...",
-      "hook": "...",
-      "scenes": ["...", "...", "...", "..."],
-      "proof": "...",
-      "cta": "...",
-      "hashtags": ["...", "...", "...", "..."],
-      "uploadTime": "...",
-      "targetCluster": "..."
+    "creatorCollab": {
+      "brief": {
+        "hookDirection": "...",
+        "brandMoment": "...",
+        "duration": "30초",
+        "tone": "개인 경험담 · 진정성 · 구어체",
+        "guidelines": {
+          "must": ["...", "..."],
+          "avoid": ["...", "..."]
+        }
+      },
+      "scenes": ["구어체 씬1", "구어체 씬2", "구어체 씬3", "구어체 씬4"],
+      "creatorProfile": {
+        "idealTier": "MICRO",
+        "niche": "...",
+        "subscribers": "1만 ~ 10만",
+        "style": "..."
+      },
+      "rationale": "...",
+      "hashtags": ["...", "...", "...", "...", "..."]
     },
     "factSheet": {
       "serviceAssets": [{"name":"...","access":"...","path":"...","tip":"..."}],

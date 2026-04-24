@@ -205,9 +205,39 @@ export interface FactSheet {
   mableConnection?: string | MableConnection;
 }
 
+export interface CreatorGuidelines {
+  must: string[];
+  avoid: string[];
+}
+
+export interface CreatorBrief {
+  hookDirection: string;
+  brandMoment: string;
+  duration: string;
+  tone: string;
+  guidelines: CreatorGuidelines;
+}
+
+export interface CreatorProfile {
+  idealTier: 'MACRO' | 'MICRO' | 'NANO';
+  niche: string;
+  subscribers: string;
+  style: string;
+}
+
+export interface CreatorCollab {
+  brief: CreatorBrief;
+  scenes: string[];
+  creatorProfile: CreatorProfile;
+  rationale: string;
+  hashtags: string[];
+}
+
 export interface IdeaStoryboard {
   youtubeShorts: StoryboardPlatform;
-  instagramReels: StoryboardPlatform;
+  creatorCollab?: CreatorCollab;
+  // Legacy field — kept optional for sessionStorage backward compat.
+  instagramReels?: StoryboardPlatform;
   factSheet: FactSheet;
 }
 

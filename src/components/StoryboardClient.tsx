@@ -12,7 +12,7 @@ import type {
 } from '@/types';
 import { brand, card, radius } from '@/lib/brand';
 import { loadIdeas, saveIdeas } from '@/lib/ideasStore';
-import CreatorMatchPanel from './CreatorMatchPanel';
+import CreatorCollabColumn from './CreatorCollabColumn';
 
 interface Props {
   opportunity: Opportunity;
@@ -218,13 +218,13 @@ export default function StoryboardClient({ opportunity: o, ideaIndex }: Props) {
         </div>
       )}
 
-      {/* 3. YouTube | Instagram parallel */}
+      {/* 3. Two-track parallel: YouTube 자체 제작 | 크리에이터 협업 */}
       {hasStoryboard && (
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-            gap: 12
+            gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
+            gap: 16
           }}
         >
           <PlatformColumn
@@ -233,12 +233,23 @@ export default function StoryboardClient({ opportunity: o, ideaIndex }: Props) {
             color="#FF0000"
             plan={sb!.youtubeShorts}
           />
-          <PlatformColumn
-            label="Instagram Reels"
-            emoji="📷"
-            color="#E1306C"
-            plan={sb!.instagramReels}
-          />
+          {sb!.creatorCollab ? (
+            <CreatorCollabColumn
+              collab={sb!.creatorCollab}
+              contentType={idea.contentType}
+              youtubeSearchQueries={
+                Array.isArray(o.youtubeSearchQueries) ? o.youtubeSearchQueries : []
+              }
+            />
+          ) : sb!.instagramReels ? (
+            // Legacy storyboard (pre-creatorCollab) — show Instagram column until user regenerates
+            <PlatformColumn
+              label="Instagram Reels (legacy)"
+              emoji="📷"
+              color="#E1306C"
+              plan={sb!.instagramReels}
+            />
+          ) : null}
         </div>
       )}
 
@@ -251,25 +262,15 @@ export default function StoryboardClient({ opportunity: o, ideaIndex }: Props) {
         }}
       >
         <MetaBox label="🎯 타겟" value={idea.target} />
-        <MetaBox label="👤 크리에이터 전략" value={idea.creatorStrategy} />
+        <MetaBox label="🎬 협업 전략" value={collabStrategyLine(idea, sb?.creatorCollab)} />
         <MetaBox label="📊 데이터 근거" value={idea.dataProof} />
         <MetaBox label="🔗 USP 연결" value={idea.uspConnection} />
       </div>
 
-      {/* 5. Factsheet (new 4-block schema) */}
+      {/* 5. Factsheet */}
       {hasStoryboard && sb?.factSheet && <FactSheetBox fact={sb.factSheet} />}
 
-      {/* 6. Creator matching — context-aware (YouTube API).
-          Queries now come from opportunity.youtubeSearchQueries (JSON),
-          not idea.creatorSearchQueries (removed from prompt). */}
-      {hasStoryboard &&
-        Array.isArray(o.youtubeSearchQueries) &&
-        o.youtubeSearchQueries.length > 0 && (
-          <CreatorMatchPanel
-            queries={o.youtubeSearchQueries}
-            contentType={idea.contentType}
-          />
-        )}
+      {/* ⚠️ 하단 크리에이터 매칭 섹션은 제거됨 — 우측 CreatorCollabColumn 내부로 통합 */}
 
       {/* 7. Back */}
       <div style={{ marginTop: 4 }}>
@@ -291,6 +292,17 @@ export default function StoryboardClient({ opportunity: o, ideaIndex }: Props) {
       </div>
     </div>
   );
+}
+
+function collabStrategyLine(
+  idea: AIIdea,
+  collab?: IdeaStoryboard['creatorCollab']
+): string {
+  const niche = collab?.creatorProfile?.niche;
+  if (niche) {
+    return `자체 제작(YouTube) + 마이크로 크리에이터 협업 · ${niche} 채널 × 3~5명`;
+  }
+  return idea.creatorStrategy || '자체 제작 + 마이크로 크리에이터 협업';
 }
 
 function FetchingBanner({ elapsed }: { elapsed: number }) {
