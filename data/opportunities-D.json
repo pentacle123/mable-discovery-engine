@@ -1511,8 +1511,8 @@
       "id": "O-ACC11",
       "category_id": "D",
       "subgroup": "ACC-RIA",
-      "title": "RIA가 뭐야? — 서학개미 긴급 가이드",
-      "subtitle": "2025.12 신설 계좌 · 키움 선점 중 · 2026 게임체인저",
+      "title": "RIA 계좌 — 양도세 면제 신제도 학습기",
+      "subtitle": "Regulation-hook  신제도 학습 → 비교 → 이전 단계의 미국 주식 투자자",
       "status": "confirmed",
       "priority": "critical",
       "now_rank": 1,
@@ -1537,16 +1537,15 @@
         ],
         "metrics": {
           "annual_volume": 255170,
-          "trend_percent": 168,
-          "trend_label": "+168% 🔥🔥🔥",
-          "competition": "LOW",
-          "monthly_pattern": "2025.12 출시 → 2026.3월 단일월 98K"
+          "trend_percent": 268,
+          "trend_label": "출시 후 매월 누적 폭증, 2026.3 사상 최대 월 검색량 98K",
+          "competition": "LOW"
         },
         "demography": {
           "gender": "🎯 남 66% · 여 34%",
           "age": "40-50대 60% (서학개미 본진)"
         },
-        "why_now": "2025.12 출시 직후 대중 궁금증 폭발 · 키움 선점 · KB 진입 골든타임",
+        "why_now": "2025.12 출시 후 갈수록 강해지는 검색 추세 (2025.12 26K → 2026.3 98K, 사상 최대월). 양도세 면제 신제도 학습 단계가 최소 6-12개월 지속될 구조적 기회. 미국 주식 양도소득세 연 246K 안정적 관심 → 절세 솔루션으로 RIA 자연 수렴",
         "review_level": "low",
         "review_notes": "제도 팩트 · 세금 절감 확정 약속 금지",
         "monthly_volume": [
@@ -1560,7 +1559,7 @@
           0,
           0,
           0,
-          26570,
+          0,
           77100,
           53500,
           98000
@@ -1611,27 +1610,23 @@
         "related_keywords": [
           {
             "keyword": "RIA 계좌",
-            "volume": 98000
+            "volume": 255170
           },
           {
-            "keyword": "RIA 계좌 키움",
-            "volume": 12000
+            "keyword": "미국 주식 양도소득세",
+            "volume": 245960
           },
           {
-            "keyword": "유턴 계좌",
-            "volume": 5400
+            "keyword": "미국주식 양도세",
+            "volume": 95420
           },
           {
-            "keyword": "RIA 뜻",
-            "volume": 680
+            "keyword": "미국 주식 양도세율",
+            "volume": 53160
           },
           {
-            "keyword": "국내시장 복귀 계좌",
-            "volume": 3200
-          },
-          {
-            "keyword": "RIA 계좌 만들기",
-            "volume": 770
+            "keyword": "해외주식 절세",
+            "volume": 3828
           }
         ]
       },

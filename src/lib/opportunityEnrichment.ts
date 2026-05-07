@@ -120,12 +120,12 @@ export const ENRICHMENT: Record<string, Enrichment> = {
   },
   'O-A04': {
     emoji: '🚨',
-    tone: '시의성폭발',
-    persona: '반대매매 통보받은 긴급 투자자',
-    hookLabel: 'Panic-hook',
-    hookCopy: '당일 3가지부터 체크',
+    tone: '위기대응',
+    persona: '강세장 변동성 충격마다 반대매매 통보받는 투자자',
+    hookLabel: 'Cycle-hook',
+    hookCopy: '충격 시즌마다 반복되는 패닉 폭발',
     narrative:
-      '연 16.8만 / +1,237% 실측 폭발. 2026.3.4 이란 전쟁발 코스피 12% 폭락 직격탄, 3월 단일월 111,700회 피크. 남 63% · 40-50대 중심. 4월 회복 국면에도 트라우마 검색 지속.',
+      '연 22.6만 (반대매매 + 주식 폭락 합산) / +30% 추세. 외부 충격 시즌마다 반복되는 검색 폭발 패턴 확인 (2022.6 코로나 / 2024.8 엔캐리 / 2026.3 외부 충격). 강세장 + 변동성 = 충격 사이클 빈번화. 남 63% · 40-50대.',
     contentType: '긴급',
     consumerQuote: '😨 반대매매 떴어요 지금 어떡하죠...'
   },
@@ -330,14 +330,14 @@ export const ENRICHMENT: Record<string, Enrichment> = {
   },
   'O-B12': {
     emoji: '📈',
-    tone: '시의성폭발',
-    persona: '코스피 6000 돌파 · 전쟁 폭락 · 최단 회복을 다 겪은 투자자',
-    hookLabel: 'Drama-hook',
-    hookCopy: '2.25 돌파 → 3.4 -12% → 4.14 재탈환',
+    tone: '정보갈증',
+    persona: '사상 최고치 갱신 시대 — 지금 들어가도 되는지 묻는 투자자',
+    hookLabel: 'Cycle-hook',
+    hookCopy: '신고가 → 거품 우려 → 고점 고민 → 다시 갱신',
     narrative:
-      '연 57.4만 / +127%. 2026.1 코스피 5000 피크(월 11.7만) → 2.25 6000 최초 돌파 → 3.4 이란 전쟁 12% 폭락 → 4.14 6000 재탈환. 전연령·남녀 균형. 신규 진입 + 복귀 세그먼트 동시 폭증.',
+      '연 33.3만 / +127%. 지수 신고가 갱신 시즌마다 반복되는 사이클: 신고가 → 거품 우려 → 고점 고민 → 다시 갱신. 코스피 거품 +834%, 코스피 신고가·고점 동반 폭증. 신규 진입자(처음 보는 환경) + 복귀 투자자(이번엔 다른가) 동시 발생.',
     contentType: '해설',
-    consumerQuote: '😰 이런 거 처음이야 지금 들어가도 되나...'
+    consumerQuote: '😰 신고가 또 깼는데 지금 들어가도 되나...'
   },
   'O-B13': {
     emoji: '🎟️',
@@ -595,14 +595,14 @@ export const ENRICHMENT: Record<string, Enrichment> = {
     consumerQuote: '🤔 미국 IRA 한국인도 만들 수 있어...'
   },
   'O-ACC11': {
-    emoji: '🚨',
-    tone: '시의성폭발',
-    persona: '서학개미 양도세가 두려운 투자자',
-    hookLabel: 'Tax-hook',
-    hookCopy: '양도세 면제 계좌가 있다',
+    emoji: '🆕',
+    tone: '정보갈증',
+    persona: '미국 주식 양도소득세 부담에 신제도(RIA) 학습 중인 투자자',
+    hookLabel: 'Regulation-hook',
+    hookCopy: '신제도 학습 → 비교 → 이전 단계',
     narrative:
-      '연 25.5만 / +168% 🔥🔥🔥. 2025.12 신설 · 키움 선점 · KB 부재. 2026 게임체인저. 남 66% · 40-50대 60%. ai-briefing + today-kok.',
-    contentType: '긴급',
+      '연 25.5만 / +268% 추세. 2025.12 출시 후 매월 누적 폭증 (12월 26K → 2026.3 사상 최대 98K). 미국 주식 양도소득세 연 246K 안정 관심 → 절세 솔루션으로 자연 수렴. 학습 → 비교 → 이전 단계 6-12개월 지속 구조적 기회.',
+    contentType: '가이드',
     consumerQuote: '🤨 RIA 뭐야? 키움만 하는 것 같아...'
   },
   'O-ACC12': {
