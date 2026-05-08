@@ -104,13 +104,7 @@ export default function IdeasClient({ opportunity: o }: Props) {
 
     setStoryboardLoadingIdx(index);
     try {
-      const res = await fetch('/api/storyboard', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ opportunity_id: o.id, idea: target })
-      });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(data?.error || `API 오류 (${res.status})`);
+      const data = await fetchStoryboardWithRetry(o.id, target);
       const updated = ideas.map((it, i) => (i === index ? { ...it, storyboard: data.storyboard } : it));
       setIdeas(updated);
       saveIdeas(o.id, updated);
@@ -120,6 +114,28 @@ export default function IdeasClient({ opportunity: o }: Props) {
     } finally {
       setStoryboardLoadingIdx(null);
     }
+  }
+
+  // Retry once on transient gateway timeouts (504/502). The first attempt is
+  // common on cold starts; the retry usually completes in <40s.
+  async function fetchStoryboardWithRetry(
+    opportunityId: string,
+    idea: AIIdea
+  ): Promise<{ storyboard: AIIdea['storyboard'] }> {
+    const body = JSON.stringify({ opportunity_id: opportunityId, idea });
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const res = await fetch('/api/storyboard', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok) return data;
+      const transient = res.status === 504 || res.status === 502 || res.status === 503;
+      if (transient && attempt === 0) continue;
+      throw new Error(data?.error || `API 오류 (${res.status})`);
+    }
+    throw new Error('알 수 없는 오류');
   }
 
   return (

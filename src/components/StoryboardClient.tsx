@@ -54,18 +54,29 @@ export default function StoryboardClient({ opportunity: o, ideaIndex }: Props) {
     const interval = setInterval(() => setElapsed((t) => t + 1), 1000);
 
     (async () => {
+      const body = JSON.stringify({ opportunity_id: o.id, idea });
       try {
-        const res = await fetch('/api/storyboard', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ opportunity_id: o.id, idea })
-        });
-        const data = await res.json().catch(() => ({}));
-        if (!res.ok) throw new Error(data?.error || `API 오류 (${res.status})`);
+        let data: { storyboard?: AIIdea['storyboard']; error?: string } = {};
+        let lastStatus = 0;
+        for (let attempt = 0; attempt < 2; attempt++) {
+          const res = await fetch('/api/storyboard', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body
+          });
+          lastStatus = res.status;
+          data = await res.json().catch(() => ({}));
+          if (res.ok) break;
+          const transient = res.status === 504 || res.status === 502 || res.status === 503;
+          if (transient && attempt === 0) continue;
+          throw new Error(data.error || `API 오류 (${res.status})`);
+        }
         if (cancelled) return;
+        if (lastStatus < 200 || lastStatus >= 300) {
+          throw new Error(data.error || `API 오류 (${lastStatus})`);
+        }
         const merged: AIIdea = { ...idea, storyboard: data.storyboard };
         setIdea(merged);
-        // persist
         const ideas = (loadIdeas(o.id) as AIIdea[] | null) || [];
         ideas[ideaIndex] = merged;
         saveIdeas(o.id, ideas);

@@ -12,7 +12,10 @@ const opportunities = opportunitiesData.opportunities as Opportunity[];
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
-export const maxDuration = 60;
+// Storyboard generation often takes 35-45s with Sonnet 4.6; bump headroom to
+// 120s so transient slowdowns or cold starts don't trip Vercel's 504 timeout.
+// Requires Vercel Pro+ plan (Hobby caps at 10s anyway).
+export const maxDuration = 120;
 
 // On-demand storyboard generator — called when the user clicks
 // "스토리보드 보기 →" on a specific idea card. Produces a single
