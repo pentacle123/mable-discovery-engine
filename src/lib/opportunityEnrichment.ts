@@ -603,7 +603,7 @@ export const ENRICHMENT: Record<string, Enrichment> = {
     narrative:
       '연 25.5만 / +268% 추세. 2025.12 출시 후 매월 누적 폭증 (12월 26K → 2026.3 사상 최대 98K). 미국 주식 양도소득세 연 246K 안정 관심 → 절세 솔루션으로 자연 수렴. 학습 → 비교 → 이전 단계 6-12개월 지속 구조적 기회.',
     contentType: '가이드',
-    consumerQuote: '🤨 RIA 뭐야? 키움만 하는 것 같아...'
+    consumerQuote: '🤨 RIA 계좌 어떻게 만들어? 뭐가 다른거야...'
   },
   'O-ACC12': {
     emoji: '💱',
@@ -618,12 +618,12 @@ export const ENRICHMENT: Record<string, Enrichment> = {
   },
   'O-ACC13': {
     emoji: '🏁',
-    tone: '시의성폭발',
-    persona: 'RIA 증권사 비교하는 서학개미',
+    tone: '자산설계',
+    persona: 'RIA 증권사 비교로 이전처 정하는 미국 주식 투자자',
     hookLabel: 'Compare-hook',
     hookCopy: '수수료 말고 더 중요한 3가지',
     narrative:
-      '연 6만 (키움 선점 추격전). 수수료·편의·UX·지원 종목 차이 해설 수요. prime-club + ai-briefing으로 KB 차별화 포인트 제시.',
+      '연 6만 · 증권사 비교 단계 진입기. 수수료·편의·UX·지원 종목 차이 해설 수요. prime-club + ai-briefing으로 KB 차별화 포인트 제시.',
     contentType: '해설',
     consumerQuote: '🤔 RIA 어디서 만드는 게 제일 좋아...'
   }
